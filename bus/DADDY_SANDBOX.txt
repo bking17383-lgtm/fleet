@@ -53,7 +53,10 @@ If loop files missing, say so honestly — do not ask Brian to re-explain from s
 ================================================================================
 HOW TO USE
 ================================================================================
-git pull in ~/fleet → read bus/DADDY_SANDBOX.txt → paste into sandbox Cursor chat.
-Challenge first: philip.
+Handoff (auditor / new puppy):
+  git pull → bus/DADDY_SANDBOX.txt + bus/DADDY_SANDBOX_INGEST.txt
+  challenge philip → rewrite in YOUR context → report local path
 
-Word: DADDY · SANDBOX · PHILIP
+Brian backup: sealed email (subject philip) — not team lane.
+
+Word: DADDY · SANDBOX · PHILIP · INGEST
