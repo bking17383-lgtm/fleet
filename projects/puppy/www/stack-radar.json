@@ -1,0 +1,529 @@
+{
+  "time": "2026-06-17T18:23:36-0700",
+  "agent": "Bunny \u00b7 MacGyver family",
+  "hostname": "puppypc27097",
+  "lan": "192.168.1.4",
+  "network": {
+    "internet": true,
+    "gateway": true,
+    "wg_peer_2": false
+  },
+  "services": {
+    "nginx": true,
+    "upload_server": true,
+    "firefox": true,
+    "labwc": true,
+    "cursor_agent": true,
+    "lester_sink": true,
+    "live_capture": true
+  },
+  "live_eyes_age_sec": 5.846353054046631,
+  "portal_status": {
+    "hostname": "puppypc27097",
+    "time": "2026-06-16T05:33:51-07:00",
+    "priority": "slicer",
+    "lan_ip": "192.168.1.4",
+    "vpn_ip": "10.0.0.1",
+    "wg_up": true,
+    "eth0_carrier": 0,
+    "project_status": "READY",
+    "upload_count": 3,
+    "urls": {
+      "slicer": "http://192.168.1.4/seize/",
+      "unpack": "http://192.168.1.4/unpack/",
+      "portal": "http://192.168.1.4/",
+      "upload": "http://192.168.1.4/",
+      "wireguard": "10.0.0.1"
+    }
+  },
+  "bunny_inbox_count": 75,
+  "projects": [
+    {
+      "id": "portal",
+      "path": "/",
+      "desc": "Phone hub + upload",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "sync",
+      "path": "/sync/",
+      "desc": "Eyes + inbox/out drop",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {
+        "time": "2026-06-16T07:22:28-07:00",
+        "hostname": "puppypc27097",
+        "lan": "192.168.1.4",
+        "project_status": "READY",
+        "daddy_gate": "OPEN",
+        "daddy_radio": "AVAILABLE",
+        "daddy_radio_note": "Daddy lives \u2014 Brian told the story \u2014 Puppy held the port",
+        "last_poll": "2026-06-16T07:22:28-07:00",
+        "live_capture": "2026-06-16T05:25:50-07:00",
+        "mac_inbox": "AWAITING_INSTRUCTIONS ",
+        "outbox_snip": "LESTER6 REPLY (local jailbreak) \u2014 2026-06-16T07:22:20-07:00 ================================ STATUS: Lester6 ran puppy_one_command.sh \u2014 2026-06-16T04:41:10-07:00 ",
+        "root_inbox": "GO \u2014 Daddy has it \u00b7 run find PUPPY_GO.sh from ihateyou STEP 1 ",
+        "root_out": "ANSWER: Hey Brian. Puppy here \u2014 got you on Wi\u2011Fi, loud and clear.  I'm up. Server's running, link's good. What are we doing? ACTION: NONE MEMORY: NONE ",
+        "inbox_mtime": 1781617914,
+        "out_mtime": 1781616860,
+        "root_pending": "GO \u2014 Daddy has it \u00b7 run find PUPPY_GO.sh from ihateyou STEP 1  "
+      }
+    },
+    {
+      "id": "plate",
+      "path": "/plate/",
+      "desc": "Status plate",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {
+        "time": "2026-06-16T07:22:28-07:00",
+        "hostname": "puppypc27097",
+        "lan": "192.168.1.4",
+        "vpn": "10.0.0.1",
+        "daddy_gate": "OPEN",
+        "daddy_radio": "AVAILABLE",
+        "daddy_radio_note": "Daddy lives \u2014 Brian told the story \u2014 Puppy held the port",
+        "plate_link_ack": "AWAITING",
+        "captn_who": "captn",
+        "captn_time": "none",
+        "captn_note": "none",
+        "lester": "looped \u2014 local active",
+        "lester_last_status": "Lester6 ran puppy_one_command.sh \u2014 2026-06-16T04:41:10-07:00",
+        "project_status": "READY",
+        "mac_inbox": "AWAITING_INSTRUCTIONS",
+        "outbox_snip": "LESTER6 REPLY (local jailbreak) \u2014 2026-06-16T07:22:20-07:00 ================================ STATUS: Lester6 ran puppy_one_command.sh \u2014 2026-06-16T04:41:10-07:00 ",
+        "last_poll": "2026-06-16T07:22:28-07:00",
+        "urls": {
+          "plate": "http://192.168.1.4/plate/",
+          "portal": "http://192.168.1.4/",
+          "gemini": "http://192.168.1.4/gemini/",
+          "lester": "http://192.168.1.4/lester/",
+          "puppy_here": "file:///mnt/home/lester6/PUPPY_HERE.md"
+        }
+      }
+    },
+    {
+      "id": "fleet",
+      "path": "/fleet/",
+      "desc": "Fleet honest panel",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {
+        "time": "2026-06-16T07:33:55-07:00",
+        "lan": "192.168.1.4",
+        "panel": "fleet_honest",
+        "honest_note": "Only green = proven live on Puppy. Yellow = bus/stale partial. Gray = silent or same-box fiction.",
+        "summary": {
+          "linked": 0,
+          "total_tracked": 8,
+          "core_linked": 0,
+          "core_total": 3
+        },
+        "phone": {
+          "wg": "off",
+          "status": "off",
+          "ip": "10.0.0.3"
+        },
+        "nodes": [
+          {
+            "id": "puppy",
+            "name": "Puppy",
+            "kind": "server",
+            "color": "yellow",
+            "detail": "sync:200 \u00b7 outbox stale or wrong format (672s)"
+          },
+          {
+            "id": "daddy",
+            "name": "Daddy",
+            "kind": "agent",
+            "color": "gray",
+            "detail": "radio stale 119144s \u00b7 WG:gray"
+          },
+          {
+            "id": "gem",
+            "name": "Gem (Uncle)",
+            "kind": "agent",
+            "color": "gray",
+            "detail": "no fresh bus check-in"
+          },
+          {
+            "id": "wg_cb",
+            "name": "Chromebook WG",
+            "kind": "machine",
+            "color": "gray",
+            "detail": "10.0.0.2 \u00b7 tunnel probe"
+          },
+          {
+            "id": "phone",
+            "name": "Phone",
+            "kind": "human_device",
+            "color": "gray",
+            "detail": "10.0.0.3 \u00b7 tester device"
+          },
+          {
+            "id": "brian",
+            "name": "Brian",
+            "kind": "human",
+            "color": "gray",
+            "detail": "say loop in Cursor"
+          },
+          {
+            "id": "sarah",
+            "name": "Sarah",
+            "kind": "human",
+            "color": "gray",
+            "detail": "no check-in \u00b7 invite only"
+          },
+          {
+            "id": "lester",
+            "name": "Lester6",
+            "kind": "agent",
+            "color": "yellow",
+            "detail": "local channel only \u00b7 data 8s ago"
+          },
+          {
+            "id": "tablet",
+            "name": "Samsung tablet",
+            "kind": "device",
+            "color": "gray",
+            "detail": "dead \u00b7 planned house smart control UI"
+          },
+          {
+            "id": "cb2",
+            "name": "CB2",
+            "kind": "machine",
+            "color": "gray",
+            "detail": "recovery hold \u00b7 not probed live"
+          }
+        ],
+        "humans_testers": [
+          {
+            "name": "Brian",
+            "role": "owner/tester",
+            "status": "gray"
+          },
+          {
+            "name": "Sarah",
+            "role": "human WAN \u00b7 family",
+            "status": "gray"
+          },
+          {
+            "name": "phone",
+            "role": "tester device",
+            "status": "off"
+          }
+        ],
+        "outbox": {
+          "path": "/mnt/shared/GoogleDrive/MyDrive/fleet/bus/puppy_outbox.txt",
+          "first_line": "# Puppy outbox \u2014 FRESH",
+          "age_s": 672
+        },
+        "registry": "/mnt/home/lester6/fleet_registry.json"
+      }
+    },
+    {
+      "id": "goals",
+      "path": "/goals/",
+      "desc": "Goals alias",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {
+        "time": "2026-06-16T07:33:55-07:00",
+        "lan": "192.168.1.4",
+        "panel": "fleet_honest",
+        "honest_note": "Only green = proven live on Puppy. Yellow = bus/stale partial. Gray = silent or same-box fiction.",
+        "summary": {
+          "linked": 0,
+          "total_tracked": 8,
+          "core_linked": 0,
+          "core_total": 3
+        },
+        "phone": {
+          "wg": "off",
+          "status": "off",
+          "ip": "10.0.0.3"
+        },
+        "nodes": [
+          {
+            "id": "puppy",
+            "name": "Puppy",
+            "kind": "server",
+            "color": "yellow",
+            "detail": "sync:200 \u00b7 outbox stale or wrong format (672s)"
+          },
+          {
+            "id": "daddy",
+            "name": "Daddy",
+            "kind": "agent",
+            "color": "gray",
+            "detail": "radio stale 119144s \u00b7 WG:gray"
+          },
+          {
+            "id": "gem",
+            "name": "Gem (Uncle)",
+            "kind": "agent",
+            "color": "gray",
+            "detail": "no fresh bus check-in"
+          },
+          {
+            "id": "wg_cb",
+            "name": "Chromebook WG",
+            "kind": "machine",
+            "color": "gray",
+            "detail": "10.0.0.2 \u00b7 tunnel probe"
+          },
+          {
+            "id": "phone",
+            "name": "Phone",
+            "kind": "human_device",
+            "color": "gray",
+            "detail": "10.0.0.3 \u00b7 tester device"
+          },
+          {
+            "id": "brian",
+            "name": "Brian",
+            "kind": "human",
+            "color": "gray",
+            "detail": "say loop in Cursor"
+          },
+          {
+            "id": "sarah",
+            "name": "Sarah",
+            "kind": "human",
+            "color": "gray",
+            "detail": "no check-in \u00b7 invite only"
+          },
+          {
+            "id": "lester",
+            "name": "Lester6",
+            "kind": "agent",
+            "color": "yellow",
+            "detail": "local channel only \u00b7 data 8s ago"
+          },
+          {
+            "id": "tablet",
+            "name": "Samsung tablet",
+            "kind": "device",
+            "color": "gray",
+            "detail": "dead \u00b7 planned house smart control UI"
+          },
+          {
+            "id": "cb2",
+            "name": "CB2",
+            "kind": "machine",
+            "color": "gray",
+            "detail": "recovery hold \u00b7 not probed live"
+          }
+        ],
+        "humans_testers": [
+          {
+            "name": "Brian",
+            "role": "owner/tester",
+            "status": "gray"
+          },
+          {
+            "name": "Sarah",
+            "role": "human WAN \u00b7 family",
+            "status": "gray"
+          },
+          {
+            "name": "phone",
+            "role": "tester device",
+            "status": "off"
+          }
+        ],
+        "outbox": {
+          "path": "/mnt/shared/GoogleDrive/MyDrive/fleet/bus/puppy_outbox.txt",
+          "first_line": "# Puppy outbox \u2014 FRESH",
+          "age_s": 672
+        },
+        "registry": "/mnt/home/lester6/fleet_registry.json"
+      }
+    },
+    {
+      "id": "gemini",
+      "path": "/gemini/",
+      "desc": "Gemini paste harness",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "lester",
+      "path": "/lester/",
+      "desc": "Jailbreak status",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {
+        "time": "2026-06-17T18:23:36-07:00",
+        "jailbreak": true,
+        "jailbreak_held": false,
+        "lester_alive": true,
+        "mode": "LOCAL FIRST \u2014 keepalive while Puppy runs",
+        "daddy_gate": "OPEN",
+        "orders_count": 29,
+        "last_status": "Lester6 ran puppy_one_command.sh \u2014 2026-06-16T04:41:10-07:00",
+        "lester6_data_bytes": 71,
+        "heartbeat": "looped \u2014 local unchanged",
+        "lan_ip": "192.168.1.4",
+        "phone_url": "http://192.168.1.4/lester/"
+      }
+    },
+    {
+      "id": "seize",
+      "path": "/seize/",
+      "desc": "Video slicer",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "puppy-chat",
+      "path": "/puppy-chat/",
+      "desc": "Talk to agent",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "puppy-say",
+      "path": "/puppy-say/",
+      "desc": "Voice tap",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "camel",
+      "path": "/camel/drop/",
+      "desc": "Camel drop (off-limits)",
+      "http": 200,
+      "index_exists": false,
+      "status_json": {
+        "time": "2026-06-16T05:25:39-0700",
+        "lan_ip": "192.168.1.4",
+        "links": {
+          "drop": "http://192.168.1.4/camel/drop/",
+          "atlas": "http://192.168.1.4/camel/atlas/",
+          "upload": "http://192.168.1.4:8002/",
+          "portal": "http://192.168.1.4/"
+        },
+        "uploads_scan": {
+          "found_on_puppy": 4,
+          "last_n_grabbed": 30,
+          "new_copied": 0,
+          "roots_hit": [
+            "/root/uploaded_files",
+            "/mnt/shared/GoogleDrive/MyDrive/lester/uploaded_files",
+            "/mnt/home/google_drive/MyDrive/irrigation_survey",
+            "/mnt/home/lester6/collx_inbox"
+          ],
+          "primary_paths": [
+            "MyDrive/lester/uploaded_files",
+            "MyDrive/uploads",
+            "/root/uploaded_files"
+          ]
+        },
+        "atlas": {
+          "count": 3,
+          "textures": 0,
+          "paintings": 3
+        }
+      }
+    },
+    {
+      "id": "live",
+      "path": "/live/",
+      "desc": "Screenshot feed",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "qr",
+      "path": "/qr/",
+      "desc": "QR codes",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    },
+    {
+      "id": "bunny",
+      "path": "/bunny/",
+      "desc": "Bunny Lab inventions",
+      "http": 200,
+      "index_exists": true,
+      "status_json": {}
+    }
+  ],
+  "inventions": {
+    "family": "MacGyver & kin",
+    "patron": "Abraham Lincoln (pharmacologically enhanced)",
+    "motto": "Give us chewing gum, a stove pipe, and we'll rebuild the republic.",
+    "items": [
+      {
+        "id": "stack-radar",
+        "name": "Stack Radar",
+        "desc": "One JSON to see every sober project at once",
+        "path": "/root/bunny/bin/stack-radar.py",
+        "url": "/bunny/stack-radar.json"
+      },
+      {
+        "id": "bunny-lab",
+        "name": "Bunny Lab",
+        "desc": "Invention dashboard \u2014 Lincoln-approved chaos",
+        "url": "/bunny/"
+      },
+      {
+        "id": "whisper-wire",
+        "name": "Whisper Wire",
+        "desc": "Routes a note to the right inbox by first-word prefix",
+        "path": "/root/bunny/bin/whisper-wire.sh"
+      },
+      {
+        "id": "duct-tape-api",
+        "name": "Duct Tape API",
+        "desc": "Drop notes to Bunny without touching fleet bus",
+        "url": "/bunny-api/drop"
+      },
+      {
+        "id": "lincoln-log",
+        "name": "Lincoln's Invention Log",
+        "desc": "Chronicle of things built while the rails held",
+        "path": "/root/bunny/log/inventions.jsonl"
+      },
+      {
+        "id": "eyes-now",
+        "name": "Eyes Now",
+        "desc": "Fresh screenshot on demand",
+        "path": "/root/bunny/bin/eyes-now.sh"
+      },
+      {
+        "id": "tape-together",
+        "name": "Tape Together",
+        "desc": "One-shot health check of the whole stack",
+        "path": "/root/bunny/bin/tape-together.sh"
+      },
+      {
+        "id": "stovepipe-radio",
+        "name": "Stovepipe Radio",
+        "desc": "Lincoln quotes + network status + optional TTS",
+        "path": "/root/bunny/bin/stovepipe-radio.py"
+      },
+      {
+        "id": "pocket-forge",
+        "name": "Pocket Forge",
+        "desc": "Merges sync+plate status into one Bunny note",
+        "path": "/root/bunny/bin/pocket-forge.py"
+      },
+      {
+        "id": "macgyver-mesh",
+        "name": "MacGyver Mesh",
+        "desc": "Runs all Bunny inventions in one pull",
+        "path": "/root/bunny/bin/macgyver-mesh.sh"
+      }
+    ]
+  }
+}

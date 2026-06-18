@@ -1,0 +1,5 @@
+{"id": "j-open-this", "time": "2026-06-17T07:17:22-0700", "text": "open_this.txt \u2014 rgl backup lane + best practices (see Drive)", "author": "Brian", "status": "open", "taken_by": null}
+{"id": "j-url-prefix", "time": "2026-06-17T07:17:22-0700", "text": "Prefixes on URLs, not suffixes \u2014 Gem figures routing", "author": "Brian", "status": "open", "taken_by": null}
+{"id": "j-slave-term", "time": "2026-06-17T07:17:22-0700", "text": "Terminals reflect slave live/idle for each agent", "author": "Brian", "status": "claimed", "taken_by": "Bunny", "claimed_at": "2026-06-17T07:17:22-0700"}
+{"id": "j-ping-daddy", "time": "2026-06-17T07:17:22-0700", "text": "Ping Daddy \u2014 get looped in", "author": "Brian", "status": "open", "taken_by": null}
+{"id": "j-ping-cpt", "time": "2026-06-17T07:17:22-0700", "text": "Ping Captn \u2014 not showing green in agent table", "author": "Brian", "status": "claimed", "taken_by": "Bunny", "claimed_at": "2026-06-17T07:17:22-0700"}

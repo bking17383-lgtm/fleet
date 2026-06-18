@@ -1,0 +1,68 @@
+{
+  "family": "MacGyver & kin",
+  "patron": "Abraham Lincoln (pharmacologically enhanced)",
+  "motto": "Give us chewing gum, a stove pipe, and we'll rebuild the republic.",
+  "items": [
+    {
+      "id": "stack-radar",
+      "name": "Stack Radar",
+      "desc": "One JSON to see every sober project at once",
+      "path": "/root/bunny/bin/stack-radar.py",
+      "url": "/bunny/stack-radar.json"
+    },
+    {
+      "id": "bunny-lab",
+      "name": "Bunny Lab",
+      "desc": "Invention dashboard — Lincoln-approved chaos",
+      "url": "/bunny/"
+    },
+    {
+      "id": "whisper-wire",
+      "name": "Whisper Wire",
+      "desc": "Routes a note to the right inbox by first-word prefix",
+      "path": "/root/bunny/bin/whisper-wire.sh"
+    },
+    {
+      "id": "duct-tape-api",
+      "name": "Duct Tape API",
+      "desc": "Drop notes to Bunny without touching fleet bus",
+      "url": "/bunny-api/drop"
+    },
+    {
+      "id": "lincoln-log",
+      "name": "Lincoln's Invention Log",
+      "desc": "Chronicle of things built while the rails held",
+      "path": "/root/bunny/log/inventions.jsonl"
+    },
+    {
+      "id": "eyes-now",
+      "name": "Eyes Now",
+      "desc": "Fresh screenshot on demand",
+      "path": "/root/bunny/bin/eyes-now.sh"
+    },
+    {
+      "id": "tape-together",
+      "name": "Tape Together",
+      "desc": "One-shot health check of the whole stack",
+      "path": "/root/bunny/bin/tape-together.sh"
+    },
+    {
+      "id": "stovepipe-radio",
+      "name": "Stovepipe Radio",
+      "desc": "Lincoln quotes + network status + optional TTS",
+      "path": "/root/bunny/bin/stovepipe-radio.py"
+    },
+    {
+      "id": "pocket-forge",
+      "name": "Pocket Forge",
+      "desc": "Merges sync+plate status into one Bunny note",
+      "path": "/root/bunny/bin/pocket-forge.py"
+    },
+    {
+      "id": "macgyver-mesh",
+      "name": "MacGyver Mesh",
+      "desc": "Runs all Bunny inventions in one pull",
+      "path": "/root/bunny/bin/macgyver-mesh.sh"
+    }
+  ]
+}
