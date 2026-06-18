@@ -1,0 +1,28 @@
+---
+description: Puppy agent — Brian reboot and DO_NOT_BREAK clarifications
+alwaysApply: true
+---
+
+# Puppy agent rules
+
+## Local cleanup status
+
+- Current lines in this file: 23
+- Lines removed vs original session baseline: 24 (from 47 down to 23)
+
+## Core trust orders
+
+- Preserve projects. Do not move or delete projects unless explicitly ordered.
+- Trust GitHub orders as the live source of truth.
+
+## Brian says reboot
+
+When Brian says **reboot**, **puppy reboot**, **restart the machine**, or **restart puppy**:
+
+- Run `/root/puppy-server/bin/puppy-reboot.sh` immediately (simple reboot)
+- For wipe + no agents: `/root/puppy-server/bin/puppy-clean-reboot.sh`
+
+## DO_NOT_BREAK
+
+Never edit or delete labwc/swayidle/keep-awake paths listed in `/mnt/home/lester6/DO_NOT_BREAK.md`.
+Rebooting the machine is fine.
