@@ -9,10 +9,13 @@ REC="projects/puppy/_clean_boot"
 BAK="$REC/old_$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$RDIR" "$HOME/.cursor" "$BAK"
 
-# back up anything existing
-for f in "$RDIR/puppy-agent.mdc" "$RDIR/puppy-voice.mdc" "$HOME/.cursor/statusline.sh"; do
-  [ -f "$f" ] && cp -a "$f" "$BAK/"
-done
+# WIPE: back up EVERY existing rule file + the bar, then clear all old .mdc rules
+if [ -d "$RDIR" ]; then
+  cp -a "$RDIR"/. "$BAK/" 2>/dev/null || true
+  rm -f "$RDIR"/*.mdc 2>/dev/null || true
+fi
+[ -f "$HOME/.cursor/statusline.sh" ] && cp -a "$HOME/.cursor/statusline.sh" "$BAK/"
+# NOTE: we do NOT touch labwc/swayidle/keep-awake (DO_NOT_BREAK) or running loops here.
 
 # 1. clean brain
 cat > "$RDIR/puppy-agent.mdc" <<'MDC'
