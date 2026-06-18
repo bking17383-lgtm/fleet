@@ -1,0 +1,22 @@
+BRIAN BOOKMARKS — 6 only · delete the rest
+Updated: 2026-06-18 · Daddy cleanup
+
+USE (all on hitme.dev — no dead subdomains):
+
+  https://hitme.dev/goal      fleet board
+  https://hitme.dev/daddy     bug / orders
+  https://hitme.dev/george    voice (NOT george.hitme.dev — DNS dead)
+  https://hitme.dev/bunny     indie lab (NOT bun.hitme.dev — 502)
+  https://hitme.dev/projects  ship list
+  https://hitme.dev/          home
+
+DELETE from phone + Cursor browser bar if you see them:
+
+  george.hitme.dev
+  bun.hitme.dev
+  hitme.dev/keaton            (503 until Bunny ships page)
+  random /listen /terminal duplicates
+
+Cursor UI: close extra Browser tabs · keep these six · done.
+
+Word: SIX · PHILIP · NO SUBDOMAIN COSPLAY
