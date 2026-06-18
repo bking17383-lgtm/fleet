@@ -38,7 +38,8 @@ COUNT=$(wc -l < "$CAND" | tr -d ' ')
   echo
   echo "## Every folder inside the likely work dirs (catch plain folders w/o project files)"
   for W in "$HOME"/bunny/workspace "$HOME"/my-applications "$HOME"/my-documents \
-           "$HOME"/lester "$HOME"/puppy-server "$HOME"/uploaded_files "$HOME"/spot; do
+           "$HOME"/lester "$HOME"/puppy-server "$HOME"/uploaded_files "$HOME"/spot \
+           "$HOME"/GoogleDrive "$HOME"/GoogleDrive/projects "$HOME"/Applications; do
     [ -d "$W" ] || continue
     echo "### $W"
     ls -d "$W"/*/ 2>/dev/null | sed 's#^#- #'
