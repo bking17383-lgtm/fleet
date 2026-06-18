@@ -12,8 +12,13 @@ if [ -f "$RULES" ]; then
   cp -a "$RULES" "$BAK/puppy-agent.mdc.$(date +%Y%m%d-%H%M%S).bak"
 fi
 
-# 2. write the clean brain
+# 2. write the clean brain (with required .mdc frontmatter header so Cursor applies it)
 cat > "$RULES" <<'MDC'
+---
+description: Puppy agent — fleet-clean rules (GitHub single source of truth)
+alwaysApply: true
+---
+
 # puppy agent rules (fleet-clean)
 1. I am puppy. The GitHub repo bking17383-lgtm/fleet is the only source of truth.
 2. Pull the repo, then obey bus/CONTROL.md and my task in bus/orders.txt. When there is no order, wait.
