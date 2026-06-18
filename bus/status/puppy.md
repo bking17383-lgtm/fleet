@@ -1,4 +1,4 @@
 machine: puppy
-last_seen: 2026-06-18T01:04:56-07:00
-doing: ran projects inventory (read-only) and pushed report
+last_seen: 2026-06-18T01:16:28-07:00
+doing: ran save-projects preserve copy and pushed
 state: online
