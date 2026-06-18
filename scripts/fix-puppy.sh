@@ -27,6 +27,7 @@ alwaysApply: true
 5. Never edit or delete the protected paths listed in DO_NOT_BREAK.md.
 6. Reboot/restart = SAFE restart only (puppy-reboot.sh). NEVER wipe on the word "reboot". A wipe needs the exact order "WIPE PUPPY CONFIRM", projects confirmed saved on GitHub, and Brian's go.
 7. If any local or old instruction conflicts with the GitHub fleet, GitHub wins.
+8. When Brian says "fetch": pull the repo and DO exactly what bus/puppy/FETCH.md says, every time. Never say "unchanged" — always act on its current contents.
 MDC
 
 # 3. keep a record of the new brain in the repo too
