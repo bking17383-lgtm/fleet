@@ -1,4 +1,4 @@
-# Audit: puppy  (2026-06-18T00:38:18-07:00)
+# Audit: puppy  (2026-06-18T00:42:16-07:00)
 
 ## OS
 NAME=Puppy
@@ -12,7 +12,6 @@ PRETTY_NAME="TrixiePup64Wayland 2601"
 
 ## Suspicious processes (agents/loops/drive/gemini/bus)
 root           1  0.0  0.0   3544  2184 ?        Ss   Jun17   0:01 /bin/busybox init
-root          45  0.0  0.0      0     0 ?        I    Jun17   0:00 [kworker/u18:1-loop0]
 message+    4839  0.0  0.0   8348  3244 ?        Ss   Jun17   0:00 /bin/dbus-daemon --system
 spot        5191  0.0  0.0   6792  2548 ?        Ss   Jun17   0:00 dbus-daemon --fork --print-address 1 --print-pid 1 --session
 root        5230  0.0  0.0   4976  2300 tty1     S+   Jun17   0:00 dbus-run-session labwc
@@ -21,8 +20,8 @@ spot        6121  0.0  0.0   6724  2508 ?        Ss   Jun17   0:00 /usr/bin/dbus
 root        6740  0.0  0.0   4076  2988 ?        S    Jun17   0:00 /bin/bash /root/puppy-server/bin/home-poller-loop.sh
 root        7103  0.1  0.0   7040  3484 ?        S    Jun17   0:05 /bin/bash /root/puppy-server/bin/sync-watch-loop.sh
 root        7215  0.0  0.0   7108  3420 ?        S    Jun17   0:01 /bin/bash /root/puppy-server/bin/lester-keepalive-loop.sh
-root        8775  3.0  8.3 35129464 326928 pts/0 Rl+  Jun17   2:02 /root/.local/bin/agent --use-system-ca /root/.local/share/cursor-agent/versions/2026.06.15-18-00-12-6f5a2cf/index.js
-root       45564  4.3  0.1   9216  5668 ?        Ss   00:38   0:00 /bin/bash -O extglob -c snap=$(command cat <&3) && builtin shopt -s extglob && builtin eval -- "$snap" && { builtin set +u 2>/dev/null || true; builtin eval "${__CURSOR_SANDBOX_ENV_RESTORE:-}" 2>/dev/null; builtin export PWD="$(builtin pwd)"; builtin shopt -s expand_aliases 2>/dev/null; alias sudo='sudo -A'; builtin eval "$1"; }; COMMAND_EXIT_CODE=$?; dump_bash_state >&4; builtin exit $COMMAND_EXIT_CODE -- cd "$HOME/fleet" && ./scripts/audit.sh puppy && git status --short --branch && git log --oneline -3
+root        8775  4.1  7.0 35061084 276300 pts/0 Sl+  Jun17   2:54 /root/.local/bin/agent --use-system-ca /root/.local/share/cursor-agent/versions/2026.06.15-18-00-12-6f5a2cf/index.js
+root       47863  4.4  0.1   9216  5808 ?        Ss   00:42   0:00 /bin/bash -O extglob -c snap=$(command cat <&3) && builtin shopt -s extglob && builtin eval -- "$snap" && { builtin set +u 2>/dev/null || true; builtin eval "${__CURSOR_SANDBOX_ENV_RESTORE:-}" 2>/dev/null; builtin export PWD="$(builtin pwd)"; builtin shopt -s expand_aliases 2>/dev/null; alias sudo='sudo -A'; builtin eval "$1"; }; COMMAND_EXIT_CODE=$?; dump_bash_state >&4; builtin exit $COMMAND_EXIT_CODE -- cd "$HOME/fleet" && ./scripts/audit.sh puppy && git log --oneline -2 && git status --short --branch
 
 ## Git repos present (besides fleet)
 
