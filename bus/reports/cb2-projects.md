@@ -1,4 +1,4 @@
-# Projects inventory: cb2  (2026-06-18T01:21:54-07:00)
+# Projects inventory: cb2  (2026-06-18T01:36:41-07:00)
 
 _Read-only scan. Nothing was copied, moved, or changed._
 
@@ -13,6 +13,10 @@ _Read-only scan. Nothing was copied, moved, or changed._
 ### /home/bking17383/lester
 - /home/bking17383/lester/jailbreak/
 - /home/bking17383/lester/story_mine/
+### /home/bking17383/GoogleDrive
+- /home/bking17383/GoogleDrive/MyDrive/
+### /home/bking17383/Applications
+- /home/bking17383/Applications/cursor/
 
 ## All top-level folders in $HOME
 - /home/bking17383/Applications/
