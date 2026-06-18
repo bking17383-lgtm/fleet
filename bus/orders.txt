@@ -1,0 +1,5 @@
+# Per-machine orders. One line per machine:  <name>: <task>
+# Tasks: scan  (read-only inventory)  |  preserve (copy projects into repo)  |  wait
+puppy: preserve
+cb2: scan
+cb1: scan

@@ -1,7 +1,7 @@
 # CONTROL — live orders to running agents
 # Agents check this file at each loop boundary and obey the latest STATUS line.
 
-STATUS: REDIRECT: PRESERVE (copy only, no deletes). Pull the repo, then run  ./scripts/save-projects.sh <your-name>  (e.g. ./scripts/save-projects.sh puppy). It COPIES your real projects into projects/<your-name>/ and pushes. It does NOT delete or move anything on your machine. Then resume and wait.
+STATUS: REDIRECT: Pull the repo, then run  ./scripts/order.sh <your-name>  (e.g. ./scripts/order.sh puppy). It does ONLY the job assigned to your machine in bus/orders.txt (scan = read-only list, preserve = copy projects into repo). It never deletes or moves anything on your machine. Then resume and wait.
 
 # Set STATUS to one of:
 #   CONTINUE          - keep working the current goal
