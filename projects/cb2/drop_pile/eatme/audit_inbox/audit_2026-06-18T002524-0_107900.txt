@@ -1,0 +1,16 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: for dad terminal, cb2
+imap_id: 107900
+---
+git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet && cd ~/fleet &&
+./scripts/heartbeat.sh cb2 "daddy reporting in"
+
+  Then I run ./fleet.sh here and we watch cb2 appear — daddy officially on
+the one true fleet, his slave retired.
+
+  (Want me to eyeball daddy's key first to confirm it's well-formed? Paste
+it — it's public, safe. Not required though.)
+
+
+  Add the key, run the clone — let's watch daddy land. 🔥

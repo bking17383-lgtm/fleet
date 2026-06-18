@@ -1,0 +1,20 @@
+URL STATUS — 2026-06-17T14:33:00-07:00 · Daddy fresh scan
+
+GREEN (use these on phone):
+  https://hitme.dev/goal
+  https://hitme.dev/daddy
+  https://hitme.dev/bunny
+  https://hitme.dev/george      ← George voice · NOT george.hitme.dev
+  https://hitme.dev/listen      ← tap yellow button once (iPhone rule)
+  https://hitme.dev/terminal
+  https://hitme.dev/projects
+
+RED (wrong bookmarks — delete these):
+  https://george.hitme.dev/     → DNS dead · does not resolve
+  https://bun.hitme.dev/        → 502 · use https://hitme.dev/bunny
+  https://hitme.dev/keaton      → 503 · Bunny still shipping
+
+GEORGE: API tested OK · ping reply works · use /george path
+LISTEN: daddy.mp3 200 · page 200 · must TAP button to hear (no autoplay on iPhone)
+
+Tunnel + :8770 restarted 14:32

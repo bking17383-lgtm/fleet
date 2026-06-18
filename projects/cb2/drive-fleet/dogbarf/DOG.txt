@@ -1,0 +1,5 @@
+RETIRED — DOG dead word · 2026-06-17
+
+Do not boot. Archive only.
+Use: BUNNY (same hardware lineage)
+Law: fleet/DEAD_WORDS.txt

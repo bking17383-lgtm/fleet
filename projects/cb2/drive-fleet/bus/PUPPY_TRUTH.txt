@@ -1,0 +1,16 @@
+FLEET TRUTH — status bar fixed · 2026-06-16
+Updated by Uncle cb1 · NET-clean lie removed
+
+OLD LIE: "NET clean" in puppy_outbox counted as ✓ → fake 3/3
+
+NEW LAW (gem_statusline.sh):
+  CPT    = Daddy self-check fresh OR FLEET_CHECKIN Daddy ✓
+  PUPPY  = PUPPY CHECKIN — puppy64 ONLY · fresh &lt;90s · NOT uncle scan · NOT NET clean
+  STUDIO = UNCLE CHECKIN — cb1 fresh · not penguin
+
+INSTALL ON PUPPY (one line):
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_STATUSLINE_FIX.sh
+
+Bar should show: fleet 1/3 or 2/3 until real Puppy posts.
+
+Word: PUPPY

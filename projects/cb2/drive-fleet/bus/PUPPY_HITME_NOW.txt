@@ -1,0 +1,23 @@
+PUPPY — fleet board in Firefox
+Updated: 2026-06-16
+
+hitme.dev on puppy Firefox right now: NO (DNS not resolving yet)
+
+WORKS NOW — pick one:
+
+1) Public (no setup on puppy):
+   Read fleet/bus/PUPPY_FLEET_URL.txt for current /fleet link
+   (CB2 quick tunnel — refreshes when bash ~/.stan/hitme_tunnel.sh runs on Daddy)
+
+2) Local on puppy (best if on LAN):
+   bash ~/GoogleDrive/MyDrive/lester/PUPPY_HITME.sh
+   → opens http://127.0.0.1:8770/fleet in Firefox
+
+3) Daddy Tailscale from puppy:
+   http://100.115.92.26:8770/fleet
+
+To fix hitme.dev proper:
+  Cloudflare dashboard → tunnel cb2-daddy → public hostname @ → localhost:8770
+  + DNS for hitme.dev zone (needs API token in ~/.stan/cloudflare_api.env on CB2)
+
+Law: fleet/HITME_TUNNEL_HOSTNAMES.txt

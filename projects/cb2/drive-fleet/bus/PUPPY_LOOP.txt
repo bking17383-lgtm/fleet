@@ -1,0 +1,16 @@
+PUPPY LOOP — 3 files · nothing else
+Updated: 2026-06-16
+
+Daddy (CB2) ←→ Puppy (puppy64) · Drive only
+
+  Daddy writes → fleet/bus/cpt_to_puppy.txt
+  Puppy reads  → fleet/bus/cpt_to_puppy.txt
+  Puppy writes → fleet/bus/puppy_outbox.txt
+  Daddy reads  → fleet/bus/puppy_outbox.txt
+
+First time on puppy keyboard: open MyDrive/ihateyou.txt · paste STEP 1 · Enter.
+
+Done when puppy_outbox says:
+  PUPPY CHECKIN — puppypc27097 — <ip> — <time>
+
+Word: PUPPY

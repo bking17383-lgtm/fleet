@@ -1,0 +1,6 @@
+CPT CHECKIN — 2026-06-16T00:39:10-07:00
+terminal: python3 ~/.stan/cpt_talk.py
+grab: GRAB <what>
+watch: http://127.0.0.1:8770/fleet
+buddy: BUDDY or KEYS or AUDIT
+puppy: wait puppy_fix.txt from Buddy

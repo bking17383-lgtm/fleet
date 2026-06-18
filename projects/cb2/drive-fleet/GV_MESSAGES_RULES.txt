@@ -1,0 +1,63 @@
+Google Voice — Messages screen (what to tap)
+Updated: 2026-06-15
+
+You are on the right page. "Manage rules" is mostly for CALLS — not required for texting CAPTN.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MESSAGES — turn ON (bridge needs this)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+In Settings → Messages:
+
+  ☑ Forward messages to email
+      → sends texts to bking17383@gmail.com (CAPTN bridge reads this)
+
+Optional but nice on Samsung:
+  ☑ Forward messages to linked number(s)
+      → copy also hits 831-383-6582 native Messages app
+
+You do NOT need to create message "rules" for the bridge to work.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"MANAGE RULES" — skip for now
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you see Manage rules under Messages or Calls:
+  • Calls → Custom call forwarding (who goes to voicemail, etc.)
+  • Spam → Security → Filter spam (leave ON unless real texts get eaten)
+
+For WarGames SMS test: NO custom rules needed.
+Default = all texts to CAPTN number work.
+
+If a text vanishes: Voice app → Menu → Spam → unmark.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GMAIL RULES (CAPTN side — after forward works)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Once forward-to-email is ON, CAPTN adds Gmail filter:
+
+  From: txt.voice.google.com
+  Label: CAPTN-SMS
+  Never spam
+
+Script: ~/.stan/gv_sms_bridge.py check
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SEND SCREENSHOT TO CAPTN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If unsure which toggle:
+  • Phone: screenshot → Google Drive → convert_inbox/
+  • Or ROVER SNAP at the screen
+  • Say here: "read screenshot"
+
+CAPTN reads image and tells you exactly which switch.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Samsung → text (805) 751-6587 → HELLO CAPTN
+
+Then tell CAPTN: "check GV bridge"

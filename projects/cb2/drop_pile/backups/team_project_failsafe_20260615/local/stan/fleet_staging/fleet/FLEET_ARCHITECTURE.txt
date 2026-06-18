@@ -1,0 +1,33 @@
+FLEET ARCHITECTURE — file bus · no split brain
+Updated: 2026-06-15
+
+Brian → CPT (CB2 Cursor) → fleet bus files → NET + STUDIO execute
+
+No box calls another box. No shared live sockets across machines.
+Each box: local fleet_bus → work → write outbox → sync Drive when fuse up.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NETWORK (puppy = NET)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When puppy posts NET clean:
+  • mesh :8765 on puppy
+  • cloudflared / hitme.dev hostnames on puppy
+  • MESH_RADIO_URL.txt · tunnel URLs on bus
+
+Until then: CB2 holds mesh/sarah/desk temporarily. Not permanent.
+
+Brian never needs puppy to talk to CPT. Puppy = optional edge amplifier.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUDIO (CB1 · Gemini · fresh Uncle)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+No Cursor on CB1 unless Brian wants it back.
+Reads CB1_ORDERS.txt · writes mac_outbox.txt · no Lester.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUCK VIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Always read: fleet/STUCK_BOARD.txt

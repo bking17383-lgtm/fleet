@@ -1,0 +1,13 @@
+AUDITOR COMPILE — 2026-06-17T16:30:55-07:00
+sealed_dir: drop_pile/auditor_inbox/SEALED/ (Fresh Cursor ONLY · Daddy/Bunny do not read)
+open_dir:   drop_pile/auditor_inbox/COMPILE/ (fleet+bunny context)
+--- sealed files (name · bytes · sha256) ---
+--- open files ---
+fleet/FARTHEAD.txt
+fleet/BUDDY_POISON.txt
+fleet/FRESH_CURSOR_BOOT.txt
+fleet/DO_THIS_NOW.txt
+fleet/CREDIT_CHECK.txt
+fleet/BRIAN_NORTH_STAR.txt
+bunny/TO_BUNNY.txt
+bunny/PROJECTS_BUNNY.txt

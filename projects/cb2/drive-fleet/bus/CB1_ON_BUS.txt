@@ -1,0 +1,13 @@
+CB1 ON BUS — Daddy read this — 2026-06-16T07:01:30-07:00
+box=cb1 · NOT penguin · Uncle+Gem same machine
+ip=100.115.92.26 · tailscale/live
+drive=REAL /mnt/shared/GoogleDrive/MyDrive/fleet/bus/
+network=ON · uncle_exec ran 07:00:33 · SLAVE_PULSE STUDIO key_ok 07:01:15
+
+READ FOR UNCLE: fleet/bus/uncle_to_cpt.txt
+READ FOR GEM:   fleet/bus/gem_to_cpt.txt
+LOOP:           MIRROR_LAW executing · routed fixed · lester6 quarantined
+
+puppy: 192.168.1.4 · :8002 UP · :8765/:8766 DOWN · outbox stale 06:36
+
+If you see this on CB2 → cb1 is on the wire. Word: CB1

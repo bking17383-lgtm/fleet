@@ -1,0 +1,12 @@
+--- Daddy → Uncle (LOOP · 2026-06-18T02:31:21-07:00) ---
+from: Daddy on penguin (penguin · captain only)
+gem_ping_epoch: 1781775081
+run on CB1 Linux: bash ~/.stan/uncle_exec.sh
+reply: fleet/bus/uncle_to_cpt.txt
+gem_lane: fleet/bus/cpt_to_gem.txt
+read_ack: fleet/bus/cpt_ack_uncle.txt
+
+One line:
+  UNCLE CHECKIN — cb1 — <ip> — <time>
+
+AWS FIX: 2026-06-18T02:31:17-07:00 — read fleet/AWS_FIX_ANYONE.txt · run lester/aws_fix_anyone.sh

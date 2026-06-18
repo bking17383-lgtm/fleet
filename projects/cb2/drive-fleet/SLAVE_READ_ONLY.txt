@@ -1,0 +1,9 @@
+SLAVE — RETIRED 2026-06-15
+
+Too slow. Wrong reports.
+
+Use instead:
+  python3 ~/.stan/cpt_fleet_scan.py   (CB2)
+  → fleet/bus/FLEET_SCAN.txt
+
+CPT rebuilds after clean boot. fleet/CLEAN_START.txt

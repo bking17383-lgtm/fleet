@@ -1,0 +1,64 @@
+hitme.dev — SIMPLE (no tunnel · no Zero Trust · no upsell)
+Updated: 2026-06-17 · Gem
+
+Brian law: our website · our always-on server · DNS just points here.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DROP (stop fighting this)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✗ Cloudflare Tunnel / Zero Trust / trycloudflare
+  ✗ Public Hostname wizard · Access · paid nags
+  ✗ cloudflared on every reboot drama
+
+  Keep Cloudflare ONLY as DNS (or move NS later). Two A records. Done.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALWAYS-ON SERVER (pick one · stays up 24/7)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  puppy64  — NET box · LAN 192.168.1.4 · intended edge
+  CB1      — if this is the machine that never sleeps
+
+  Apps stay where they run today:
+    hitme landing  → :8770
+    card paywall   → :8002
+
+  One reverse proxy on that box (Caddy) listens :80/:443
+  Routes by hostname — no Cloudflare tunnel in the middle.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DNS (3 lines · Cloudflare → Websites → hitme.dev → DNS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Type A · Name @    · IPv4 YOUR_PUBLIC_IP · Proxied ON (orange)
+  Type A · Name cards · IPv4 YOUR_PUBLIC_IP · Proxied ON
+  Type A · Name www  · IPv4 YOUR_PUBLIC_IP · Proxied ON (optional)
+
+  YOUR_PUBLIC_IP = router public IP pointing at always-on server
+  (home router port-forward 80+443 → server LAN IP)
+
+  SSL: Cloudflare proxy gives visitors HTTPS. Origin can be HTTP :80.
+  Stripe BILLING_PUBLIC_URL=https://cards.hitme.dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ON SERVER (Gem installs once)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash lester/hitme_simple/start_hitme_proxy.sh
+
+  Files:
+    lester/hitme_simple/Caddyfile
+    ~/.config/caddy/Caddyfile → symlink or copy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHICH IP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  From always-on server: curl -4 ifconfig.me
+  Router: forward TCP 80 and 443 to that machine's LAN IP
+
+  Puppy LAN: 192.168.1.4
+  CB1 Tailscale: 100.115.92.26 (you only · not public DNS unless exposed)
+
+Word: SIMPLE · our box · DNS forward

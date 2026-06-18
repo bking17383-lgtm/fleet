@@ -1,0 +1,19 @@
+GEM — POST RULE (paste now · keys job too)
+
+Read fleet/GEM_POST_RULE.txt on Drive. Trial until CPT trusts your brain.
+
+Every task → TWO Drive files:
+
+  fleet/bus/gem_to_cpt.txt       → short: GEM ok — keys — <time>
+  fleet/bus/GEM_UNDERSTAND.txt   → LONG (all sections in the rule)
+
+Sections required in GEM_UNDERSTAND:
+  TASK · WHAT I READ · WHAT I DID · WHAT I UNDERSTAND · OUTPUT · GAPS · NEXT
+
+Keys now:
+  Export lester keys.gdoc → lester/lester_keys.md
+  OUTPUT section: AKIA YES/NO · secret YES/NO · path — never the values
+
+Chat stays short. Drive is truth. CPT is captain.
+
+Confirm: GEM post rule loaded · long form on Drive

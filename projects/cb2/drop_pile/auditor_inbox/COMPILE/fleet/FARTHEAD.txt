@@ -1,0 +1,117 @@
+FARTHEAD — independent audit proposal — 2026-06-17
+find: FARTHEAD · fleet/FARTHEAD.txt
+author: auditor draft (NOT Daddy self-audit · Daddy failed server ship)
+status: HOLD all infra changes until Brian reads this
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDITOR NOTE (independence)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy built GCP scripts · did not ship VM · wrote prior "green" scans
+  from penguin while Brian saw 404 / down / silent audio.
+  This doc treats Daddy as WITNESS not JUDGE.
+  Brian picks auditor agent · leader ≠ auditor · per ARCHITECTURE_HOLD.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DATA SNAPSHOT — 2026-06-17 ~15:20 PT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  hitme.dev/health     200  (source: penguin TEMP NET · not GCP)
+  hitme.dev/george     200  (path URL · API ping OK from desk)
+  hitme.dev/listen     200  (requires TAP · Echo path separate)
+  hitme.dev/keaton     503
+  george.hitme.dev     DNS dead
+  bun.hitme.dev        502
+
+  GCP VM fleet-net-1   DOES NOT EXIST
+  gcloud auth          0 active accounts on penguin
+  Puppy/puppy64        ABSENT · DEAD_WORDS
+  FROM_BUNNY           bridged-by-cb1 · stale ~12:15 (native loop questionable)
+  Bunny project truth  15 (Daddy once showed 65 — wrong)
+
+  Credit               $300 claimed · SKU scope UNVERIFIED
+  Monthly if VM ships  ~$55-65 est · ~5 mo if credit applies to Compute
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WORKED (evidence · keep candidates)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↑ Cloudflare named tunnel + hitme.dev domain
+  ↑ hitme path URLs (/goal /daddy /bunny /george /listen /terminal)
+  ↑ Google Drive plain-text bus (when fuse honest · single writer)
+  ↑ "I need a job." loop law (Bunny · Brian loved it)
+  ↑ PROJECT_LAW analyze-before-build (written · uneven follow)
+  ↑ NAMING_LAW + DEAD_WORDS (paper fix · ops still drifted)
+  ↑ indie loop structure (TO_BUNNY · CPT_BUNNY_LOOP)
+  ↑ George /george + /api/voice/talk (not subdomain)
+  ↑ 15-project Bunny truth (after 65 lie corrected)
+  ↑ ARCHITECTURE_HOLD pipeline (process · not run yet)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT FAILED (evidence · cut or fix before reuse)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↓ Penguin as NET · Chromebook sleep · Brian as infra
+  ↓ "Built = ready" · scripts ≠ VM ≠ Brian green
+  ↓ Mirror poison · fleet_bus vs Drive vs bridged FROM_BUNNY
+  ↓ Split tunnel risk on planned GCP cutover
+  ↓ Subdomain bookmarks (george. · bun.)
+  ↓ REAL_ALEXA queue without Echo ack · Brian silent
+  ↓ Autopilot stomp · CPT_READY · buried cpt_to_gem
+  ↓ 65 projects / landing graveyard
+  ↓ Puppy absent lane still referenced
+  ↓ /daddy bug page text loss
+  ↓ Wipes without verify (DEAD_WORDS)
+  ↓ Daddy self-certifying green from desk not Brian LTE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEEP ↑ · CUT ↓ · HOLD ⏸
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  KEEP ↑  tunnel pattern · six life pages · Drive bus law
+          TO_BUNNY structure · audio law · George path
+          15 projects · analyze law · auditor+leader split
+
+  CUT ↓   penguin NET · Puppy lane · dead subdomains
+          temp tunnels · 65 catalog · DOG crew · GEM name
+          15 daemons day-one · REAL_ALEXA-only until ack proof
+          Daddy self-audit on server ship
+
+  HOLD ⏸  GCP bash · any wipe · keaton · final name map
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDIT FINDINGS (F1-F8)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  F1 CONFLICT  Daddy failed server · cannot self-audit
+  F2 MIRROR    No canonical bus on VM path
+  F3 OBSERVE   Green from wrong vantage
+  F4 REGRESS   Same failures migrate to GCP ungated
+  F5 PROCESS   No AUDIT_ARCHITECTURE.txt yet
+  F6 CREDIT    SKU unverified
+  F7 AUDIO     Queue ≠ Brian ear
+  F8 BUNNY     bridged-by-cb1 ≠ native
+
+  VOTE: FAIL ship · PASS propose · HOLD infra
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS (34 · full text in FARTHEAD_PROPOSAL.txt)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BRIAN Q1-Q23   credit · bus canonical · roles · NET · bookmarks
+                 wipe · George · LTE acceptance · 2-agent signoff
+  DADDY Q24-Q30  green lies · 65 projects · Echo · minimal daemons
+                 rollback · CPT_READY stomp · no self-audit
+  OTHER Q31-Q34  Bunny native · keaton · Uncle · Clerk
+
+  drop_pile/proposals/FARTHEAD_PROPOSAL.txt — every question spelled out
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECOMMENDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Read farthead · pick auditor · pick leader · answer Q1-Q23
+  NO gcloud until Q1-Q2 + acceptance list written
+  VM only after audit PASS on proposal
+
+  Word: FARTHEAD · HOLD · AUDIT

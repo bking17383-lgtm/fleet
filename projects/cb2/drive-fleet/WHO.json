@@ -1,0 +1,96 @@
+{
+  "updated": "2026-06-16T03:17:52-07:00",
+  "entries": [
+    {
+      "fleet_id": "cb1",
+      "name": "Uncle / CB1",
+      "callsign": "WRANGLER",
+      "role": "Analyst \u00b7 hardware protocols \u00b7 budget",
+      "network": "reload paused",
+      "url": "",
+      "notes": "Linux reload \u2014 fresh Uncle later"
+    },
+    {
+      "fleet_id": "cb2",
+      "name": "Daddy / CB2",
+      "callsign": "BEACON",
+      "role": "CAPTN desk \u00b7 architect \u00b7 Sarah host",
+      "network": "Tailscale 100.115.92.26",
+      "url": "http://127.0.0.1:8766/sarah",
+      "notes": "Design desk \u2014 no Play traffic"
+    },
+    {
+      "fleet_id": "puppy64",
+      "name": "Puppy",
+      "callsign": "PLATE",
+      "role": "Network \u00b7 art lane \u00b7 24/7 host",
+      "network": "wlan0 192.168.1.4 \u00b7 wg0 10.0.0.1",
+      "url": "http://192.168.1.4:8765",
+      "notes": "Chrome word PLATE \u00b7 Cursor word PUPPY"
+    },
+    {
+      "fleet_id": "phone-moto-lte",
+      "name": "Moto Play",
+      "callsign": "ROVER",
+      "role": "Brian road phone \u00b7 cellular",
+      "network": "LTE",
+      "url": "/rover on mesh",
+      "notes": "fleet/ROVER_RADIO_URL.txt"
+    },
+    {
+      "fleet_id": "phone-samsung-wifi",
+      "name": "Samsung",
+      "callsign": "TESTER",
+      "role": "QA \u00b7 Sarah trials",
+      "network": "WiFi only",
+      "url": "mesh home /",
+      "notes": "No GL button trap \u2014 RADIO only"
+    },
+    {
+      "fleet_id": "human-sarah",
+      "name": "Sarah",
+      "callsign": "\u2014",
+      "role": "Appointment tester \u00b7 minimal intrusion",
+      "network": "HTTPS or home WiFi",
+      "url": "fleet/SARAH_SEND_WHEN_READY.txt",
+      "notes": "Not fleet_id \u2014 human lane"
+    },
+    {
+      "fleet_id": "human-brian",
+      "name": "Brian",
+      "callsign": "DADDY",
+      "role": "Steer \u00b7 art \u00b7 inbox one-line",
+      "network": "\u2014",
+      "url": "fleet/bus/BRIAN_INBOX.txt",
+      "notes": "bking Gmail stays clean"
+    }
+  ],
+  "services": [
+    {
+      "id": "mesh",
+      "port": 8765,
+      "host": "puppy64",
+      "path": "mesh_radio.py"
+    },
+    {
+      "id": "sarah",
+      "port": 8766,
+      "host": "cb2",
+      "path": "/sarah"
+    },
+    {
+      "id": "baseball",
+      "port": 8002,
+      "host": "puppy64",
+      "path": "baseball"
+    },
+    {
+      "id": "slicer",
+      "port": 5000,
+      "host": "puppy64",
+      "path": "slicer"
+    }
+  ],
+  "status_raw": "FLEET AVAILABLE \u2014 read this to design\nUpdated: 2026-06-16T03:17:52.170850-07:00\nRefreshed by: fleet_board.py on penguin\n\nCOMPUTERS (3 + Puppy host)\n  CB1      \u2717 DOWN      WRANGLER + Uncle\n  CB2      \u2717 DOWN      BEACON + CAPTN/Daddy\n  puppy64  \u2717 DOWN      Puppy + PLATE\n\nPHONES (2) \u2014 fleet_id is stable \u00b7 see fleet/PHONE_FLEET_IDS.txt\n  phone-moto-lte      \u2717 DOWN      ROVER   Moto Play \u00b7 cellular \u00b7 /rover\n  phone-samsung-wifi  \u2717 DOWN      TESTER  Samsung \u00b7 wifi/dongle only \u00b7 /\n\nAI AGENTS \u2014 see heartbeats in drop_pile/from_lester/\n\nPARTS / SERVICES (CB2 host check)\n  baseball :8002  DOWN\n  mesh radio :8765  UP\n  Daddy public URL  fleet/DADDY_BASEBALL_URL.txt\n  RADIO public URL  fleet/MESH_RADIO_URL.txt\n\nDESIGN NOW\n  Brian say DESK \u2014 honest board from heartbeats\n  Uncle: bash ~/GoogleDrive/MyDrive/lester/install_uncle_stan.sh\n  Puppy: drop_pile/to_puppy/UNCLE_LINUX_FIX.md\n\nCompact: CB1\u2717 CB2\u2717 puppy64\u2717 moto\u2717 samsung\u2717 | 0 up \u00b7 0 partial \u00b7 5 down\n\n",
+  "refresh": "python3 MyDrive/lester/plate_who.py \u00b7 domain: hitme.dev"
+}

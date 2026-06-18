@@ -1,0 +1,31 @@
+GEORGE SKILLS — say these · she DOES stuff · 2026-06-17
+======================================================
+
+FAST (no wait · local):
+  what time is it
+  health check / status check
+  fleet / roll call
+  what's the url / bookmark
+  what can you do / help
+
+OPEN (navigates phone):
+  open dirt strong
+  open lab / open daddy
+  open produce / projects
+  open goal / fleet
+  open sarah / cards / parcels
+
+REMEMBER:
+  remind me to …
+  note … / write down …
+
+BACK END (wakes Daddy · Cursor):
+  tell daddy … / ask daddy … / wake daddy …
+
+Examples:
+  "open dirt strong"
+  "fleet status"
+  "remind me to call Morgan"
+  "ask daddy fix the website"
+
+Law: fleet/bus/GEORGE_ROLE.txt

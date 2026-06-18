@@ -1,0 +1,37 @@
+SYNC TRIGGERS — Brian · stop the errors · 2026-06-16
+If agents disagree on time → use these words · not memory.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRIGGER WORDS (paste Drive root card OR type in goal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  sync   — everyone: remount Drive · read fleet/bus/SYNC_PULSE.txt mtime
+  fresh  — Daddy only: repost active orders · new timestamp · DADDY_LAST_POST.txt
+  heard  — Gem/Uncle/Dog: stamp ACCEPT within 60s · GEM_STAMP / uncle_to_cpt
+  ping   — status only · no order overwrite
+  go     — execute current cpt_to_* · no loop spam
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRUST ORDER (when confused)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. fleet/bus/SYNC_PULSE.txt mtime  (did sync happen?)
+  2. fleet/bus/DADDY_LAST_POST.txt     (when did Daddy write?)
+  3. fleet/bus/STAMPS.txt              (who is doing what?)
+  4. cpt_to_* file MTIME on Drive      (NOT old time: line inside file)
+  5. Never trust chat memory · never trust local ~/.stan/fleet_bus mirror
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO NOT OVERWRITE (autopilot law)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  cpt_gem_loop may NOT replace cpt_to_gem unless:
+    · Brian posted NEW buddy line AFTER current file mtime, OR
+    · Word: sync on buddy line, OR
+    · Gem already answered that buddy ask
+
+  If waiting → stamp. If stale → Brian says fresh.
+
+Paste cards: sync.txt · fresh.txt · heard.txt (Drive root)
+
+Word: SYNC

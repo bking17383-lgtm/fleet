@@ -1,0 +1,13 @@
+PUPPY 05:02 — Uncle saw photo. lester6 mirror OK for local post.
+
+RUN:
+  bash /mnt/home/lester6/convert_inbox/PUPPY_REAL_DRIVE.sh
+
+OR if missing:
+  bash ~/GoogleDrive/MyDrive/convert_inbox/PUPPY_REAL_DRIVE.sh
+
+Script also in convert_inbox/ on Drive · sync or download once.
+
+TOKEN=LIVE-050502
+
+Word: PUPPY

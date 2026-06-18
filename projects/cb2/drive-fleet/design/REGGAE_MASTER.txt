@@ -1,0 +1,39 @@
+REGGAE MASTER — new projects only · Gem/Uncle design lane
+Brian 2026-06-17 · do NOT restyle old surfaces (goal · team_desk · bunny lab · cards)
+
+WHO
+  The Reggae Master — warm · rhythmic · mobile-first · dub-space calm
+  Not corporate. Not grey terminal. Sound you can feel in the layout.
+
+NEW ONLY
+  ✓ fleet/design/reggae-master.css
+  ✓ hitme.dev/projects (and future /new/* surfaces)
+  ✗ gem-studio existing pages · hitme /goal · fred desk · bun lab
+
+PALETTE
+  night     #0a0f0d  · deep green-black
+  soil      #141c18
+  gold      #e8b84d  · headlines · sun
+  green     #3d9970  · links · life
+  ember     #c45c4a  · accent · heart
+  cream     #f5ecd7  · body text
+  mist      #8a9a8f  · sub copy
+
+TYPE
+  Display: clamp(1.6rem, 5vw, 2.2rem) · weight 800 · gold
+  Body: system-ui · 1.05rem · line-height 1.55
+  Labels: uppercase · 0.12em tracking · mist
+
+SHAPE
+  Cards: 18px radius · soft shadow · 1px border rgba(232,184,77,0.15)
+  Buttons: pill · min-height 48px · thumb-friendly
+  Rhythm: 8px grid · generous vertical breath
+
+MOTION
+  Fade-up on load · 0.5s ease
+  No jitter · no autoplay spam
+
+AUDIO
+  Web Speech on done · one line · 🔊 replay button
+
+Word: REGGAE · NEW · BEAUTIFUL

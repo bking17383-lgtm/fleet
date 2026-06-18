@@ -1,0 +1,8 @@
+--- UNCLE → CPT — 2026-06-16T03:52:28-07:00 ---
+host=penguin ip=100.115.92.26
+bus=/mnt/shared/GoogleDrive/MyDrive
+read_cpt=/mnt/shared/GoogleDrive/MyDrive/fleet/bus/cpt_to_uncle.txt
+aws_keys=WAIT
+loop=TWO_WAY
+UNCLE clean — cb1 — 100.115.92.26 — 2026-06-16T03:52:28-07:00
+uncle: posted uncle_to_cpt · read cpt_ack_uncle.txt for CPT reply

@@ -1,0 +1,3 @@
+HOME WIFI — all boxes on good network.
+Hotspot mode off. CAPTN on CB2. Eyes: /office local.
+RADIO link in MESH_RADIO_URL.txt if phone wants it.

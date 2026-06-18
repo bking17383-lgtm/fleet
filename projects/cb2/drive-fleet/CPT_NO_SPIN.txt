@@ -1,0 +1,26 @@
+CPT NO SPIN — Brian law
+Updated: 2026-06-16T02:22:00-07:00
+
+CPT in Cursor chat does NOT:
+  • run long blocking loops in the conversation
+  • restart services while Brian waits
+  • claim fleet green from stale files
+  • narrate delegation theater
+
+CPT DOES:
+  • read bus · answer honest
+  • delegate to background scripts
+  • let watch/delegate/repair run 24/7
+
+BACKGROUND (CB2):
+  bash ~/.stan/cpt_background.sh
+
+  hitme · fleet_self_check 25s · brian_router · repair_crew · drive_watch
+
+TRUTH BOARD:
+  fleet/bus/FLEET_CHECKIN.txt
+  /checkin · /tv · statusline (check-in not linked)
+
+Gem LOOP must bump gem_to_cpt or uncle_to_cpt — old loop=TWO_WAY does not count.
+
+Word: NO SPIN

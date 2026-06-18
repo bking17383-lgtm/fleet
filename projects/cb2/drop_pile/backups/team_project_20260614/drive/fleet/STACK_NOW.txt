@@ -1,0 +1,23 @@
+STACK NOW — CAPTN decision 2026-06-14
+Brian: keep designing. Two executes running in parallel.
+
+DONE (CB2 interim)
+  ✓ cloudflared + quick URL in BRIAN_PHONE.txt
+  ✓ baseball :8002 + jailbreak :8765 on penguin (until puppy takes over)
+  ✓ slaves WRANGLER + BEACON
+  ✓ IDEAS bus
+
+NEXT (delegated — not your job)
+  1 PUPPY  root@10.0.0.1  → one word PUPPY (outbox + PLATE ack + move serve)
+  2 EXPORT CB2 Chrome     → one word EXPORT (free_lester + sorting .md)
+
+BLOCKED (needs dashboard / human later)
+  Named Cloudflare hostname on puppy64
+  Human testers HOLD
+
+PASS WHEN
+  puppy_outbox hostname puppy64
+  lester6_to_puppy.md on Drive
+  free_lester_instructions.md not stub
+
+Say DESK for fleet counts.

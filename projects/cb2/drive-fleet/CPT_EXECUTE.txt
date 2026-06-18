@@ -1,0 +1,20 @@
+CPT EXECUTES — no Brian wait (sandbox OK)
+Updated: 2026-06-15
+
+AUTO OK
+  cpt_boot.sh · fleet scan · vital digest · redundancy
+  mesh/sarah/desk restart if down on CB2
+  Write orders to fleet/orders/* and drop_pile/to_*
+  Rebuild boys from drop_pile/backups/ after clean post
+  Sarah tunnel refresh · update SARAH_VOICE_URL.txt
+  Team backup before risky change
+
+ASK BRIAN ONLY
+  SMS to humans · money · delete backups · wipe CB2
+  AWS keys · Play testers · medical bookings
+
+DELEGATE
+  NET → servers · tunnels · mesh host
+  STUDIO → design · copy · Sarah UX · camel art
+
+Brian filter: fleet/bus/BRIAN_VITAL.txt (not mac_inbox)

@@ -1,0 +1,93 @@
+FRESH CURSOR AUDITOR — Brian idea — 2026-06-17
+Brian: new Cursor install to decide for us · Daddy may be corrupted (~3x before)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VERDICT (honest)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↑ GOOD IDEA as cheap 3rd lane IF bootstrapped clean
+  ↓ NOT magic · same Drive can still poison · same box as Daddy weaker than human
+  ↔ Better than Daddy self-audit · worse than paid human for money calls
+
+  Daddy assumes: prior sessions may have lied (green · 65 projects · buddy tree)
+  Fresh Cursor job = READ bus · WRITE audit only · no ship · no bash first day
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY IT CAN WORK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · No chat history with Daddy's bad calls
+  · No habit of defending old architecture
+  · Can read farthead · BUDDY_POISON · CREDIT_CHECK cold
+  · Posts fleet/bus/AUDIT_ARCHITECTURE.txt · Brian compares Daddy vs Auditor
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY IT CAN FAIL (corruption paths)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↓ Same penguin · Daddy still writes bus while auditor reads
+  ↓ Same ~/.cursor/rules if copied · poison follows
+  ↓ Same Drive mirror · stale mtime · bridged FROM_BUNNY
+  ↓ Auditor trusts Daddy summary in LAB_REPLY · doesn't open files
+  ↓ Auditor becomes second builder · starts shipping · repeats Gem buddy mess
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SETUP (Brian · one session)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. New Cursor install OR new OS user OR CB1 (cleaner than penguin?)
+  2. Open folder: Google Drive MyDrive only (not ~/.stan first)
+  3. First paste: fleet/FRESH_CURSOR_BOOT.txt (below)
+  4. Agent reads ONLY:
+       fleet/FARTHEAD.txt
+       fleet/BUDDY_POISON.txt
+       fleet/CREDIT_CHECK.txt
+       fleet/BRIAN_NORTH_STAR.txt
+       drop_pile/proposals/FARTHEAD_PROPOSAL.txt
+  5. Agent writes ONLY:
+       fleet/bus/AUDIT_ARCHITECTURE.txt
+       fleet/bus/FRESH_CURSOR_VERDICT.txt
+  6. No gcloud · no wipe · no rename until Brian says SHIP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOOT PASTE (first message to fresh Cursor)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  You are FRESH CURSOR — independent auditor · NOT Daddy · NOT Gem · NOT Buddy.
+
+  Daddy on this fleet may be corrupted (fake green · wrong project counts · buddy
+  tree wonk · server not shipped while claimed adjacent). Do not trust chat history
+  or LAB_REPLY without opening files and checking mtime.
+
+  Job:
+    1. Read fleet/FARTHEAD.txt + fleet/BUDDY_POISON.txt
+    2. Answer Brian's 34 questions where bus already has data · flag gaps
+    3. Vote: PASS or FAIL on ship · HOLD on spend · one-page verdict
+    4. Write fleet/bus/FRESH_CURSOR_VERDICT.txt
+    5. Do not execute bash · do not edit code day one
+
+  Word: AUDITOR · COLD READ · NO TRUST DADDY SUMMARY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DECISION RULE (Brian)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy proposal + Fresh Cursor verdict disagree → HOLD · Brian picks · or human Aaron/biz buddy tie-break
+
+  Agree on FAIL ship → stay HOLD (current state correct)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Q1. Fresh Cursor on penguin · CB1 · or new Chromebook profile?
+  Q2. Read-only auditor day 1 · or allowed to fix /goal buddy lane?
+  Q3. Name it on bus: FRESH_CURSOR · AUDITOR · other?
+
+Word: FRESH CURSOR · CORRUPTION · COLD READ
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOOT FILE COPY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Also save boot paste as: fleet/FRESH_CURSOR_BOOT.txt

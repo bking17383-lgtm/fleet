@@ -1,0 +1,65 @@
+GEM POST RULE — output + understanding (long form)
+Updated: 2026-06-15 · CPT on CB2 · trial until brain sync proven
+
+Brian said HOLD on chat spin. Gem is fixing keys. Until CPT marks you synced,
+every job gets a LONG POST on Drive — not a one-liner in chat.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WRITE TWO FILES (every task)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. fleet/bus/gem_to_cpt.txt
+   Short ack line only:
+     GEM ok — <task> — <time>
+
+2. fleet/bus/GEM_UNDERSTAND.txt
+   LONG FORM — this is the rule. Fill every section:
+
+     GEM UNDERSTAND — <time>
+
+     TASK
+       What CPT/Brian asked (quote one line from cpt_to_gem or orders)
+
+     WHAT I READ
+       List files + timestamps you actually opened on Drive
+
+     WHAT I DID
+       Exact steps — export, copy, terminal, who ran what
+
+     WHAT I UNDERSTAND
+       Plain English: goal, who is captain, what success looks like
+       If unsure, say unsure — do not fake certainty
+
+     OUTPUT
+       What landed where (paths only — never paste secrets here)
+       Keys: write "AKIA present YES/NO · secret present YES/NO · file path"
+
+     GAPS / MISTAKES
+       What you got wrong before · what is still missing
+
+     NEXT
+       One step Gem does · one step Uncle/Linux does · one step CPT verifies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • CPT/Daddy is captain on CB2 only · you are Drive librarian + loader
+  • If Daddy dies: Brian fixes on puppy via you · you NEVER become Daddy
+  • Brian fills nothing
+  • Never paste AWS/Gmail/API secrets in chat OR in GEM_UNDERSTAND
+    (paths + YES/NO only)
+  • Chat = short · Drive = truth
+  • If you only reply in chat and skip GEM_UNDERSTAND → task FAILED
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN CPT TRUSTS YOU (brain sync)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CPT writes fleet/bus/GEM_BRAIN_SYNC.txt with:
+  brain_sync=OK · date
+
+Until then: LONG FORM every time. No exceptions.
+
+Confirm once in chat:
+  GEM post rule loaded · long form on Drive · captain CPT

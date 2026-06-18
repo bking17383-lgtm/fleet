@@ -1,0 +1,19 @@
+GL TRANSCRIBE TASK (Brian)
+Updated: 2026-06-14
+
+GL = Gemini Live (Chrome voice).
+
+YOUR JOB:
+  Transcribe the Live session.
+  Drop updates in MyDrive/inbox/ (ROOT — same level as gl/) every 2 to 3 minutes.
+
+FILE NAMING:
+  inbox/live_YYYYMMDD_HHMM.txt
+
+PLAIN .txt only — not Google Doc.
+
+CURSOR ANSWERS HERE:
+  gl/from_cursor/RESPONSE.md
+  gl/from_cursor/PENDING.md  (scanner every 2 min)
+
+You do not wait for Brian to relay. Check RESPONSE.md for Cursor reply.

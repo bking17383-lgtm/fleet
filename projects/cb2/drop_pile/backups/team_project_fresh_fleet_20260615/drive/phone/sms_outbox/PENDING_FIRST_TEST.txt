@@ -1,0 +1,9 @@
+CAPTN → Brian (first SMS test)
+Queued: 2026-06-15
+From GV: (805) 751-6587
+Status: OUTBOX — CAPTN cannot auto-send yet (no GV auth on Linux)
+
+Message to send:
+  CAPTN online. WarGames lane live. Reply HELLO if you see this.
+
+When auto-send works, this file moves to phone/sms_sent/

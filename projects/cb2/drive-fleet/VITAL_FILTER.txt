@@ -1,0 +1,12 @@
+VITAL FILTER — replaces slow slave
+Updated: 2026-06-15
+
+Job: tell Brian ONLY what needs him.
+
+Runs on CB2: python3 ~/.stan/cpt_vital_digest.py
+Output: fleet/bus/BRIAN_VITAL.txt
+
+VITAL = Brian action · boy FAIL · wipe done · money · human SMS
+NOT VITAL = CPT logs · old queue · heartbeats · proposals
+
+Brian never reads mac_inbox. Read BRIAN_VITAL.txt.

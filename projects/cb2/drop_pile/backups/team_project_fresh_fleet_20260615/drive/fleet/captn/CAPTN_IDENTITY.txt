@@ -1,0 +1,57 @@
+# CAPTN identity — face + email (when Brian picks)
+Updated: 2026-06-15
+
+## Face — received
+
+Brian painted CAPTN portrait (wood, captain, red bandana, weathered eyes).
+
+| File | Path |
+|------|------|
+| Original drop | `convert_inbox/20260615_041449.jpg` |
+| Canonical | **`fleet/captn/CAPTN_FACE.jpg`** |
+
+Use for: contact avatar, mesh radio, GV contact card, future CAPTN@ signature — not Gemini slop.
+
+---
+
+## Email — still HOLD on bking
+
+**bking17383@gmail.com** stays clean (business / R/L).
+
+CAPTN needs **separate** identity for on-the-road + fleet — not your personal inbox.
+
+---
+
+## Options (Brian pick one)
+
+| Account | Best for | Notes |
+|---------|----------|-------|
+| **tpgoround@gmail.com** | **On the road** · story · art handoffs | Easy click. Already yours. Good mobile lane. |
+| **philipenicolini** | Clean CAPTN-only identity | Old unused — zero story-mine noise if you want pure fleet |
+| **New Gmail** (e.g. captncb2@…) | Maximum separation | $0 · one-time setup · you own forever |
+
+**Recommendation for "on the road":** **tpgoround** — separate from bking, already on phone muscle memory, won't mix with Reddit/business.
+
+**Recommendation for pure CAPTN brand:** philipenicolini OR fresh captn@ if you want zero cross-talk with story mine.
+
+---
+
+## What moves when you pick
+
+| Lane | Moves to alt? |
+|------|----------------|
+| CAPTN email / Drive notifications | yes — alt account |
+| GV SMS (805) 751-6587 | **optional later** — still on bking bridge today |
+| Cursor account | stays bking unless you say switch |
+
+Say: **"CAPTN email = tpgoround"** (or philipenicolini / new) → CAPTN sets bridge docs only on that account.
+
+---
+
+## Not doing until you say
+
+- No inbox migration yet
+- No Google data mining
+- No auto-forward from bking without your OK
+
+Face is saved. Email waits your word.

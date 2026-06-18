@@ -1,0 +1,5 @@
+BRIAN_LAST_POST — 2026-06-17T14:31:11-07:00
+line=[2026-06-17T14:31:11-07:00 Brian via george/voice] George→Daddy: <pinged>
+lane=cpt
+routed=yes
+route=GEORGE → Daddy

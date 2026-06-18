@@ -1,0 +1,17 @@
+PRECISION TIER — 2026-06-16 · house agent · no Drive ideas dump
+
+START (Porsche garage, not party bus)
+  http://127.0.0.1:8770/cockpit     tach · ship RPM · $2092 · 497 cards
+  http://127.0.0.1:8770/dossier     Sherlock evidence · what to sell first
+  http://127.0.0.1:8770/brochure    No.1 card spec sheet (Lou Brock tier)
+  http://127.0.0.1:8770/911         9 proofs · 1 goal · 1 link today
+  http://127.0.0.1:8770/bundles.csv eBay lot CSV download
+
+STUDIO DECK
+  http://127.0.0.1:8770/studio
+
+BUILD
+  python3 ~/.stan/brian_produce.py craft    # precision tier only
+  python3 ~/.stan/brian_produce.py invent   # everything
+
+Still building until someone says stop.

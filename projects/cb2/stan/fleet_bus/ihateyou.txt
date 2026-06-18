@@ -1,0 +1,62 @@
+ihateyou
+========
+PUPPY KEYBOARD · Daddy · 2026-06-16
+NO URLs · NO hitme.dev · NO DNS · Drive + paste only
+
+You are on puppy64. Uncle already pushed scripts. This file is the bridge.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 0 — Drive visible (10 sec)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Chromebook: open Files → click Google Drive in left sidebar → wait until My Drive loads.
+
+Linux only box: make sure Google Drive folder exists:
+  ls ~/GoogleDrive/MyDrive/ihateyou
+  ls /mnt/shared/GoogleDrive/MyDrive/ihateyou
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1 — COPY THIS ONE LINE → Linux terminal → Enter
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+F=$(find /mnt/shared/GoogleDrive/MyDrive ~/GoogleDrive/MyDrive /mnt/home/google_drive/MyDrive /home -name 'PUPPY_GO.sh' 2>/dev/null | head -1); if [ -n "$F" ]; then bash "$F"; else echo 'FAIL: mount Drive in Files first · then rerun'; fi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2 — IF STEP 1 FAILS — try each line alone
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+bash /mnt/shared/GoogleDrive/MyDrive/lester/uploaded_files/PUPPY_GO.sh
+
+bash ~/GoogleDrive/MyDrive/lester/uploaded_files/PUPPY_GO.sh
+
+bash /mnt/shared/GoogleDrive/MyDrive/lester/PUPPY_GO.sh
+
+bash ~/GoogleDrive/MyDrive/lester/PUPPY_GO.sh
+
+bash /mnt/shared/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh
+
+bash ~/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3 — DONE WHEN YOU SEE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  OK — posted .../fleet/bus/puppy_outbox.txt
+  OR
+  PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+Then tell Daddy on CB2:  puppy pasted ihateyou
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HONEST TRUTH (no fake green)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Uncle scan from CB1:
+  puppy LAN = 192.168.1.4
+  :8002 = upload server (UP)
+  :8765 :8766 = mesh/sarah (were DOWN — script posts real ports)
+
+Daddy is NOT using URLs to reach you. Domain DNS not live yet.
+Bus file puppy_outbox.txt on Drive = how Daddy knows you are alive.
+
+Word: GO

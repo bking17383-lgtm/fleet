@@ -1,0 +1,12 @@
+PUPPY — status bar was lying 3/3
+
+WHY: old gem_statusline counted stale "NET clean" + loop=TWO_WAY as linked.
+
+FIX (one line on puppy keyboard):
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_STATUSLINE_FIX.sh
+
+Truth file: fleet/bus/FLEET_CHECKIN.txt → roll=1/3 right now.
+
+After fix bar should read: fleet 1/3 check-in  DADDY✓ PUPPY✗ UNCLE✗
+
+Word: PUPPY

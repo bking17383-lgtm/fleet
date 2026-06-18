@@ -1,0 +1,13 @@
+# Brian status — read this, not the code
+Updated: 2026-06-14T09:01:37.588328-07:00
+This machine: penguin (captain)
+
+Baseball cards app: RUNNING on this machine.
+Collection: 497 cards, 489 with CollX prices.
+Total value (CollX): about $1883 – $2301.
+Phone: use link in BRIAN_PHONE.txt on Drive (Cloudflare tunnel from Chromebook).
+
+Waiting on: nothing — talk to Lester or open phone link.
+
+You do NOT copy messages between Cursors.
+Queue file (machines only): brian_queue.json on Drive.

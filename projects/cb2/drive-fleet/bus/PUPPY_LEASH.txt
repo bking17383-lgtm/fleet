@@ -1,0 +1,9 @@
+PUPPY LEASH — page fix · 2026-06-16
+hitme.dev did not open (DNS/tunnel not live on home LAN yet).
+
+USE THIS on puppy — one command:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_LEASH.sh
+
+Opens: http://127.0.0.1:8770/puppy
+
+Word: PUPPY

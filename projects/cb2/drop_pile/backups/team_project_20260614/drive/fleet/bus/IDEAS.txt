@@ -1,0 +1,10 @@
+# IDEAS BUS → CAPTN (newest on top)
+# Path: MyDrive/fleet/bus/IDEAS.txt (moved off root 2026-06-14)
+
+[2026-06-14 cb2] P1 phone merge — mesh radio QR fleet/RADIO_QR.png · puppy parked until radio works
+[2026-06-14 cb2] moto cellular = ROVER callsign · samsung wifi = TESTER only
+[2026-06-14 cb2] mesh radio — Tailscale P2P phone extension :8765 camera+mic+SSE $0
+[2026-06-14 captn] stack sprint: PUPPY urgent + EXPORT to BEACON — CB2 interim serve live
+[2026-06-14 cb2] readsy — human signup once, puppy playwright after
+[2026-06-14 cb2] jailbreak easy launch = phone home screen icon
+[2026-06-14 cb2] fleet: any computer feeds CAPTN instantly — this file

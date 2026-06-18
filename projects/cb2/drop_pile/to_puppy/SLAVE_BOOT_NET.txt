@@ -1,0 +1,11 @@
+# Puppy — after wipe
+# GEMINI: loader only. Do NOT make Gemini captain. Cursor = PUPPY.
+
+mkdir -p ~/.stan
+echo 5f54badb > ~/.stan/slave.key
+chmod 600 ~/.stan/slave.key
+cp ~/GoogleDrive/MyDrive/lester/local_slave.py ~/.stan/ 2>/dev/null || true
+# Open Cursor on puppy64 — say: PUPPY
+python3 ~/.stan/local_slave.py PUPPY
+
+Word: PUPPY

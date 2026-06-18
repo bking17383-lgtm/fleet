@@ -1,0 +1,47 @@
+hitme.dev — tunnel public hostnames (cb2-daddy)
+Updated: 2026-06-15 · Brian bought domain
+
+Dashboard: https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+
+Zero Trust → Networks → Tunnels → cb2-daddy → Configure → Public Hostname
+
+Add these (Service type: HTTP):
+
+| Subdomain | Service URL | Notes |
+|-----------|-------------|-------|
+| @ (hitme.dev) | http://localhost:8770 | Who / landing |
+| who | http://localhost:8770 | Same roster |
+| fleet | http://localhost:8770 | **Fleet board** · spin · roll call |
+| george | http://localhost:8770 | George voice / float |
+| sarah | http://localhost:8766 | Appointment demo |
+| mesh | http://localhost:8765 | When mesh_radio up |
+| cards | http://localhost:8002 | **Card scanner** · CollX · Stripe Pro |
+| bun | http://localhost:8770 | **Bunny lab alias** · same as /bunny · fixes 501 |
+
+Save each. Connector must run on the box where :8002 is live (CB1 now):
+  source ~/.stan/cloudflare.env && cloudflared tunnel run --token "$CLOUDFLARE_TUNNEL_TOKEN"
+
+Or: bash ~/.stan/hitme_manage.sh (starts who + sarah, then start tunnel separately)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLI DNS (optional — after one login)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Once on CB2:
+  cloudflared tunnel login
+  bash ~/.stan/hitme_manage.sh dns
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL ROUTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/hitme.dev/email/routing
+
+Enable → verify destination tpgoround@gmail.com
+Rules:
+  hello@hitme.dev  → tpgoround@gmail.com
+  fleet@hitme.dev  → tpgoround@gmail.com (optional)
+
+Send-as: Gmail → Settings → Send mail as → hello@hitme.dev
+
+CAPTN email lane unlocked without touching bking.

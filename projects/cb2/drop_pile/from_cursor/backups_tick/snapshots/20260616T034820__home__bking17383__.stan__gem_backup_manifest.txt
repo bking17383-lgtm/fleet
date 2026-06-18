@@ -1,0 +1,17 @@
+# Gem backup manifest — local paths (one per line; # = comment)
+# Updated by Gem · interrupt-safe rolling backup
+
+/home/bking17383/.stan/uncle_exec.sh
+/home/bking17383/.stan/gem_backup_watch.sh
+/home/bking17383/.stan/gem_backup_manifest.txt
+/home/bking17383/.stan/gem_live_gate.py
+/home/bking17383/.cursor/rules/gem-position.mdc
+/home/bking17383/.cursor/rules/uncle-voice.mdc
+/mnt/shared/GoogleDrive/MyDrive/fleet/bus/gem_to_cpt.txt
+/mnt/shared/GoogleDrive/MyDrive/fleet/bus/uncle_to_cpt.txt
+/mnt/shared/GoogleDrive/MyDrive/fleet/bus/cpt_to_gem.txt
+/mnt/shared/GoogleDrive/MyDrive/fleet/bus/cpt_ack_uncle.txt
+/mnt/shared/GoogleDrive/MyDrive/fleet/FIRST_PRIORITY.txt
+/mnt/shared/GoogleDrive/MyDrive/lester/gemini_live_url.txt
+/mnt/shared/GoogleDrive/MyDrive/lester/gem_live_gate.html
+/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_cursor/GEM_LIVE_QR.png

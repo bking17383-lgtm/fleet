@@ -1,0 +1,31 @@
+# CollX export is in your EMAIL — not on Drive yet
+
+Lester and Cursor cannot read Gmail attachments directly.
+You must save the file once (2 minutes).
+
+## On Chromebook (Chrome browser — NOT Linux terminal)
+
+1. Open Gmail
+2. Find the email from CollX with your collection export (CSV attachment)
+3. Click the attachment
+4. Choose ONE:
+   A) "Save to Drive" → pick folder: collx_inbox
+   B) Download → open Chrome OS Files → drag file into Google Drive → collx_inbox
+
+5. On phone baseball app: CollX tab → Scan Drive
+
+OR on Chromebook: http://127.0.0.1:8002 → CollX tab → Scan Drive
+
+## Folder created for you
+
+Google Drive → collx_inbox/
+
+Put ANY CollX CSV there. Cursor auto-finds it (any name).
+
+## If you only have the email on phone
+
+1. Open CollX export email on phone
+2. Save attachment to Google Drive → collx_inbox folder
+3. Refresh baseball app → Scan Drive
+
+No collx_export.csv required — any CSV in collx_inbox works.

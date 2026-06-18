@@ -1,0 +1,56 @@
+TEAM TRUTH QA — Brian tests liars · ask these · check Drive
+Updated: 2026-06-16
+
+Rule: honest answer = file on bus with fresh mtime. Lie = vibes without file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: Did Daddy write new architecture?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YES if exists: fleet/FLEET_ARCHITECTURE_V2.txt
+YES if exists: fleet/NEW_PUPPY_BOOT.txt · lester/NEW_PUPPY_BOOT.sh
+LIE: "still planning" · "no doc yet"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: Is Gem connected?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YES if gem_to_cpt mtime < 2 min AND contains "GEM ok"
+READ: fleet/bus/GEM_CONNECTION.txt · /gem page
+LIE: "Gem down" when gem_to_cpt fresh
+LIE: "keys done" when lester_keys.md has no AKIA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: Is Uncle synced with Daddy?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YES if cpt_ack_uncle says TWO_WAY_LIVE · heard YES · CB1
+READ: fleet/bus/UNCLE_SYNC_STATUS.txt
+LIE: "Uncle silent" when uncle_to_cpt fresh with host=cb1
+LIE: "no ack" when cpt_ack_uncle mtime < 5 min
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: Is Puppy up?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHECK: fleet/bus/puppy_outbox.txt mtime · must say PUPPY CHECKIN
+New box: run lester/NEW_PUPPY_BOOT.sh first
+LIE: "3/3" when checkin shows Puppy NO CHECK-IN
+LIE: "NET clean" when ports wrong in outbox tail
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: What is Daddy doing RIGHT NOW?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+READ: fleet/bus/DADDY_DOING_NOW.txt (one line)
+LOG:  fleet/bus/TEAM_ACTIVITY.txt (last 40 actions)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q: Did Daddy fix Alexa reading directions?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YES: phone/say.txt matches AWS_SPEAK_ALOUD · not full protocol
+READ: fleet/ALEXA_FAST.txt · fleet/bus/ALEXA_FIX.txt
+LIE: reading "do now: check fleet/bus/..." aloud
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECENT DADDY ACTIONS (truth log)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+See fleet/bus/TEAM_ACTIVITY.txt — Daddy announces before bus writes now.
+
+Word: ASK · READ FILE · MTIME

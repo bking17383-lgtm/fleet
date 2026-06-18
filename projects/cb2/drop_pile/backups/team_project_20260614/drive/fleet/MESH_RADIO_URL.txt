@@ -1,0 +1,8 @@
+MESH RADIO — phone base (works on LTE, no Tailscale needed)
+
+https://however-stolen-fee-charleston.trycloudflare.com/rover
+
+ROVER lane for Moto: fleet/ROVER_RADIO_URL.txt
+Add to Home Screen. Name: ROVER
+Updated: 2026-06-14T17:27:14-07:00
+Keep Chromebook awake.

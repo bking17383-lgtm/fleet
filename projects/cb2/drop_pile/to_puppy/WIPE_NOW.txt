@@ -1,0 +1,32 @@
+WIPE THE BOYS — puppy + uncle
+Updated: 2026-06-15
+
+CB2 (you are here): DO NOT WIPE. Linux stays. CPT stays.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PUPPY (NET) — do in order
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. bash MyDrive/lester/pack_before_wipe.sh
+2. Wait until you see PACKED
+3. Wipe / fresh install the machine
+4. After reboot: mount Drive only — wait for CPT order
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNCLE (STUDIO / CB1) — same
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. bash MyDrive/lester/pack_before_wipe.sh
+2. PACKED
+3. Wipe / fresh Linux reload
+4. Mount Drive — wait for CPT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NO CONFLICT WITH CB2
+
+  Wiping puppy and uncle does NOT kill CB2 Linux.
+  Three separate machines. Only wipe the box you are on.
+
+Pack saves to: drop_pile/backups/pack_<hostname>_<date>/
+
+Word when packed: PACKED

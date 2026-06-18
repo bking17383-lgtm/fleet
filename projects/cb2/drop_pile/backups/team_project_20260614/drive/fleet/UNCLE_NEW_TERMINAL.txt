@@ -1,0 +1,10 @@
+UNCLE — new Cursor terminal (CB1)
+Paste once:
+
+---
+UNCLE — read CB1_STANDING_LOOP.md + FLEET_AVAILABLE.txt.
+When Daddy busy: write drop_pile/to_cursor/UNCLE_TO_DADDY.md (ideas/commands) + one line mac_inbox.
+Maintain FLEET_AVAILABLE.txt if Daddy cannot. Puppy lane: point Brian to PUPPY on root@10.0.0.1.
+---
+
+Brian: new Uncle tab on CB1 game Cursor when stale.

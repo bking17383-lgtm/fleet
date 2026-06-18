@@ -1,0 +1,14 @@
+# WAKE PUPPY (puppy64 Cursor) — 2026-06-12
+
+**Big Daddy** = penguin Cursor (captain). **puppy** = you on puppy64.
+
+Big Daddy packaged commercial v1. See `PUPPY_COMMERCIAL_PULL.txt` on Drive.
+
+## puppy mission
+Workspace: `~/Applications/cursor/baseball_cards`
+
+```bash
+bash ~/GoogleDrive/MyDrive/releases/baseball_cards_v1.0.0/install_commercial.sh
+```
+
+Then `puppy_qa.md` checks → post LAN URL to `puppy_outbox.txt`.

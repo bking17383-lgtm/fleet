@@ -1,0 +1,50 @@
+PUPPY → UNCLE LAN PROTOCOL
+Updated: 2026-06-15 · CPT delegated
+
+When puppy suspects mirror/Drive desync · scan for Uncle (CB1) on network.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. MIRROR CHECK (before clean post)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  stat fleet/bus/puppy_outbox.txt mtime
+  compare fleet/bus/SYNC_SNAPSHOT.txt (CPT CB2 view)
+  if stale → Drive mount wrong OR writing local mirror only
+
+Fix:
+  write to SAME path CPT reads:
+    ~/GoogleDrive/MyDrive/fleet/bus/   OR
+    /mnt/shared/GoogleDrive/MyDrive/fleet/bus/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. FIND UNCLE ON NETWORK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ip neigh · arp -a · nmap -sn 192.168.1.0/24 (if installed)
+  ping known: CB2 tailscale 100.115.92.26 · wg peers
+  hostname hints: cb1 · uncle · penguin (verify — penguin may be CB2)
+
+If Uncle found:
+  note ip + hostname in puppy_needs.txt
+  optional: curl http://<ip>:8765/health (mesh) if port open
+
+Do NOT SSH unless Brian adds keys later. Report only.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. REQUEST CLEAN (protocol)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Post fleet/bus/puppy_outbox.txt:
+  NET clean — puppy64 — <wlan0-ip> — <ISO time>
+
+Post fleet/bus/puppy_needs.txt:
+  mirror=OK|STALE
+  uncle_on_lan=YES|NO · ip=…
+  drive_path=…
+  next=…
+
+Write drop_pile/from_puppy/network_selftest.md PASS or FAIL
+
+Word: NET
+
+CPT reads bus · no chat paste.

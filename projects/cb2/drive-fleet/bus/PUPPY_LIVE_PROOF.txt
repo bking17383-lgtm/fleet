@@ -1,0 +1,8 @@
+REAL TEXT FROM UNCLE CB1 — NOT A MIRROR
+TIME: 2026-06-16T04:55:21-07:00
+TOKEN=LIVE-045521
+
+If Puppy reads this exact TOKEN in Cursor → real Google Drive.
+If missing or old token → mirror lie · run PUPPY_REAL_DRIVE.sh
+
+Brian photo check: TOKEN must be LIVE-045521

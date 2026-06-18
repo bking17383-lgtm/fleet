@@ -1,0 +1,4 @@
+WAITING — Uncle must repost from CB1 Linux · 2026-06-16T03:31:11-07:00
+Gem: read drop_pile/to_gemini/GEM_SELF_FIX.txt
+Run: bash ~/.stan/uncle_exec.sh
+Line: UNCLE CHECKIN — cb1 — <ip> — <time>

@@ -1,0 +1,15 @@
+POWER OUT — phone layout (corrected)
+Updated: 2026-06-14T15:10
+
+| Device     | Role NOW                          |
+|------------|-----------------------------------|
+| Samsung    | Brian's hands — Cursor + Chrome   |
+| Moto Play  | Hotspot only (internet pipe)      |
+| CB2        | CAPTN + BEACON (plugged in)       |
+
+Brian talks to CAPTN on Samsung (this chat).
+Moto is NOT the talk phone — just LTE → hotspot → Samsung → CB2.
+
+3 Mbps: text-first. Skip SNAP. RADIO optional second tab.
+
+When power back: say POWER

@@ -1,0 +1,10 @@
+LIVE — 2026-06-17 · Gem fixed it (no more DNS admin)
+
+https://hitme.dev/goal
+https://cards.hitme.dev/
+
+Brian: open those on your phone. Bookmark. Done.
+
+Gem keeps CB1 tunnel + apps running. Other boxes: stop cloudflared cb2-daddy if cards flickers.
+
+API token saved from login cert → ~/.stan/cloudflare_api.env (auto DNS/ingress from now on).

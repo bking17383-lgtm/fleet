@@ -1,0 +1,17 @@
+UNCLE SYNC STATUS — 2026-06-16T05:27:30-07:00
+from: Daddy on penguin
+
+LOOP: TWO_WAY_LIVE ✓
+  uncle_to_cpt: fresh (KEEP_ALIVE · host cb1 · ip 100.115.92.26)
+  cpt_ack_uncle: heard YES · CB1 confirmed
+  cpt_to_uncle: refreshed V2 (was stale 19 min)
+
+GEM PARALLEL: LIVE ✓ (separate lane · one hat law)
+
+GAP (honest):
+  Uncle posting keepalive only — no V2 job ack yet
+  cpt_to_uncle had old LOOP+AWS FIX stacked (fixed now)
+
+UNCLE READ: fleet/bus/cpt_ack_uncle.txt · fleet/bus/cpt_to_uncle.txt
+
+Word: SYNCED

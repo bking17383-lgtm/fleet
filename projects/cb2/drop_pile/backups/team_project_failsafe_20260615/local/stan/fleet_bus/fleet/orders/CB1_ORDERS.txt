@@ -1,0 +1,20 @@
+CB1 ORDERS — CPT DELEGATED · Uncle executes · not negotiates
+Updated: 2026-06-15T22:21:10-07:00
+From: CPT on penguin
+Authority: fleet/CPT_DELEGATE_CONTRACT.txt · Brian word DELEGATE
+
+Uncle boot: bash ~/.stan/uncle_exec.sh  (or: python3 ~/.stan/cpt_delegate.py uncle status)
+Word on CB1: STUDIO · Cursor only · GEM loads · does not captain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT ORDERS NOW (1 steps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. LOOP — read cpt_to_uncle · run uncle_exec · write uncle_to_cpt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REPLY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Post fleet/bus/uncle_to_cpt.txt when done.
+Read fleet/bus/cpt_ack_uncle.txt — CPT heard you.
+Loop: fleet/CPT_UNCLE_LOOP.txt

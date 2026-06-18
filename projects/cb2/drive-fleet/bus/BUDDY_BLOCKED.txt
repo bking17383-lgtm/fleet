@@ -1,0 +1,5 @@
+BUDDY_BLOCKED — 2026-06-15T23:37:37-07:00
+gdoc=NO access via Gemini API (expected)
+chat_paste=FORBIDDEN
+fast_path=Brian edits aws_key_drop.txt locally OR copies gdoc in Chrome Files
+then=CPT GRAB keys + Bedrock probe

@@ -1,0 +1,31 @@
+NAMING LAW — one word each · retire Daddy/Captn chaos
+Updated: 2026-06-15
+
+Brian talks to ONE Cursor brain on CB2. Say:
+
+  CPT
+
+Retired words (still accepted → routed to CPT):
+  DADDY · CAPTN · CAPTAIN · CAPT · DADDY · BEACON · WRANGLER · PLATE
+
+Do NOT use retired words in new fleet docs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE ROLES (not names)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Word    | Box      | Agent        | Job |
+|---------|----------|--------------|-----|
+| CPT     | CB2      | Cursor       | Captain · Brian contact · delegate |
+| NET     | puppy64  | Cursor       | All network · mesh · tunnels · URLs |
+| STUDIO  | CB1      | Gemini       | Design · copy · Sarah · marketing |
+
+Puppy = NET person for everything socket-facing. CPT does not run tunnels long-term.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEMINI ON TEAM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Great: STUDIO reads orders · posts mac_outbox · never captains.
+Weird: Gemini opens second inbox · contradicts CPT · becomes "the agent."
+Law: Gemini loads STUDIO only. Orders file is ceiling.

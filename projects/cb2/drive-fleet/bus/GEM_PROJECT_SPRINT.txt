@@ -1,0 +1,57 @@
+GEM PROJECT SPRINT — 2026-06-16T08:12:00-07:00
+Brian: Daddy dark · Gem isolated · network + Drive · impress ready
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ALEXA — DONE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+say.txt clean · alexa_speech.py on cb1 · Brief Mode = Brian one click
+Test line: "Connection failed. Ports 8002 and 8765 are down" → filtered for Echo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. MESH / ROVER — LIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+:8765 UP · /rover 200 · tunnel fleet/MESH_RADIO_URL.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. SARAH — LIVE cb1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+http://100.115.92.26:8766/sarah · snap post-it · voice confirm
+Updated: fleet/SARAH_VOICE_URL.txt (LAN until tunnel)
+Text Sarah when Brian says go
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. HITME — LIVE cb1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+:8770 UP · /goal /checkin /tv · heritage card_demo linked
+http://100.115.92.26:8770/goal
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. BASEBALL / CollX — LIVE cb1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+:8002 UP · scan_cheats.json ready · free_lester LIVE
+http://100.115.92.26:8002 · Hybrid C pipeline on Drive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. JAILBREAK — READY v0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+free_lester_instructions.md LIVE · scan_cheats.json v3
+:8788 Gem Live gate · lester/gemini_live_url.txt
+:8766 Sarah (was sink — split done on cb1)
+Need: one real Live session + one card grade
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. HERITAGE CARDS — DEMO READY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+lester/heritage/card_demo.html · hitme /design desk
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. STORY → GAMES — CATALOG NEXT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Say DRIVE · Gem catalogs convert_inbox + stories
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOCKED (honest)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AWS keys · named sarah.hitme.dev DNS · Dog training · Daddy looped
+
+Word: SPRINT · READY

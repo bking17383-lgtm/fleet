@@ -1,0 +1,38 @@
+AUDITOR COMPILE LAW — 2026-06-17
+Brian: Daddy must NOT read other people's proposals (e.g. bigbutt)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SEALED (Fresh Cursor auditor ONLY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  drop_pile/auditor_inbox/SEALED/
+    bigbutt*  ← third party · Daddy never cat/open/read
+
+  Daddy may: find by filename · cp · sha256 · byte count · manifest line ONLY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPEN (compile with Bunny + fleet context)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  drop_pile/auditor_inbox/COMPILE/
+    fleet/   FARTHEAD · BUDDY_POISON · FRESH_CURSOR_BOOT · etc.
+    bunny/   TO_BUNNY · PROJECTS_BUNNY
+    MANIFEST.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUILD PACKET (no read sealed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/auditor_seal_compile.sh
+
+  Fresh Cursor opens COMPILE + reads SEALED (auditor job)
+  Bunny reads COMPILE/bunny + open fleet only · NOT sealed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BIGBUTT STATUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  NOT FOUND on Drive yet (filename search only · 2026-06-17)
+  When Brian drops file: name must contain bigbutt · run seal script
+
+Word: SEALED · NO PEEK · COMPILE

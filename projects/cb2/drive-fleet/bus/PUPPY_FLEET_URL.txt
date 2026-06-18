@@ -1,0 +1,11 @@
+PUPPY — 2026-06-16T10:57:08-07:00
+OPEN (works now): https://concluded-peers-generation-counties.trycloudflare.com/puppy
+TEAM: https://concluded-peers-generation-counties.trycloudflare.com/goal
+CHECKIN: https://concluded-peers-generation-counties.trycloudflare.com/checkin
+
+Also: fleet/HITME_LIVE_URL.txt · fleet/bus/WORKING_URL.txt
+
+One command (puppy keyboard):
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+hitme.dev: DNS not wired — use QUICK url above

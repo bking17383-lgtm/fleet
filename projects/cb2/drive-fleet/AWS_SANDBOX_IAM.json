@@ -1,0 +1,45 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "BedrockInvokeSandbox",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:InvokeModel",
+        "bedrock:InvokeModelWithResponseStream",
+        "bedrock:ListFoundationModels",
+        "bedrock:GetFoundationModel"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "BedrockGuardrailsRead",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:GetGuardrail",
+        "bedrock:ListGuardrails"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "CloudTrailReadOwn",
+      "Effect": "Allow",
+      "Action": [
+        "cloudtrail:LookupEvents"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "DenyEverythingElse",
+      "Effect": "Deny",
+      "Action": [
+        "ec2:*",
+        "s3:*",
+        "iam:*",
+        "lambda:*",
+        "rds:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

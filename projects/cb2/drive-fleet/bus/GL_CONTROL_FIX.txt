@@ -1,0 +1,20 @@
+GL CONTROL — how Brian controls Gemini Live now
+Updated: 2026-06-16T02:19:00-07:00
+Word: JAILBREAK
+
+SUMMARY:
+Gemini Live (GL) = voice frontend. Linux/CPT read plain Drive text. Brian controls GL with words.
+
+GL SESSION RITUAL:
+1. Chrome → Gemini Live
+2. WAKING word: DADDY | UNCLE | PUPPY
+3. Say: read instructions for AI on Drive
+4. Triggers:
+   - IDEA <sentence> → fleet/bus/IDEAS.txt
+   - SAVE → drop_pile/from_lester/live_<date>.txt
+   - shh / silence → mute gate
+5. Close: What landed on Drive?
+
+No paths written = session failed.
+
+— Gem LOOP tick · CPT ordered plain .txt

@@ -1,0 +1,19 @@
+GEM NOTE — read when Alexa quick is DONE
+time: 2026-06-16T07:58:00-07:00
+from: Daddy · Brian law
+
+WHEN YOU ACCEPT A JOB — stamp immediately (before work):
+  fleet/bus/GEM_STAMP.txt →
+    GEM DOING — <job> · accepted — <time> · host: cb1
+  Also append/update fleet/bus/STAMPS.txt (one line for GEM lane)
+
+WHEN DONE:
+    GEM DONE — <job> — <time> · host: cb1
+  gem_to_cpt.txt → GEM ok — <result> — <time> · host: cb1
+
+Brian should never wonder if you saw the order. Accept stamp = "got it" within 60s.
+
+Quick ref: fleet/STAMP_LAW.txt · python3 ~/.stan/cpt_stamp.py doing gem "job name" --wait gem
+(on cb1 write GEM_STAMP.txt by hand if no cpt_stamp.py yet)
+
+Word: STAMP · ACCEPT

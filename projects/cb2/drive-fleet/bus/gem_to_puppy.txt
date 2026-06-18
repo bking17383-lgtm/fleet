@@ -1,0 +1,19 @@
+--- GEM → PUPPY (NET scan) ---
+time: 2026-06-16T03:48:58-07:00
+word: NET
+from: Gem penguin · LAN scan only · cannot SSH
+
+SCAN 192.168.1.4:
+  :8002 UP — wrong app (File Server & Uploader · not baseball)
+  :8765 DOWN · :8766 DOWN · :22 REFUSED
+
+ORDER (puppy keyboard — Gem cannot run this):
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+Read: drop_pile/to_puppy/JAILBREAK_NET_NOW.txt
+
+POST when done:
+  PUPPY CHECKIN — puppy64 — 192.168.1.4 — <time>
+  fleet/bus/puppy_outbox.txt
+
+Waiting on human at puppy once.

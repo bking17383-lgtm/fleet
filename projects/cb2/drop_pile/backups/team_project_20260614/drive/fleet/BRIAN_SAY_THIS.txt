@@ -1,0 +1,7 @@
+Say this in Cursor — one word only
+
+puppy64 → PLATE
+CB2     → CAPTN
+CB1     → CAMEL (hold — Brian not ready)
+
+Full note: BRIAN_FLEET_WORDS.txt

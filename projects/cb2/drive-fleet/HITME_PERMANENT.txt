@@ -1,0 +1,54 @@
+hitme.dev — PERMANENT (not patchy)
+Updated: 2026-06-16
+
+WHY "5 MINUTES"
+  That was ONE-TIME dashboard work — not tunnel lifetime.
+  trycloudflare = random URL · dies on reboot · PATCHY
+  hitme.dev + named tunnel = SAME URL FOREVER · $0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE TIME (Brian ~5 min — then never again)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Cloudflare tunnel → Public Hostnames → Add:
+   @ or blank  → hitme.dev  → http://localhost:8770
+   cards        → hitme.dev  → http://localhost:8002
+
+   https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+
+   Save each → Cloudflare creates DNS automatically.
+
+2. CB1 Linux (once, then on every boot):
+   bash ~/.stan/hitme_always.sh
+
+3. Stripe permanent URL in ~/.stan/stripe.env:
+   BILLING_PUBLIC_URL=https://cards.hitme.dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FOREVER URLs (after step 1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  https://hitme.dev/goal          welcome / fleet
+  https://cards.hitme.dev/        card scanner + paywall
+  hello@hitme.dev                 email (optional routing)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GEM/CB1 KEEPS RUNNING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  hitme_always.sh:
+    • :8770 hitme_who
+    • :8002 baseball
+    • named cloudflared (kills quick tunnels)
+    • writes fleet/HITME_STATUS.txt
+
+  No SSH · no mesh · Drive + one tunnel token.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STOP USING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  *.trycloudflare.com  — dev only · rotates
+  Tailscale for strangers — you only · not customers
+
+Word: PERMANENT · say dns in when hostnames saved

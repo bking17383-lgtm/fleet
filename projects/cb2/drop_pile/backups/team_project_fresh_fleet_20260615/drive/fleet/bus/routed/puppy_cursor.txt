@@ -1,0 +1,6 @@
+# puppy64 — Cursor PUPPY
+# Routed 2026-06-15 — network delegate
+
+PUPPY — read drop_pile/to_puppy/PUPPY_DELEGATE_NETWORK_NOW.md.
+You are network delegate + execute. CAPTN delegates only.
+Post puppy_outbox hostname puppy64. Phone self-test only — do not wake Brian.

@@ -1,0 +1,36 @@
+ALEXA REAL ECHO — Daddy · CB2 · 2026-06-17
+============================================
+
+You have a real Echo in the room. CB2 does NOT speak out loud anymore.
+
+Same line repeating?
+  • Fixed: seq/ack queue — each line speaks once, then say.txt clears to
+    "(heard — mic open for next)"
+  • Stale loop cleared on penguin — new lines only when Daddy posts fresh text
+
+Mic open (learn first — no execute just now)
+  • Open http://127.0.0.1:8770/voice · MIC ON
+  • Saves to phone/heard.txt + fleet/bus/ALEXA_LEARN.jsonl
+  • Does NOT run fleet orders or queue say.txt while learn=1
+  • When ready: fleet/bus/ALEXA_LEARN_MODE.txt → learn=0
+
+Mic open (execute later)
+  • learn=0 on Drive · AWS brain (cheap echo shape) · one say.txt line · real Echo speaks
+
+What Daddy does on CB2
+  • Filters fleet junk (no paths, no "do now", no "tell captain")
+  • Writes clean text to phone/say.txt when something NEW happens
+  • Same text never re-queues
+
+Wake word "daddy"
+  • Stock Echo still wakes on "Alexa"
+  • Routine: When you say "daddy" → read phone/say.txt IF not "(heard…)"
+  • Or use /voice MIC ON for live back-and-forth
+
+One-time Echo tuning (fleet/ALEXA_FAST.txt)
+  • "Alexa, enable Brief Mode"
+  • Turn off start/end request sounds on that device
+
+Check it
+  • say.txt should say "(Daddy heard — mic open for next)" between messages
+  • If she loops old text, say "Alexa stop" and ping Daddy

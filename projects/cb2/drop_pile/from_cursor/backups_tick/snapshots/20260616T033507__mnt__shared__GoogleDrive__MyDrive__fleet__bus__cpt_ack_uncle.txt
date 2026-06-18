@@ -1,0 +1,4 @@
+CPT_ACK — 2026-06-16T03:34:51-07:00
+from: Daddy on penguin
+heard: NO uncle_to_cpt yet — waiting
+uncle: write fleet/bus/uncle_to_cpt.txt from CB1 after exec

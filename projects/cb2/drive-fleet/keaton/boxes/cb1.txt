@@ -1,0 +1,5 @@
+# cb1 — 72GB · APP HOST
+may_start: cards hitme sarah mesh gem-studio
+may_edit: ~/.stan/stripe.env lester/baseball_cards/* ~/gem-studio/*
+hitme_role: tunnel_owner
+forbidden: lester6_to_daddy.md cpt_to_*

@@ -1,0 +1,33 @@
+ERROR 1033 — why it happens on RADIO (not Daddy baseball)
+Updated: 2026-06-14
+
+1033 = Cloudflare cannot reach the tunnel. On phone almost always means STALE BOOKMARK.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY DADDY SEEMED STABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Named tunnel (cb2-daddy token) runs 24/7 for baseball — fixed hostname when dashboard set.
+
+RADIO uses quick tunnel (trycloudflare.com) — NEW random URL every time we reboot radio/tunnel.
+
+Old Home Screen icon → 1033.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIX NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1) Open fleet/MESH_RADIO_URL.txt — copy CURRENT link only
+2) Delete old RADIO shortcut on phone
+3) Scan fleet/RADIO_QR.png OR CB2 http://127.0.0.1:8765/qr
+4) Add to Home Screen again
+
+CURRENT (check file — do not memorize):
+  fleet/MESH_RADIO_URL.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STABLE LATER
+
+Puppy hosts mesh on named tunnel OR Tailscale 100.115.92.26:8765
+
+Do NOT say reboot radio unless 1033 — each reboot may change URL.

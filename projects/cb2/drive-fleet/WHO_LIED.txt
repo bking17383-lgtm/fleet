@@ -1,0 +1,15 @@
+WHO LIED — 2026-06-16T03:03:20-07:00
+
+DADDY/CB2: YES — ran uncle_exec + gem_loop_bridge on penguin
+  → fake uncle_to_cpt with host=penguin
+  → bar showed STUDIO ✓ while Uncle on CB1 was real
+
+UNCLE/CB1: NO — ready but posts overwritten or never reached Drive
+
+PUPPY: NO — reboot did not update fleet/bus/puppy_outbox.txt on Drive
+  → last write 00:17 · puppy may post local path not synced
+
+FIX:
+  CB1: bash ~/.stan/uncle_exec.sh (hostname NOT penguin)
+  puppy: bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+  CB2: uncle_exec now REFUSES penguin

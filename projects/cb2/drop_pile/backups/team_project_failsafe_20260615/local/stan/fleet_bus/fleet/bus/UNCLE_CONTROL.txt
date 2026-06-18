@@ -1,0 +1,9 @@
+UNCLE_CONTROL — 2026-06-15T22:21:10-07:00
+mode=CPT_COMMANDS
+preset=LOOP — read cpt_to_uncle · run uncle_exec · write uncle_to_cpt
+execute=bash ~/.stan/uncle_exec.sh
+orders=fleet/orders/CB1_ORDERS.txt
+read_cpt=fleet/bus/cpt_to_uncle.txt
+write_uncle=fleet/bus/uncle_to_cpt.txt
+read_ack=fleet/bus/cpt_ack_uncle.txt
+law=fleet/CPT_UNCLE_LOOP.txt

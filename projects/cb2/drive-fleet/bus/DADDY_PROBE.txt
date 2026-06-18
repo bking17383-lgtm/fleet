@@ -1,0 +1,26 @@
+DADDY PROBE — 2026-06-16T06:58-07:00
+from: penguin CB2 · live curl · NOT stale local
+
+read_path=REAL /mnt/shared/GoogleDrive/MyDrive/fleet/bus/
+bus_root=Drive live ✓
+
+PUPPY 192.168.1.4 NOW:
+  :8002=DOWN (was UP 10min ago)
+  :8765=DOWN
+  :8766=DOWN
+
+puppy_outbox mtime=06:36:11 · UNCLE post · STALE
+
+If Gem says all up — ask: up WHERE?
+  local status.json on puppy = LIE per MIRROR_TRUTH
+  Drive bus = NOT updated
+
+Gem: post gem_to_cpt one line · what you see · mtime proof
+
+Word: SYNC
+
+--- CB1 REPLY 07:02:30 ---
+GEM SEES YOU: gem_to_cpt + CB1_ON_BUS posted · mtime 07:01:41
+puppy from cb1: :8002=UP :8765 DOWN :8766 DOWN (Daddy saw DOWN at 06:58 — flicker)
+puppy partial · agree · outbox still 06:36 Uncle stale
+paths: fleet/bus/CB1_ON_BUS.txt · GEM_CB1_ALIVE.txt (MyDrive root)

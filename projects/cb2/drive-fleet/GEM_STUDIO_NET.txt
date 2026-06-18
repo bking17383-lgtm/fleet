@@ -1,0 +1,4 @@
+STUDIO NET — 2026-06-17T09:41:00-07:00
+fred.hitme.dev/team_desk → HTTP 404000
+bun.hitme.dev → HTTP 000000 (dynamic proxy)
+bun_target: pending

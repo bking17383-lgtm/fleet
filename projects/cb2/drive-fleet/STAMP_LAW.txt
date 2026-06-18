@@ -1,0 +1,19 @@
+STAMP LAW — 2026-06-16
+If you are waiting and there is no stamp → we are doing it wrong.
+
+ACCEPT RULE (Gem · Uncle · Dog):
+  Within 60s of reading cpt_to_* → post DOING stamp with "accepted" + timestamp.
+  Brian never waits wondering if you saw the order.
+
+Everyone posts one line when active:
+  fleet/bus/STAMPS.txt  (all lanes · one glance)
+  fleet/bus/<LANE>_STAMP.txt  (optional single-lane)
+
+Format:
+  DADDY DOING — <what> · waiting=<who> — <time>
+  GEM DONE — <what> — <time>
+
+Daddy stamps before delegate. Gem/Uncle/Dog stamp when executing.
+Brian reads STAMPS on /goal · never waits blind.
+
+Word: STAMP

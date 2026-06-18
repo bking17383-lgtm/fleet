@@ -1,0 +1,14 @@
+GEM CONTACT LAW — Brian 2026-06-16
+Updated: 2026-06-16
+
+EMAIL Brian only when away: bking17383@gmail.com
+Script: ~/.stan/gem_notify_brian.py · Drive ping fleet/bus/BRIAN_AWAY_PING.txt
+
+DO NOT:
+  • SMS/call Sarah or anyone in Brian's contact list
+  • Mass tester outreach without Brian word in BRIAN_INBOX
+  • Route fleet noise through bking inbox (CAPTN_EMAIL_HOLD)
+
+GV (805) 751-6587 — fleet internal use · not for cold-calling contacts
+
+Sarah link when Brian says SEND — not automatic.

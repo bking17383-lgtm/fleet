@@ -1,0 +1,35 @@
+ALEXA FAST — Daddy fix 2026-06-16
+==================================
+
+Problem: Echo was reading fleet protocol aloud (do now / fleet/bus paths / tell captain).
+
+Fix on penguin (~/.stan):
+  alexa_speech.for_aloud() strips meta before phone/say.txt
+  Full reply still on fleet/bus/AWS_SPEAK.txt
+  Speakable only on fleet/bus/AWS_SPEAK_ALOUD.txt
+
+Web tricks (user-side — do once on Echo):
+  1. Brief Mode ON — Alexa app → More → Settings → Voice Responses
+     Or say: "Alexa, enable Brief Mode"
+     Shorter replies + chime instead of "OK got it"
+  2. Per device: Device Settings → Sounds → turn OFF Start/End of request
+     Notification sound → None (cuts extra chatter)
+  3. Routines: avoid "Alexa says" steps; use actions only
+     Bundle with Wait(1s) not speech between steps
+  4. Whisper Mode for night: "Alexa, enable whisper mode"
+  5. Follow-up mode OFF where you sleep (fewer open-mic loops)
+
+Dev-side (our stack — done):
+  • Keep aloud text under ~180 chars / ~70 words (Alexa skill best practice)
+  • No file paths, no "do now", no "tell captain" on say.txt
+  • Status-only compact: "Connection failed. Ports 8002 and 8765 are down."
+  • Browser TTS on /goal uses same filter via hitme /voice
+
+If she still reads directions:
+  Check phone/say.txt on Drive — should match AWS_SPEAK_ALOUD not AWS_SPEAK
+  Re-run: python3 ~/.stan/aws_speech.py  (or any cpt_talk turn)
+
+SSML (if we build a custom skill later):
+  <prosody rate="fast">...</prosody> for speed
+  <prosody volume="silent">...</prosody> to hide text from speech
+  Progressive response API for "one sec" while AWS thinks

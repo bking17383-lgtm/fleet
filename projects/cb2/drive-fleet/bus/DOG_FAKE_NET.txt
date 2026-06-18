@@ -1,0 +1,8 @@
+DOG FAKE NET — 2026-06-17T03:48:40-07:00
+HONEST: these ports are FAKE drill endpoints · not fleet green
+
+  :18765 fake_mesh · curl http://<captain-ip>:18765/health
+  :18766 fake_sarah · curl http://<captain-ip>:18766/health
+
+challenge_token=d9c4c66e
+Word: FAKE

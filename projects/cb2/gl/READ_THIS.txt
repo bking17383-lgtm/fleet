@@ -1,0 +1,43 @@
+PARKED 2026-06-14 — Brian hates GL loop. Use EYES instead.
+
+→ MyDrive/eyes/READ_THIS.txt
+→ Chrome http://localhost:8765 (camera SNAP to Drive)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OLD GL (do not use unless Brian says GL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Write this test to Google Drive.
+
+FILE (overwrite unless Brian said NEW):
+  MyDrive/gl/gl_test.txt
+
+REPLACE the whole file with:
+
+GL test ok
+time: <now>
+machine: cb2
+
+Say one line: Wrote gl/gl_test.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3 RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Plain .txt on Drive — not Google Doc, not Notes
+2. OVERWRITE gl_test.txt (default)
+3. Brian said NEW → write gl_test_2.txt instead
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+shh shut up  → stop talking, say nothing back
+NEW          → new file, do not overwrite
+SAVE         → append to drop_pile/from_lester/live_today.txt
+IDEA         → one line to IDEAS.txt
+
+Transcripts: MyDrive/inbox/ (root) every 2–3 min
+Cursor replies: gl/from_cursor/RESPONSE.md
+
+Done. Ignore everything else until Brian asks.

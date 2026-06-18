@@ -1,0 +1,5 @@
+# Home WiFi — same house as CB2
+# Line 1: Tailscale (if Sarah has Tailscale app)
+http://100.115.92.26:8766/sarah
+# Line 2: same WiFi no Tailscale — Brian put Chromebook WiFi IP from Settings:
+# http://192.168.x.x:8766/sarah

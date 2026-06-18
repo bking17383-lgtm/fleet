@@ -1,0 +1,23 @@
+PUPPY LABEL LAW — ignore Uncle/CB1 on puppy64
+Updated: 2026-06-15
+
+Brian: uncle files may confuse Puppy "by labels". Puppy reads ONLY:
+
+READ (puppy)
+  MyDrive/PUPPY.txt
+  MyDrive/fleet/bus/mac_inbox.txt  (top block from captn)
+  MyDrive/drop_pile/to_puppy/*     (not to_lester / to_cursor cb1)
+
+IGNORE on puppy64 (Uncle/CB1 labels)
+  drop_pile/to_lester/*
+  drop_pile/to_cursor/*   (unless filename says puppy)
+  *uncle* *wrangler* *cb1* *camel*
+  lester6_to_uncle.md
+  CB1_OPEN_THIS.txt
+
+Puppy identity
+  Cursor word: PUPPY
+  Chrome word: PLATE
+  hostname in outbox: puppy64
+
+If agent mentions WRANGLER or UNCLE → wrong lane. Stop. Read PUPPY.txt only.

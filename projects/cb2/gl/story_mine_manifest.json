@@ -1,0 +1,43 @@
+{
+  "updated": "2026-06-14",
+  "owner": "Brian tpgoround@gmail.com",
+  "account": "tpgoround@gmail.com",
+  "description": "Story Mine — which gdocs to export for game/design pipeline. Linux uses stories_export/raw/*.md only.",
+  "export_root": "stories_export/raw",
+  "catalog": "stories_export/catalog/story_index.json",
+  "include_folders": [
+    "all stories archive",
+    "Story"
+  ],
+  "include_root_gdocs": true,
+  "exclude_path_prefixes": [
+    "drop_pile/",
+    "lester/",
+    "fleet/",
+    "gl/",
+    "releases/",
+    "collx_inbox/",
+    "blueprints/",
+    "concepts/ideas/",
+    "drop_pile/backups/"
+  ],
+  "exclude_gdoc_name_contains": [
+    "Free Lester",
+    "lester keys",
+    "instructions for AI",
+    "Gemini Live Sorting",
+    "cursorrules",
+    "lester6",
+    "heartbeat",
+    "PUPPY",
+    "WRANGLER",
+    "BEACON"
+  ],
+  "exclude_gdoc_name_exact": [],
+  "priority_titles": [],
+  "notes": [
+    "Add priority_titles when Brian names pilot games",
+    "Phase 0: inventory only — no export until exclude list approved",
+    "Extend gl/apps_script_auto_export.gs for batch story export in Phase 1"
+  ]
+}

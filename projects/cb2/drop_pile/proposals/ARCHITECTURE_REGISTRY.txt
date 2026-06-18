@@ -1,0 +1,63 @@
+ARCHITECTURE PROPOSALS — registry — 2026-06-17
+Law: fleet/ARCHITECTURE_HOLD.txt
+Legend: ↑ keep · ↓ cut · ↔ merge · ? open · ⏸ hold · — not audited
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STACK (current → proposal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Brian answers: fleet/bus/FARTHEAD_BRIAN.txt
+  Credit plain:  fleet/CREDIT_PLAIN.txt
+  Auditor:       3rd party (NOT fleet agent · TBD who)
+  Leader:        functional · Brian no admin · stability from robots
+  Ship gate:     3rd party audit PASS before gcloud bash
+
+  id    vote   title                          canonical today
+  ────  ────   ─────────────────────────────  ─────────────────────────
+  A001  ↑?     six life pages                 hitme.dev/goal … /terminal
+  A002  ⏸ NOT READY  Google Cloud NET VM            fleet/GCP_NET.txt · NO VM · need login
+  A003  ?      agent names vs roles           NAMING_LAW.txt · may rename all
+  A004  ?      Drive fuse vs rclone           fuse on penguin · mirror risk
+  A005  ?      ~15 background daemons         daddy_background.sh watchers
+  A006  ↑?     George voice / Bedrock         /george · /api/voice/talk
+  A007  ↑?     Bunny indie loop               TO_BUNNY · FROM_BUNNY · /bunny
+  A008  ↑?     projects catalog (15 truth)    PROJECTS_BUNNY.txt · not 65
+  A009  ↓?     dead subdomains                george.hitme.dev · bun.hitme.dev
+  A010  ↑?     ready audio ("I need a job.")  AUDIO_READY.txt · /listen
+
+  Add row before debate. Empty vote = not ready for auditor.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PIPELINE STATUS (this cutover)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1 PROPOSE   ↑ in progress (registry above)
+       ↓
+  2 LOGIC     ↓ not started per item
+       ↓
+  3 AUDIT     ↓ blocked · no auditor named
+       ↓
+  4 LEADER    ↓ Brian has not picked
+       ↓
+  5 ACCOUNT   ↓
+       ↓
+  6 WIPE      ↓
+       ↓
+  7 SHIP      ↓ HOLD
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDIT QUEUE (auditor fills · PASS | FAIL | HOLD)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  A001  —
+  A002  —
+  A003  —
+  A004  —
+  A005  —
+  A006  —
+  A007  —
+  A008  —
+  A009  —
+  A010  —
+
+Write: fleet/bus/AUDIT_ARCHITECTURE.txt

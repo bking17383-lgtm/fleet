@@ -1,0 +1,2 @@
+# AWS probe — not run yet
+# After: python3 ~/.stan/aws_sandbox_probe.py

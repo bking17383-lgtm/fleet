@@ -1,0 +1,89 @@
+# Play Store — stable URL fix
+Updated: 2026-06-15
+
+## Split (Brian vs machines)
+
+| Brian (your problem) | Puppy/CAPTN (infra fix) |
+|----------------------|-------------------------|
+| Play Console $25 once | Named Cloudflare tunnel $0 |
+| Add **12 tester emails** (internal testing track) | Host app **24/7 on puppy64** (plugged in) |
+| Upload `.aab` (TWA wrapper) | **Fixed HTTPS URL** that survives reboot |
+| Privacy policy page (can be same URL /about) | Post URL to `fleet/STABLE_PUBLIC_URL.txt` |
+
+**You recruit humans. We keep the URL alive.**
+
+---
+
+## Why current links break
+
+| URL type | Example | Play OK? |
+|----------|---------|----------|
+| **Quick tunnel** | `*.trycloudflare.com` | **NO** — new random URL every restart |
+| **Named tunnel** | `https://slicer.yourdomain.com` | **YES** — fixed in Cloudflare dashboard |
+| LAN only | `192.168.1.4:5000` | **NO** — testers on LTE cannot reach |
+
+All `trycloudflare` links in `BRIAN_PHONE.txt` / `STRANGER_TESTER_LINK.txt` are **dev only**.
+
+---
+
+## Fix (3 steps)
+
+### 1 — One-time Cloudflare (Brian or Uncle, ~5 min)
+
+Already started — token in `lester/lester_keys.md`.
+
+1. Cloudflare dashboard → Tunnels → **cb2-daddy** (or create **puppy64**)
+2. **Public Hostname** → subdomain + domain → `http://localhost:5000` (slicer) or `:8002` (baseball)
+3. Copy the **https://** URL → save as `CLOUDFLARE_PUBLIC_URL` in puppy `~/.stan/cloudflare.env`:
+
+```
+CLOUDFLARE_TUNNEL_TOKEN=eyJ...   (already have)
+CLOUDFLARE_PUBLIC_URL=https://YOUR-FIXED-URL
+```
+
+Guide: `fleet/CLOUDFLARE_PASTE.txt`
+
+### 2 — Puppy runs stack (after reboot)
+
+```bash
+bash /mnt/home/google_drive/MyDrive/lester/cloudflare_puppy.sh
+```
+
+Or slicer all-in-one (if token + PUBLIC_URL in groq.env):
+
+```bash
+bash /mnt/home/google_drive/MyDrive/lester/run_slicer_zero.sh
+```
+
+**Done when:** `fleet/STABLE_PUBLIC_URL.txt` has PUBLIC_URL and curl works on LTE.
+
+### 3 — Brian Play Console (12 testers)
+
+1. Create app → **Internal testing**
+2. Upload `.aab` from `releases/slicer_playstore_v0.1.0/` (bubblewrap TWA)
+3. **Testers** → add 12 Google account emails
+4. Send them Play install link — app loads **STABLE_PUBLIC_URL**
+
+Ship doc: `releases/slicer_playstore_v0.1.0/PLAY_STORE_SHIP.md`
+
+---
+
+## Files to watch
+
+| File | Purpose |
+|------|---------|
+| `fleet/STABLE_PUBLIC_URL.txt` | canonical fixed URL |
+| `fleet/PLAY_TESTER_URL.txt` | copy-paste for inviting 12 |
+| `SLICER_PHONE_URL.txt` | slicer-specific mirror |
+| `puppy_outbox.txt` | puppy proof RUNNING |
+
+---
+
+## Rules
+
+- **CB2 does NOT host** Play traffic (`fleet/CB2_NO_GAMES.txt`) — design desk only
+- **puppy64 plugged in** = uptime
+- Human testing for Play: **Brian's lane** — fleet builds pipe, you fill tester list
+- Budget: $0 tunnel + $25 Play once + Groq capped (`FINANCE_TREE_SLICER.txt`)
+
+Puppy order when online: `drop_pile/to_puppy/STABLE_URL_NOW.md`

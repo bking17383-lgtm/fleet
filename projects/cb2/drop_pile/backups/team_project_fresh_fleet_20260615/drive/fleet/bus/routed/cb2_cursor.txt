@@ -1,0 +1,6 @@
+# CB2 — Cursor CAPTN
+# Routed 2026-06-15T02:13:13-07:00
+
+CAPTN — read fleet/FLEET_AVAILABLE.txt + daddy_status.md. Delegate only. Post mac_inbox when Brian orders land.
+
+Brian also said: [2026-06-15] today sheet → BRIAN_TODAY.txt

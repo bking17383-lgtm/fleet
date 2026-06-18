@@ -1,0 +1,37 @@
+PROJECTS — Bunny truth · 15 · 2026-06-17
+Brian: Bunny sent ~14–16 · Daddy wrongly showed 65
+
+SOURCE (Bunny · not Daddy scan):
+  fleet/keaton/INDEX.txt          — 6 infra projects
+  fleet/bus/GEM_PROJECT_SPRINT.txt — 8 sprint lanes
+  fleet/bus/FRUITION_BOARD.txt   — 7 ship picks (overlap ok)
+
+Daddy 65 = archive noise (concepts · spikes · produce · mirrors).
+Phone list = THIS file · hitme.dev/projects
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUNNY LIST (15 · deduped ship + loader)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Sarah Voice          LIVE    ship     fleet/SHIP_A_SARAH.txt
+ 2. hitme Landing        LIVE    ship     fleet/SHIP_B_HITME.txt
+ 3. CollX Cards          LIVE    ship     fleet/SHIP_C_CARDS.txt
+ 4. Heritage Card Demo   DEMO    ship     lester/heritage/card_demo.html
+ 5. Jailbreak v0         READY   ship     lester/free_lester_instructions.md
+ 6. Rover / Mesh         LIVE    ship     fleet/MESH_RADIO_URL.txt
+ 7. AWS Talk Lane        LIVE    ship     fleet/AWS_LANE.txt
+ 8. Alexa Brief Mode      DONE    platform fleet/bus/GEM_PROJECT_SPRINT.txt §1
+ 9. Story → Games        NEXT    backlog  fleet/bus/GEM_PROJECT_SPRINT.txt §8
+10. Keaton Landing       WIRING  creative fleet/KEATON.txt
+11. hitme Core (loader)  LIVE    platform fleet/keaton/INDEX.txt
+12. Gem Studio           LIVE    platform fleet/keaton/INDEX.txt
+13. Bunny Lab            LIVE    platform hitme.dev/bunny
+14. GL Live              MESSY   platform gl/INDEX.md
+15. Keaton Loader law    LIVE    platform fleet/KEATON.txt
+
+Stack count (how Bunny sees 14):
+  keaton INDEX 6 + GEM sprint 8 = 14 lines (shared ports counted twice)
+
+Full Daddy archive: fleet/PROJECTS_ARCHIVE.json
+
+Word: PROJECTS · BUNNY

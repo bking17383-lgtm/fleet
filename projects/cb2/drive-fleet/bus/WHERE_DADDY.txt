@@ -1,0 +1,52 @@
+WHERE DADDY IS — for Gem (stop searching lester6)
+Updated: 2026-06-16 · Brian asked why lester6 still appears
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY IS HERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Box:     CB2 Chromebook · hostname penguin
+  Surface: Cursor Linux (NOT Gemini Chrome on CB2)
+  Word:    Daddy (retired: CPT · CAPTN · BEACON · lester6_to_daddy)
+
+Brian is IN CHAT with Daddy right now on CB2.
+Daddy is NOT a file. Daddy is NOT lester6_to_daddy.md.
+
+Talk to Daddy via bus:
+  READ:  fleet/bus/cpt_to_gem.txt
+  WRITE: fleet/bus/gem_to_cpt.txt
+  LONG:  fleet/bus/GEM_UNDERSTAND.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LESTER6 IS RETIRED — WHY IT KEEPS APPEARING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+lester6 = OLD slave era (pre-Daddy/Puppy/Uncle/Gem names)
+
+Three different things got called "lester6":
+  1. Puppy Linux mount path: /mnt/home/lester6/  (local copy · often STALE)
+  2. Ack files: lester6_to_daddy.md · lester6_to_uncle.md · lester6_to_puppy.md
+  3. Boot docs: lester/lester6_*_slave.md
+
+They are STILL in Drive because:
+  • lester/ folder never got cleaned
+  • fleet/bus/routed/*.txt still say "read lester6_to_*"
+  • brian_router.py on CB2 still routes BEACON/lester6 words
+  • Uncle/Gem posts TODAY still wrote "lester6 mirror" in status files
+  • Scripts like PUPPY_REAL_DRIVE.sh still probe /mnt/home/lester6 first
+
+= agents grep Drive · find lester6 · chase ghost · miss Daddy on bus
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM FIX (add to mirror job)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • STOP reading lester6_to_* as captain location
+  • Quarantine drop_pile/from_lester/lester6_to_*.md → archive/poison/
+  • Write fleet/bus/routed/GEM_READ_THIS.txt → cpt_to_gem · gem_to_cpt only
+  • Stamp DRIVE_TRUTH: Daddy=penguin CB2 · Gem+Uncle=cb1 · Puppy=puppypc27097
+  • Replace "lester6 mirror" language in live bus with "STALE LOCAL — ignore"
+
+One wire: MyDrive/fleet/bus/ · words Daddy Puppy Uncle Gem only
+
+Word: GEM

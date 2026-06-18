@@ -1,0 +1,3 @@
+MOVED — use Drive root insomniac.txt (Gem only)
+Do not paste this file. Brian rule: unique name per machine.
+See fleet/PASTE_FILE_LAW.txt

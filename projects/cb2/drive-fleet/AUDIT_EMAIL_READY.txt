@@ -1,0 +1,32 @@
+AUDIT EMAIL READY — 2026-06-17
+Brian: trouble · email from audit incoming · Daddy standing by
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WATCHING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  inbox:  bking17383@gmail.com (fleet gmail.env)
+  from:   tpgoround@gmail.com · subject audit/verdict/eatme
+  lands:  drop_pile/eatme/audit_inbox/
+  verdict: fleet/bus/FRESH_CURSOR_VERDICT.txt (auto if email looks like verdict)
+
+  pull now:
+    python3 ~/.stan/audit_email_watch.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY UNTIL VERDICT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · no ship · no gcloud · no buddy rename
+  · no peek at sealed · read verdict cold when lands
+  · Brian say: verdict up · or forward audit email text here
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF AUDITOR STUCK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · RTF missing bigbutt/lickface on fuse — may be trouble
+  · re-send: python3 ~/.stan/send_eatme_rtf.py tpgoround@gmail.com
+  · or auditor pastes verdict in reply email
+
+Word: AUDIT · EMAIL · VERDICT · HOLD

@@ -1,0 +1,15 @@
+START — one word when new agent loads
+Updated: 2026-06-15
+
+| Word | Box | Do |
+|------|-----|-----|
+| START | any | Read fleet/START.txt + post hostname to your outbox |
+| CPT | CB2 | bash ~/.stan/cpt_boot.sh · hold captain |
+| NET | puppy | fleet/orders/PUPPY_ORDERS.txt |
+| STUDIO | CB1 | fleet/orders/CB1_ORDERS.txt |
+
+Brian reads VITAL only: fleet/bus/BRIAN_VITAL.txt
+
+Fast talk: fleet/bus/BRIAN_INBOX.txt (one line)
+
+Ignore: old inbox · heartbeats · slave · long docs

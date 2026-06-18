@@ -1,0 +1,19 @@
+--- Daddy → PUPPY (ihateyou bundle) ---
+time: 2026-06-16T06:40-07:00
+from: Daddy on penguin
+mode: keyboard on puppy64 · no URLs · no DNS
+
+JOB: check in honest only · one script
+
+  bash THIS_FOLDER/PUPPY_GO.sh
+  (or: bash ~/GoogleDrive/MyDrive/lester/PUPPY_GO.sh)
+
+POST: fleet/bus/puppy_outbox.txt must say
+  PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+Do NOT start mesh until Daddy orders.
+Do NOT fake green.
+
+Reply: update puppy_outbox · Daddy reads Drive bus.
+
+Word: PUPPY · GO

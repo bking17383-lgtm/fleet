@@ -1,0 +1,58 @@
+CREDIT — PLAIN ENGLISH — for Brian
+(find via farthead · fleet/CREDIT_PLAIN.txt)
+
+You said you don't understand Q1-Q3. Here is what we actually need:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE ONLY QUESTION THAT MIGHT NEED YOU
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  When we bash "google login" — which Google account do you click?
+
+  · The one where you saw "$300 credit" or "cloud billing"
+  · Often tpgoround@gmail.com or whatever you used for Gemini/cloud
+  · NOT a random account — wrong account = no credit = card charge
+
+  You do NOT need to know technical names.
+  You only need: "use THIS Gmail when the browser opens."
+
+  If you have one Google account for all of this → say "only one account"
+  If you have several → say which email gets the bill/credit
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT ROBOTS CHECK (you don't admin)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  After login once on penguin, Daddy/auditor reads billing page:
+
+  · Does $300 apply to "Compute Engine" (servers)?  ← we need this
+  · Or only "Vertex AI / Gemini"?                   ← server won't be free
+
+  · Rough cost if credit works: ~$2/day · ~$60/month
+  · Credit lasts ~5 months if it applies to servers
+
+  If credit is AI-only → auditor proposes plan B (you don't pick SKU)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE MONEY SAFETY QUESTION (simple)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  After ~5 months the credit may run out.
+
+  Pick one word:
+
+  A) OK — ~$60/month keeps hitme always-on (like a utility bill)
+  B) CAP — shut server off if spend hits $X (robots enforce · you set X once)
+  C) ASK — email/text me before any charge after credit gone
+
+  Default if you don't care: B with cap $75/month (auditor sets on bus)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOU ALREADY ANSWERED (recorded)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · Auditor = 3rd party
+  · Leader = whoever · must work · you stay free (no admin)
+  · Stability from robots · not from you babysitting Chromebook sleep
+
+Word: CREDIT · ONE GMAIL · ROBOTS CHECK REST

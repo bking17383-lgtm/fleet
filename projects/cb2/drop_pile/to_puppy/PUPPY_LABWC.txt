@@ -1,0 +1,1 @@
+puppy boot screen = labwc · normal · ignore · use # terminal

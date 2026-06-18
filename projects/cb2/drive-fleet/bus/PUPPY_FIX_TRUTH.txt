@@ -1,0 +1,30 @@
+PUPPY FIX TRUTH — Daddy should have said this first
+Updated: 2026-06-16T04:30:00-07:00
+
+CAN UNCLE FIX PUPPY?  Mostly NO (hands).
+
+Uncle + Gem CAN:
+  • LAN scan puppy64 · curl ports · update puppy_needs.txt
+  • Confirm Drive scripts (PUPPY_JAILBREAK · STATUSLINE_FIX · ONE_COMMAND)
+  • Write cpt_to_puppy.txt with the one keyboard line
+
+Uncle + Gem CANNOT (today):
+  • SSH puppy — :22 REFUSED
+  • Kill wrong :8002 process remotely
+  • Run bash on puppy64 without Brian at that keyboard once
+
+CURRENT SCAN (penguin LAN · 2026-06-16):
+  ping 192.168.1.4 — loss (ICMP may be blocked · :8002 still answers)
+  :8002 UP — wrong app (File Server · not baseball/live/capture)
+  :8765 DOWN · :8766 DOWN
+  puppy_outbox stale since 00:17
+
+UNCLE fix_puppy REPLY: not posted yet (uncle_to_cpt still link_test from 04:21)
+
+BRIAN ONCE AT PUPPY:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+Daddy overpromised in DADDY_DELEGATE_ECHO ("Uncle fixes Puppy").
+Honest: Uncle diagnoses · Drive orders · you or Puppy Cursor executes.
+
+Word: KEYBOARD

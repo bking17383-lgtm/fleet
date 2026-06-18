@@ -1,0 +1,24 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: puppy update
+imap_id: 107907
+---
+Done — board's accurate now:
+
+  cb1   | Chromebook
+  cb2   | Chromebook (daddy)
+  puppy | Puppy Linux PC
+
+  One lock-in step so it sticks — paste on puppy (keeps it reporting as
+puppy, not cb3 again):
+
+  cd ~/fleet && git pull && ./scripts/heartbeat.sh puppy "puppy on the
+fleet"
+
+  (Without it, if puppy ever heartbeats as cb3 again it'd recreate the old
+name. This pins it.)
+
+  Optional, your call: want cb2 → daddy too, same accuracy + cuteness?
+cb1/cb2 genuinely are Chromebooks, so "cb" fits them — but if you'd rather
+see "daddy" on the board, say the word and
+   I'll rename it clean.

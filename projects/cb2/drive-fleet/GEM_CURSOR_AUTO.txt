@@ -1,0 +1,20 @@
+GEM CURSOR — Auto mode (Ultra) · Brian 2026-06-17
+
+PICK: Auto (default) · Agent mode · unrestricted tools
+
+WHY (Ultra plan):
+  Auto + Composer = separate generous pool (87% of Ultra value)
+  Auto routes: Composer for speed · frontier when needed
+  Don't burn $400 API pool on routine ranch work
+
+WHEN TO SWITCH MANUALLY:
+  Composer 2.5 — tight multi-file diff review
+  Opus/Sonnet — hard architecture · one-shot design
+  Max Mode — rare deep debug only
+
+APPLY (any box):
+  python3 ~/.stan/gem_cursor_auto.py
+
+KEYS: MyDrive/Lester keys.rtf (not gdoc)
+
+Word: auto on · refresh

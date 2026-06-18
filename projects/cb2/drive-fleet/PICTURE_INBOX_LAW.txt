@@ -1,0 +1,23 @@
+PICTURE INBOX LAW — Daddy learns from photos automatically
+Updated: 2026-06-16
+
+Brian drops photos in:
+  MyDrive/convert_inbox/
+  ~/.stan/local_inbox/
+
+Daddy watches (background):
+  python3 ~/.stan/picture_inbox_watch.py watch 12
+
+Each new picture:
+  1. OCR → local_inbox/_ocr/<name>.txt
+  2. Classify (puppy · gem · uncle · statusline · unclear)
+  3. EXECUTE safe fixes on penguin
+  4. SANDBOX if unclear — only listen/checkin · rest in PICTURE_SANDBOX.txt
+
+Read results:
+  fleet/bus/PICTURE_INBOX.txt
+  fleet/bus/PICTURE_SANDBOX.txt (when unsure)
+
+Autopilot calls picture_inbox_watch once every tick.
+
+Word: PICTURE

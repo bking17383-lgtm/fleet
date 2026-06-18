@@ -1,0 +1,5 @@
+# Bunny Lab moved? Drop one line — bun.hitme.dev follows automatically.
+# Examples:
+# http://192.168.1.4/bunny/
+# http://100.x.x.x/bunny/
+# https://some-tunnel.trycloudflare.com/bunny/

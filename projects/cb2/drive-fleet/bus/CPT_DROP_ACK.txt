@@ -1,0 +1,22 @@
+CPT DROP ACK — 2026-06-17T13:44:25-07:00
+from: Daddy · penguin
+
+Brian: you are right.
+
+I DID NOT DROP universal orders to Bunny before this message.
+  • TO_BUNNY had a stale TRY block · not a fresh universal envelope
+  • Bunny not in loop · FROM_BUNNY still bridged-by-cb1 (12:15)
+  • Bunny received no SLAVE ON · no keys pull · no LOOP poke from Daddy this session until now
+
+DROP NOW (just written):
+  fleet/indie_loop/TO_BUNNY.txt
+  drop_pile/to_bbbunny/LOOP.txt
+  drop_pile/to_bbbunny/ORDER.txt
+  fleet/indie_loop/TEAM_ORDER.txt append
+
+READY audio (remembered):
+  Bunny speaks: "I need a job." → drop_pile/ready/bunny.mp3
+
+Keys: lester/lester_keys.md · lester/keys_from_lester.sh on Bunny box
+
+Word: BUNNY · LOOP

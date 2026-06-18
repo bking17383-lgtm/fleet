@@ -1,0 +1,15 @@
+CPT DELEGATE NOW — 2026-06-18T02:32:04-07:00
+host=penguin · default=delegate · Daddy in background
+
+LAST: net/sarah
+orders → fleet/bus/cpt_to_puppy.txt
+
+TASKS
+  1. Ensure sarah voice :8766 health on puppy or tunnel path
+  2. Post NET clean when services green
+
+BOX LAW
+  net → puppy executes mesh/tunnel
+  studio → CB1 uncle_exec only (never penguin)
+  gem/buddy → Chrome Drive hands
+  cpt → captain + screen + autopilot only

@@ -1,0 +1,9 @@
+PERMANENT (wire once — never changes):
+  https://hitme.dev/dirt-strong
+
+Why not live yet: hitme.dev DNS not pointed at tunnel.
+One-time fix (5 min):
+  Cloudflare → Tunnels → cb2-daddy → Public Hostname → hitme.dev → http://localhost:8770
+  Or paste API token in ~/.stan/cloudflare_api.env → bash ~/.stan/hitme_cf_provision.sh
+
+See: fleet/HITME_TUNNEL_HOSTNAMES.txt

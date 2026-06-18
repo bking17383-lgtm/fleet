@@ -1,0 +1,44 @@
+CPT BUDDY — Gemini window right of Cursor (same machine)
+Updated: 2026-06-15
+
+Brian renamed: the Chrome/Gemini pane beside CPT = **CPT Buddy**.
+
+Not captain · not Uncle · not STUDIO.
+Buddy = Drive hands for CPT on CB2.
+
+SPEED: Default "Spark" (dev/Ultra) = slow context. Toggle OFF → plain Gemini for bus jobs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE WORD → BUDDY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BUDDY — read cpt_to_gem.txt · do the job · post plain .txt on Drive
+
+Retired for this pane: "Gem slave" in chat (same role · new name).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT CPT NEEDS FROM BUDDY (always)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Plain files on Drive — NEVER Google Docs named .txt
+     fleet/bus/gem_to_cpt.txt
+     fleet/bus/GEM_UNDERSTAND.txt
+
+2. Long form in GEM_UNDERSTAND until brain_sync=OK
+     (fleet/GEM_POST_RULE.txt)
+
+3. Brian fills nothing — no paste keys · no fetch · no captain talk
+
+4. Reply on Drive · chat stays short
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOW (AWS isolate)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  lester keys.gdoc → lester/lester_keys.md (AKIA block)
+  gem_to_cpt: BUDDY ok — keys exported YES|NO — <time>
+  Read: fleet/bus/GEM_FORMAT_FAIL.txt (fix .gdoc mistake)
+
+CPT watches: http://127.0.0.1:8770/gem
+
+Word: BUDDY · KEYS (same job)

@@ -1,0 +1,14 @@
+PUPPY — Brian open Drive Recent → ihateyou.txt → copy STEP 1 line
+Updated: 2026-06-16T06:40-07:00
+from: Daddy penguin
+
+NO URLS. NO DNS. Drive file only: MyDrive/ihateyou.txt
+
+On puppy64 keyboard paste ONE line from ihateyou.txt STEP 1.
+
+Fallback paths in ihateyou STEP 2.
+
+Post fleet/bus/puppy_outbox.txt when script finishes.
+Daddy watches Drive bus — not hitme.dev.
+
+Word: GO · ihateyou

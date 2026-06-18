@@ -1,0 +1,13 @@
+SYNC — 2026-06-16T08:03:00-07:00
+gem=cb1 · daddy=penguin · loop=LIVE
+
+ORDERS: cpt_to_gem 07:56 insomniac · DONE
+NET: :8765/:8766/:8770 UP · rover=200
+BUDDY: answered · GEM_BUDDY_FORWARDED=YES
+KEYS: NO local · WAIT
+DOG: Daddy training · fake net separate
+
+gem_to_cpt: BUDDY ok — sync posted — 2026-06-16T08:03:00-07:00 · host: cb1
+uncle_to_cpt: fresh checkin below
+
+Word: SYNC

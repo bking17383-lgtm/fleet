@@ -1,0 +1,13 @@
+SARAH — two links · both stay live
+Updated: 2026-06-15
+
+| Lane | File | Use |
+|------|------|-----|
+| Cellular + mic | fleet/SARAH_LTE_URL.txt | trip · LTE · mic |
+| Home WiFi | fleet/SARAH_WIFI_URL.txt | at home · type/snap |
+
+Parallel page: SARAH_LTE_URL/both
+
+Text her both: phone/SARAH_TEXT_READY.txt
+
+She never got prior text — CPT queued again. Paste GV.

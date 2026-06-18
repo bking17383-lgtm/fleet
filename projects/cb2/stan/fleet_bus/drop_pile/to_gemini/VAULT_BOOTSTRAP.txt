@@ -1,0 +1,13 @@
+GEM — vault bootstrap (one time · after keys land locally)
+
+Read fleet/VAULT_KEEPER.txt. Uncle is NOT the vault.
+
+When CPT has ~/.stan/aws_sandbox.env once:
+  1. Brian creates IAM users in AWS console (policies in fleet/AWS_VAULT_IAM.json)
+  2. CPT: python3 ~/.stan/vault_keeper.py push aws --from-env ~/.stan/aws_sandbox.env
+  3. Issue reader keys → each box ~/.stan/vault_reader.env (local only)
+  4. Boxes: python3 ~/.stan/vault_keeper.py pull aws
+
+Gem does NOT hold admin keys. Gem may help Brian click IAM console — not store secrets on Drive.
+
+Confirm: GEM vault bootstrap understood · secrets stay cloud · YES/NO on bus only

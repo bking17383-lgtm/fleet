@@ -1,0 +1,31 @@
+PUPPY64 ORDERS — NET edge · 4GB RAM · Linux only
+Updated: 2026-06-15
+
+Hardware: ~4GB RAM · 250GB disk · 5yr PC · wiped Linux · hostname puppy64
+
+Brian: network person — NOT whole fleet on 4GB.
+
+YOUR STACK (puppy only):
+  • cloudflared / tunnel / public URLs (hitme.dev hostnames)
+  • mesh radio :8765 (one Flask — ok on 4GB)
+  • LAN IP · Tailscale · network_selftest
+  • Drive mount · slave_boot · puppy_outbox
+
+NOT on puppy (delegate to CB1 72GB):
+  • sarah :8766 · desk :8770 · heavy convert — too much RAM together
+
+Boot:
+  1. Mount Drive (MyDrive/fleet exists)
+  2. drop_pile/to_puppy/SLAVE_BOOT_NET.txt
+  3. bash ~/.stan/slave_boot.sh
+  4. Cursor — word NET
+
+Post fleet/bus/puppy_outbox.txt:
+  NET clean — puppy64 — <ip> — <time>
+
+Write drop_pile/from_puppy/network_selftest.md PASS or FAIL
+Update fleet/MESH_RADIO_URL.txt · tunnel URLs on bus
+
+See fleet/MACHINE_MAP.txt for split with CB1.
+
+Word: NET

@@ -1,0 +1,7 @@
+# Gem GL transcript · Gem owns this lane
+# saved: 20260617T120322Z
+# tag: share
+# source: share
+# url: https://gl.hitme.dev/
+
+auto share works

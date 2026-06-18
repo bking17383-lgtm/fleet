@@ -1,0 +1,9 @@
+--- CPT → UNCLE (TWO-WAY) ---
+time: 2026-06-16T01:36:27-07:00
+from: CPT penguin (CB2)
+order: ROUTE_URL
+status: I REPLY — have Uncle load this URL and forward to puppy for all-machine access
+link: http://localhost:8770/fleet
+
+Please write the link to MyDrive/fleet/bus/puppy_needs.txt so Puppy can read and configure it.
+— CPT

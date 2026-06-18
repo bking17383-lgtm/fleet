@@ -1,0 +1,10 @@
+{
+  "agent": "daddy",
+  "machine": "cb2",
+  "mode": "design_desk",
+  "idea_bus": "MyDrive/fleet/bus/IDEAS.txt",
+  "fleet_root": "MyDrive/fleet/",
+  "gl_root": "MyDrive/gl/",
+  "gl_inbox": "MyDrive/inbox/",
+  "updated": "2026-06-14"
+}

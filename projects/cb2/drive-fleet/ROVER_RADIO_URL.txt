@@ -1,0 +1,8 @@
+ROVER — Moto phone lane (LTE, no Tailscale)
+
+https://ken-condo-education-mice.trycloudflare.com/rover
+
+Add to Home Screen. Name: CAPTN
+Normal = /radio · Emergency = /emergency
+Updated: 2026-06-16T07:49:00-07:00
+CB1 substitute NET · /rover fixed

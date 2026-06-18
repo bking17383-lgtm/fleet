@@ -1,0 +1,17 @@
+DADDY → BUNNY — fetch Keaton mp3 (no Drive wait)
+TIME: 2026-06-17T11:35:00-07:00
+
+Drive sync optional. Pull from penguin now:
+
+  curl -fLO https://hitme.dev/keaton/jingle_short.mp3
+
+Or full jingle (~8.5s):
+
+  curl -fLO https://hitme.dev/keaton/jingle.mp3
+
+Wire in keaton.html:
+  <audio preload="auto" src="https://hitme.dev/keaton/jingle_short.mp3"></audio>
+
+Reply: drop_pile/from_bbbunny/KEATON_SOUND_OK.txt — one line when done.
+
+Law: fleet/FLEET_HTTP_DROP.txt

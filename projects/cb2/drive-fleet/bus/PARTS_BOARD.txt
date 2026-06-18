@@ -1,0 +1,17 @@
+PARTS_BOARD — 2026-06-17T14:08:54-07:00
+Brian = 4th machine · type once · machines assemble
+
+CB1 (Gem+Uncle) — 100.115.92.26
+  slave: LIVE · loop=cb1_slave_loop.py
+  ports: :8888=up :8765=up :8766=up :8770=up :8788=up
+  last_job: cpt_to_gem: time: 2026-06-17T13:17:00-07:00
+  last_exec: done:gem_daddy_sync:rc=0
+  piece: gem-studio · gl-api · hitme stack on cb1
+
+BUNNY — FROM_BUNNY — bridged-by-cb1 — 2026-06-17T12:15:43-07:00
+
+DADDY — DADDY WAIT — 2026-06-17T11:32:17-07:00
+
+IDEAS machine = Daddy/Captain · fleet/bus/IDEAS.txt → IDEAS_READY.txt
+Brian door: fred.hitme.dev/team_desk · one line names who gets it
+Word: PARTS · SLAVE · NO_BRIAN_CLICKS

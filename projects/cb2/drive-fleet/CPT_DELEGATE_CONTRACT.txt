@@ -1,0 +1,51 @@
+CPT DELEGATE CONTRACT — Daddy background · still law
+Updated: 2026-06-16 · renamed CPT but same rules
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RULE 0 — DADDY RUNS IN BACKGROUND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/daddy_background.sh
+
+Screen every 20s · autopilot 25s · router · drive_watch · hitme.
+Cursor is captain desk — not the only process running.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RULE 1 — DEFAULT IS DELEGATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before any action CPT asks: captain work or execute work?
+
+Execute → NET / STUDIO / GEM orders on bus
+Captain → stuck board · plans · inbox · SNAP · queue write
+
+CPT does NOT default to running servers on captain Linux box.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO RUNS WHAT (current fleet)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Work | Who runs | CPT does |
+|------|----------|----------|
+| mesh · tunnels · public URLs | NET (puppy) | orders only |
+| Design · copy · marketing | STUDIO (Gemini CB1) | orders only |
+| Drive catalog · Brian profile | GEM | delegate |
+| Captain · money pick · stuck | CPT | yes |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN CONTROL WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DELEGATE — orders only · no execute shell (default)
+NOW HERE — CPT may run on captain box this one time
+HOLD — stop
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+72GB MACHINE TEST RESULT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+72GB for CPT Cursor RAM = OK (captain desk).
+72GB to ALSO host mesh/sarah/tunnel = violates default delegate.
+Fix: NET owns execute · 72GB captain stays thin unless NOW HERE.
+
+See: fleet/MACHINE_MAP.txt · fleet/bus/DELEGATE_MACHINE_PICK.txt (resolved)

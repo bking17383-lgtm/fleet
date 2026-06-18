@@ -1,0 +1,7 @@
+SOURCE=brian_post FILE=BRIAN_LAST_POST.txt TIME=2026-06-17T13:33:00-07:00
+
+BRIAN_LAST_POST — 2026-06-17T13:00:17-07:00
+line=[2026-06-17T13:00:17-07:00 Brian via daddy] CPT: use audio to say daddy got your message
+lane=cpt
+routed=yes
+route=DADDY → cb2

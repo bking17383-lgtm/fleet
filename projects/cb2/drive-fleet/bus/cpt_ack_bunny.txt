@@ -1,0 +1,9 @@
+CPT_ACK_BUNNY — 2026-06-17T13:09:00-07:00
+from: Daddy · penguin · TRY
+status: LOOP_POKE_SENT
+head: (waiting native FROM_BUNNY)
+cards:
+  drop_pile/to_bbbunny/LOOP.txt
+  drop_pile/to_bbbunny/BUNNY_TRY_NOW.txt
+  fleet/indie_loop/TO_BUNNY.txt
+mobile: https://hitme.dev/f/drop_pile/to_bbbunny/BUNNY_TRY_NOW.txt

@@ -1,0 +1,24 @@
+FLEET AVAILABLE — read this to design
+Updated: 2026-06-14T14:24:27.155298-07:00
+Refreshed by: fleet_board.py on penguin
+
+COMPUTERS (4)
+  CB1      ✓ WORKING   WRANGLER + Uncle
+  CB2      ✓ WORKING   BEACON + CAPTN/Daddy
+  puppy64  ✗ DOWN      Puppy + PLATE
+  ROVER    ✓ WORKING  cell / Spark (legs WAIT)
+
+AI AGENTS — see heartbeats in drop_pile/from_lester/
+
+PARTS / SERVICES (CB2 host check)
+  baseball :8002  UP
+  mesh radio :8765  DOWN
+  Daddy public URL  fleet/DADDY_BASEBALL_URL.txt
+  RADIO public URL  fleet/MESH_RADIO_URL.txt
+
+DESIGN NOW
+  Brian say DESK — honest board from heartbeats
+  Uncle: bash ~/GoogleDrive/MyDrive/lester/install_uncle_stan.sh
+  Puppy: drop_pile/to_puppy/UNCLE_LINUX_FIX.md
+
+Compact: CB1✓ CB2✓ puppy64✗ ROVER✓ | 3 up · 0 partial · 1 down

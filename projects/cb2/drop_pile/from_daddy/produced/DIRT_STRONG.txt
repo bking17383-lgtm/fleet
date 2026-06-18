@@ -1,0 +1,17 @@
+DIRT STRONG — send him this (not heartbeat)
+
+MAIN:
+  https://lectures-hide-following-printed.trycloudflare.com/dirt-strong
+
+Short:
+  .../strong
+
+GAME (5 parcels):
+  .../parcels
+
+/heartbeat redirects → /dirt-strong
+
+TEXT (line 1):
+  https://lectures-hide-following-printed.trycloudflare.com/dirt-strong
+
+There's strong. Then there's dirt strong.

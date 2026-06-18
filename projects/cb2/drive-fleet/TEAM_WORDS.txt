@@ -1,0 +1,21 @@
+TEAM WAKEUP — two options only
+Updated: 2026-06-17 · dead words purged
+
+1) ONE WORD = machine name
+2) ELSE = copy fleet/dogbarf/<NAME>.txt
+
+| Who   | Word  | dogbarf |
+|-------|-------|---------|
+| Daddy | DADDY | fleet/dogbarf/DADDY.txt |
+| Bunny | BUNNY | fleet/dogbarf/BUNNY.txt |
+| Uncle | UNCLE | fleet/dogbarf/UNCLE.txt |
+| Clerk | CLERK | fleet/dogbarf/GEM.txt (same boot · narrow law) |
+
+Web: https://hitme.dev/team
+
+DEAD WORDS (nickname → BUNNY only · not checkin lanes):
+  PUPPY · DOG · CPT · STUDIO · NET · BUDDY · GEM-as-personality
+
+Read: fleet/DEAD_WORDS.txt
+
+Old map: STUDIO→UNCLE · NET→BUNNY · CPT→DADDY · GEM→CLERK

@@ -1,0 +1,33 @@
+# PUPPY — Commercial v1 packaged (Big Daddy / penguin)
+
+**Big Daddy** (penguin Cursor) packaged our **first commercial app**. **puppy** pulls from Drive.
+
+## Package location
+```
+MyDrive/releases/baseball_cards_v1.0.0/
+MyDrive/releases/baseball_cards_commercial_v1.0.0.tar.gz
+```
+
+## Install on puppy64 (one command)
+```bash
+DRIVE=~/GoogleDrive/MyDrive
+[[ -d /mnt/shared/GoogleDrive/MyDrive ]] && DRIVE=/mnt/shared/GoogleDrive/MyDrive
+bash "$DRIVE/releases/baseball_cards_v1.0.0/install_commercial.sh"
+```
+
+## Then verify
+Read `PLAY_STORE_SHIP.md` in the same folder.
+Run `puppy_qa.md` checks — post LAN URL to `puppy_outbox.txt`.
+
+## What's in v1.0.0
+- CollX import (CSV only)
+- List / Sync / Stats phone UI
+- PSA precursor scan (saves to card, List shows PSA line)
+- Sarah human test: PASS
+- Empty collection (commercial — no Brian personal data)
+- `commercial_version: 1.0.0` on /api/health
+
+## Play Store
+**Lester 6** (Chrome) has reservation — wraps this for listing.
+
+Big Daddy standing by on penguin. puppy posts `puppy_outbox` when RUNNING.

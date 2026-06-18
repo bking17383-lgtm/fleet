@@ -1,0 +1,6 @@
+BRIAN VITAL — 2026-06-15T20:48:29-07:00
+
+  • Nothing vital — CPT executing
+  • Brian inbox: 3 file(s) in ~/.stan/local_inbox
+
+Full: fleet/bus/CPT_SLAVE.txt

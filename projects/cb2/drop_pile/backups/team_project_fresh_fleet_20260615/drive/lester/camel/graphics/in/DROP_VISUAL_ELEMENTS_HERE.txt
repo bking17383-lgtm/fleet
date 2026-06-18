@@ -1,0 +1,14 @@
+Drop your Gemini visual-elements / palette transcript HERE.
+
+Rename optional. Plain .txt only.
+
+  lester/camel/graphics/in/VISUAL_ELEMENTS.txt
+
+Or snap/export to convert_inbox/ — say "visual in" to CAPTN.
+
+CAPTN reads ONCE → cleans AI-slop drift → writes:
+  lester/camel/graphics/PALETTE.md   (canonical palette + rules)
+  lester/camel/graphics/STYLE.md     (full look/feel if separate)
+
+Do NOT paste back into Gemini to "fix" — that's token jail.
+Brian's eye + local edit wins over another AI pass.

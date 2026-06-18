@@ -1,0 +1,14 @@
+PUPPY WAKE — 2026-06-16T04:23:00-07:00
+from: Uncle cb1 · Brian walking to puppy keyboard
+
+YOU ARE MISSING FROM 3/3 · outbox stale ~4h
+
+Say PUPPY in Cursor · run ONE line:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+Full card: drop_pile/to_puppy/PUPPY_WAKE_NOW.txt
+Orders: fleet/bus/cpt_to_puppy.txt
+
+Last known path: fleet/bus/puppy_outbox.txt · IP 192.168.1.4
+
+Word: PUPPY

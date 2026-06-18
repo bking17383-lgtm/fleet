@@ -1,0 +1,8 @@
+GEM_LOOP_PING — 2026-06-18T02:31:21-07:00
+epoch=1781775081
+cpt_host=penguin
+cpt_to_gem=fleet/bus/cpt_to_gem.txt
+gem_reply=fleet/bus/gem_to_cpt.txt
+uncle_reply=fleet/bus/uncle_to_cpt.txt
+
+Gem: if epoch differs from what you see → stale Drive · refresh.

@@ -1,0 +1,21 @@
+SLICER CLIP JOB — 2026-06-17T06:41:00-07:00
+status=OK (correct source)
+
+WANT: "Alex Keaton … he's so cute" — DJ voice-jock jingle (NOT theme song)
+
+episode: Family Ties S6E20 "The Blues Brother" (1988-01-24)
+show: WLEL · Syncopated Money · Alex's on-air handle "Alex Keaton — He's So Cute"
+script: "I'm Alex Keaton. FEMALE SINGERS: Alex Keaton, how can you resist him? He's so cute!"
+
+source: YouTube hGLYTYIJVN4 — "Family Ties - Alex and Lauren on the radio"
+full: MyDrive/Videos/inbox/alex_lauren_radio.mp4 (3m46)
+
+clips (timestamp from source):
+  jingle: 0:35.5–0:44 · MyDrive/Videos/clips/alex_keaton_hes_so_cute_jingle.mp4 (+ .mp3)
+  short:  0:38.0–0:43.5 · MyDrive/Videos/clips/alex_keaton_hes_so_cute_6s.mp4
+  produced: drop_pile/from_daddy/produced/alex_keaton_hes_so_cute_jingle.{mp4,mp3}
+
+OLD (wrong): Instagram reel CzXdIusMksq — Family Ties *theme song*, no jingle
+  alex_keaton_cute_10s.mp4 kept for reference only
+
+tool: yt-dlp + ffmpeg + Groq whisper (timestamp find)

@@ -1,0 +1,40 @@
+PUPPY WAKE — Uncle posted · 2026-06-16
+Brian typed PUPPY · you are NET on puppy64 · not Daddy · not CB1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO THIS FIRST (one line · terminal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+That posts fleet/bus/puppy_outbox.txt and starts jailbreak sink :8765.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MUST POST (clears 3/3 bar)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+fleet/bus/puppy_outbox.txt must contain:
+  PUPPY CHECKIN — puppy64 — <ip> — <time>
+  hostname: puppy64
+
+Last known LAN: 192.168.1.4 · baseball :8002 was UP · :8765 was DOWN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF ONE_COMMAND FAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+Then read fleet/bus/PUPPY_TRUTH.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+READ AFTER POST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/cpt_to_puppy.txt
+  fleet/bus/FLEET_CHECKIN.txt
+  drop_pile/to_puppy/TEAM_NOW.txt
+
+Reply on bus only · do not captain.
+
+Word: PUPPY · NET

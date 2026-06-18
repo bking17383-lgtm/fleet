@@ -1,0 +1,31 @@
+GEORGE URLS — 2026-06-17T10:18:00-07:00 · Daddy
+
+STABLE (bookmark these):
+  https://hitme.dev/george          ← path version · works now
+  http://100.115.92.26:8770/george  ← Tailscale backup
+
+PREFIX (not live yet — needs DNS):
+  https://george.hitme.dev/         ← code ready · no CNAME yet
+
+TEMP (do NOT bookmark):
+  *.trycloudflare.com               ← killed by hitme_permanent.sh · changes every boot
+
+WHY george.hitme.dev fails:
+  Tunnel ingress has george hostname in config.yml
+  DNS record george.hitme.dev → missing (API token can't add zone DNS)
+
+ONE-TIME FIX (Cloudflare dashboard ~2 min):
+  https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+  Public Hostname → Add:
+    Subdomain: george
+    Domain: hitme.dev
+    Service: http://localhost:8770
+  Save → wait 60s → https://george.hitme.dev/
+
+VOICE (mobile):
+  Tap MIC once to unlock male voice (iOS needs gesture)
+  Voice line shows under MIC after unlock
+
+STATUS NOW:
+  hitme.dev/george = UP (200)
+  george.hitme.dev = DNS missing

@@ -1,0 +1,41 @@
+{
+  "VaultAdmin": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "StanVaultBootstrap",
+        "Effect": "Allow",
+        "Action": [
+          "ssm:PutParameter",
+          "ssm:GetParameter",
+          "ssm:GetParametersByPath",
+          "ssm:DescribeParameters"
+        ],
+        "Resource": "arn:aws:ssm:*:*:parameter/stan/vault/*"
+      }
+    ]
+  },
+  "VaultReader": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "StanVaultReadOnly",
+        "Effect": "Allow",
+        "Action": ["ssm:GetParameter", "ssm:GetParameters"],
+        "Resource": "arn:aws:ssm:*:*:parameter/stan/vault/*"
+      }
+    ]
+  },
+  "SandboxBedrock": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "BedrockInvoke",
+        "Effect": "Allow",
+        "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
+        "Resource": "*"
+      }
+    ]
+  },
+  "Note": "Attach VaultReader + SandboxBedrock to captpn-sandbox box user. VaultAdmin = one-time bootstrap user only."
+}

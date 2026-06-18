@@ -1,0 +1,5 @@
+# ONE WORD or dogbarf.txt — Gemini on CB1
+
+ONE WORD: GEM
+
+ELSE: read fleet/dogbarf/GEM.txt on Drive · paste whole file · fill after ---

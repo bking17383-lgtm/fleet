@@ -1,0 +1,23 @@
+SHIP B — HITME · landing · 2026-06-16
+Status: :8770 LIVE cb1 · domain bought · tunnel quick-card live
+
+GOAL (team door):
+  http://100.115.92.26:8770/goal
+  tunnel: see fleet/MESH_RADIO_URL.txt (rover)
+
+LANDING COPY (paste-ready):
+  ---
+  hitme.dev — Brian's studio on the road
+  Voice · cards · ideas · one link for the garage
+  Say hello: hello@hitme.dev (wire when ready)
+  Team board: /goal · roll · checkin
+  ---
+
+BRIAN 20-MIN:
+  1. Read copy above · tweak one sentence
+  2. Pick hello@ provider or forward
+  3. One person visits URL · one feedback
+
+WIN: public face · contact path · not infra
+
+Word: B

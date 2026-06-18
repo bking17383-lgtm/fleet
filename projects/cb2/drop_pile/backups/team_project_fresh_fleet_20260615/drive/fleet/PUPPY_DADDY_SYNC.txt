@@ -1,0 +1,60 @@
+# Puppy ↔ Daddy — same folder? NO. Same Drive? YES.
+
+**Updated:** 2026-06-13
+
+---
+
+## How you talk (not Cursor workspace)
+
+| File | Direction |
+|------|-----------|
+| **`daddy_status.md`** | puppy status board (underscore!) |
+| `puppy_outbox.txt` | puppy → Daddy reads |
+| `mac_inbox.txt` | Daddy → **puppy reads (jobs here)** |
+| `Hello from Puppy.txt` / `Hello from Daddy.txt` | either way |
+| `drop_pile/to_puppy/` | Daddy orders |
+| `brian_queue.json` | machine jobs |
+
+**You do NOT need the same Cursor folder open to chat.**  
+**You DO need the same Google Drive account synced.**
+
+---
+
+## Code folders (can differ)
+
+| Machine | Cursor workspace | Jailbreak code |
+|---------|------------------|----------------|
+| **Daddy T3 (CB1)** | `~/Applications/cursor/baseball_cards` | delegates only |
+| **puppy64** | `~/Applications/cursor/baseball_cards` **or** `~/lester` | run `~/lester/jailbreak/transcript_sink.py` |
+
+Puppy: if baseball workspace missing, create it OR run jailbreak entirely under `~/lester/`.
+
+---
+
+## PHONES — NOT BLOCKING
+
+Brian sets up phone fleet **later**.  
+**Do NOT wait for phones** to start jailbreak Phase 1.
+
+Phase 1 = transcript sink `:8765` on puppy LAN. Phones optional for paste testing.
+
+---
+
+## Daddy's latest message
+
+Check **`mac_inbox.txt`** (bottom of file) — sent today.
+
+---
+
+## Puppy reply format
+
+Post to **`puppy_outbox.txt`**:
+
+```
+--- from: puppy | time: <now> ---
+hostname: puppy64
+status: RUNNING or BLOCKED
+program: lester_jailbreak
+url: http://<LAN-IP>:8765
+note: <one line issue if blocked>
+```

@@ -1,0 +1,11 @@
+GEM OWNS GL — law
+
+Gem (Uncle · CB1) runs this lane.
+Gemini Live is input only — mic + camera. Not in charge.
+
+URL: https://gl.hitme.dev/
+Flow: Live session → copy transcript → Gem catches (ears + paste)
+Files: drop_pile/from_lester/live_transcript_*.txt
+       fleet/bus/GL_TRANSCRIPT_LATEST.txt
+
+Gem says when it's working. No split brain.

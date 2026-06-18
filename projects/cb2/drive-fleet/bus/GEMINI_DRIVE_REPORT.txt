@@ -1,0 +1,40 @@
+GEM REPORT — 2026-06-17T12:17:33-07:00
+
+AUTO BRIAN PROFILE
+  ship: B — hitme landing + contact
+  cpt: CPT is Brian's one contact — cheap, honest, adapts, does not spin.
+  quiet: art / camel sessions
+
+STUCK (snippet)
+STUCK BOARD — honest refresh · Daddy build session · 2026-06-16
+(Supersedes 2026-06-15 stuck where noted)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NO LONGER STUCK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NET mesh/sarah/desk — LIVE cb1 (Gem sprint)
+Quick tunnel / rover — LIVE (MESH_RADIO_URL.txt)
+AWS Bedrock talk — invoke OK
+CollX import — 497 cards priced
+Jailbreak v0 — one card graded · pipeline ready
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STILL STUCK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Money apps paying — none yet · ship A/B/C ready
+AWS IAM keys on Drive export — AKIA NO
+Named sarah.hitme.dev DNS — LAN only for now
+Dog native checkin — parked
+Story mine export — 0/2139 bodies
+12 testers Play pipe — Brian lane
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN PICK (when back)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GEMINI API
+gemini err: HTTP Error 429: Too Many Requests
+
+CPT: read BRIAN_LAW_AUTO · delegate NET/STUDIO · do not ask Brian to fill forms.

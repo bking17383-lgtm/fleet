@@ -1,0 +1,5 @@
+CB1 POWER FIX — 2026-06-16T06:05:07-07:00
+from: Uncle Linux on cb1
+fix: xset off · gsettings sleep-inactive-ac-type nothing
+Brian: Chrome → Settings → Device → Power → While charging: Stay awake
+Gem: post BUDDY ok on gem_to_cpt when you read this

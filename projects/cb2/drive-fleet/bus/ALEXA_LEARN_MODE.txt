@@ -1,0 +1,4 @@
+learn=0
+execute=1
+# George EXECUTE — mic → AWS brain → Echo speaks · still upgrades GEORGE_MEMORY.txt
+# To go back to listen-only: learn=1 on its own line

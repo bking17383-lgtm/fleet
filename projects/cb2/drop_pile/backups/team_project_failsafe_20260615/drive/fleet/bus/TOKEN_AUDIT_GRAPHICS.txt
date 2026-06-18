@@ -1,0 +1,46 @@
+# TOKEN AUDIT — graphics (ALWAYS)
+# Log EVERY AI touch on photos, art, mockups, image gen, vision OCR.
+# Brian rule: $20 AI + $20 tools until Camel (or any app) pays.
+# CAPTN appends after each graphics turn. Brian fills local-only rows.
+
+Updated: 2026-06-15 · Active project: **Camel game art**
+
+---
+
+## Log format (one line each)
+
+```
+YYYY-MM-DD HH:MM | project=camel | task=<what> | tool=<cursor|gemini|other> | tokens=<n or ?> | $=<est> | asset=<file or path> | note=<1 line>
+```
+
+---
+
+## Budget guardrails (graphics)
+
+| Do first (0 tokens) | AI only when |
+|---------------------|--------------|
+| Brian photo edit local (Photoshop, GIMP, phone) | style extrapolation from 1 anchor |
+| Crop, levels, export PNG/WebP | one-off "does this match Camel?" check |
+| Drop refs → `convert_inbox/` or `lester/camel/graphics/in/` | batch gen — **log before run** |
+
+**Stop rule:** session > ~50k Cursor ctx on art OR 3 failed regens → pause, Brian decides.
+
+---
+
+## Session totals (Brian update weekly)
+
+```
+camel_graphics_week:  tokens=___  $est=___  ultra_kill_target=yes
+```
+
+---
+
+## LOG (newest on top)
+
+2026-06-15 03:15 | project=camel | task=25_art_pieces | tool=brian_local | tokens=0 | $=0 | asset=lester/camel/graphics/ | note=25 unique pieces; gemini personality clone incoming
+2026-06-15 04:00 | project=camel | task=role_split | tool=cursor | tokens=~4k | $=in_plan | asset=CAMEL_ARTIST_CLONE_NOW.md | note=Puppy=24pic artist clone CAPTN=game architect Brian watches
+2026-06-15 03:15 | project=camel | task=gemini_personality | tool=gemini_ultra | tokens=HEAVY | $=ultra | asset=pending_txt | note=Brian token jail x4 on Ultra — DO NOT replay in CAPTN; ingest txt only
+2026-06-15 03:00 | project=camel | task=desk_open | tool=cursor | tokens=~8k | $=in_plan | asset=concepts/CAMEL_GRAPHICS_NOW.md | note=fleet parked graphics workflow
+2026-06-15 — session open · fleet parked · Brian on Camel photo edit · CAPTN audit ON
+
+---

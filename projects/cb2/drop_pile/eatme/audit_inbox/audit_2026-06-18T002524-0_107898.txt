@@ -1,0 +1,28 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: terminal
+imap_id: 107898
+---
+Step 1 — paste this into machine #2's terminal (change cb2 to whatever
+you want to call it):
+
+  NAME=cb2
+  command -v git >/dev/null || sudo apt-get install -y git
+  mkdir -p ~/.ssh && chmod 700 ~/.ssh
+  [ -f ~/.ssh/fleet_key ] || ssh-keygen -t ed25519 -f ~/.ssh/fleet_key -N
+"" -C "$NAME"
+  grep -q "Host github.com" ~/.ssh/config 2>/dev/null || printf 'Host
+github.com\n  HostName github.com\n  User git\n  IdentityFile
+~/.ssh/fleet_key\n  IdentitiesOnly yes\n' >>
+  ~/.ssh/config
+  chmod 600 ~/.ssh/config
+  echo "=== ADD THIS KEY TO GITHUB → Settings → SSH keys ==="; cat
+~/.ssh/fleet_key.pub
+
+  Step 2 — it prints a key. Paste that into GitHub → Settings → SSH and GPG
+keys → New SSH key (title cb2).
+
+  Step 3 — back in machine #2's terminal, paste:
+
+  git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet && cd ~/fleet
+&& ./scripts/heartbeat.sh cb2 "joined the fleet"

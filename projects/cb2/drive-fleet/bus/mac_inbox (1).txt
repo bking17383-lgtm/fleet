@@ -1,0 +1,6 @@
+---
+mac_inbox:
+  - from: "puppy"
+    task: "devices-board"
+    time: "2026-06-16T23:55:27-07:00"
+    message: "PUPPY_DEVICES.txt posted — Uncle sync next."

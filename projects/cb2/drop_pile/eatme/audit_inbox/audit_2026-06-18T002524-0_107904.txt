@@ -1,0 +1,32 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: pup again
+imap_id: 107904
+---
+uppy's loaded — git, ssh-keygen, ssh all already installed (it's
+Debian-based, v2601). Easy mode, no install needed. Same flow as daddy:
+
+  Step 1 — paste into puppy:
+
+  NAME=cb3
+  mkdir -p ~/.ssh && chmod 700 ~/.ssh
+  [ -f ~/.ssh/fleet_key ] || ssh-keygen -t ed25519 -f ~/.ssh/fleet_key -N
+"" -C "cb3"
+  grep -q "Host github.com" ~/.ssh/config 2>/dev/null || printf 'Host
+github.com\n  HostName github.com\n  User git\n  IdentityFile
+~/.ssh/fleet_key\n  IdentitiesOnly yes\n' >>
+  ~/.ssh/config
+  chmod 600 ~/.ssh/config
+  echo "=== ADD THIS KEY TO GITHUB - Settings - SSH keys (title cb3,
+Authentication) ==="; cat ~/.ssh/fleet_key.pub
+
+  Step 2 — add the printed key to GitHub → SSH keys (title cb3,
+Authentication).
+
+  Step 3 — paste into puppy:
+
+  git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet && cd ~/fleet
+&& ./scripts/heartbeat.sh cb3 "puppy reporting in"
+
+  Then I pull here and we watch cb3 hit the board — three machines, one
+fleet. Go. 🔥

@@ -1,0 +1,20 @@
+HITME LIVE URL — 2026-06-17T13:38:00-07:00
+from: Daddy · penguin · Brian driving
+
+USE NOW FROM PHONE (public · verified 200):
+
+  Goal board:        https://hitme.dev/goal
+  Bug Daddy:         https://hitme.dev/daddy
+  Bunny lab:         https://hitme.dev/bunny     ← NOT bun.hitme.dev (501)
+  George:            https://hitme.dev/george
+  Projects:          https://hitme.dev/projects
+  Home:              https://hitme.dev/
+
+BROKEN (do not bookmark):
+  https://bun.hitme.dev/       → 501 (wrong origin · Bunny proxy)
+  https://hitme.dev/keaton     → 503 (waiting on Bunny keaton.html)
+
+Tailscale backup:
+  http://100.115.92.26:8770/goal
+
+Full scan: fleet/bus/URL_STATUS.txt

@@ -1,0 +1,37 @@
+GV loop fix — "message to myself"
+Updated: 2026-06-15
+
+WHAT HAPPENED
+Brian texted (805) 751-6587 → message showed up as loop back to himself.
+
+WHY (common)
+• Linked number 831-383-6582 + "Forward messages to linked number" ON
+  → text to GV also copies to 831 = feels like talking to yourself
+• Or sent from Google Voice app to own GV number
+
+FIX — Messages settings
+========================
+☑ Forward messages to email     ON  (CAPTN bridge)
+☐ Forward messages to linked number   OFF  (stops the loop)
+
+You still TEXT TO: 8057516587 from Samsung.
+You READ replies in:
+  • voice.google.com → Messages
+  • phone/say.txt (CAPTN writes)
+  • Gmail (forward copy)
+
+Do NOT pay business plan for this.
+
+SECURITY
+========
+Never put Google password on Drive or TALK.txt.
+Use Gmail App Password only → paste in Cursor → CAPTN writes ~/.stan/gmail.env (local CB2).
+
+If main password was shared in chat → change it at myaccount.google.com when convenient.
+
+TEST AFTER FIX
+==============
+1. Turn OFF forward to linked number
+2. Text 8057516587: HELLO CAPTN 2
+3. Check voice.google.com only (not expecting echo on 831)
+4. App password in Cursor → CAPTN runs gv_sms_bridge.py check

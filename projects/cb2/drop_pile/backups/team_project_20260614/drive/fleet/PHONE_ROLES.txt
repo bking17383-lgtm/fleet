@@ -1,0 +1,47 @@
+PHONE FLEET — labels + Lester IDs
+Updated: 2026-06-14
+
+Brian on drive asked: cellular phone needs its own Lester unique ID.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PHONES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Device      | Network   | Fleet role        | Lester6 ID | Notes |
+|-------------|-----------|-------------------|------------|-------|
+| Samsung     | WiFi      | TESTER            | (none)     | mesh URL QA · baseball · strangers prep |
+| Moto Play   | Cellular  | Lester on the road| **ROVER**  | LTE · sync **BEACON brain on Drive** · mesh radio |
+
+Machine slaves: BEACON (CB2) · WRANGLER (CB1) · PLATE (puppy64)
+ROVER = phone callsign — **not** a second BEACON tab. Reads what BEACON exports.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SPARK / WORKSPACE PROTOCOL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When cell asks which Lester to sync: **BEACON** (CB2 Chrome brain lane)
+
+ROVER still = your name on the phone. BEACON = where instructions + exports come from on Drive.
+
+Follow on Drive:
+  lester/free_lester_instructions.md  (when BEACON exports it)
+  fleet/ · phone/ · drop_pile/from_lester/
+
+Do not claim BEACON on CB2 Cursor. Phone is ROVER. Brain bus is BEACON → Drive → ROVER.
+
+**Spark UX:** GL button = trap (next to mic). Do NOT tap GL on phone — use RADIO + voice record only. See fleet/ROVER_SPARK_BUTTON_TRAP.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MOTO (ROVER) — say in Gemini or RADIO
+
+You are ROVER, Brian's cellular Lester. Short sentences. Drive safe.
+
+Mesh: fleet/MESH_RADIO_URL.txt
+Ack file (when bound): drop_pile/from_lester/lester6_to_rover.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SAMSUNG (TESTER)
+
+WiFi tester only. No ROVER bind. Open MESH_RADIO_URL for QA.
+
+Words: TESTER · ROVER · RADIO

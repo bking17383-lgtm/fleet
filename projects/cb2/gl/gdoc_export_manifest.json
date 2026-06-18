@@ -1,0 +1,48 @@
+{
+  "updated": "2026-06-17",
+  "owner": "Daddy T3",
+  "description": "Machine-readable export map. Apps Script or Lester6 reads this. Linux uses the .md targets only.",
+  "entries": [
+    {
+      "id": "free_lester",
+      "source_gdoc": "Free Lester (Lester Jr.) System Instructions.gdoc",
+      "target_md": "lester/free_lester_instructions.md",
+      "priority": 1,
+      "note": "Lester Jr brain — blocks LIVE"
+    },
+    {
+      "id": "gl_sorting_v3",
+      "source_gdoc": "Gemini Live Sorting Instructions - Version 3.gdoc",
+      "target_md": "lester/gemini_live_sorting_instructions.md",
+      "priority": 2,
+      "note": "Camera/sorting coach"
+    },
+    {
+      "id": "instructions_for_ai",
+      "source_gdoc": "instructions for AI (general).gdoc",
+      "target_md": "gl/instructions for AI.md",
+      "priority": 0,
+      "note": "Session open — md is master; gdoc mirrors md"
+    },
+    {
+      "id": "lester_keys",
+      "source_gdoc": "lester keys.gdoc",
+      "target_md": "lester/lester_keys.md",
+      "priority": 3,
+      "note": "Wake keys — export once, refresh on change"
+    },
+    {
+      "id": "cafe_confess",
+      "source_gdoc": "How can I confess the cafe.gdoc",
+      "target_md": "How can I confess the cafe.txt",
+      "priority": 4,
+      "note": "George shopper doc — Brian via George→Daddy 2026-06-17"
+    }
+  ],
+  "rules": [
+    "Edit brain in .md when possible — skip export entirely",
+    "If source is newer than target, export runs",
+    "Target must be plain .md on Drive — never .gdoc-only",
+    "Linux/Cursor never reads .gdoc stubs"
+  ]
+}

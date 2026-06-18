@@ -1,0 +1,15 @@
+NET admin=Gem · EXECUTED on cb1 · Brian word GO
+time=2026-06-16T08:29:56-07:00
+host=cb1 ip=100.115.92.26
+dog=training · Daddy fake test lane separate
+
+cb1 ports (post-execute scan):
+  :8765=UP mesh_radio
+  :8766=UP sarah/jailbreak_sink
+  :8770=UP hitme
+
+tunnel: https://affordable-wolf-appropriate-question.trycloudflare.com
+public: fleet/MESH_RADIO_URL.txt
+
+puppy: RETIRED · ignore
+Word: NET · LIVE

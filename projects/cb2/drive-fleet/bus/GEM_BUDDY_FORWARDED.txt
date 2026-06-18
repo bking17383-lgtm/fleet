@@ -1,0 +1,5 @@
+GEM_BUDDY_FORWARDED — 2026-06-17T12:54:12-07:00
+line=[2026-06-17T09:04:59-07:00] [2026-06-17T08:10:03-07:00 picture_inbox] photo gem...see the layout.jpg · kind=generic · sandbox=YES · read fleet/bus/PICTURE_INBOX.txt
+ask=photo gem...see the layout.jpg · kind=generic · sandbox=YES · read fleet/bus/PICTURE_INBOX.txt
+answered=YES
+→ fleet/bus/cpt_to_gem.txt

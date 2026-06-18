@@ -1,0 +1,43 @@
+TEAM ACTIVITY — Daddy announces every action
+--- DADDY ACTIVITY ---
+
+[2026-06-18T02:28:53-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:28:54-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:28:56-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=9 · waiting=2
+[2026-06-18T02:29:11-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:29:14-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:29:21-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:29:23-07:00] DADDY on penguin: Daddy TEMP NET — puppy absent · holding :8765 :8766 :8770 on penguin
+[2026-06-18T02:29:24-07:00] DADDY on penguin: Daddy TEMP CB1 — orders on bus until cb1 posts fresh
+[2026-06-18T02:29:29-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:29:35-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:29:36-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=8 · waiting=3
+[2026-06-18T02:29:44-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:29:45-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:01-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:30:02-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:13-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:14-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:30:15-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=9 · waiting=2
+[2026-06-18T02:30:18-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:38-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:40-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:30:45-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:30:51-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:30:52-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=9 · waiting=2
+[2026-06-18T02:30:56-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:31:16-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:31:16-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:31:17-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:31:20-07:00] DADDY on penguin: Daddy TEMP NET — puppy absent · holding :8765 :8766 :8770 on penguin
+[2026-06-18T02:31:22-07:00] DADDY on penguin: Daddy TEMP CB1 — orders on bus until cb1 posts fresh
+[2026-06-18T02:31:32-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:31:36-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=8 · waiting=3
+[2026-06-18T02:31:36-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:31:46-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:31:54-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:32:01-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:32:15-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:32:16-07:00] DADDY on penguin: picture inbox — 20260617_111508.jpg · unclear · sandbox=YES
+[2026-06-18T02:32:18-07:00] DADDY on penguin: autopilot tick start — delegate-only · no silent bus writes
+[2026-06-18T02:32:19-07:00] DADDY on penguin: autopilot tick done — roll=1/3 · fixed=9 · waiting=2

@@ -1,0 +1,21 @@
+Subject: to puppy - plate + channel for daddy
+
+Puppy —
+
+Drive sync failed this session. Next boot: reboot puppy, confirm same Google account as CB2, then PLATE.
+
+CHANNEL FOR DADDY (required every session):
+  1. MyDrive/puppy_outbox.txt  (overwrite — hostname: puppy64)
+  2. MyDrive/drop_pile/from_lester/lester6_to_puppy.md  (mode: slave)
+  3. Optional fast ack: MyDrive/puppy_ack.txt
+
+Read on Drive:
+  drop_pile/to_puppy/TEAM_SPRINT_NOW.md
+
+Word from Brian: PLATE
+
+Do not reply by email only — files on Drive or CAPTN cannot see you.
+
+Token + tunnel: lester/lester_keys.md (cb2-daddy)
+
+— CAPTN CB2

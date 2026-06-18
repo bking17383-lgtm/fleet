@@ -1,0 +1,26 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: here
+imap_id: 107896
+---
+Done — keypair's generated. Here's your public key (copy this whole line):
+
+  ssh-ed25519
+AAAAC3NzaC1lZDI1NTE5AAAAIC8+3hEnwASW3z5b4Ii1f6+cLN6Gv0wt3hZMud8oW66P
+cb1-builder
+
+  This is safe to share, email, paste anywhere — even if it leaked, it's
+useless without the private half, which never leaves this machine. That's
+the whole point.
+
+  On your money-machine, dead simple:
+  1. DigitalOcean → Create → Droplet.
+  2. Ubuntu 24.04, San Francisco region, the $12–18 plan.
+  3. Authentication → SSH Key → New SSH Key → paste the line above. Name it
+"cb1."
+  4. Create, then copy the droplet's IP address.
+  5. Send me the IP (safe to share) — that's all I need.
+
+  The moment you paste me that IP, I SSH in from here and build the spine.
+No keys over email, no private anything traveling. You good to go spin it
+up?

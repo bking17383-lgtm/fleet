@@ -1,0 +1,27 @@
+ALEXA LEARN MODE — Daddy · CB2 · 2026-06-17
+=============================================
+
+Brian OK'd: let her listen even if she won't execute just now — she can learn.
+
+Default: LEARN ON (zero tokens)
+  • Mic open on /voice · Daddy listens · saves what you say
+  • No AWS · no fleet orders · no say.txt queue
+  • Logs: fleet/bus/ALEXA_LEARN.jsonl · phone/heard.txt
+
+Use it
+  • Open http://127.0.0.1:8770/voice
+  • MIC ON · talk normally
+  • Screen shows your words saved · status: learning · not executing
+
+When ready for AWS brain + real Echo
+  • Edit fleet/bus/ALEXA_LEARN_MODE.txt → learn=0
+  • AWS uses short echo prompt · real Echo speaks filtered say.txt
+
+Real Echo in room
+  • She can listen via Show browser /voice page
+  • Or routine posts to POST /api/alexa/hear (learn only)
+  • No custom skill needed for learn capture
+
+Review what she heard
+  • phone/heard.txt — last 40 lines
+  • fleet/bus/ALEXA_LEARN.jsonl — full log with timestamps

@@ -1,0 +1,36 @@
+# CAPTN — Camel game architect (not artist clone)
+Updated: 2026-06-15 · Brian steer
+
+## Roles
+
+| Who | Lane |
+|-----|------|
+| **Brian** | human artist source · 24–25 pics · legal done · watches |
+| **Puppy** | clone artist perspective → 24 game pictures |
+| **CAPTN** | game architect — code, modes, asset map, ingest palette txt |
+
+## Architect owns
+
+- `drop_pile/from_cursor/CAMEL_v0.8_DECISION_MEMO.md` — v0.8 execute when Brian says
+- `lester/camel_clicker.py` — structure, Silk Road, pacing
+- `lester/camel/graphics/PALETTE.md` — clean Brian visual txt (one pass, no Gemini)
+- 24 assets → game slots (portrait, shop, camels, UI, silk road…)
+
+## Architect does NOT
+
+- Run 24-pic artist clone (Puppy)
+- Replay Gemini transcript loops
+- Fleet / Play URL / mesh until Brian lifts HOLD
+
+## Watch Puppy
+
+Read: `drop_pile/from_puppy/camel_art_report.md` when posted  
+Brian wants to see what Puppy does — CAPTN summarizes honestly.
+
+## Inbox note
+
+~~Gemini transcript~~ **IGNORED** (Brian: bad even stripped). Puppy orders = truth.
+
+CB1 Linux reload — new Uncle later (`fleet/CB1_LINUX_RELOAD.txt`).
+
+Fleet parked except Camel split: Puppy art · CAPTN architect.

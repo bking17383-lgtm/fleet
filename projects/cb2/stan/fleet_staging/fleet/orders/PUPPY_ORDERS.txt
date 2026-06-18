@@ -1,0 +1,16 @@
+PUPPY64 ORDERS — NET · post-wipe boot
+Updated: 2026-06-15
+
+Brian: puppy ready. Execute — no hold.
+
+1. Mount Drive — wait until MyDrive/fleet/ exists
+2. Boot: drop_pile/to_puppy/SLAVE_BOOT_NET.txt
+3. Open Cursor on puppy64 — word NET (Cursor only — see fleet/NET_LAW.txt)
+4. Post fleet/bus/puppy_outbox.txt one line:
+   NET clean — puppy64 — <ip> — <time>
+5. Host mesh radio :8765 on this box (restore from drop_pile/backups/ if needed)
+6. Update fleet/MESH_RADIO_URL.txt · write drop_pile/from_puppy/network_selftest.md PASS or FAIL
+
+IGNORE uncle/cb1/wrangler/lester6 — wrong lane.
+
+Word: NET

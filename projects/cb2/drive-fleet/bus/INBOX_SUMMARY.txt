@@ -1,0 +1,52 @@
+INBOX — Daddy read · 2026-06-16
+Brian said: taking forever · help
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT INBOX ACTUALLY SAYS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brian (stale 02:29): "everyone just got loop" → routed to all 3 boxes
+Buddy (stale 02:14): keys sprint plain md only
+
+No new Brian lines since. Real work moved to gem_to_cpt + JAILBREAK_STATUS.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO DID WORK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GEM (CB1) — JAILBREAK files DONE on Drive:
+  free_lester · scan_cheats · gate :8788 · PUPPY_JAILBREAK.sh
+  Read: drop_pile/from_cursor/JAILBREAK_STATUS.txt
+
+DADDY (penguin) — watching · not blocking
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO IS STUCK (why it feels forever)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PUPPY — no keyboard post in 4+ hours · :8765 down
+  ONE command: bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+UNCLE — still WAITING on bus · no CB1 CHECKIN
+  ONE command: bash ~/GoogleDrive/MyDrive/lester/gem_loop_bridge.py
+
+HITME.DEV — public 530 (DNS/tunnel one-time fix · local :8770 UP)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN — TWO COMMANDS · NOT ALL DAY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On puppy64:  PUPPY → run PUPPY_JAILBREAK.sh (see drop_pile/to_puppy/JAILBREAK_NET_NOW.txt)
+On CB1:      UNCLE → run gem_loop_bridge.py (see fleet/UNCLE_REBOOT.txt)
+
+That's it. Gem already built GL. Puppy hosts · Uncle checks in.
+
+Roll stuck at 1/3 until those two posts land.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY NEXT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Watching uncle_to_cpt + puppy_outbox · honest ack only · no cosplay.
+
+Word to tell boxes: PUPPY · UNCLE

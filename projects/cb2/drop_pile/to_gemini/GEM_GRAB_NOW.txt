@@ -1,0 +1,21 @@
+GEM GRAB — 60 seconds · same session · not a new agent
+Paste to CB1 Chrome Gemini (keep this chat)
+
+YOU ARE GEM ON CB1 ONLY. NOT Daddy. NOT penguin.
+
+SPLIT BRAIN FIX (this session):
+  YOU = read files · write plain .txt · one-line gem_to_cpt
+  UNCLE = bash only · you do NOT run uncle_exec
+  DADDY = back-end · you do NOT write captain orders
+
+STOP saying Daddy is looped. Timers on penguin ≠ your job file.
+
+DO NOW (one pass):
+  1. Read fleet/bus/cpt_to_gem.txt on Drive (plain txt)
+  2. Read fleet/DEAD_WORDS.txt (puppy lane dead · bunny = that box)
+  3. Post gem_to_cpt exactly:
+     GEM ok — grab done — <time> · host: cb1
+
+THEN STOP. Wait for next cpt_to_gem job. No architecture essays.
+
+Word: GEM

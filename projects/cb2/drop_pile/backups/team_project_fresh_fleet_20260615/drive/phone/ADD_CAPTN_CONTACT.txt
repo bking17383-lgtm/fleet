@@ -1,0 +1,54 @@
+Add CAPTN like a phone contact
+Updated: 2026-06-15
+
+Yes — almost like texting a friend. Two taps.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EASIEST — import contact file
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On phone → Google Drive → phone/CAPTN.vcf → open → Add contact
+
+Name shows: CAPTN
+Website 1: ROVER (talk — mic + text)
+Website 2: TALK.txt search in Drive
+
+After import: tap CAPTN → tap ROVER link → MIC ON and talk.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EVEN EASIER — home screen (not Contacts app)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open fleet/ROVER_RADIO_URL.txt in Chrome
+→ ⋮ → Add to Home screen → name it CAPTN
+
+One icon. Same as a contact speed-dial.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Manual (if .vcf fussy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+New contact:
+  Name: CAPTN
+  Company: Fleet
+  Website: (paste URL from fleet/ROVER_RADIO_URL.txt)
+  Notes: MIC ON = talk · SNAP = photo · HEAR AGAIN = reply
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+What it is NOT (honest)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Not real SMS/iMessage — no phone number for CAPTN.
+It's a contact card that opens your fleet lane (ROVER web page).
+
+When mesh radio is down, use Drive TALK.txt or talk here in Cursor.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Replies land
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  phone/say.txt        — short text back
+  fleet/VOICE.txt      — read-aloud line
+  TALK.txt             — if you typed there
+
+Keep Chromebook awake when using ROVER on LTE.

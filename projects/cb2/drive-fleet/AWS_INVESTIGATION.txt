@@ -1,0 +1,58 @@
+AWS INVESTIGATION — are they lying?
+Updated: 2026-06-15
+Status: SANDBOX NOT RUN YET — need keys
+
+Brian + CPT verify claims. AWS does NOT control our fleet — CPT approves what leaves the box.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT AWS ACTUALLY PROMISES (check contract)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Claim | Likely true? | Verify |
+|-------|--------------|--------|
+| Bedrock does not train on your prompts | Usually yes | Probe + read AWS Service Terms §50.3 |
+| IP indemnity on Amazon models (Nova/Titan) | Partially | §50.10 — uncapped for listed services |
+| IP indemnity on Claude/etc via Bedrock | Varies | Third-party model terms — not same as Nova |
+| "Best for delivery" | Marketing | Compare latency, cost, vs Cloudflare+Cursor |
+| "Only what you approve" | **OUR job** | AWS does not gate Brian's Drive — we build that |
+| "Entrance hole" | Partially | API Gateway + Bedrock + auth = front door |
+
+They are not necessarily lying — they are selling. **Approval gate and CPT brain are ours to build.**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SANDBOX SETUP (one time)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1) AWS Console → IAM → Users → Create **captn-sandbox**
+2) Attach policy from fleet/AWS_SANDBOX_IAM.json (Bedrock invoke only — no EC2/S3 admin)
+3) Create access key → paste into **local only**:
+     ~/.stan/aws_sandbox.env  (copy from aws_sandbox.env.example)
+4) Bedrock console → Model access → enable **Amazon Nova Lite** (cheap probe)
+5) On CB2:
+     pip3 install --user boto3
+     python3 ~/.stan/aws_sandbox_probe.py
+6) Read result: fleet/bus/AWS_PROBE_REPORT.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVESTIGATION CHECKLIST (after probe)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+□ Invoke works with sandbox IAM (proves delivery path)
+□ CloudTrail shows metadata only — not full prompt body (IP/log audit)
+□ Read §50.10 indemnity — which models covered?
+□ Run same prompt twice — confirm no cross-customer bleed (trivial test)
+□ Cost: one month budget alarm at $25
+□ **Approval test:** CPT writes order to Drive; sandbox LLM never sees Drive until we wire it
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WE DO NOT GIVE AWS (until Brian says)
+
+  Story Mine raw gdocs · family PII · secrets · cloudflare tokens · full Drive mirror
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REPORT TO BRIAN
+
+When probe runs, CPT posts one paragraph to fleet/bus/mac_outbox.txt:
+  AWS SANDBOX: pass/fail + honest IP/lie verdict
+
+Guide: fleet/CLOUD_CPT_FALLBACK.txt

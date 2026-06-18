@@ -1,0 +1,18 @@
+BRIAN DECISION — privacy — 2026-06-17T16:15:00-07:00
+
+Q: What mattered when you signed up for Google cloud?
+A: 1 — Keep inventions private (no public exposure)
+
+EFFECT:
+  · HOLD GCP server · no billing card chase · no gcloud bash
+  · hitme.dev = public by design · separate from invention privacy
+  · Drive private files ≠ GCP VM · you don't need VM for privacy
+
+ACTIVE WORK:
+  · farthead · 3rd party audit · keep/cut proposals
+  · inventions stay on Drive · not published unless you ship
+
+INACTIVE (until Brian changes mind):
+  · fleet-net-1 VM · gcp_net_standup.sh · past-due billing fix for compute
+
+Word: PRIVACY · HOLD SERVER · FARTHEAD

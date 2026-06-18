@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CAPTN//Sarah demo//EN
+BEGIN:VEVENT
+UID:sarah-demo-chapel@local
+DTSTART:20260617T140000
+SUMMARY:Chapel / seminary block
+DESCRIPTION:Weekly anchor — bundle doctor appts around this
+END:VEVENT
+BEGIN:VEVENT
+UID:sarah-demo-school@local
+DTSTART:20260619T090000
+SUMMARY:School — permission slip due
+DESCRIPTION:Recital week — check peanut rules for classroom
+END:VEVENT
+BEGIN:VEVENT
+UID:sarah-demo-open@local
+DTSTART:20260620T100000
+SUMMARY:Open morning — good for doctor bundle
+END:VEVENT
+END:VCALENDAR

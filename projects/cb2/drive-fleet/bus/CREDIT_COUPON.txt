@@ -1,0 +1,9 @@
+Brian coupon paste — 2026-06-17
+
+$300 GCP Free Trial · auto-applied · no manual coupon code
+Billing Account ID: 016831-D16211-90535D
+
+BLOCKER: past due / invalid payment per Google billing email
+Fix: update card on Google Cloud Console Billing page
+
+See: fleet/CREDIT_CHECK.txt

@@ -1,0 +1,8 @@
+VAULT_STATUS — 2026-06-15T23:03:32-07:00
+prefix=/stan/vault
+region=us-east-1
+
+  cloud: NO (install boto3 · set vault_reader.env)
+
+reader_env=~/.stan/vault_reader.env
+law=fleet/VAULT_KEEPER.txt

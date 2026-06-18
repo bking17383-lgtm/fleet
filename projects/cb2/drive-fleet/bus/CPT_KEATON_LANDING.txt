@@ -1,0 +1,16 @@
+CPT ORDER — Keaton landing (pending Bunny sound)
+TIME: 2026-06-17T06:50:00-07:00
+FROM: Brian via Daddy
+
+SEQUENCE
+  1. Bunny inserts jingle on Keaton page → KEATON_SOUND_OK.txt
+  2. CPT auto-writes fleet/keaton/LANDING_LIVE.txt (cpt_bunny_watch)
+  3. hitme.dev / → /keaton (not /landing)
+
+GATE
+  drop_pile/from_bbbunny/KEATON_SOUND_OK.txt must exist
+  drop_pile/from_bbbunny/keaton.html must exist
+
+STATUS: WAITING_BUNNY
+
+Word: KEATON · LANDING · GATE

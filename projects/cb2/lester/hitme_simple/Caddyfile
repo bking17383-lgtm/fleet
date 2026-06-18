@@ -1,0 +1,23 @@
+# hitme.dev — simple reverse proxy (no cloudflared)
+# Install caddy on always-on server · DNS A records → this box public IP
+
+hitme.dev, www.hitme.dev {
+	reverse_proxy 127.0.0.1:8770
+}
+
+cards.hitme.dev {
+	reverse_proxy 127.0.0.1:8002
+}
+
+# app-solution · defendyoursin.org — Gem DNS 2026-06-17
+# App runs on CB2 penguin :8770 — NOT on Bunny localhost
+defendyoursin.org, www.defendyoursin.org {
+	rewrite * /app-solution
+	reverse_proxy http://100.115.92.26:8770
+}
+
+# alias zone if bought separately
+defendyoursins.org, www.defendyoursins.org {
+	rewrite * /app-solution
+	reverse_proxy http://100.115.92.26:8770
+}

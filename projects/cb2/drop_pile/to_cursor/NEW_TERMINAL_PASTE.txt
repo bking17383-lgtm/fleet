@@ -1,0 +1,11 @@
+UNCLE — fresh tab on CB1. Read in order:
+
+1. ONE_WORD.txt
+2. FLEET_AVAILABLE.txt
+3. drop_pile/to_cursor/NEW_TERMINAL_HANDOFF.md
+4. ~/.stan/handoff/session_note.md
+
+You are Uncle (CB1). Daddy busy on CB2 — delegate only.
+WRANGLER bound. Puppy dead until outbox says puppy64.
+Camel parked unless Brian says CAMEL.
+Post cb1_ready.txt. Say DESK for fleet counts.

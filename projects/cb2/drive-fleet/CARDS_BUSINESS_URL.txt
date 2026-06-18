@@ -1,0 +1,45 @@
+Card Scanner — business URL
+Updated: 2026-06-16
+
+TARGET (share this):
+  https://cards.hitme.dev
+
+Stripe checkout + phone camera need HTTPS — not Tailscale, not localhost.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE-TIME (Cloudflare ~3 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open tunnel config:
+   https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+
+2. Public Hostname → Add:
+   Subdomain: cards
+   Domain: hitme.dev
+   Type: HTTP
+   URL: http://localhost:8002
+
+3. On CB1 (where scanner runs), paste tunnel token:
+   nano ~/.stan/cloudflare.env
+   CLOUDFLARE_TUNNEL_TOKEN='…from dashboard…'
+   CLOUDFLARE_PUBLIC_URL='https://cards.hitme.dev'
+
+4. Start tunnel:
+   bash ~/.stan/cards_tunnel.sh
+
+5. Test: https://cards.hitme.dev/api/health
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INTERIM (today, URL rotates)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/cards_tunnel.sh quick
+
+Writes trycloudflare link to MyDrive/BRIAN_PHONE.txt — fine for you, not for customers.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Product copy
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Card Reader — PSA prep scan before you grade
+  hello@hitme.dev

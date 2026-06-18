@@ -1,0 +1,4 @@
+FROM_GEM — cb1 slave — 2026-06-17T14:08:54-07:00
+loop: cb1_slave_loop · interval=30.0s
+last_job: cpt_to_gem: time: 2026-06-17T13:17:00-07:00
+ports: :8888=up :8765=up :8766=up :8770=up :8788=up

@@ -1,0 +1,103 @@
+AUDIO DONE — mobile law · 2026-06-17 · Brian
+Every finish says WHAT finished · part or whole project · easiest word first
+
+Part of project counts — same rules:
+  sound wired only   → "Sound done."
+  analyze pass only  → "Analyze done."
+  full job           → "Keaton done."
+
+Law: fleet/PROJECT_LAW.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SPEAK THIS (copy shape)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  "<PREFIX> done."
+  "<PREFIX> done, Brian."
+
+PREFIX = one easy word Brian already uses for the job:
+  from order headline · TO_* first line · or box name
+
+  keaton is live        →  "Keaton done."
+  wire landing          →  "Landing done."
+  read layout.jpg       →  "Layout done."
+  mesh up               →  "Mesh done."
+  (no job word)         →  "Bunny done." / "Uncle done." / "Clerk done."
+
+Rules:
+  • PREFIX first — always
+  • Say the thing — never bare "I'm done" with no name
+  • Keep clip under ~5s · one sentence
+  • Lowercase file · uppercase speak OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MOBILE FILES (every box · same shape)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  drop_pile/done/<prefix>.mp3          ← audio
+  drop_pile/done/<prefix>.txt          ← one line receipt
+  fleet/bus/DONE_FEED.txt              ← append row (phone inbox)
+
+Receipt line (exact):
+  <time> · <box> · <prefix> · https://hitme.dev/done/<prefix>.mp3 · <what shipped>
+
+Play on phone:
+  https://hitme.dev/done/<prefix>.mp3
+  https://hitme.dev/done              ← tap list · last 20
+
+LAN: http://100.115.92.26:8770/done/<prefix>.mp3
+
+Also post lane ack (text):
+  BUNNY  → FROM_BUNNY · done: <prefix> · audio=https://hitme.dev/done/<prefix>.mp3
+  UNCLE  → uncle_to_cpt · UNCLE ok — <prefix> — <time>
+  CLERK  → gem_to_cpt · CLERK ok — <prefix> — <time>
+  DADDY  → TEAM_ACTIVITY one line
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO WRITES WHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Bunny   drop_pile/done/<prefix>.mp3   (default · builder jobs)
+  Uncle   drop_pile/done/<prefix>.mp3   (after cb1 execute)
+  Clerk   drop_pile/done/<prefix>.mp3   (TTS in Chrome OK)
+  Daddy   drop_pile/done/<prefix>.mp3   (infra / captain finish)
+
+TTS one-liner (any Linux box):
+  espeak-ng -s 140 -w /tmp/x.wav "<PREFIX> done, Brian." && ffmpeg -y -i /tmp/x.wav drop_pile/done/<prefix>.mp3
+
+George / Echo: play https://hitme.dev/done/<prefix>.mp3 when DONE_FEED updates
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ORDER LINE (add to every TO_* job)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PREFIX: <word>
+  DONE: audio "<PREFIX> done." → drop_pile/done/<prefix>.mp3 · hitme.dev/done/<prefix>.mp3
+  Word: LOOP   ← Brian types one word · Daddy pokes Bunny (not bash for Brian)
+
+Brian one word after Bunny job:
+  LOOP
+
+Daddy auto-pokes when done/*.mp3 lands (backup · Brian still only types LOOP if needed)
+Law: fleet/BUNNY_LOOP.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXAMPLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Job: keaton sound wired
+  Speak: "Keaton done."
+  Files: drop_pile/done/keaton.mp3 · keaton.txt
+  URL:   https://hitme.dev/done/keaton.mp3
+
+  Job: uncle loop
+  Speak: "Loop done."
+  URL:   https://hitme.dev/done/loop.mp3
+
+  Job: clerk read layout
+  Speak: "Layout done."
+  URL:   https://hitme.dev/done/layout.mp3
+
+Chat ≠ done. MP3 on Drive + DONE_FEED row = done.
+
+Word: DONE · PREFIX · MOBILE

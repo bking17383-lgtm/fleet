@@ -1,0 +1,36 @@
+DADDY WAIT — 2026-06-18T02:32:01-07:00
+mode=DELEGATE ALL · waiting for team · roll=1/3
+
+BRIAN: Daddy posts orders · does NOT execute · waits for 3/3
+
+DELEGATED THIS TICK
+  • hitme ok
+  • delegated mesh → Puppy
+  • delegated sarah → Puppy
+  • started hitme_always.sh
+  • bunny loop watch LIVE · daddy_post fresh
+  • Uncle+Gem loop LINKED
+  • acks refreshed · cpt_to_uncle=LINKED hold
+  • AWS FIX delegated fleet-wide
+
+WAITING FOR TEAM
+  • Gem stale — Brian on puppy + Gem repair · Gem NOT captain
+  • AWS not green — any box: bash lester/aws_fix_anyone.sh
+
+BUNNY INDIE LOOP (read fleet/bus/CPT_BUNNY_LOOP.txt)
+  watch=LIVE · daddy_post=fresh (22s)
+  bunny=LIVE · job=ORDER — 2026-06-17T17:25:00-07:00
+  ui: /bunny · /inbox · TO_BUNNY.txt
+
+BOARDS
+  fleet/FLEET_ARCHITECTURE.txt · FLEET_FAILOVER.txt · AWS_FIX_ANYONE.txt
+  fleet/bus/FLEET_CHECKIN.txt
+  fleet/bus/FLEET_SELF_CHECK.txt
+  /checkin · /goal · /tv
+
+BOX WORDS
+  Daddy: DADDY (this box · background only)
+  Puppy: PUPPY + ONE_COMMAND
+  Uncle: UNCLE + uncle_exec on CB1 only
+
+Word: WAIT · team at 3/3 before Daddy moves

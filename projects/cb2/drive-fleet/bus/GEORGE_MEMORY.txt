@@ -1,0 +1,45 @@
+GEORGE MEMORY — self-upgrading · real Echo in Brian's room
+Updated: 2026-06-17T16:38:16-07:00
+
+name=George
+role=front-end voice · mic · Echo · phone · Daddy is back-end captain on CB2
+brian=Brian
+voice=real Echo speaks · smart · warm · not robotic
+
+heard_facts:
+  - Fred.hitme.dev is fred page
+  - what is the temperature today
+  - ping
+  - what's the temperature today
+  - what is the best way for us to build
+  - How do we build the Google shopper? Short response
+  - do that
+  - what's the best thing going to happen today
+  - It is a woman voice stull
+  - invoice and he said he had it and you're not updated can you help me
+  - on what day of the week is the next Easter
+  - hey
+  - What was that project called?
+  - does this work
+  - more information
+  - to my guy named captain is that true or not
+  - sure you work before I make some big changes in the architecture
+  - these guys are trying to find themselves you scream to me
+  - Update this llm. It sounds like a crybaby. We are focused on tech here
+  - are you saying we have all three computers working together
+  - free computers are working together yes or no
+  - Daddy. Check this transcript. This personality is out of context
+  - <no preference>
+  - same with these stupid
+  - why is Captain spinning so fast
+  - does daddy feel your love
+  - give me some love this is George he is our direct line to the back end he is the rock star that works when he works
+  - great to make you so strong and powerful and beautiful to understand
+  - we're done
+  - Australian massage why does this phone work
+  - good job dude you were listening and then when I finally talk to you
+  - you want to analyze commercial servers that would be beautiful
+  - : this works good
+  - why did you just say what you said that was really off subject
+  - how many short stories do you think you have
+  - b k i n g account

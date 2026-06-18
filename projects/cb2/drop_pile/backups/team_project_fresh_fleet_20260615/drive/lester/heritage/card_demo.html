@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Heritage Card</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #0a0a0f;
+    color: #f5e6c8;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .portrait-hint {
+    text-align: center;
+    max-width: 20rem;
+    display: none;
+  }
+  .portrait-hint h1 { font-size: 1.2rem; color: #c9a227; margin-bottom: 0.5rem; }
+  .portrait-hint p { color: #888; font-size: 0.95rem; }
+  .rotate { font-size: 3rem; animation: wobble 2s ease-in-out infinite; }
+  @keyframes wobble { 50% { transform: rotate(90deg); } }
+
+  .card-wrap { display: none; width: 100%; max-width: 640px; }
+  .card {
+    aspect-ratio: 1.586 / 1;
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, #1a0a2e 0%, #3d1515 40%, #1a1a0a 100%);
+    border: 3px solid #c9a227;
+    box-shadow: 0 0 40px rgba(201,162,39,0.35), inset 0 0 60px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgba(201,162,39,0.4);
+    border-radius: 10px;
+    pointer-events: none;
+  }
+  .seal {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 3px double #c9a227;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.55rem;
+    text-align: center;
+    line-height: 1.2;
+    color: #c9a227;
+    opacity: 0.9;
+  }
+  .header { font-size: 0.65rem; letter-spacing: 0.25em; color: #c9a227; text-transform: uppercase; }
+  .title { font-size: 1.35rem; font-weight: bold; margin: 0.35rem 0; color: #fff; text-shadow: 0 2px 8px #000; }
+  .name { font-size: 1.1rem; margin: 0.5rem 0 0.25rem; color: #f5e6c8; }
+  .line { font-size: 0.85rem; color: #e8c547; font-style: italic; }
+  .honor { font-size: 0.7rem; margin-top: 0.5rem; color: #aaa; max-width: 70%; }
+  .qr {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 0.45rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tabs button {
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid #444;
+    background: #1a1a2e;
+    color: #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .tabs button.active { border-color: #c9a227; color: #c9a227; }
+  .union { background: linear-gradient(135deg, #0f2e1a, #1a3d20, #0a1a0f); border-color: #4ade80; }
+  .vet { background: linear-gradient(135deg, #1a1a2e, #2e2e4a, #0f0f1a); border-color: #93c5fd; }
+  .union .header, .union .seal { color: #4ade80; border-color: #4ade80; }
+  .vet .header, .vet .seal { color: #93c5fd; border-color: #93c5fd; }
+
+  @media (orientation: portrait) {
+    .portrait-hint { display: block; }
+    .card-wrap { display: none !important; }
+    .tabs { display: none; }
+  }
+  @media (orientation: landscape) {
+    .portrait-hint { display: none; }
+    .card-wrap { display: block; }
+    .tabs { display: flex; }
+    body { padding: 0.5rem; }
+    .card { max-height: 85dvh; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="portrait-hint">
+  <div class="rotate">📱</div>
+  <h1>Rotate for your card</h1>
+  <p>Landscape = grandiose heritage pass. Flash like a credit card.</p>
+</div>
+
+<div class="tabs" id="tabs">
+  <button type="button" class="active" data-mode="ethnic">② Ethnic grandiose</button>
+  <button type="button" data-mode="union">③ Union / belong</button>
+  <button type="button" data-mode="vet">① Scholarship / vet</button>
+</div>
+
+<div class="card-wrap">
+  <div class="card" id="card">
+    <div class="header" id="hdr">Repubblica della Linea · hitme.dev</div>
+    <div class="title" id="ttl">CERTIFICATO DI LINEA</div>
+    <div class="name" id="nm">Brian K — Bearer</div>
+    <div class="line" id="ln">Line of Savoy · cited · not a lie about pizza</div>
+    <div class="honor" id="hon">Patron Emeritus · Mezzogiorno Affinity · Grandparents were fancy, not club-Italian</div>
+    <div class="seal" id="seal">OFFICIAL<br>SEAL<br>maybe</div>
+    <div class="qr">verify<br>line</div>
+  </div>
+</div>
+
+<script>
+const modes = {
+  ethnic: {
+    cls: '',
+    hdr: 'Repubblica della Linea · hitme.dev',
+    ttl: 'CERTIFICATO DI LINEA',
+    nm: 'Brian K — Bearer',
+    ln: 'Line of Savoy · House cited · GRANDIOSE',
+    hon: 'Patron Emeritus · Ethnic display only · Rotate and flex',
+    seal: 'OFFICIAL<br>SEAL<br>maybe'
+  },
+  union: {
+    cls: 'union',
+    hdr: 'Affiliate Member · Union Card',
+    ttl: 'CARD OF BELONGING',
+    nm: 'Brian K — Member',
+    ln: 'Italian Athletic Club · AFFINITY (apply separately)',
+    hon: 'Show phone like credit card · Line attached · Org verifies',
+    seal: 'UNION<br>LOCAL<br>№ 42'
+  },
+  vet: {
+    cls: 'vet',
+    hdr: 'Scholarship Screener · cited tree',
+    ttl: 'ELIGIBILITY PRE-CHECK',
+    nm: 'Brian K — Applicant',
+    ln: 'Veteran line · service branch cited in GEDCOM',
+    hon: 'Not an award · Pre-check only · Sources on file',
+    seal: 'VET<br>LINE<br>✓'
+  }
+};
+const card = document.getElementById('card');
+document.getElementById('tabs').onclick = (e) => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  const m = modes[b.dataset.mode];
+  card.className = 'card ' + m.cls;
+  ['hdr','ttl','nm','ln','hon','seal'].forEach(k => {
+    const el = document.getElementById(k === 'hdr' ? 'hdr' : k === 'ttl' ? 'ttl' : k === 'nm' ? 'nm' : k === 'ln' ? 'ln' : k === 'hon' ? 'hon' : 'seal');
+    if (el) el.innerHTML = m[k];
+  });
+};
+</script>
+</body>
+</html>

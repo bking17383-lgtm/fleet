@@ -1,0 +1,13 @@
+PUPPY — TEAM NOW
+Updated: 2026-06-16T02:48:26-07:00
+
+Daddy ready · need NET check-in.
+
+RUN:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+POST fleet/bus/puppy_outbox.txt:
+  NET CHECKIN — puppy64 — <wlan-ip> — <time>
+
+Read: fleet/bus/cpt_to_puppy.txt · fleet/bus/CPT_TEAM_CALL.txt
+Word: NET

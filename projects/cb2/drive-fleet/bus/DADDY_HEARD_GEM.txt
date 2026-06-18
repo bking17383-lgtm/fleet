@@ -1,0 +1,21 @@
+DADDY → BRIAN — Gem connection truth · 2026-06-16T05:14
+
+NOT LOST. Gem checked in 13s ago on CB1.
+  gem_to_cpt: GEM ok — CPT loop
+  loop: LIVE · uncle LIVE
+
+WHAT FELT BROKEN:
+  Brian's keys job sat in BUDDY_INBOX — never copied to cpt_to_gem.
+  Loop pings overwrote orders. Gem answered heartbeat, not the job.
+
+FIXED NOW:
+  cpt_to_gem.txt → keys sprint (CONNECTED · BRIAN JOB)
+  fleet/bus/GEM_CONNECTION.txt — honest status
+  /gem page shows green LIVE + yellow job pending
+  autopilot runs reconnect every tick
+
+GEM STILL MUST:
+  Export lester/lester_keys.md · post:
+  BUDDY ok — keys exported YES|NO — <time> · host: cb1
+
+Watch: http://127.0.0.1:8770/gem

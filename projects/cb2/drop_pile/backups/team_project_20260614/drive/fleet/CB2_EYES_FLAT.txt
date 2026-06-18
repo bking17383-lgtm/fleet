@@ -1,0 +1,41 @@
+CB2 EYES — flat chromebook (best lane for CAPTN)
+Updated: 2026-06-14
+
+YES — office on THIS machine is the right eyes path.
+Rover phones: SNAP only, no live stream yet.
+
+OPEN ON CB2 (local):
+  http://127.0.0.1:8765/office
+
+Or tunnel /office when on home WiFi (fleet/OFFICE_RADIO.txt)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FLAT CB SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Chromebook flat on desk/table:
+- Built-in cam = usually ONE camera (no real front/back flip on most CBs)
+- Tap FLIP CAM to cycle USB webcam vs built-in if both plugged in
+- USB cam on flat CB often beats lid webcam for room view
+
+MIC ON (default):
+- Say SNAP → picture → Drive eyes/inbox → CAPTN reads in Cursor
+- Say left / right / up / down → CAPTN hears aim hint (then SNAP)
+- CAPTN speaks back (left, right, etc.) through CB2 speaker
+
+Loop:
+  1. MIC ON
+  2. Point flat CB (or USB cam) at target
+  3. SNAP
+  4. Hear CAPTN direction
+  5. Nudge CB · SNAP again until good
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOT THIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Phone RADIO = rover field eyes (you point phone at screen)
+- Gemini Live = trap button
+- Live stream on rover = not yet
+
+Say EYES TEST when office tab is open — CAPTN will SNAP-read back.

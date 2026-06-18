@@ -1,0 +1,11 @@
+PUPPY — WIPE YOURSELF
+Updated: 2026-06-15
+
+You are linux only. No one wipes you remotely.
+
+1. pack_before_wipe.sh
+2. PACKED in puppy_outbox
+3. You wipe / reinstall this machine
+4. Mount Drive · CLEAN_START.txt · post NET clean
+
+Word: NET

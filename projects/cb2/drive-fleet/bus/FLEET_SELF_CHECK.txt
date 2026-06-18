@@ -1,0 +1,24 @@
+FLEET SELF-CHECK — 2026-06-18T02:32:14-07:00
+host=penguin · interval=25s · drive=OK
+system_green=YES
+
+SERVICES (CPT)
+  • mesh: OK
+  • sarah: OK
+  • desk: OK
+
+BOX PULSE (mtime)
+  • gem_to_cpt: 2026-06-17T14:00:38-07:00
+  • dog_outbox: 2026-06-17T12:36:19-07:00
+  • uncle_to_cpt: 2026-06-17T12:59:22-07:00
+  • lester_keys: 2026-06-17T01:58:23-07:00
+  • keys AKIA: NO
+
+TAILS
+  gem: Library ok — 38/39 transcribed · library.mp3 · Videos/library_video_index.json
+  dog: Law: fleet/DEAD_WORDS.txt
+  net: Word: NET · LIVE
+  uncle: Word: NET · LIVE
+
+LAW: everyone self-check every 25s until green · post plain .txt
+Word: SELF-CHECK · read fleet/FLEET_SELF_CHECK_LAW.txt

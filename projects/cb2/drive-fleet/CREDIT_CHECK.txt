@@ -1,0 +1,59 @@
+CREDIT CHECK — 2026-06-17 · 3rd-party style audit · from Brian coupon paste
+
+SOURCE: Brian · cloudplatform-noreply past-due notice · billing acct ID
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COUPON TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  GCP $300 Free Trial — NOT a manual promo code
+  Auto-applies to billing account on signup / eligible account
+
+  Billing Account ID: 016831-D16211-90535D
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VERDICT: FAIL VM PROVISION (for now)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BLOCKER 1 — BILLING PAST DUE (primary)
+    Google email: billing account past due / invalid payment
+    Effect: $300 credit LOCKED · cannot provision Compute Engine
+    Fix: Brian once → Google Cloud Console → Billing
+         Update backup card · clear past-due
+         https://console.cloud.google.com/billing
+
+  BLOCKER 2 — NO GCLOUD LOGIN on penguin (secondary)
+    Effect: scripts cannot run even after billing fixed
+    Fix: bash ~/.stan/gcloud auth login (penguin terminal · after billing ok)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREDIT SKU (inferred from Free Trial standard offer)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Standard GCP $300 trial typically covers:
+    Compute Engine · most GCP services · not always 100% clear until billing green
+
+  RE-CHECK after past-due cleared:
+    Billing → Credits · confirm $300 active · eligible products line
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ORDER OF OPERATIONS (no assumptions)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Brian: fix billing / card on console (one admin task · unavoidable)
+  2. Wait until Google confirms account active (email or credits visible)
+  3. bash ~/.stan/gcloud auth login (penguin · correct Gmail)
+  4. 3rd party auditor: re-read billing credits page · write PASS/FAIL
+  5. bash ~/.stan/gcp_net_standup.sh (robots · not before step 4 PASS)
+
+  Do NOT run standup while past due — will fail or charge wrong.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDIT VOTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Credit check:     DONE (documented · FAIL until billing fixed)
+  VM ship:          HOLD
+  Brian admin:      one billing page only · then robots
+
+Word: PAST DUE · FIX CARD · THEN LOGIN

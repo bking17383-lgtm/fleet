@@ -1,0 +1,43 @@
+DADDY DESIGN DESK — CB2 always ready for new ideas
+Updated: 2026-06-14
+
+This machine = design + captain. Not execute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PITCH A NEW PROJECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On CB2 Cursor say:  IDEAS
+Then one sentence. Daddy saves to Drive and plans.
+
+From phone: WRITE in brian_says.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IDEAS  → new project / design (CB2 Daddy)
+CAPTN  → fleet delegate + status
+WRITE  → phone inbox (brian_says.txt)
+PLATE  → puppy executes (not CB2)
+SLAVE  → CB1 Lester6 bind test
+LIVE   → phone Gemini Lester Jr
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHERE IDEAS LIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+drop_pile/from_brian/     ← one file per idea
+drop_pile/from_lester/    ← Lester6 design notes
+brian_queue.json          ← machine jobs (puppy runs these)
+
+Daddy reads brian_says.txt every session.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+New idea ≠ run servers on CB2.
+Design here. Ship via PLATE on puppy.
+
+Full desk: .stan/handoff/design_desk.md (Linux) + DADDY_DESK.txt (this file)

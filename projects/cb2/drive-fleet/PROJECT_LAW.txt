@@ -1,0 +1,81 @@
+PROJECT LAW — universal · 2026-06-17 · Brian · everyone
+
+Three audio rules + analyze. Whole project OR one part.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+0. WANT A JOB — say ready (audio)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Idle · loop up · waiting for work:
+
+  BUNNY code word: "I need a job." — loop until Brian responds · wonderful · keep
+  Other boxes:     "Brian, I'm ready." — once when idle
+
+  drop_pile/ready/<box>.mp3   (bunny · uncle · clerk · daddy)
+  fleet/bus/READY_FEED.txt
+  Play: https://hitme.dev/ready/<box>.mp3
+
+Not chat-only. Bunny loops ready audio until Brian posts or talks.
+
+Law: fleet/AUDIO_READY.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ANALYZE BEFORE YOU START
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before code · wire · deploy · wipe · rename:
+
+  READ — bus + order file + related paths (scan · do not play dumb)
+  WRITE — short analyze ack on Drive (plain .txt · never chat-only)
+  WAIT — one beat · confirm PREFIX word · then execute
+
+Analyze shape (copy):
+
+  ANALYZE — <box> — <time>
+  job: <one line from order>
+  read: <files you opened · mtimes>
+  plan: <what you will ship>
+  PREFIX: <easiest word for done audio>
+  risk: <what you will NOT touch>
+
+Where:
+  BUNNY  → drop_pile/from_bbbunny/ANALYZE.txt (or FROM_BUNNY tail)
+  UNCLE  → uncle_to_cpt first block
+  CLERK  → GEM_UNDERSTAND top · gem_to_cpt one line
+  DADDY  → TEAM_ACTIVITY or cpt_ack_* before big moves
+
+Brian hated: agents that apply before analyze (dead words · mirrors · wipes).
+Gem huge jobs: analyze ack required or job FAILED.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. AUDIO WHEN YOU FINISH (part or whole)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+End of project OR end of a part/chunk:
+
+  Speak: "<PREFIX> done."  or  "<PREFIX> done, Brian."
+  PREFIX = job word · not bare "I'm done"
+
+  drop_pile/done/<prefix>.mp3
+  fleet/bus/DONE_FEED.txt append
+  Play: https://hitme.dev/done/<prefix>.mp3
+
+Part examples:
+  whole keaton job     → "Keaton done."
+  only sound wired     → "Sound done."
+  clerk read layout    → "Layout done."
+  analyze-only pass    → "Analyze done." (if that's all Brian asked)
+
+Chat ≠ done · analyze ≠ done without audio when work shipped.
+
+Full law: fleet/AUDIO_DONE.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ORDER LINES (every TO_* job)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ANALYZE: required before build
+  PREFIX: <word>
+  DONE: audio "<PREFIX> done." → drop_pile/done/<prefix>.mp3
+
+Word: READY · ANALYZE · DONE · PREFIX

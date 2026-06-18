@@ -1,0 +1,6 @@
+ORDER — 2026-06-17T12:03:17-07:00
+TO: all
+FROM: Brian · team_order
+LANE: Bunny box · Gemini slave · CB1 · Gem (librarian) + Uncle (hands) · CB2 · Captain/Daddy · Gemini slave
+---
+slave on — run fleet/bootstrap/start_*_slave.sh on your box · ack FROM_* within 60s

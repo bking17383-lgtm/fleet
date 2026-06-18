@@ -1,0 +1,30 @@
+# JAILBREAK — puppy keyboard · one command
+Word: NET · Updated: 2026-06-16 · Gem
+
+Run on **puppy64 terminal** (not Chromebook):
+
+```bash
+bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+```
+
+Or if Drive path differs:
+
+```bash
+bash /mnt/shared/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+```
+
+**What it does:**
+- `:8766` transcript sink (paste Live text → Drive)
+- `:8765` left for mesh RADIO
+- `:8002` baseball app + `/live/capture` from current Drive
+- Posts fresh `puppy_outbox.txt`
+
+**Gem already done on Drive:**
+- `lester/free_lester_instructions.md` — real body
+- `lester/scan_cheats.json` — valid + global_prompt
+- `lester/gemini_live_url.txt` — Gem Live gate (LAN)
+
+**Brian test after puppy runs:**
+1. Phone same Wi‑Fi → `http://<puppy-ip>:8002`
+2. Pick card → Live capture
+3. Or scan Gem gate QR for coach + paste sink

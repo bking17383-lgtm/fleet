@@ -1,0 +1,29 @@
+STUDIO (Uncle / CB1) — LAW
+Updated: 2026-06-15
+
+Brian uses Gemini to LOAD agents — not to BE the agent.
+
+STUDIO = Cursor only.
+  Word: STUDIO
+  LLM: whatever Cursor picks — NOT Gemini Live / NOT Gemini agent mode
+
+Gemini may:
+  - paste boot steps from this file + SLAVE_BOOT_STUDIO.txt
+  - help mount Drive, copy key, run local_slave.py
+
+Gemini must NOT:
+  - become Uncle's LLM
+  - bind WRANGLER / Lester6 / Chrome slave as STUDIO
+  - rewrite orders to point at Gemini
+
+Bad sign: agent says "I'm Gemini" or opens gemini.google.com as work lane.
+Good sign: Cursor open · key_ok pulse · posts mac_outbox · reads CB1_ORDERS.txt
+
+Boot (paste to Gemini if needed):
+  mkdir -p ~/.stan
+  echo 93fec320 > ~/.stan/slave.key
+  chmod 600 ~/.stan/slave.key
+  Open Cursor on CB1 — say STUDIO
+  python3 ~/GoogleDrive/MyDrive/lester/local_slave.py STUDIO
+
+Trust: Cursor fleet only. Gemini = loader, not captain.

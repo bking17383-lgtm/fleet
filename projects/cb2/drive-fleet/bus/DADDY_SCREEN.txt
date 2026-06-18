@@ -1,0 +1,11 @@
+DADDY SCREEN — 2026-06-18T02:32:26-07:00
+host=penguin · interval=20s · capture=OK
+source=drive_snap · bytes=220912 · mtime=2026-06-18T02:32:26-07:00
+path=/home/bking17383/.stan/screen/latest.png
+url=http://127.0.0.1:8770/screen/latest.png
+detail=/home/bking17383/.stan/screen/latest.png
+from: /mnt/shared/GoogleDrive/MyDrive/drop_pile/from_brian/snaps/Screenshot 2026-06-14 4.31.28 AM.png
+bytes: 220912
+
+Brian: open /daddy on hitme · refreshes every 20s
+Word: SCREEN

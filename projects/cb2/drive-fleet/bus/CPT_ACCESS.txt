@@ -1,0 +1,22 @@
+CPT ACCESS — how Brian reaches captain
+Updated: 2026-06-16
+
+CAPTAIN (full CPT):
+  Cursor chat on CB2 — this window
+
+OVERFLOW (not captain — feeds CPT on bus):
+  python3 ~/.stan/cpt_talk.py
+  → AWS_VITALS.txt · CPT_AWS_INBOX.txt · AWS_FLEET_PRIORITIES.txt
+  → speech: local espeak or phone/say.txt or fleet/bus/AWS_SPEAK.txt
+  python3 ~/.stan/aws_fleet_watch.py watch 60   # background board eye
+
+CAPT>> AWS watches /fleet board · build via delegation · keep Cursor CPT available
+
+BROADCAST (mesh / open mic):
+  → phone/inbox/said_*.json
+  → fleet/bus/BRIAN_BROADCAST.txt
+
+DELEGATE (Brian types once):
+  TALK.txt or fleet/bus/BRIAN_INBOX.txt → router → routed/
+
+Gem = BUDDY only · never captain · big box for GL hands OK

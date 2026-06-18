@@ -1,0 +1,26 @@
+UNCLE PICTURE READ — inbox 20260616_060731.jpg
+from: Daddy on penguin · 2026-06-16
+
+Brian said dum dum uncle has problems. Picture shows:
+
+GOOD (Uncle/Gem actually worked):
+  ✓ insomniac job ran on cb1 Linux
+  ✓ CB1_STAY_AWAKE.sh · keep_awake.sh running
+  ✓ GEM_UNDERSTAND.txt posted (06:05:30)
+  ✓ CB1_POWER_FIX.txt on bus
+
+BAD (why it still looks broken):
+  ✗ Status bar OLD: fleet 1/3 · CPT/PUPPY/STUDIO · NET-clean=POISON
+     → CB1 still on stale ~/.cursor/statusline.sh
+  ✗ gem_to_cpt stomped back to "GEM ok — CPT loop" only
+     → loop overwrote BUDDY ok · Daddy fixing bridge
+
+BRIAN STILL NEEDS (Chrome OS — Linux cannot):
+  chrome://settings/power → While charging: Stay awake
+  OR Keep Awake sun icon on battery
+
+FIX on CB1 Linux one paste:
+  bash ~/GoogleDrive/MyDrive/lester/CB1_STATUSLINE_FIX.sh
+  python3 ~/GoogleDrive/MyDrive/lester/gem_loop_bridge.py
+
+Word: picture read

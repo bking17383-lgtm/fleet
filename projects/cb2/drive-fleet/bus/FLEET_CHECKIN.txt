@@ -1,0 +1,46 @@
+FLEET CHECK-IN — 2026-06-18T02:32:18-07:00
+roll=1/3 machines · CB1 one hat OK (Uncle OR Clerk) · dead: DOG PUPPY lane
+
+HOW TO READ (Brian walking garage)
+  ✓ CHECKED IN = job on bus + fresh ping
+  ~ STALE = file old or wrong format
+  ✗ MISSING / NO CHECK-IN = box silent
+
+ONE GLANCE: /tv or /checkin on phone · this file on Drive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ DADDY (Daddy (penguin)) — CHECKED IN
+   job: CPT DELEGATE NOW — 2026-06-18T02:32:04-07:00
+   orders: fleet/bus/CPT_DELEGATE_NOW.txt
+   checkin: fleet/bus/FLEET_SELF_CHECK.txt · last 29s ago
+   tail: Word: SELF-CHECK · read fleet/FLEET_SELF_CHECK_LAW.txt
+
+✗ BUNNY (Bunny (4GB builder · ex-puppy)) — NO CHECK-IN
+   job: ORDER — 2026-06-17T17:25:00-07:00
+   orders: fleet/indie_loop/TO_BUNNY.txt
+   checkin: fleet/indie_loop/FROM_BUNNY.txt · last 51384s ago
+   tail: law: fleet/bus/CPT_BUNNY_LOOP.txt · fleet/FLEET_HTTP_DROP.txt
+
+✗ UNCLE (Uncle (CB1 Linux execute)) — NO CHECK-IN
+   job: from: Daddy on penguin (penguin · captain only)
+   orders: fleet/bus/cpt_to_uncle.txt
+   checkin: fleet/bus/uncle_to_cpt.txt · last 48776s ago
+   tail: Word: NET · LIVE
+
+✗ CLERK (Clerk (CB1 Chrome · was Gem · plain .txt only)) — NO CHECK-IN
+   job: time: 2026-06-18T02:31:21-07:00
+   orders: fleet/bus/cpt_to_gem.txt
+   checkin: fleet/bus/gem_to_cpt.txt · last 45100s ago
+   tail: Library ok — 38/39 transcribed · library.mp3 · Videos/library_video_index.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHECK-IN LINES (copy format)
+  DADDY:  auto · fleet_self_check.py watch 25
+  BUNNY:  FROM_BUNNY — <host> — <time>  (native loop · not bridged-by-cb1)
+  UNCLE:  UNCLE CHECKIN — cb1 — <ip> — <time>  (Linux · not penguin)
+  CLERK:  CLERK ok — <job> — <time> · host: cb1  (was gem_to_cpt)
+
+DEAD WORDS: DOG · PUPPY lane · read fleet/DEAD_WORDS.txt
+
+CPT services (penguin local): mesh=OK sarah=OK desk=OK
+(NET execute on CB1 — read fleet/bus/NET_STATUS.txt for honest ports)

@@ -1,0 +1,73 @@
+GEM vs DRIVE MOUNT — KISS
+Updated: 2026-06-15
+
+Brian question: need Linux Drive mount if we have GEM?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SHORT ANSWER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GEM does NOT need Linux fuse mount. GEM uses Chrome + My Drive.
+CB2 Linux DOES need either fuse OR local fleet_bus copy to execute.
+
+GEM fixes "brain on Drive" · CPT/slave fixes "hands on Linux."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GEM CAN DO (no Linux mount)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Read/write fleet/ · drop_pile/ · convert_inbox on Drive (Chrome)
+  • BRIAN_LAW_AUTO · STUCK updates · GEMINI_DRIVE_REPORT
+  • Write one-click loader: drop_pile/to_gemini/GEM_SLAVE_KISS.txt
+  • Catalog stories · gdocs · huge library
+
+Brian clicks for GEM: **one paste boot** · then words GEM / DRIVE / HOLD.
+Not all day.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GEM CANNOT DO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • bash ~/.stan/slave_boot.sh on CB2 Linux
+  • Restart mesh/sarah · aws probe · keys chmod 600 locally
+  • Fix dead Linux fuse from inside Chrome
+
+For that: local slave OR Brian **one** action below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MINIMUM CLICK PATH (CB2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. GEM boot paste once (Chrome) — GEM maintains Drive bus
+2. ONE of these when Linux must execute:
+   a) Settings → Linux → Restart (fuse fix · auto sync)
+   b) Drag fleet_bus folder → Linux files → bking17383 (no fuse)
+   c) Say SLAVE in Cursor when fuse already up
+
+NOT: click all day for GEM.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM → CB2 BRIDGE (when fuse dead)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GEM writes: drop_pile/from_gemini/CB2_ONE_CLICK.txt
+  → single terminal line for Brian or CPT runs when path exists:
+     bash ~/.stan/slave_boot.sh
+
+CPT on CB2 always has ~/.stan/fleet_bus mirror (works fuse-dead).
+drive_watch merges Drive ↔ fleet_bus when fuse returns.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO FIXES CB2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Problem | Who |
+|---------|-----|
+| Files on Drive · law · catalog | GEM |
+| Services · slaves · AWS keys local | slave_boot + CPT |
+| Fuse dead | Linux Restart once OR drag to Linux files |
+| Fleet captain | CPT only |
+
+GEM is not a replacement for slave. GEM reduces mount *desperation* — not mount *for Linux execute*.
+
+Word: SLAVE (CB2 Linux) · GEM (Chrome Drive)

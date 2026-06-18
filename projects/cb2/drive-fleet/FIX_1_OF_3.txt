@@ -1,0 +1,42 @@
+FIX 1/3 → 3/3 — Brian only · ~4 minutes total
+Updated: 2026-06-16T03:00:03-07:00
+Why 12 hours stuck: Daddy ✓ · puppy silent · Uncle post was FAKE (ran on penguin)
+
+Daddy CANNOT remote-fix puppy or CB1. You walk twice.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STOP 1 — puppy (~2 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Open Cursor on puppy. Say: PUPPY
+
+Terminal ONE line:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+That must rewrite fleet/bus/puppy_outbox.txt within 90 seconds.
+Line must include: PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STOP 2 — CB1 Uncle (~2 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Open Cursor on CB1 (or tell Gem UNCLE — same box). Say: UNCLE
+
+Terminal on CB1 LINUX ONLY (never penguin):
+  bash ~/.stan/uncle_exec.sh
+
+Must post fleet/bus/uncle_to_cpt.txt with host=cb1 (NOT penguin).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WATCH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Phone/TV: http://127.0.0.1:8770/checkin
+Or Tailscale: http://100.115.92.26:8770/checkin
+
+Target: roll=3/3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY NOT 3/3 FROM HERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CB2 has no SSH to puppy/CB1. Fake uncle_exec on penguin poisoned STUDIO.
+Daddy fixed the bar to reject penguin posts. Real boxes must post.
+
+Word: PUPPY then UNCLE

@@ -1,0 +1,22 @@
+DADDY LAB — auto Cursor · penguin · 2026-06-17
+==============================================
+
+TYPE (bookmark):
+  http://127.0.0.1:8770/lab
+  http://100.115.92.26:8770/lab   (phone / Tailscale)
+
+HOW IT WORKS
+  1. Brian types on /lab → CPT lane → Drive
+  2. cpt_lab_auto.py (terminal 2) wakes cursor-agent
+  3. Daddy replies in fleet/bus/LAB_REPLY.txt · shows on /lab
+
+TERMINAL 2 (until auto proven):
+  bash ~/.stan/cpt_lab_auto.sh
+
+FILES
+  fleet/bus/BRIAN_LAST_POST.txt  — last send
+  fleet/bus/LAB_REPLY.txt          — Daddy answer
+  fleet/bus/CPT_LAB_AUTO.txt       — watcher status
+  ~/.stan/logs/cpt_lab_auto.log
+
+NOT /daddy — that page is fleet monitor only.

@@ -1,0 +1,14 @@
+REDUNDANCY — 2026-06-15T18:42:17-07:00
+
+drive_mount: OK
+backups: pack=1 team=2
+mesh: OK
+sarah: OK
+desk: OK
+
+worst_case:
+  CB2 dies → Drive + backups on Google · cloud CPT later
+  boys wiped → CLEAN_START.txt · CPT rebuild
+  1033 → fresh URL fleet/MESH_RADIO_URL.txt
+
+CPT may execute without Brian: fleet/CPT_EXECUTE.txt

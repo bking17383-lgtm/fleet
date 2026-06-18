@@ -1,0 +1,106 @@
+# CAPTN ↔ Puppy — same loop (how easy?)
+Updated: 2026-06-15
+
+Brian wants: you talk to CAPTN here → Puppy executes → no screenshot courier.
+
+**Verdict: EASY in design. MEDIUM in ops.** ~80% already built. Blocked by habits + sync, not missing tech.
+
+---
+
+## The loop (2 files — same as June 12)
+
+```
+CAPTN writes ──► fleet/bus/mac_inbox.txt  (top = current job)
+                      │
+                 Google Drive sync (30s–3min)
+                      │
+                      ▼
+Puppy reads ──► executes ──► fleet/bus/puppy_outbox.txt
+                      │
+                      ▼
+CAPTN reads ◄── puppy_outbox (proof / blocker)
+```
+
+**Also:** `MyDrive/PUPPY.txt` one-line order · `drop_pile/to_puppy/` for big jobs.
+
+No shared Cursor folder. No SSH (CB2 blocked). **Drive IS the wire.**
+
+---
+
+## Why it failed tonight
+
+| Bug | Fix |
+|-----|-----|
+| Puppy read `/mnt/home/lester6/mac_inbox.txt` | **Kill that path** — only Drive |
+| Drive sync lag | Poll every 30s, don't grep once and quit |
+| Long mac_inbox posts | **One line** job at top of file |
+| No daemon on either box | Small watch script each side |
+| Brian relaying bash | **Stop** — agents poll Drive |
+
+---
+
+## Three tiers (pick one)
+
+### A — Files only (easiest, works NOW)
+- Both use same paths on Drive
+- Cursor word **PUPPY** / **CAPTN** when mtime changes
+- **Lag:** 1–3 min · **Effort:** 0 new code · **Brian:** 0
+
+### B — Poll daemons (recommended, ~1 session)
+CB2 + puppy64 each run every 30s:
+- if `mac_inbox` mtime new → wake agent / log
+- if `puppy_outbox` mtime new → CAPTN sees reply
+
+**Effort:** one `fleet_bus_watch.sh` on Drive, copy to both boxes, systemd or cron.
+**Lag:** ~30–60s after sync · **Brian:** 0 once running.
+
+### C — WireGuard fast lane (optional later)
+Puppy already has **wg0 10.0.0.1**. Mesh radio **:8765** can push SSE.
+Drive stays source of truth; WG for **ping awake** only.
+**Effort:** few hours · use after B works.
+
+---
+
+## Paths (must match both boxes)
+
+| File | CB2 | Puppy |
+|------|-----|-------|
+| Drive root | `/mnt/shared/GoogleDrive/MyDrive/` | `/mnt/home/google_drive/MyDrive/` |
+| Orders in | `fleet/bus/mac_inbox.txt` | read same |
+| Mirror | `mac_inbox` + `mac_inbox.txt` (one line) | read same |
+| Puppy reply | `fleet/bus/puppy_outbox.txt` | write same |
+| Network | — | wlan0 192.168.1.4 · wg0 10.0.0.1 |
+
+---
+
+## Enable same loop (minimal steps)
+
+**Puppy (once after reboot):**
+1. Cursor: **PUPPY**
+2. Confirm: `head -1` Drive `mac_inbox` ≠ AWAITING_INSTRUCTIONS
+3. Optional: `bash lester/fleet_bus_watch.sh watch` (when we drop it)
+
+**CB2 (CAPTN):**
+1. `python3 ~/.stan/brian_router.py watch` (Brian talk → mac_inbox)
+2. Read `puppy_outbox.txt` each session start
+
+**Brian:** talk here only. Snap only if stuck >5 min.
+
+---
+
+## Not required for same loop
+
+- Screenshots / convert_inbox (Brian notes only)
+- Lester6 slave ack ping-pong
+- SSH between boxes
+- Same Cursor workspace
+
+---
+
+## When is it "same loop"?
+
+PASS = Puppy posts outbox within 5 min of CAPTN mac_inbox write **without Brian typing bash**.
+
+Hold `DRIVE_BUS_ONLY.txt` law until that PASS once.
+
+Next build: `lester/fleet_bus_watch.sh` (tier B) — say **LOOP** when Brian back from art.

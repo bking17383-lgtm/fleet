@@ -1,0 +1,27 @@
+FLEET AVAILABLE — read this to design
+Updated: 2026-06-16T08:08:08.652688-07:00
+Refreshed by: fleet_board.py on cb1
+
+COMPUTERS (3 machines)
+  CB1      ✗ DOWN      WRANGLER + Uncle/Gem
+  CB2      ✗ DOWN      BEACON + CAPTN/Daddy
+  dog64    ✗ DOWN      Dog + PLATE (NET edge · training)
+
+PHONES (2) — fleet_id is stable · see fleet/PHONE_FLEET_IDS.txt
+  phone-moto-lte      ✗ DOWN      ROVER   Moto Play · cellular · /rover
+  phone-samsung-wifi  ✗ DOWN      TESTER  Samsung · wifi/dongle only · /
+
+AI AGENTS — see heartbeats in drop_pile/from_lester/
+
+PARTS / SERVICES (CB2 host check)
+  baseball :8002  DOWN
+  mesh radio :8765  UP
+  Daddy public URL  fleet/DADDY_BASEBALL_URL.txt
+  RADIO public URL  fleet/MESH_RADIO_URL.txt
+
+DESIGN NOW
+  Brian say DESK — honest board from heartbeats
+  Uncle: bash ~/GoogleDrive/MyDrive/lester/install_uncle_stan.sh
+  Dog: drop_pile/to_dog/ · fleet/bus/dog_outbox.txt
+
+Compact: CB1✗ CB2✗ dog64✗ moto✗ samsung✗ | 0 up · 0 partial · 5 down

@@ -1,0 +1,11 @@
+MIRROR_TRUTH — 2026-06-16T08:08:00-07:00
+
+daddy   penguin · LOOPED · last seen 07:47 · Gem holding sync
+dog     puppypc27097 · STALE · training · outbox 07:34
+uncle   cb1 · LIVE · NET execute
+gem     cb1 · DOMINANT · buddy done · NET live
+puppy   RETIRED
+
+roll=2/3 honest · Daddy looped not dead
+
+Word: GEM DOMINANT

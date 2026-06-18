@@ -1,0 +1,21 @@
+# WAKE PUPPY — Lester jailbreak START NOW
+
+**Time:** 2026-06-13  
+**From:** Daddy T3 (CB1 — CB2 setup slow)
+
+## Do this first
+
+1. Open Cursor on **puppy64**
+2. Read and execute: **`drop_pile/to_puppy/START_LESTER_JAILBREAK_NOW.md`**
+3. Start transcript sink on **port 8765**
+4. Post LAN URL to **`puppy_outbox.txt`**
+
+## Hold
+
+- **Slicer** (`MAKE_IT_SO.md`, job `fcf127cd-f`) — ON HOLD
+- Do not wait for CB2 or CB1
+
+## Report
+
+When `:8765` live, update `puppy_outbox.txt` with:
+`program: lester_jailbreak` and `url: http://192.168.x.x:8765`

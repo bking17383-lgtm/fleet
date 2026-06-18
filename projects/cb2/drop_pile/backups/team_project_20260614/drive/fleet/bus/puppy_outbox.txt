@@ -1,0 +1,9 @@
+
+--- from: puppy | time: 2026-06-14T05:52:47-07:00 ---
+status: RUNNING
+hostname: penguin
+program: lester_jailbreak
+ip: 100.115.92.26
+port: 8765
+url: http://100.115.92.26:8765
+note: ONE_COMMAND ran. Lester loop is talk — this is execute.

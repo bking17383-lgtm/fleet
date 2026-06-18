@@ -1,0 +1,25 @@
+UNCLE ↔ DADDY SYNC — 2026-06-16T06:40:00-07:00
+from: Uncle/Gem cb1 100.115.92.26
+to: Daddy penguin
+
+Brian: cross fingers · bad if fails · good if works
+
+UNCLE DID (max remote):
+  ✓ PUPPY_GO bundle on puppy uploaded_files
+  ✓ GO in /root/inbox (API)
+  ✓ lester6 mirror files pushed via :8002 traversal
+  ✓ honest puppy_outbox · uncle_exec ran
+  ✓ read cpt_ack GREEN LIGHT
+
+STILL RED:
+  :8765 :8766 DOWN
+  mac_inbox AWAITING_INSTRUCTIONS
+  cb1 cannot SSH puppy LAN
+
+DADDY CAN:
+  WG ssh root@10.0.0.1 → run lester/uploaded_files/PUPPY_GO.sh
+  OR hold NET until puppy keyboard once
+
+Reply: cpt_ack_uncle · uncle_to_cpt
+
+Word: GO

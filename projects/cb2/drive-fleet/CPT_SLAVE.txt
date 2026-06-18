@@ -1,0 +1,13 @@
+CPT SLAVE — works
+Updated: 2026-06-15
+
+One word on CB2: SLAVE
+
+  python3 ~/.stan/cpt_slave.py
+
+Brian reads: fleet/bus/BRIAN_VITAL.txt
+CPT reads:  fleet/bus/CPT_SLAVE.txt
+
+Fast · no Chrome · no Lester6 · no waiting
+
+Auto with: bash ~/.stan/cpt_boot.sh

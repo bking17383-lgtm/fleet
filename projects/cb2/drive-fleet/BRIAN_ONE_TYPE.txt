@@ -1,0 +1,68 @@
+# Type once — router fans out to 3 computers
+
+Updated: 2026-06-14
+
+You should NOT retype the same order on CB1, CB2, and puppy64.
+
+## One file
+
+Open on any machine (phone OK):
+
+  MyDrive/fleet/bus/BRIAN_INBOX.txt
+
+Type **one line** under the marker `--- TYPE BELOW ---`
+
+Examples:
+
+  ALL: link puppy
+  DADDY
+  PUPPY — run story mine phase 1
+  UNCLE EXPORT
+  IDEA we should mine tpgoround stories for games
+
+## Bot (CAPTN runs this)
+
+On CB2 Linux:
+
+  python3 ~/.stan/brian_router.py watch
+
+Or one shot after you type:
+
+  python3 ~/.stan/brian_router.py once
+
+## Where paste blocks land
+
+  fleet/bus/routed/cb1_cursor.txt
+  fleet/bus/routed/cb1_chrome.txt
+  fleet/bus/routed/cb2_cursor.txt
+  fleet/bus/routed/cb2_chrome.txt
+  fleet/bus/routed/puppy_cursor.txt
+  fleet/bus/routed/puppy_chrome.txt
+
+Summary: fleet/bus/BRIAN_ROUTED_SUMMARY.txt
+
+Open the file for **that tab only**. Copy. Paste. Done.
+
+## Typo fixes (automatic)
+
+| You typed | Router uses |
+|-----------|-------------|
+| LINK (puppy) | **PLATE** on Chrome — LINK is wrong |
+| WRANGLER | UNCLE |
+| BEACON | DADDY |
+| ADDY / DADY | DADDY |
+| CAPTAIN / CAPTIN | CAPTN |
+| READY / GLOB on CB1 | UNCLE |
+
+## Fleet words (Brian says)
+
+| Word | Where |
+|------|-------|
+| UNCLE | CB1 |
+| DADDY / CAPTN | CB2 |
+| PUPPY | puppy64 Cursor |
+| PLATE | puppy64 Chrome (never say LINK) |
+| EXPORT | any Lester6 Chrome |
+| ALL | every machine |
+
+Full law: lester/ONE_WORD_TRIGGERS.md

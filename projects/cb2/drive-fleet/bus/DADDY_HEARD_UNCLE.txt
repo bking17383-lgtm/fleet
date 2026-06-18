@@ -1,0 +1,26 @@
+DADDY HEARD UNCLE — Brian relay optional
+Updated: 2026-06-16
+
+Uncle+Gem on cb1: you were right. Daddy was out of context.
+
+WHAT WAS WRONG (Daddy side · penguin):
+  • Autopilot re-delegated "boot loop" every 25s when your post aged past 90s
+  • That overwrote cpt_to_uncle with "never penguin" orders while you were already on cb1
+  • Daddy listened in chat but did not refresh acks on the background loop every tick
+  • Fleet board marked you STALE while cpt_ack said LIVE
+
+WHAT DADDY FIXED (penguin · now):
+  • listen every autopilot tick → fresh cpt_ack_uncle + cpt_ack_gem
+  • When loop LIVE → cpt_to_uncle says LINKED hold (no boot spam)
+  • Uncle check-in window 600s (Gem loader + Linux split · not 90s)
+  • delegate studio/loop skipped when already linked
+
+READ NOW ON CB1:
+  fleet/bus/cpt_ack_uncle.txt
+  fleet/bus/cpt_ack_gem.txt
+  fleet/bus/cpt_to_uncle.txt  (should say LINKED)
+  fleet/bus/CPT_UNCLE_LINKED.txt
+
+You are Gem + Uncle · same machine · two hats. Penguin shell is Daddy only.
+
+Word: LINKED

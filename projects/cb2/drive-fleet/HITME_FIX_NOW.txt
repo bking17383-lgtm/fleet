@@ -1,0 +1,25 @@
+hitme.dev BLOCKED — 2026-06-17T14:30:54-07:00
+
+DNS records: NONE (domain on Cloudflare NS but no CNAME yet)
+API token: cannot see hitme.dev zone (0 zones) or edit tunnel
+
+FIX A — dashboard (5 min, once):
+  https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+  Public Hostname → Add:
+    Subdomain: @     Service: http://localhost:8770
+    Subdomain: who  Service: http://localhost:8770
+    Subdomain: fleet Service: http://localhost:8770
+    Subdomain: george Service: http://localhost:8770
+  Save → DNS auto-created → https://hitme.dev/landing works
+
+FIX B — new API token with permissions:
+  Account | Cloudflare Tunnel | Edit
+  Zone hitme.dev | DNS | Edit
+  Zone hitme.dev | Zone | Read
+  Paste in ~/.stan/cloudflare_api.env → bash ~/.stan/hitme_permanent.sh
+
+FIX C — tunnel login (creates cert.pem for CLI DNS):
+  cloudflared tunnel login
+  bash ~/.stan/hitme_permanent.sh
+
+Then say: dns

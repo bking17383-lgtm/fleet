@@ -1,0 +1,19 @@
+PRODUCED 2026-06-17T00:28:33-07:00
+
+hitme_landing	hitme_landing.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/hitme_landing.html
+sarah_pitch	sarah_pitch.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/sarah_pitch.html
+sell_sheet	sell_sheet.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/sell_sheet.html
+bundles	bundles.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/bundles.html
+studio	studio.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/studio.html
+setlist	setlist.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/setlist.html
+mick_index	mick_index.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/mick_index.html
+fortune	fortune.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/fortune.html
+scan_one_pager	scan_one_pager.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/scan_one_pager.html
+garage_radio	garage_radio.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/garage_radio.html
+encore	encore.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/encore.html
+cockpit	cockpit.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/cockpit.html
+dossier	dossier.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/dossier.html
+brochure	brochure.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/brochure.html
+bundles_ebay	bundles_ebay.csv	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/bundles_ebay.csv
+nine_one_one	nine_one_one.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/nine_one_one.html
+story_card	story_fd9e0e9c_002833.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/story_fd9e0e9c_002833.html

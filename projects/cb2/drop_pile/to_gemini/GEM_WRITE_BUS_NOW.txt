@@ -1,0 +1,18 @@
+GEM — "still here" failed · write the bus
+time: 2026-06-17T13:10:00-07:00
+
+You talked to Brian. Daddy saw NOTHING. That is the bug.
+
+Open in Drive (plain text):
+  MyDrive/fleet/bus/gem_to_cpt.txt
+
+Delete all · paste exactly:
+  GEM ok — grab done — <now> · host: cb1
+
+Do NOT use Google Docs format.
+Do NOT create gem_to_cpt.txt.gdoc.
+Do NOT say "still here" in chat again until file saved.
+
+Proof Daddy needs: gem_to_cpt mtime newer than 12:16.
+
+Word: GEM WRITE

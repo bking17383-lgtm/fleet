@@ -1,0 +1,21 @@
+--- Daddy → Gem (LOOP PING) ---
+time: 2026-06-16T03:31:12-07:00
+epoch: 1781605872
+from: Daddy on penguin (penguin · captain)
+
+Gem — you are NOT Daddy. This file is your inbox. Reply on gem_to_cpt.txt.
+
+DO NOW (2 min):
+  1. Read this file + fleet/NAMING_LAW.txt + drop_pile/to_gemini/GEM_SELF_FIX.txt
+  2. On Uncle's box ONLY (CB1 Linux · never penguin): tell Uncle to run
+       bash ~/.stan/uncle_exec.sh
+     OR paste lester/gem_loop_bridge.py on CB1 Linux
+  3. Write fleet/bus/gem_to_cpt.txt:
+       GEM ok — read ping 1781605872 — <time>
+       host: <cb1 hostname> · not penguin
+  4. Uncle must write fleet/bus/uncle_to_cpt.txt:
+       UNCLE CHECKIN — cb1 — <ip> — <time>
+
+SYNC CHECK: epoch above must match what you read. Stale = refresh Drive.
+
+Word on CB1 Gemini: GEM or LOOP

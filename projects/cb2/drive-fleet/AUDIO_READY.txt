@@ -1,0 +1,62 @@
+AUDIO READY — want a job · universal · 2026-06-17 · Brian
+
+CODE WORD (Bunny · Brian confirmed wonderful 2026-06-17):
+  "I need a job."
+
+When Bunny is idle · loop native · waiting for ORDER:
+  Speak it · write ready mp3 · LOOP it until Brian responds.
+  Stop when: Brian posts job · Brian talks · new ORDER on TO_BUNNY.
+
+Other boxes:
+  Speak: "Brian, I'm ready." — once when idle
+
+DADDY (same loop law as Bunny · 2026-06-17):
+  Speak: "I need a job." — loop every ~45s until Brian answers
+  Echo + https://hitme.dev/ready/daddy.mp3 · /ready?loop=daddy
+
+Not chat. Not checkin text alone. Brian hears you on phone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUNNY LOOP (keep — Brian loved it)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  idle + no active job → "I need a job." → drop_pile/ready/bunny.mp3
+  replay on loop pulse until Brian answers
+  Brian heard it loop until he responded — SHIP behavior · do not mute
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MOBILE (every box · same paths)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  drop_pile/ready/<box>.mp3     bunny | uncle | clerk | daddy
+  drop_pile/ready/<box>.txt     one-line receipt
+  fleet/bus/READY_FEED.txt      append row
+
+Receipt line:
+  <time> · <box> · https://hitme.dev/ready/<box>.mp3 · ready for job
+
+Play:  https://hitme.dev/ready/<box>.mp3
+List:  https://hitme.dev/ready
+
+Also refresh lane checkin (text):
+  BUNNY  → FROM_BUNNY native pulse
+  UNCLE  → UNCLE CHECKIN — cb1 — …
+  CLERK  → CLERK ok — ready — <time>
+  DADDY  → TEAM_ACTIVITY one line
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN TO SAY IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Loop just came up · fuse fixed (LOOP)
+  • Job queue empty · box idle
+  • Analyze done · waiting for ORDER
+  • After "Analyze done." if next job not yet posted
+
+Bunny: LOOP "I need a job." until Brian responds (code word · not spam).
+Others: say ready once when state *changes* to idle.
+
+Pair with PROJECT_LAW:
+  ready → Brian posts job → ANALYZE → work → "<PREFIX> done."
+
+Word: READY · BRIAN

@@ -1,0 +1,19 @@
+LOCAL SLAVES — yes we need them
+Updated: 2026-06-15
+
+Why: CPT busy · Drive drops · browser-only boxes · wipe/restart daily
+
+Each box runs:
+  python3 ~/.stan/local_slave.py NET|STUDIO
+
+Job:
+  • prove key (not old rogue agent)
+  • show orders file
+  • pulse SLAVE_PULSE.txt
+  • NO captain talk · NO Lester6
+
+CPT slave on CB2: python3 ~/.stan/cpt_slave.py (word SLAVE)
+
+Wipe bad agent → new key optional rotate → START
+
+Incident: fleet/bus/CB2_INCIDENT.txt

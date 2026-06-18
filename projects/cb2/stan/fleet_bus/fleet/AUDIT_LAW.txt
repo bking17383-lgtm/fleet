@@ -1,0 +1,21 @@
+AUDIT LAW — boxes do not self-diagnose alone
+Updated: 2026-06-16
+
+Brian: if a box figures itself out without audit, it ruins the fleet.
+
+Rule: broken box reports symptoms · Buddy/CPT audits · fix delegated.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PUPPY DOWN NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CB2 scan: ping fail · :8002 DOWN · :8765 DOWN (was UP 00:16)
+Last outbox: 00:16 uncle scan · not fresh crash report
+
+Buddy job: AUDIT puppy — do NOT tell puppy to "figure it out"
+Write: fleet/bus/PUPPY_AUDIT.txt (long form)
+Write: fleet/bus/puppy_fix.txt (exact commands for Brian or CPT to paste on puppy when back)
+
+Puppy posts symptoms only when Brian reboots him.
+
+Word: AUDIT (Buddy)

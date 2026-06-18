@@ -1,0 +1,19 @@
+SMART TV — fleet board (big screen · visible from any terminal)
+Updated: 2026-06-16
+
+On TV remote → open **Browser** → bookmark ONE line:
+
+  https://italic-bread-maui-attorney.trycloudflare.com/goal
+
+(Fleet **goal** page = priorities + delegate + stuck · auto-refresh)
+
+Big screen mode: append /tv or use /goal (readable on TV)
+
+  https://hitme.dev/tv
+
+Tips:
+  • Add bookmark "Fleet" on TV
+  • Leave tab open — page auto-refreshes 30s
+  • TV only displays — CPT still captain in Cursor
+
+NET can swap quick-tunnel URL when it rotates — check PUPPY_FLEET_URL.txt

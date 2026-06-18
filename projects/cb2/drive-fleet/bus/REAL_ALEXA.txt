@@ -1,0 +1,3 @@
+REAL_ALEXA=1 — physical Echo in Brian's room (2026-06-17)
+CB2 writes phone/say.txt only · no espeak on penguin
+Daddy · CB2

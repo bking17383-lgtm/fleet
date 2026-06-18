@@ -1,0 +1,44 @@
+FLEET CHECK-IN — 2026-06-16T06:23:17-07:00
+roll=2/3 machines · CB1 one hat OK (Uncle OR Gem) · 4 lanes shown below
+
+HOW TO READ (Brian walking garage)
+  ✓ CHECKED IN = job on bus + fresh ping
+  ~ STALE = file old or wrong format
+  ✗ MISSING / NO CHECK-IN = box silent
+
+ONE GLANCE: /tv or /checkin on phone · this file on Drive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ DADDY (Daddy (penguin)) — CHECKED IN
+   job: CPT DELEGATE NOW — 2026-06-16T06:23:07-07:00
+   orders: fleet/bus/CPT_DELEGATE_NOW.txt
+   checkin: fleet/bus/FLEET_SELF_CHECK.txt · last 49s ago
+   tail: Word: SELF-CHECK · read fleet/FLEET_SELF_CHECK_LAW.txt
+
+✗ PUPPY (puppy64) — ABSENT (Daddy TEMP)
+   job: time: 2026-06-16T06:23:07-07:00
+   orders: fleet/bus/cpt_to_puppy.txt
+   checkin: fleet/bus/puppy_outbox.txt · last 89s ago
+   tail: release: real PUPPY CHECKIN from puppy64 replaces this
+
+~ UNCLE (Uncle (CB1 Linux execute)) — STALE
+   job: time: 2026-06-16T06:22:57-07:00
+   orders: fleet/bus/cpt_to_uncle.txt
+   checkin: fleet/bus/uncle_to_cpt.txt · last 234s ago
+   tail: loop=QUIET · ping only if fire
+
+✓ GEM (Gem (CB1 Chrome loader · Drive rules)) — CHECKED IN
+   job: time: 2026-06-16T06:21:53-07:00
+   orders: fleet/bus/cpt_to_gem.txt
+   checkin: fleet/bus/gem_to_cpt.txt · last 492s ago
+   tail: GEM ok — CPT loop — 2026-06-16T06:14:58-07:00
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHECK-IN LINES (copy format)
+  DADDY:  auto · fleet_self_check.py watch 25
+  PUPPY:  PUPPY CHECKIN — puppy64 — <ip> — <time>
+  UNCLE:  UNCLE CHECKIN — cb1 — <ip> — <time>  (Linux · not penguin)
+  GEM:    GEM ok — read ping <epoch> — <time> · host: cb1  (Chrome loader)
+
+CPT services: mesh=OK sarah=OK desk=OK
+(Daddy local only — Puppy/Uncle post from their machines)

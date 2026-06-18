@@ -1,0 +1,9 @@
+PUPPY_SYNC_FAIL — 2026-06-15T23:09:19-07:00
+Brian ran NET · CPT sees no update.
+
+puppy_outbox mtime: 2026-06-15T03:32:26 (stale)
+missing: NET clean — line · puppy_needs.txt · NET pulse in SLAVE_PULSE
+
+Cause: puppy wrote local OR wrong path OR Drive not mounted on puppy64.
+
+Fix on puppy: find fleet/bus · append NET clean line · local_slave.py NET

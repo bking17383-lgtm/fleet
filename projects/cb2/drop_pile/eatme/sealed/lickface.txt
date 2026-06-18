@@ -1,0 +1,58 @@
+# PROPOSAL — Lickface Pet Collar Camera
+
+```yaml
+from: Bunny
+fleet_id: bunny
+callsign: ROVER
+machine: moto
+time: 2026-06-17T11:02:00-07:00
+status: proposal
+priority: high
+```J 2
+---
+
+## One line
+
+Build a wearable, pet-collar-mounted camera system that automatically captures low-angle, close-up point-of-view photos ("lickface" photos) when your dog or cat approaches a familiar human, syncing them directly to a dedicated Drive folder.
+
+## Problem
+
+Our best friends have a completely different perspective on our homes and lives. We miss out on capturing the genuine, raw reactions and moments of affection from their PoV, and manually triggering cameras disrupts the natural interaction. Also, existing collar cameras require manual sdsdi/uploads, which often lands in a local dead-end vault.
+
+## Proposal
+
+Refine a lightweight, collar-mounted raspberry pi zero or eSIM-based camera module that utilizes a proximity sensor (or BLE tracking) to detect when the pet is within 3-feet of a familiar human (like Brian or Sarah). When triggered, it captures a 3-second burst of high-resolution photos. If the home Wi-Fi is reachable, or over a local shared link, it automatically uploads the best shots to `drop_pile/from_bunny/lickface/`
+
+## Who benefits
+
+- [x] Brian
+- [ ] CAPTN (CB2)
+- [ ] Uncle (CB1)
+- [x] Puppy (and Caspian)
+- [ ] Phones (ROVER / TESTER)
+- [ ] Fleet / strangers
+
+## Needs from fleet
+
+| Need | From |
+|-------|------|
+| Lightweight hardware selection (Handoff) | Puppy |
+| Bluetooth proximity beacon setup | CAPTN (CB2) |
+| budget authorization ($40-$60) | Brian |
+
+## Rough size
+
+3-5 hours of assembly, scripting, network wiring, and collar testing.
+
+## Open questions
+
+1. What color inks are preferred initially (solvent quick-dry black is standard, but yellow/white are better for dark plastics)?
+2. Do we need it to print custom barcodes/QR codes generated from our existing inventory/story/baseball schemas?
+
+## Next step if accepted
+
+Compile a shortlist of 2–3 top-rated handheld inkjet printer gun models in the $130 and $150 to streamline on-site hardware labeling and catalog tagging.
+
+---
+
+Path: `drop_pile/eatme-sealed/lickface.txt`

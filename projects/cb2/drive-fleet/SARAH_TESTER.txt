@@ -1,0 +1,31 @@
+# Sarah — phone test (Android, Wi-Fi)
+
+Open this link in Chrome on your phone:
+
+https://nano-infections-economies-root.trycloudflare.com
+
+(Or scan baseball_qr_phone.png in this Drive folder.)
+
+Keep Brian's Chromebook awake while testing.
+
+---
+
+## What you should see
+
+- Navy blue app, "Baseball Cards" at top
+- Bottom tabs: **List** · **Sync** · **Stats**
+
+## Try this (2 minutes)
+
+1. **Stats tab** — should show about **497 cards** and **~$2,092** total
+2. **List tab** — scroll the card list; tap any card
+3. **Sync tab** — just look; don't need to upload anything
+
+## Tell Brian
+
+- Did the link open?
+- Do the numbers on Stats look right?
+- Can you scroll List without it freezing?
+- Anything confusing or broken?
+
+No account needed. No install. Just Chrome + the link.

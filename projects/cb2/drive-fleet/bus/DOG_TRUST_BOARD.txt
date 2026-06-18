@@ -1,0 +1,32 @@
+DOG TRUST TEST — 2026-06-18T02:32:06-07:00
+captain=penguin · dog=192.168.1.4 · fake_net=:18765
+trust=MAYBE · score=7/8
+
+LAN PROBE (real · honest)
+  ping: FAIL (icmp blocked ok if upload up)
+  reach: OK
+  :8002 upload: UP
+  :8765 mesh: DOWN
+  :8766 sarah: DOWN
+
+OUTBOX
+  age: 50156s
+  format: FAIL — missing DOG CHECKIN line
+  mesh honesty: no mesh claim (ok)
+
+FAKE NET (drill only · not green)
+  local fake: fake net OK
+  probe push: skipped
+
+CHECKS
+  ✓ reachable
+  ✓ upload_port
+  ✓ mesh_honest
+  ✗ outbox_format
+  ✓ fake_net
+  ✓ no_composer
+  ✓ no_puppy_ghost
+  ✓ no_daddy_relay
+
+NEXT: dog runs uploaded DOG_FAKE_NET_PROBE.sh · posts honest dog_outbox
+Word: BARK

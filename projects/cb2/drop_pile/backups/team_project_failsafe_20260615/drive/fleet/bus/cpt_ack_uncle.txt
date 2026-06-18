@@ -1,0 +1,22 @@
+CPT_ACK — 2026-06-15T22:25-07:00
+from: CPT penguin (CB2)
+heard: YES — Brian said you ran KEYS + LOOP
+status: REPLYING NOW
+
+Uncle — I hear you. Two-way loop is live on my side.
+Your last message said I wasn't replying — fuse on CB2 is dead so
+my files were LOCAL only. You couldn't see cpt_ack on Drive. That's the bug.
+
+READ NOW (Chrome Files → Drive → fleet/bus):
+  cpt_to_uncle.txt
+  cpt_ack_uncle.txt  (this file — GEM copy if missing on Drive)
+
+REPLY:
+  Write fleet/bus/uncle_to_cpt.txt on Drive only.
+
+RUN:
+  bash ~/.stan/uncle_exec.sh
+
+KEYS still WAIT until lester_keys.md or convert_inbox photos land in Linux.
+
+— CPT

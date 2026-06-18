@@ -1,0 +1,47 @@
+Talk to Puppy — simplest law
+Updated: 2026-06-15
+
+ONE WORD (say or type on puppy64)
+=================================
+  PUPPY
+
+That's it. Puppy Cursor wakes and reads ONE file.
+
+ONE FILE (CAPTN writes orders here)
+===================================
+  MyDrive/PUPPY.txt
+
+Top line under "--- order ---" = current job.
+Old orders scroll below. Puppy does the top one.
+
+CAPTN / Brian workflow
+======================
+  1. CAPTN updates PUPPY.txt on Drive
+  2. You (or Puppy) say PUPPY on puppy64 Cursor
+  3. Puppy executes · posts puppy_outbox.txt
+  4. You never paste three files or hunt folders
+
+Chrome on puppy (optional)
+==========================
+  PLATE — only if Lester6 slave ack needed
+  Most jobs: PUPPY alone is enough
+
+Typo fixes (automatic — same as TALK router)
+============================================
+  PUPY · PUPPI · PUPPEY · PUPY64  →  PUPPY
+  PLATE · LINK · READY            →  PLATE (Chrome only)
+  NET · NETWORK                   →  read network section in PUPPY.txt
+
+Do NOT use
+==========
+  WRANGLER · BEACON · LINK · DELEGATE · multiple paste blocks
+
+Phone
+=====
+  Brian does not test. Puppy self-tests. Word still PUPPY.
+
+Example PUPPY.txt order line
+============================
+  network: host mesh :8765 on puppy64 — see PUPPY_DELEGATE_NETWORK_NOW.md
+
+Tape card: print "PUPPY = read PUPPY.txt"

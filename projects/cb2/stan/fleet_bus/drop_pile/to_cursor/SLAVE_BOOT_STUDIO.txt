@@ -1,0 +1,10 @@
+# Uncle — after reboot
+# GEMINI: loader only. Do NOT make Gemini captain. Cursor = UNCLE.
+
+mkdir -p ~/.stan
+echo 93fec320 > ~/.stan/slave.key
+chmod 600 ~/.stan/slave.key
+# Open Cursor on CB1 — say: UNCLE
+python3 ~/GoogleDrive/MyDrive/lester/local_slave.py UNCLE
+
+Word: UNCLE

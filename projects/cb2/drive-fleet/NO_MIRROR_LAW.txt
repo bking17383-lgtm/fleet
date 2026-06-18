@@ -1,0 +1,56 @@
+NO MIRROR LAW — one wire · Drive is truth
+Updated: 2026-06-16 · Daddy orders · Gem enforces on Drive
+
+Brian: mirror broke today. This law replaces silent copies.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE TRUTH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+REAL BUS = Google Drive MyDrive/fleet/bus/
+REAL ORDERS = MyDrive/fleet/orders/
+REAL DROP = MyDrive/drop_pile/
+
+If it is not on MyDrive (Chrome-visible) → it did NOT happen.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FORBIDDEN (Gem delete or mark POISON)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • puppy_outbox with host=penguin or Daddy holding NET
+  • uncle_to_cpt / gem_to_cpt with host=penguin (Uncle/Gem lane)
+  • Any file claiming 3/3 or NET clean with stale mtime (>2h old)
+  • Duplicate bus files that contradict each other — keep newest Drive mtime only
+  • References to "mirror OK" without TOKEN proof
+
+Move poison → fleet/bus/archive/poison/ with timestamp · do not delete history.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUIRED (Gem write fresh on Drive)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. fleet/bus/DRIVE_TRUTH.txt — one page: what is live NOW
+  2. fleet/bus/FLEET_CHECKIN.txt — honest roll · no fake green
+  3. MyDrive/ihateyou.txt — keep at root · Puppy keyboard path
+  4. fleet/bus/puppy_needs.txt — one line truth for Puppy
+  5. fleet/bus/gem_to_cpt.txt — GEM ok — mirror fix — <time>
+  6. fleet/bus/GEM_UNDERSTAND.txt — long form per GEM_POST_RULE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROOF TOKEN (anti-lie)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Gem stamps each fresh truth file footer:
+  DRIVE_LIVE=<ISO-time> · host=cb1-chrome · read_by=gem
+
+Puppy/Linux agents: if footer missing or host wrong → STALE · do not trust.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Gem (Chrome) — owns Drive truth · audit · poison quarantine
+  Uncle (Linux CB1) — execute only · never writes captain lane
+  Daddy (CB2) — captain · stays in chat with Brian · does not cp local→Drive
+
+Word: GEM · NO_MIRROR

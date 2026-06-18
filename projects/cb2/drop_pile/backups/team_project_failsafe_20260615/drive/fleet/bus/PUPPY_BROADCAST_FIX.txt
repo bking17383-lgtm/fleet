@@ -1,0 +1,10 @@
+PUPPY BROADCAST FIX — real-time notes pipeline
+Updated: 2026-06-16T01:25:00-07:00
+
+SINK PORT: 8766
+RADIO PORT: 8765
+
+ONE-LINER:
+tail -f ~/.stan/local_inbox/said_*.json | stdbuf -oL jq -r '"[" + .source + "] " + .timestamp + ": " + .text' >> ~/GoogleDrive/MyDrive/fleet/bus/BRIAN_BROADCAST.txt
+
+This ensures all mesh and sink voice transcript segments are actively parsed and appended to the primary CPT bus broadcast board in real time.

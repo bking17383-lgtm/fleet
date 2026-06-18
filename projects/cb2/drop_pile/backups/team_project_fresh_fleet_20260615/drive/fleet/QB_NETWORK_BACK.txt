@@ -1,0 +1,59 @@
+WHEN NETWORK + QUARTERBACK BACK
+Updated: 2026-06-15 · Brian asked
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALREADY WORKING (QB partial — today)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CAPTN on CB2 + brian_router watch RUNNING.
+You type once → fans out to 3 boxes.
+
+  fleet/bus/BRIAN_INBOX.txt     — one line orders (ALL / PUPPY / DADDY / UNCLE)
+  convert_inbox/                  — photos, snaps (Sarah kid, shelf, etc.)
+  fleet/bus/mac_inbox.txt         — machine bus (CAPTN ↔ Puppy)
+
+Sarah :8766 up · Camel architect · docs — no Puppy required.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOME NETWORK BACK (phones on WiFi)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Blocker: mesh :8765 not running (puppy or CB2).
+Puppy IS alive — 192.168.1.4 · wg0 10.0.0.1 — but outbox still says mesh pending.
+
+**When:** next time Puppy Cursor opens — word **PUPPY** — executes top mac_inbox line:
+  start mesh :8765 · network_selftest PASS · post outbox
+
+**Realistic:** same day you touch Puppy once (~5–30 min after Drive sync).
+**PASS test:** phone on home WiFi opens http://192.168.1.4:8765 without you relaying bash.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FULL QUARTERBACK (CAPTN delegates, you don't relay)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Milestone | What | When |
+|-----------|------|------|
+| A | Files + inbox (tier A) | **now** — use BRIAN_INBOX more |
+| B | Puppy mesh PASS | **Puppy session** |
+| C | fleet_bus_watch 30s poll (tier B) | **1 CAPTN session** — say LOOP |
+| D | Stable HTTPS on puppy (LTE) | **after B** — named Cloudflare, not trycloudflare |
+| E | Uncle analyst | **after CB1 Linux reload** |
+
+Say **LOOP** when you want tier B auto-wake (CAPTN builds fleet_bus_watch.sh).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT'S PARKED (Brian choice — not blockers)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Play 12 testers · human testing HOLD
+- Camel fleet / Puppy art — you on art desk
+- CB2 hosting games — puppy hosts when up
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOUR MOVE (inbox habit — perfect)
+
+  ALL: link puppy          → router fixes LINK→PLATE on Chrome
+  PUPPY GO mesh 8765 PASS  → one line under BRIAN_INBOX marker
+  (snap) convert_inbox     → CAPTN sees pics without you describing
+
+CAPTN reads inbox each session. No bash relay needed.

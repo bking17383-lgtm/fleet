@@ -1,0 +1,5 @@
+GEM OWNS GL — 2026-06-17T07:04:27-07:00
+last_tag=live_20260617T135813Z
+last_file=live_transcript_live_20260617T135813Z_20260617T140425Z.txt
+bytes=3058
+url=https://gl.hitme.dev/

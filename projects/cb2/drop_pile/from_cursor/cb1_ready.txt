@@ -1,0 +1,15 @@
+# CB1 ready — flow link
+
+**Date:** 2026-06-15T16:57:29-07:00
+**Callsign:** UNCLE
+
+```
+uncle: LIVE · flow link posted
+manifest: UNCLE_FLOW_LINK.md
+fleet: UNCLE_LINK_STATUS.txt
+wrangler: bind 2 pending (Chrome paste)
+captn: bind 3 pending (CB2 paste)
+watchers: WRANGLER + CAPTN armed
+fleet_scripts: OFF
+next: Brian run 3 binds · camel date from CAPTN
+```

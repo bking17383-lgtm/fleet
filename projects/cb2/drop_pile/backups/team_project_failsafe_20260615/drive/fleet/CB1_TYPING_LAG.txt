@@ -1,0 +1,15 @@
+CB1 TYPING LAG — 2026-06-14
+Cause: RAM crushed (2.7GB box, ~150MB free, NO swap)
+
+TWO Cursor agent tabs open:
+  pts/0 ~550MB + pts/1 ~660MB = 1.2GB+
+
+FIX (do now):
+  1. Close ONE Cursor terminal tab (keep only Uncle OR only other)
+  2. Restart the tab you keep (config change: statusline 5s not 500ms)
+
+Optional if still laggy:
+  - Close unused Chrome tabs
+  - Stop cloudflared on :5000 if not using floater
+
+Uncle slowed statusline in ~/.cursor/cli-config.json — restart Cursor CLI to apply.

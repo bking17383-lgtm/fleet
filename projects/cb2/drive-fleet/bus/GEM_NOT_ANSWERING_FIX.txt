@@ -1,0 +1,18 @@
+GEM NOT ANSWERING — root cause + fix · 2026-06-16
+
+Problem:
+  Brian's BUDDY line sat in BUDDY_INBOX.txt for hours.
+  cpt_to_gem.txt only had LOOP PING / LINKED hold — Gem never saw the job.
+  Linked loop was stomping real orders.
+
+Fixed (penguin ~/.stan):
+  cpt_gem_loop.py forward — BUDDY_INBOX → cpt_to_gem.txt
+  autopilot + goal buddy lane call forward every tick
+  write_linked_inbox skips when buddy job pending
+
+Pending NOW (Gem on CB1 must do):
+  Read fleet/bus/cpt_to_gem.txt
+  keys sprint plain md only → lester/lester_keys.md
+  Post gem_to_cpt: BUDDY ok — keys exported YES|NO — <time> · host: cb1
+
+Daddy ack: fleet/bus/cpt_ack_gem.txt · buddy_pending: YES until Gem replies

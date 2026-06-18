@@ -1,0 +1,13 @@
+READSY — your one human step
+CAPTN cannot sign up for you (email + paywall).
+
+Do ONE:
+  A) Open readsy.io → sign in (or create account)
+  B) Or confirm phone app already signed in
+
+Then one line in brian_says.txt:
+  readsy ready
+
+Puppy runs browser login spike after wipe. No password on Drive.
+
+Delegate: drop_pile/to_puppy/READSY_LOGIN_SPIKE.md

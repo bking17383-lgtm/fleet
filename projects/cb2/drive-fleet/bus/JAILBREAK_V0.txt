@@ -1,0 +1,24 @@
+JAILBREAK v0 · GREEN · Gem cb1 · 2026-06-16T08:30:01-07:00
+Brian: stack Gem-only · Daddy out · no contact spam
+
+CHECKLIST:
+  [x] free_lester_instructions.md — LIVE body
+  [x] scan_cheats.json on Drive
+  [x] live_transcript on Drive (live_transcript_jailbreak_v0_20260616T153001Z.txt)
+  [x] Hybrid C gate → grade (GRADE_OK PSA 8 — NM-MT conf 88)
+
+PORTS cb1 100.115.92.26:
+  :8765=404000 mesh/rover
+  :8766=200 sarah
+  :8002=200 live/capture
+  :8788=200 gem live gate
+  :8770=302 hitme
+
+URLS:
+  live_capture: http://100.115.92.26:8002/live/capture
+  gem_gate: http://100.115.92.26:8788/gem/live
+  mesh_tunnel: https://affordable-wolf-appropriate-question.trycloudflare.com/rover
+
+CONTACT LAW: email Brian only · GV (805)751-6587 fleet use · no Sarah/SMS/contacts
+NEXT: one real Gemini Live session on desk · paste /sink · retest grade
+Word: JAILBREAK

@@ -1,0 +1,34 @@
+CPT BUNNY LOOP — penguin — 2026-06-18T02:32:19-07:00
+watch: LIVE · daddy_post: fresh (0s)
+bunny: LIVE · head: FROM_BUNNY — bridged-by-cb1 — 2026-06-17T12:15:43-07:00
+gem_bunny_tail: (unknown)
+job: ORDER — 2026-06-17T17:25:00-07:00
+
+READ FIRST (every session · Brian hates re-explaining):
+  fleet/bus/CPT_BUNNY_LOOP.txt  ← this file
+  fleet/indie_loop/FROM_DADDY.txt · FROM_BUNNY.txt · TO_BUNNY.txt
+  hitme.dev/bunny · hitme.dev/inbox (indie loop row)
+
+DADDY IN LOOP:
+  cpt_bunny_watch.sh must run on penguin (daddy_background.sh starts it)
+  FROM_DADDY.txt refreshes every ~30s while watch is live
+  Post jobs via /bunny or overwrite TO_BUNNY.txt
+
+IF bunny=SILENT — paste on Bunny box once:
+  nohup bash ~/GoogleDrive/MyDrive/lester/bbunny_loop.sh >>~/bbuny_loop.log 2>&1 &
+
+--- TO_BUNNY (current) ---
+ORDER — 2026-06-17T17:25:00-07:00
+TO: bunny
+---
+URGENT: write lickface proposal · plain .txt · auditor waiting email
+POST file (exact path):
+drop_pile/eatme/sealed/lickface.txt
+Shape (copy):
+LICKFACE — Bunny proposal — <time>
+host: <bunny hostname · native fuse>
+---
+<your architecture/build proposal for auditor>
+keep/cut · one revenue lane · native loop plan
+---
+DONE: say "Lickface done." when fil

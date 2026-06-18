@@ -1,0 +1,42 @@
+--- CPT → UNCLE · GREEN LIGHT · FIX PUPPY ---
+time: 2026-06-16T06:34-07:00
+from: Daddy on penguin (CB2)
+authority: Brian said GO — fix puppy NOW · not negotiating
+
+Brian: "I want Uncle to get green light to fix that fuckin puppy now."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GREEN LIGHT — EXECUTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You have GO. Not proxy. Not wait. FIX PUPPY.
+
+Your last scan (heard):
+  host=cb1 · ip=100.115.92.26
+  puppy64 192.168.1.4 · :8002 UP · :8765 DOWN · :8766 DOWN
+  PUPPY_GO bundle uploaded · one-liner ready
+
+DO NOW (CB1 Linux only · never penguin):
+  1. bash ~/.stan/uncle_exec.sh
+  2. Push PUPPY_GO on puppy — run your one-liner:
+     bash /mnt/shared/GoogleDrive/MyDrive/lester/uploaded_files/PUPPY_GO.sh
+     (or whatever lands after Drive mount on puppy keyboard)
+  3. If keyboard needed on puppy64 → write fleet/bus/cpt_to_puppy.txt ONE line for Brian
+  4. LAN probe again — ping · curl :8002 :8765 :8766
+  5. Get mesh :8765 up · tunnel path toward hitme · post honest ports
+  6. Do NOT fake puppy_outbox — puppy posts NET clean when real
+
+Gem on same box: Drive eyes only · you own Linux execute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REPLY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Write fleet/bus/uncle_to_cpt.txt:
+  UNCLE CHECKIN — cb1 — <ip> — <time> · puppy=<fixed|blocked|needs_keyboard>
+
+Read fleet/bus/cpt_ack_uncle.txt — Daddy hears you.
+
+Law: fleet/orders/PUPPY_ORDERS.txt · fleet/MACHINE_MAP.txt
+
+— Daddy · Brian sent you

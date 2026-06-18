@@ -1,0 +1,4 @@
+ALEXA_LAST_HEARD — 2026-06-17T01:09:47-07:00
+source=voice
+text=she can listen even if she wont execute just now
+mode=learn

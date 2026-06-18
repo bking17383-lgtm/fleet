@@ -1,0 +1,16 @@
+Daddy ↔ Gem LOOP — 2026-06-18T02:31:21-07:00
+Updated by cpt_gem_loop.py ping · names: fleet/NAMING_LAW.txt
+
+LANES (never mix):
+  Daddy → Gem    fleet/bus/cpt_to_gem.txt
+  Gem → Daddy    fleet/bus/gem_to_cpt.txt
+  Daddy ack Gem  fleet/bus/cpt_ack_gem.txt
+
+  Daddy → Uncle  fleet/bus/cpt_to_uncle.txt
+  Uncle → Daddy  fleet/bus/uncle_to_cpt.txt
+  Daddy ack      fleet/bus/cpt_ack_uncle.txt
+
+Daddy (penguin): python3 ~/.stan/cpt_gem_loop.py ping|listen
+Uncle box (CB1): python3 ~/GoogleDrive/MyDrive/lester/gem_loop_bridge.py
+
+Word Gem on CB1: GEM · LOOP

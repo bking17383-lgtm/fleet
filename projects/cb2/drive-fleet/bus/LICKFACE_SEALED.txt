@@ -1,0 +1,16 @@
+LICKFACE — MISSING — 2026-06-17
+Brian asked: send lickface email to auditor
+
+STATUS: NOT ON DRIVE FUSE (penguin search · Gmail · sealed/ empty · from_bbbunny empty)
+Bunny never posted lickface.txt — FROM_BUNNY still bridged-by-cb1
+
+ORDER posted: fleet/indie_loop/TO_BUNNY.txt — write drop_pile/eatme/sealed/lickface.txt
+
+When file lands Daddy runs:
+  python3 ~/.stan/send_audit_plain.py tpgoround@gmail.com --only lickface
+
+If Brian has file on phone/other path: drop in eatme/sealed/ or tell path · cp + email immediately
+
+Auditor: tpgoround@gmail.com
+
+Word: LICKFACE · MISSING · BUNNY

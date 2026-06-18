@@ -1,0 +1,43 @@
+FLEET AUTOPILOT — new system law
+Updated: 2026-06-16T02:25:00-07:00
+
+Goal: computers fix what they can · report to bus · CPT always ready · Brian never waits on spin.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT ALWAYS READY (one file)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/CPT_READY.txt
+
+Updated every 25s by autopilot on CB2.
+Cursor CPT reads this first every session — knows roll call, what's down, what was auto-fixed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO FIXES WHAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Box | Auto-fix | Report |
+|-----|----------|--------|
+| CB2 CPT | restart hitme/mesh/sarah · bg watchers | FLEET_SELF_CHECK · CPT_READY |
+| NET puppy | boot scripts when Brian at keyboard | NET CHECKIN → puppy_outbox |
+| STUDIO CB1 | uncle_exec · Gem LOOP | gem_to_cpt · uncle_to_cpt |
+
+CB2 cannot reboot puppy remotely — autopilot pings LAN, refreshes orders, flags PUPPY_DOWN.txt.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BACKGROUND (Brian says once: SLAVE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/cpt_background.sh
+
+Runs: autopilot 25s · self-check · router · repair · drive watch · hitme
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOARDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /checkin · /goal · /tv · CPT_READY.txt · FLEET_CHECKIN.txt
+
+Statusline: check-in (not stale "linked")
+
+Word: AUTOPILOT · NO SPIN

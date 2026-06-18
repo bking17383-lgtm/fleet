@@ -1,0 +1,17 @@
+SHIP A — SARAH · ready for Brian · 2026-06-16
+Status: LIVE on cb1 · Gem sprint · do not redeploy
+
+LINK (LAN · same wifi):
+  http://100.115.92.26:8766/sarah
+
+PUBLIC (when DNS ordered):
+  fleet/SARAH_VOICE_URL.txt · tunnel TBD
+
+BRIAN 20-MIN:
+  1. Text Sarah: "Try this on your phone — snap a post-it, confirm voice"
+  2. Send link above (or rover tunnel when named)
+  3. One fake appointment · one real reaction
+
+WIN: one human · one booking · money + soul
+
+Word: A

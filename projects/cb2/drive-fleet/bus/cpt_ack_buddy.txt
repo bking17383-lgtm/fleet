@@ -1,0 +1,6 @@
+CPT_ACK_BUDDY — 2026-06-16T00:22:26-07:00
+from: CPT penguin
+heard: YES — Brian says Buddy good · puppy fixed
+fleet: 3/3 linked
+aws: SANDBOX_OK
+buddy: keep plain txt · no chat paste for secrets

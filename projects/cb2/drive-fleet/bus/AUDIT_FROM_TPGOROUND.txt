@@ -1,0 +1,37 @@
+AUDIT FROM TPGOROUND — intake reply — 2026-06-17
+from: Tommy Goround <tpgoround@gmail.com> · subject: audit
+status: NOT verdict · proposals RTF did not open on his side
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HE SAID (plain)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · RTF read as bytes/text = safe · not executing
+  · Split brain = real risk · wants ~/audit/ canonical + checksums
+  · Will rename to proposal-a/b/c · index file · never edit originals
+  · Asked: how sending? URL · scp · shared drive?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY FIX (sent 2026-06-17)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  RTF didn't open → resent PLAIN .txt attachments + hitme URLs + sha256
+
+  Delivery methods (all three):
+    1. Email attachments .txt → tpgoround@gmail.com
+    2. URLs: https://hitme.dev/f/drop_pile/eatme/...
+    3. curl on his box (example in email)
+
+  Sent now:
+    farthead.txt · EATME.txt · APPEND_LAST.txt · BOOT · LOYALTY_HINT
+
+  NOT on fleet fuse (Brian must supply):
+    bigbutt · lickface
+
+  Fleet canonical: drop_pile/eatme/ · we stop editing after send
+
+  Verdict when ready: email subject VERDICT → fleet/bus/FRESH_CURSOR_VERDICT.txt
+
+  Resend: python3 ~/.stan/send_audit_plain.py tpgoround@gmail.com
+
+Word: AUDIT · TXT · URL · SPLIT BRAIN

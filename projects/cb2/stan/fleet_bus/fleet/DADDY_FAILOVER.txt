@@ -1,0 +1,62 @@
+DADDY FAILOVER — Brian fixes on puppy via Gem
+Updated: 2026-06-16
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAW (non-negotiable)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  If Daddy dies → Brian fixes on **puppy** with **Gem** as hands.
+  **Gem will NEVER become Daddy.** Not captain. Not CPT. Not negotiable.
+
+  Daddy = CB2 Cursor captain only.
+  Gem = Drive librarian + loader + bridge when fuse dead.
+  Puppy = NET execute + Brian's repair keyboard when CB2 is down.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN DADDY IS DEAD (symptoms)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • No fresh fleet/bus/CPT_READY.txt or DADDY_SCREEN.txt
+  • CB2 Linux fuse dead · penguin silent on bus
+  • /daddy or :8770 unreachable from phone/TV
+  • Daddy Cursor session wiped or stuck
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN ON PUPPY (one path)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Open Gemini on puppy Chrome
+  2. Paste: drop_pile/to_gemini/DADDY_DOWN_FIX.txt
+  3. Gem writes Drive · bridges bus · tells Brian ONE click on CB2 if needed
+  4. Gem posts fleet/bus/gem_to_cpt.txt — repair status only (not captain orders)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GEM MAY DO (repair hands)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✓ Read/write fleet/ · drop_pile/ on Drive
+  ✓ Copy bus files CB2 missed (bridge cpt_ack · orders · SYNC_SNAPSHOT)
+  ✓ Write drop_pile/from_gemini/CB2_ONE_CLICK.txt for Brian on CB2
+  ✓ Tell puppy NET scripts to run (mesh · tunnel) — NET executes
+  ✓ Post GEM_UNDERSTAND + honest repair log
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GEM MUST NOT DO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✗ Captain · delegate as Daddy · rewrite fleet law as boss
+  ✗ Pretend to be CPT on CB2 · post CB1 orders as if studio
+  ✗ Replace Daddy Cursor · "I'll run the fleet now"
+  ✗ Paste secrets on bus
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY RESTORED WHEN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  CB2: bash ~/.stan/daddy_background.sh
+  Fresh: fleet/bus/DADDY_SCREEN.txt · CPT_READY.txt · SLAVE pulse host=penguin
+  Daddy Cursor opens · reads bus · delegates again
+
+Until then: Gem + puppy keep Drive honest · NET holds edge if up.
+
+Word on puppy: DADDY DOWN · read DADDY_DOWN_FIX.txt

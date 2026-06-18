@@ -1,0 +1,13 @@
+INCIDENT — CB2 CPT affected
+Updated: 2026-06-15
+
+Drive mount dropped (Transport endpoint not connected).
+CPT slave · repair crew · fleet writes ALL failed until remount.
+
+Cause: Google Drive fuse disconnect on CB2 Linux — not puppy/uncle fault.
+
+Fix: Chrome OS Files → Google Drive · or restart Linux container.
+
+Future: local slaves keyed · pulse works when Drive brief-down · wipe/restart protocol live.
+
+Brian noted: wipe bad agents + restart must be routine.

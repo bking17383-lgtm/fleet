@@ -1,0 +1,35 @@
+hitme.dev — ONE dashboard pass (5 min)
+Updated: 2026-06-16
+
+WHY IT FAILS
+  Domain is on Cloudflare NS ✓
+  DNS records for hitme.dev: NONE ← this is the bug
+  Quick trycloudflare tunnels do NOT fix hitme.dev
+
+FIX (Brian clicks — Gem cannot do this without API token)
+
+1. Open tunnel config:
+   https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+
+2. Public Hostname tab → Add each row (HTTP):
+
+   | Subdomain | Service URL              |
+   |-----------|--------------------------|
+   | @         | http://localhost:8770    |
+   | who       | http://localhost:8770    |
+   | cards     | http://localhost:8002    |
+   | sarah     | http://localhost:8766    |
+   | mesh      | http://localhost:8765    |
+
+   Cloudflare auto-creates DNS CNAME when you Save each.
+
+3. On CB1 Linux:
+   bash ~/.stan/hitme_tunnel.sh
+
+4. Test (wait ~1 min after Save):
+   https://hitme.dev/goal
+   https://cards.hitme.dev/
+
+WIN = HTTP 200 or 302 (not 000, not 530)
+
+Optional later: hello@hitme.dev email routing in same dashboard.

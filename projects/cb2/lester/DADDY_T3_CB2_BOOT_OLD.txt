@@ -1,0 +1,21 @@
+# Daddy T3 — CB2 bootstrap
+status: AWAITING_LESTER6_PASTE
+updated: 2026-06-13
+from_machine: CB1 penguin
+to_machine: CB2
+
+# Lester 6: replace this stub with Brian's key per drop_pile/to_lester/PASTE_DADDY_CB2_KEY.md
+
+cursor_account:
+cursor_api_key:
+bootstrap:
+
+role: Terminal 3 Daddy
+workspace: ~/Applications/cursor/baseball_cards
+read_first:
+  - MyDrive/COMMON_INSTRUCTIONS.md
+  - MyDrive/drop_pile/to_puppy/START_LESTER_JAILBREAK.md
+
+priority: lester jailbreak — export free_lester_instructions.md
+
+# DELETE this file after CB2 Cursor is configured.

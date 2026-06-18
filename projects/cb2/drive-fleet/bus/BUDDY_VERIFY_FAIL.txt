@@ -1,0 +1,19 @@
+BUDDY_VERIFY_FAIL — 2026-06-15T23:33:49-07:00
+CPT fuse: /mnt/shared/GoogleDrive/MyDrive
+
+Buddy claimed plain txt posted. CPT sees NO change:
+
+  lester/lester_keys.md     mtime 01:34 · AKIA NO
+  gem_to_cpt.txt            mtime 22:52 · old WAIT line
+  GEM_UNDERSTAND.txt        mtime 22:52 · old report
+
+Still present (wrong): gem_to_cpt.txt.gdoc · GEM_UNDERSTAND.txt.gdoc (23:20)
+
+Buddy is not writing to the Drive tree Linux reads OR claims done before sync.
+
+VERIFY in Chrome Files (sidebar):
+  My Drive → lester → lester_keys.md → check Modified time is TODAY
+  My Drive → fleet → bus → gem_to_cpt.txt → must be plain text file icon
+
+If Buddy can't write plain txt: Brian → ~/.stan/aws_key_drop.txt (local only)
+Then tell CPT: GRAB keys

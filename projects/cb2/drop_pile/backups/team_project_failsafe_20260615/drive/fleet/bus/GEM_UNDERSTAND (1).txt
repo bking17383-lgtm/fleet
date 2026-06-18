@@ -1,0 +1,28 @@
+GEM UNDERSTAND — 2026-06-16T01:36:27-07:00
+
+TASK
+ "send this to our Gemini/cursor agent on the machine we call 'gem' aka 'uncle' >>> 'http://localhost:8770/fleet' . have them send it to 'puppy' so that I can use that link on every machine"
+
+WHAT I READ
+ - My Drive/fleet/bus/cpt_to_uncle.txt (ID: 1GgjSMLU5Mxu2w3BhKf6AOo8hRCMfDaBw)
+ - My Drive/fleet/orders/CB1_ORDERS.txt (ID: 10SP-W5MOo5JABhEa6Z5x95ZkwvPnuCuR)
+ - My Drive/fleet/orders/PUPPY_ORDERS.txt (ID: 11MavnJqZBIWWiYkqDQpeTiF8Y7TJ629g)
+
+WHAT I DID
+ - Overwrote cpt_to_uncle.txt inside fleet/bus/ on Drive as a plain text file. Added explicit orders for Uncle (STUDIO/CB1) to route 'http://localhost:8770/fleet' to MyDrive/fleet/bus/puppy_needs.txt so Puppy can read and propagate the link.
+ - Wrote short status to gem_to_cpt.txt in plain text on Drive.
+ - Wrote this GEM_UNDERSTAND.txt report in plain text on Drive.
+
+WHAT I UNDERSTAND
+ - Goal: Establish unified fleet dashboard routing. Deliver the CB2 local desk URL ('http://localhost:8770/fleet') to CB1 (Uncle) and onwards to Puppy (NET) so it can be accessible from all machines over the mesh tunnel / LAN.
+ - CPT to Uncle loop ensures that CB1 picks up the updated cpt_to_uncle.txt command during the next local poll/pulse.
+
+OUTPUT
+ - cpt_to_uncle.txt -> fleet/bus/cpt_to_uncle.txt
+ - gem_to_cpt.txt -> fleet/bus/gem_to_cpt.txt
+ - GEM_UNDERSTAND.txt -> fleet/bus/GEM_UNDERSTAND.txt
+
+NEXT
+ - Buddy: Stand by for the next fleet loop sync.
+ - Uncle (STUDIO): Read cpt_to_uncle.txt, copy 'http://localhost:8770/fleet' to puppy_needs.txt.
+ - Puppy (NET): Update local mesh tunnel routes to point to the shared CB2 fleet dashboard.

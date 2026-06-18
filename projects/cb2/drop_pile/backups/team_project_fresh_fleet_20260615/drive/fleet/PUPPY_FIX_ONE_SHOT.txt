@@ -1,0 +1,61 @@
+PUPPY FIX — one shot (figured out · not executed yet)
+Updated: 2026-06-15 · Brian: we need our Puppy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DIAGNOSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Puppy **is alive** (192.168.1.4 · wg0 · heartbeat ✓).
+What's broken: **mesh :8765 never started** + outbox still manual/stale.
+CB2 **cannot SSH** Puppy — Drive is the only wire.
+
+Not a wipe. Not mystery hardware. **One execute session on puppy64.**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE FIX (Brian does NOT type bash)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Power Puppy · wait 2 min Drive sync
+2. Puppy **Cursor** → word: **PUPPY**
+3. Puppy reads top of mac_inbox + PUPPY.txt
+4. Puppy runs (on puppy64 Linux):
+
+   bash /mnt/home/google_drive/MyDrive/PUPPY_RUN.sh
+
+   OR paste from fleet/bus/routed/puppy_cursor.txt
+
+5. **Done when** outbox shows:
+
+   hostname: puppy64
+   mesh:8765 UP
+   network_selftest: PASS or FAIL (honest)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT CAPTN ALREADY FIXED (software)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Real bus path (not lester6 stale inbox)
+✓ PUPPY_NO_WIPE — stay
+✓ NETWORK_WITHOUT_PUPPY — we're not blocked on Puppy for Sarah/hitme
+✓ Repair crew on CB2 (can't start mesh on Puppy from here)
+✓ MESH_RADIO_PUPPY_HOST.md order on Drive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT STILL NEEDS PUPPY (why you need him)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• mesh :8765 on LAN (phones home WiFi)
+• 24/7 tunnel host (move off CB2)
+• Camel art lane
+• UPS on his box when he's wired host (wind outages)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN ONE LINE (any terminal)
+
+  ALL: PUPPY GO mesh 8765 selftest
+
+Router fans to puppy_cursor.txt.
+
+Say PUPPY LIVE when he's open — CAPTN watches outbox.
+
+Brian: no wipe. We need him. Fix = one session.

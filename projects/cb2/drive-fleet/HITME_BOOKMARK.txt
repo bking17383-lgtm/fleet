@@ -1,0 +1,9 @@
+hitme.dev — one URL
+Updated: 2026-06-16
+
+  https://hitme.dev
+
+Puppy fix:  https://hitme.dev/puppy
+Team:       https://hitme.dev/goal
+
+If error 530: one dashboard click — fleet/HITME_TUNNEL_HOSTNAMES.txt

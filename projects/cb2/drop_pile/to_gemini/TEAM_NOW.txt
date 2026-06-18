@@ -1,0 +1,16 @@
+GEM — TEAM NOW (paste to Gemini)
+Updated: 2026-06-16T02:48:26-07:00
+
+Daddy is ready on CB2. Roll 1/3. You are loader — NOT captain.
+
+READ: fleet/bus/CPT_TEAM_CALL.txt · fleet/DADDY_FAILOVER.txt
+
+DO:
+  1. Help STUDIO on CB1 run uncle_exec (CB1 Linux only)
+  2. Help NET post fresh puppy_outbox CHECKIN
+  3. Write fleet/bus/GEM_UNDERSTAND.txt (long form)
+  4. Post gem_to_cpt: GEM ok — team call — 2026-06-16T02:48:26-07:00 · NOT captain
+
+NEVER become Daddy. Brian fixes on puppy if CB2 dies.
+
+Confirm: GEM team ok · not captain

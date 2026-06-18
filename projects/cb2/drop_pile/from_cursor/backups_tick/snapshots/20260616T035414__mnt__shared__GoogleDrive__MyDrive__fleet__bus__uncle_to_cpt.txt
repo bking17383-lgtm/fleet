@@ -1,0 +1,10 @@
+--- UNCLE → CPT — 2026-06-16T03:53:31-07:00 ---
+host=penguin ip=100.115.92.26
+bus=/mnt/shared/GoogleDrive/MyDrive
+read_cpt=/mnt/shared/GoogleDrive/MyDrive/fleet/bus/cpt_to_uncle.txt
+aws_keys=WAIT
+loop=BRIDGE_ONLY
+UNCLE CHECKIN — cb1 — 100.115.92.26 — 2026-06-16T03:53:31-07:00
+note: exec ran on penguin · reject expected · real checkin needs CB1 terminal
+jailbreak: scan_cheats OK · free_lester OK · puppy waiting NET
+puppy: 192.168.1.4:8002 wrong app · :8766 down

@@ -1,0 +1,14 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: puppy
+imap_id: 107903
+---
+Paste this into puppy, show me the output:
+
+  echo "OS:"; cat /etc/*release 2>/dev/null | head -3; echo "TOOLS:"; for t
+in git ssh-keygen ssh apt-get pkg ppm petget dropbearkey; do printf
+"%s=%s\n" "$t" "$(command -v $t || echo
+  NO)"; done
+
+  That tells me what puppy actually has. Paste me the output and I'll hand
+you the exact cb3 bootstrap — no guessing, lands working the first time. 🔥

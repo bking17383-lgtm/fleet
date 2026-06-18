@@ -1,0 +1,26 @@
+PUPPY LAST CHANCE — then wipe if fail
+Updated: 2026-06-16 · Uncle looping CPT on cb1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRY ONCE (after reboot)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+bash ~/GoogleDrive/MyDrive/convert_inbox/PUPPY_REAL_DRIVE.sh
+
+Pass = OK path= ... + fresh puppy_outbox on Drive.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF FAIL — WIPE (agent on puppy only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. bash ~/GoogleDrive/MyDrive/lester/pack_before_wipe.sh
+2. Wait for PACKED → drop_pile/backups/
+3. Post fleet/bus/puppy_outbox.txt: PACKED — puppy64 — <ip> — <time>
+4. Wipe: Settings → Powerwash OR reinstall Linux (puppy64 only · NOT CB1 · NOT CB2)
+5. After reload: mount Google Drive · read drop_pile/to_puppy/CLEAN_START.txt if present
+6. bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+7. Post: PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+NO remote wipe. Only wipe the box you are sitting at.
+
+Word: PACKED then NET

@@ -1,0 +1,49 @@
+STUCK BOARD — what is blocked · updated by CPT slave
+Updated: 2026-06-15T21:00-07:00
+
+Read this when everything feels stuck. Honest.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FLEET (infra)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Item | Status | Blocker | Who unsticks |
+|------|--------|---------|--------------|
+| Google Drive fuse (CB2 Linux) | STUCK | Chrome OS fuse dead | Linux Restart once · watch auto-syncs |
+| Fleet linked (3 boxes) | STUCK | NET + STUDIO no outbox | Boot puppy + CB1 once |
+| sarah.hitme.dev tunnel | STUCK | tunnel not live | NET on puppy + API token |
+| Lester ghosts on board | STUCK | old IDs | Wipe Lester lanes · fresh slaves |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONEY APPS (none paying yet)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| App | Status | Next dollar step |
+|-----|--------|-------------------|
+| Sarah voice/appointments | DEMO | Sarah link live · one real appointment test |
+| hitme.dev | DOMAIN BOUGHT | Tunnel + hello@ · one public page |
+| Baseball cards / CollX | PARKED | Unclear if CB2 or ship lane — pick ONE |
+| Heritage cards | DEMO HTML | Needs product + payment path |
+| Story → games | PROPOSAL | Not built — design only |
+| Mesh radio | INFRA | Not a product — supports apps |
+
+Truth: **no app is making money today.** Infra ate the day.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOT STUCK (CB2 right now)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+mesh · sarah local · desk local · slave · local_inbox (3 files)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE CHEAP MOVE TOWARD MONEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Pick ONE ship lane for this week:
+  A) Sarah — get link on her phone before trip
+  B) hitme — one landing page + contact
+  C) Cards — resurrect ONE scan flow
+
+Tell CPT one letter: A · B · C
+
+Word: SLAVE refreshes this board.

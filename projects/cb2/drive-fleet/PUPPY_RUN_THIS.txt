@@ -1,0 +1,7 @@
+penguin → puppy handoff
+
+Cursor on puppy: run this one command:
+
+bash ~/GoogleDrive/MyDrive/lester/START_BASEBALL_ON_PUPPY.sh
+
+Then tell Brian the URL from Hello from Puppy.txt (192.168.x.x:8002).

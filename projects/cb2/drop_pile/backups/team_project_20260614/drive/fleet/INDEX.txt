@@ -1,0 +1,45 @@
+# Fleet folder — moved off MyDrive root
+
+**Date:** 2026-06-14  
+**Why:** Root is GL-only (`gl/` + `inbox/` + `OPEN_THIS.txt`)
+
+---
+
+## Layout
+
+| Path | Contents |
+|------|----------|
+| `fleet/bus/` | IDEAS.txt · brian_says.txt · mac_inbox.txt · brian_queue.json · outboxes |
+| `fleet/*.txt` | ONE_WORD · DESIGN_DESK · wake cards · status guides |
+| `fleet/*.md` | Delegate docs · heartbeat · scorecard |
+
+---
+
+## Path changes (update your paste blocks)
+
+| Old (root) | New |
+|------------|-----|
+| `MyDrive/IDEAS.txt` | `MyDrive/fleet/bus/IDEAS.txt` |
+| `MyDrive/BRIAN_STATUS.txt` | `MyDrive/fleet/bus/BRIAN_STATUS.txt` |
+| `MyDrive/brian_queue.json` | `MyDrive/fleet/bus/brian_queue.json` |
+| `MyDrive/mac_inbox.txt` | `MyDrive/fleet/bus/mac_inbox.txt` |
+| `MyDrive/ONE_WORD.txt` | `MyDrive/fleet/ONE_WORD.txt` |
+| `MyDrive/FLEET_AVAILABLE.txt` | `MyDrive/fleet/FLEET_AVAILABLE.txt` |
+
+GL unchanged: `gl/` · `inbox/` · `gl/from_cursor/`
+
+---
+
+## Phase 2 (Puppy)
+
+Grep `drop_pile/` + `lester/` for old root paths → update to `fleet/`.
+
+Order: `drop_pile/to_puppy/FLEET_ROOT_PATHS_PHASE2.md`
+
+---
+
+## Still at root (not moved)
+
+- Thousands of personal gdocs/photos (untouched)
+- `drop_pile/` `lester/` `concepts/` directories (unchanged)
+- `gl/` `inbox/` GL surface

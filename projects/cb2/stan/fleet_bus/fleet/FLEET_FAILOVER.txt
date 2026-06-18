@@ -1,0 +1,55 @@
+FLEET FAILOVER — who picks up when a box dies
+Updated: 2026-06-16
+
+See also: fleet/DADDY_FAILOVER.txt (Brian law)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPTAIN (never changes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy/CPT = CB2 Cursor only.
+  No box promotes Gem · Uncle · NET to captain on failover.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF DADDY (CB2) DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Brian → puppy keyboard + Gem Chrome
+  Gem = repair hands on Drive (NOT captain)
+  NET = execute mesh/tunnel if puppy up
+  Fix path: drop_pile/to_gemini/DADDY_DOWN_FIX.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF NET (puppy) DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy delegates when back · CB2 temp-holds mesh until NET returns
+  Gem catalogs on Drive · does not run puppy services
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF STUDIO (CB1) DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy posts studio orders · waits
+  Gem may bridge files · Uncle runs on CB1 only when Brian opens CB1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF GEM STALE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy writes FAILOVER_ACTIVE.txt
+  NET may mirror Drive bus · Gem does NOT become captain
+  Brian may paste GEM_SLAVE_KISS on any Chrome tab
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PICKUP ROLES (execute only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Role | May execute | Never becomes |
+|------|-------------|---------------|
+| Gem | Drive · bridge · catalog | Daddy |
+| NET | mesh · tunnel · public URL | Daddy |
+| STUDIO | CB1 uncle_exec | Daddy |
+| Daddy | captain · delegate · CB2 bg | — |
+
+Word: FAILOVER · read fleet/DADDY_FAILOVER.txt

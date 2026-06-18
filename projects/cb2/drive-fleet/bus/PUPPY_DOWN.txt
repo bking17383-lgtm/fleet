@@ -1,0 +1,2 @@
+PUPPY_DOWN — ping fail 192.168.1.4 · 2026-06-16T03:17:49-07:00
+autopilot: orders refreshed · need boot at keyboard

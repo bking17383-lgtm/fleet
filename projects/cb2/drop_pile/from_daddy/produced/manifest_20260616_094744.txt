@@ -1,0 +1,7 @@
+PRODUCED 2026-06-16T09:47:44-07:00
+
+cockpit	cockpit.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/cockpit.html
+dossier	dossier.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/dossier.html
+brochure	brochure.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/brochure.html
+bundles_ebay	bundles_ebay.csv	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/bundles_ebay.csv
+nine_one_one	nine_one_one.html	/mnt/shared/GoogleDrive/MyDrive/drop_pile/from_daddy/produced/nine_one_one.html

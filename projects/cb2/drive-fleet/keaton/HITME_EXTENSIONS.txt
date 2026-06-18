@@ -1,0 +1,7 @@
+# subdomain | port | owner | registered | notes
+cards | 8002 | cb1 | 2026-06-16 | card reader · stripe
+sarah | 8766 | cb1 | pending | appointment demo
+mesh  | 8765 | cb1 | pending | mesh radio
+
+Add row BEFORE Cloudflare dashboard save.
+Gemini may append here · never delete core rows in HITME_LOCK.txt

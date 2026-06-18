@@ -1,0 +1,21 @@
+SLAVE KEYS — give each box ONE key (local file only)
+Updated: 2026-06-15
+
+| Role | Key | File on box |
+|------|-----|-------------|
+| NET (puppy) | 5f54badb | ~/.stan/slave.key |
+| STUDIO (uncle) | 93fec320 | ~/.stan/slave.key |
+| CPT helper | f770e0dc | ~/.stan/slave.key (optional on CB2) |
+
+Setup:
+  mkdir -p ~/.stan
+  echo ONE_KEY > ~/.stan/slave.key
+  chmod 600 ~/.stan/slave.key
+  python3 ~/.stan/local_slave.py NET
+
+Copy script+keys from backup:
+  drop_pile/backups/team_project_fresh_fleet_20260615/local/stan/
+
+Browser-only puppy: paste key + run local_slave from terminal when Cursor back.
+
+DO NOT post keys in chat after today — rotate if leaked.

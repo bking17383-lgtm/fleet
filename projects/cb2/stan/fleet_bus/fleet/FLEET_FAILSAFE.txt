@@ -1,0 +1,116 @@
+FLEET FAILSAFE — machine dies · production keeps moving
+Updated: 2026-06-15
+
+Problem: CB kicked · broken · wiped. Linux fuse dies. Lester6 lied while real files sat on Drive.
+
+Goal: lose ANY one machine · still read bus · still ship one money lane.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT LESTER WAS vs WHAT WE NEED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Lester6 (retired): Chrome slave · wrong hostnames · AWAITING_INSTRUCTIONS theater
+lester/ on Drive (KEEP): scripts · local_slave.py · keys · pack_before_wipe.sh
+
+Fix: never bind agents in Chrome again.
+  • Cursor = execute on Linux (CPT · NET)
+  • Gemini = Drive + loader (GEM · STUDIO)
+  • Files = fleet/ · drop_pile/ · ~/.stan/fleet_bus mirror
+
+The files were always the product. Lester6 was the noise.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE COPIES LAW (cheap · not max cloud)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every critical thing lives in THREE places:
+
+  1. Google Drive (fleet/ · drop_pile/ · lester/)
+  2. Local fleet_bus on each Linux box (~/.stan/fleet_bus)
+  3. drop_pile/backups/team_project_* packs (after SLAVE or manual pack)
+
+drive_watch syncs local ↔ Drive when fuse returns.
+Lose one CB · surviving box still has #2 · Drive has #1 when Chrome Files works.
+
+Do NOT need max cloud for this. Need discipline + puppy always-on copy.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF ONE MACHINE DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Lost | Captain | Execute | Drive/GEM |
+|------|---------|---------|-----------|
+| CB2 (CPT) | CB1 Cursor temp OR wait | CB1 apps · puppy NET | Gemini Chrome any box |
+| CB1 (72GB apps) | CB2 CPT stays | puppy NET + move sarah/desk OR thin on CB2 NOW HERE | GEM on CB2 Chrome |
+| puppy (NET) | CB2 CPT | CB1 interim tunnel+mesh until puppy back | unchanged |
+
+Production = one public URL + one app (Sarah). That URL lives in **files**:
+  fleet/SARAH_SEND_WHEN_READY.txt · fleet/bus/* · phone can read Drive in Chrome without Linux.
+
+Brian survival mode: Chrome Files → fleet/STUCK_BOARD.txt · no terminal.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PUPPY AS FAILSAFE ANCHOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4GB · Linux native · no Crostini fuse drama.
+Best **always-on** copy of fleet_bus + tunnel if home PC stays powered.
+
+Order when stable:
+  • puppy: tunnel + mesh + rsync fleet_bus to local nightly
+  • CBs: consumers · captain · GEM Chrome
+
+Lose both CBs · puppy still posts puppy_outbox + tunnel URL on Drive (if Drive mount on puppy works — use rclone or Google Drive desktop on Linux if needed).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLOUD — WHAT TO MAX vs NOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MAX (worth money):
+  • Google Drive — already the bus · keep paying
+  • hitme.dev + Cloudflare tunnel — one domain · public face
+  • Gemini API optional — GEM reports (~cheap)
+
+DO NOT max yet:
+  • Full AWS fleet duplicate · multi-region · enterprise security
+  • Replace Drive with S3 unless Drive itself becomes untrusted
+
+CHEAP cloud spine ($20+$20 until apps pay):
+  • Drive bus (have)
+  • One tunnel (Cloudflare)
+  • AWS Bedrock batch only — story mine · not live captain
+  • Optional: GitHub private repo mirroring ~/.stan (scripts only · no secrets)
+
+CLOUD_CPT_FALLBACK (fleet/) = emergency read-only captain if both CBs dead — investigate not default.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN A CB IS KICKED (playbook)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Chrome Files → open fleet/STUCK_BOARD.txt (no Linux)
+2. Surviving box → bash ~/.stan/slave_boot.sh
+3. Paste drop_pile/to_gemini/GEMINI_BOOT_PASTE.txt (GEM maintains law)
+4. Restore from latest drop_pile/backups/team_project_* if ~/.stan gone
+5. CPT on surviving box · delegate · one money lane · no spin
+
+Brian fills nothing. GEM + SLAVE rebuild profile.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ANTI-PATTERNS (caused today)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✗ Lester6 as agent
+✗ Captain runs all Flask because puppy quiet
+✗ Only copy on dead fuse mount
+✗ Brian fills BOOT forms
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEXT CHEAP HARDENING (CPT delegates)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+□ team_backup.sh on every SLAVE (auto pack to drop_pile/backups/)
+□ puppy: cron rsync Drive fleet → ~/fleet_bus if mount ok
+□ lester/ scripts only — never lester6_to_* heartbeats as truth
+□ Public Sarah URL duplicated in fleet/SARAH_LTE_URL.txt + SARAH_WIFI_URL.txt
+
+Word: FAILSAFE — CPT updates STUCK_BOARD from this file

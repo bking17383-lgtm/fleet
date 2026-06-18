@@ -1,0 +1,41 @@
+DADDY → BUNNY — Keaton landing sound
+TIME: 2026-06-17T06:50:00-07:00
+
+WHAT BRIAN WANTS
+  hitme.dev root = Keaton page only (visitors not ready for rest of site).
+  Your Keaton page plays the Alex P. Keaton DJ jingle on load.
+
+THE CLIP (correct — NOT the IG theme song)
+  Quote: "I'm Alex Keaton … Alex Keaton, how can you resist him? He's so cute!"
+  Episode: Family Ties S6E20 "The Blues Brother" · WLEL Syncopated Money
+  Length: ~8.5s
+
+FILES (pick one for <audio src>)
+  drop_pile/from_daddy/produced/alex_keaton_hes_so_cute_jingle.mp3   ← best
+  drop_pile/from_daddy/produced/alex_keaton_hes_so_cute_jingle.mp4
+  lester/hitme_simple/keaton/alex_keaton_hes_so_cute_jingle.mp3      ← static copy
+  Videos/clips/alex_keaton_hes_so_cute_jingle.mp3
+
+SUGGESTED HTML (merge into your page)
+  <audio id="keatonJingle" preload="auto" src="/keaton/jingle.mp3"></audio>
+  <script>
+  (function(){
+    var a=document.getElementById('keatonJingle');
+    if(!a)return;
+    function play(){ a.play().catch(function(){}); }
+    if(document.visibilityState!=='hidden') play();
+    document.addEventListener('click', play, {once:true});
+  })();
+  </script>
+
+DELIVER
+  drop_pile/from_bbbunny/keaton.html          — your page (with sound + hit counter)
+  drop_pile/from_bbbunny/KEATON_SOUND_OK.txt  — one line when wired
+
+CPT (Daddy) after your OK
+  fleet/keaton/LANDING_LIVE.txt → hitme.dev / and /index → /keaton
+  Everything else stays backend-only (no nav from landing).
+
+Details: fleet/bus/SLICER_CLIP_JOB.txt
+
+Word: BUNNY · KEATON · SOUND

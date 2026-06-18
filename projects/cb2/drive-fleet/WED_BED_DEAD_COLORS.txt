@@ -1,0 +1,20 @@
+WED / BED / DEAD — color lanes (Bunny card game · app-solution)
+Updated: 2026-06-17 · Daddy · pending Bunny final sign-off
+
+WED (public · vows · wedding energy)
+  bg      #F5E6D3   cream aisle
+  accent  #C9A227   gold ring
+  text    #3D2C1E   dark vows
+
+BED (private · desire · bedroom)
+  bg      #2A0F18   plum black
+  accent  #8B2635   crimson
+  text    #F0D4DC   blush
+
+DEAD (expired · tomb · done)
+  bg      #0B0B0D   void
+  accent  #A8A8AD   tombstone silver
+  text    #E8E8EA   bone
+
+UI strip: WED | BED | DEAD top bar on app-solution page
+If Bunny had different hex — overwrite this file · regenerate app_solution.html

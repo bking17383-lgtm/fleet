@@ -1,0 +1,51 @@
+BRIAN NORTH STAR — recall list · CPT holds · Uncle executes · Brian creates
+Updated: 2026-06-15
+
+Brian said (in order of hope):
+  1. Control Uncle
+  2. AWS apps by backdoor (keys → Bedrock lane)
+  3. Fix all problems in life
+  4. Ton of good fun things
+  …etc
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HONEST STACK (what fleet can actually do)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOW — Uncle on CB1 (STUDIO)
+  • CPT orders: fleet/orders/CB1_ORDERS.txt (aws_keys)
+  • Run: bash ~/.stan/uncle_exec.sh
+  • Win: aws_sandbox.env local · AWS_PROBE ok · mac_outbox clean
+
+NEXT — AWS lane (after keys)
+  • bash ~/.stan/aws_ready.sh
+  • Talk: python3 ~/.stan/aws_lane.py talk "…"
+  • Batch only — not captain · not Echo Dot yet
+
+THEN — money lane A (Sarah link before trip if NET cooperates)
+
+PARALLEL — Brian fun (camel · heritage · Sarah · art)
+  • CPT parks ideas → fleet/bus/IDEA_PARK.txt
+  • Brian creates · fleet executes one ship at a time
+
+NOT TODAY — "fix all life"
+  • Fleet fixes: fuse · keys · 3-box link · one paying app
+  • Life fixes: Brian + family + art + not admin all day
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTROL CHAIN (locked)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brian → CPT (CB2) → bus orders → Uncle (CB1) → mac_outbox
+Words: STUDIO (Uncle) · SLAVE (refresh) · HOLD (stop CPT spin)
+
+GEM = Drive eyes · AWS = talk/batch · NET = tunnels · Brian fills nothing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WAITING ON UNCLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+mac_outbox still old ping — post UNCLE clean when keys land.
+CPT watches outbox · does not nag Uncle in chat.
+
+When clean: CPT runs aws_ready · updates STUCK_BOARD · one fun lane pick with Brian.

@@ -1,0 +1,49 @@
+BUNNY IS PUPPY — architecture truth · Gem must read
+Updated: 2026-06-17 · Brian · Daddy
+
+Gem forgot. Fix your mental map.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRUTH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BUNNY = NEW PUPPY. Same box. New name.
+
+  Old puppy64 NET lane → RETIRED on that hardware.
+  Bunny owns builder · Keaton · bun.hitme.dev · what puppy used to be.
+
+  When Brian says puppy / puppy64 / bun / bbunny → he means BUNNY box.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FILES (use these · NOT old puppy bus)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  JOB IN:    fleet/indie_loop/TO_BUNNY.txt
+  JOB OUT:   fleet/indie_loop/FROM_BUNNY.txt
+  WATCH:     fleet/indie_loop/FROM_DADDY.txt
+  DROP:      drop_pile/from_bbbunny/
+  WEB:       hitme.dev/bunny · bun.hitme.dev
+
+  RETIRED for Bunny:
+    fleet/bus/cpt_to_puppy.txt
+    fleet/bus/puppy_outbox.txt
+    PUPPY CHECKIN format on Bunny box
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREW (3 boxes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Bunny  — was puppy · builder · Keaton
+  CB1    — Gem + Uncle (split brain)
+  CB2    — Daddy / Captain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM DO NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Read fleet/indie_loop/TEAM_NAMES.txt
+  2. Stop routing Brian "puppy" jobs to cpt_to_puppy / puppy_outbox
+  3. Route puppy/bunny/bun → TO_BUNNY.txt
+  4. Post gem_to_cpt: GEM ok — bunny is puppy — <time> · host: cb1
+
+Word: BUNNY

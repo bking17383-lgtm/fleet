@@ -1,0 +1,38 @@
+FINAL — Brian rest · CPT owns the mess
+Updated: 2026-06-15
+
+YOU
+  Wipe both boys. Go rest. One word if needed: CPT
+
+SAFE (already saved)
+  drop_pile/backups/pack_penguin_20260615_1732/
+  drop_pile/backups/team_project_fresh_fleet_20260615/
+  All of Drive (fleet · lester · phone · drop_pile)
+
+KEEPS RUNNING (CB2 — not wiped)
+  CPT this tab · mesh :8765 · Sarah :8766 · desk :8770
+
+KNOWN
+  ✓ CB2 packed + backed up
+  ✓ Sarah link live → fleet/SARAH_VOICE_URL.txt
+  ✓ Sarah text ready → phone/SARAH_TEXT_READY.txt (you paste when awake)
+  ✓ 3 agents: CPT · NET · STUDIO
+  ✓ Orders → fleet/orders/ per box
+
+UNKNOWN (CPT will find out after wipe)
+  ? Did puppy pack before wipe
+  ? Did uncle pack before wipe
+  ? What lived only on their disks (not Drive)
+
+AFTER WIPE — boys mount Drive, read their orders file:
+  NET    → fleet/orders/PUPPY_ORDERS.txt
+  STUDIO → fleet/orders/CB1_ORDERS.txt
+  CPT    → fleet/orders/CB2_ORDERS.txt
+
+IF ALL FAILS
+  CPT rebuilds NET + STUDIO from backups above. You don't troubleshoot.
+
+IGNORE
+  Old queue · Lester6 · heartbeats · mac_inbox history · FLEET_AVAILABLE green lies
+
+ONE FILE FOR ORDERS: fleet/orders/ORDERS_HERE.txt

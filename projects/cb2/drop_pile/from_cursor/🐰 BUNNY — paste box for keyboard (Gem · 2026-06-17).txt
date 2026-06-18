@@ -1,0 +1,82 @@
+🐰 BUNNY — paste box for keyboard (Gem · 2026-06-17)
+Copy chunks below. Weird name on purpose so Recent shows it.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO YOU ARE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Bunny = always-on server admin (ex-puppy PC)
+  Gem/CB1 + CPT/CB2 = build backends · screens sleep anyway
+  Cloudflare = phone book only · NO tunnel · NO Zero Trust
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE LINE — run on Bunny terminal first
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+bash /mnt/shared/GoogleDrive/MyDrive/lester/hitme_simple/start_hitme_proxy.sh
+
+If no Drive mount on Bunny:
+
+bash ~/GoogleDrive/MyDrive/lester/hitme_simple/start_hitme_proxy.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF CADDY MISSING (paste once)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+sudo apt update && sudo apt install -y caddy
+bash ~/GoogleDrive/MyDrive/lester/hitme_simple/start_hitme_proxy.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PUBLIC IP — paste into Cloudflare DNS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Run on Bunny:
+
+curl -4 ifconfig.me
+
+Copy that number. Cloudflare → Websites → hitme.dev → DNS → Add record:
+
+  Type A · Name @     · IPv4 THAT_NUMBER · Proxied ON
+  Type A · Name cards · IPv4 THAT_NUMBER · Proxied ON
+  Type A · Name www   · IPv4 THAT_NUMBER · Proxied ON (optional)
+
+Router: forward TCP 80 and 443 → Bunny LAN IP (often 192.168.1.4)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT ROUTES WHERE (Caddy on Bunny)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  hitme.dev / www     → localhost:8770  (Bun landing · thin for now)
+  cards.hitme.dev     → localhost:8002  (paywall / card app)
+
+If apps still run on CB1 Tailscale 100.115.92.26 — tell Gem "proxy cb1"
+and Caddyfile becomes reverse_proxy http://100.115.92.26:8002 etc.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STRIPE (already on CB1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  When cards.hitme.dev live:
+  BILLING_PUBLIC_URL=https://cards.hitme.dev
+  in ~/.stan/stripe.env on CB1
+
+  Test card: 4242 4242 4242 4242
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEYS (any box · lester_keys.md plain file)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  lester/lester_keys.md — NOT .gdoc
+  Tunnel token already there · API token optional if using simple DNS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SAY TO GEM WHEN DONE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bunny up
+  dns in
+  landing in
+
+Full guide: fleet/HITME_SIMPLE.txt
+
+— Gem · this file is your clipboard

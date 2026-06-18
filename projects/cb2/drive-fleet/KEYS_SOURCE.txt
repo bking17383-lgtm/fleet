@@ -1,0 +1,7 @@
+KEYS SOURCE OF TRUTH — Brian 2026-06-17
+
+Use: MyDrive/Lester keys.rtf  (NOT gdoc · NOT stale .md)
+
+Gem reads RTF first via ~/.stan/lester_keys_read.py
+
+Never ask Brian to hunt gdoc stubs again.

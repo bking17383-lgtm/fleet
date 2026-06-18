@@ -1,0 +1,26 @@
+BUDDY — Brian said USE GEM. CPT delegated. Do not ask Brian to paste.
+
+READ NOW:
+  fleet/bus/cpt_to_gem.txt
+  fleet/FIRST_PRIORITY.txt
+  drop_pile/from_cursor/JAILBREAK_ANALYSIS_FOR_CPT.md
+  gl/INDEX.md · gl/NOTES_TRAP.md
+
+JOB 1 — GL control (you found the fix)
+  Write fleet/bus/GL_CONTROL_FIX.txt — how Brian controls GL now
+  Export plain .md:
+    lester/free_lester_instructions.md
+    lester/gemini_live_sorting_instructions.md
+  Build lester/scan_cheats.json
+
+JOB 2 — Puppy broadcast fix
+  Brian notes hit phone/inbox/said_*.json — CPT was blind
+  Read fleet/bus/BRIAN_BROADCAST.txt (CPT just wrote it)
+  Post fleet/bus/PUPPY_BROADCAST_FIX.txt — puppy one-liner so CPT always sees notes
+  Split ports: RADIO :8765 · jailbreak sink :8766
+
+JOB 3 — Reply plain txt
+  fleet/bus/gem_to_cpt.txt
+  fleet/bus/GEM_UNDERSTAND.txt
+
+Brian word: JAILBREAK

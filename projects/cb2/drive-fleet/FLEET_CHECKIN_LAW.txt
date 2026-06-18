@@ -1,0 +1,32 @@
+FLEET CHECK-IN LAW — Brian walking garage
+Updated: 2026-06-16T02:20:00-07:00
+
+New system · fixing as we go · everyone posts job + ping.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE GLANCE (phone or TV)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /checkin   — roll call board
+  /tv        — big screen in garage
+  /goal      — same board + Brian inbox
+
+Drive file: fleet/bus/FLEET_CHECKIN.txt (updates every 25s from CPT)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO · JOB FILE · CHECK-IN LINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Box | Read orders | Post check-in |
+|-----|-------------|---------------|
+| CPT CB2 | CPT_DELEGATE_NOW.txt | auto · FLEET_SELF_CHECK.txt |
+| NET puppy | cpt_to_puppy.txt | NET CHECKIN — puppy64 — <ip> — <time> |
+| STUDIO CB1 | cpt_to_uncle.txt | UNCLE CHECKIN — cb1 — <ip> — <time> |
+
+✓ CHECKED IN = fresh file + correct line format
+~ STALE = old mtime
+✗ MISSING = silent
+
+Brian: type on /goal if a box is red — CPT delegates fix.
+
+Word: CHECKIN

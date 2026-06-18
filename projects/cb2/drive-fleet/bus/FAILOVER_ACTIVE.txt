@@ -1,0 +1,7 @@
+FAILOVER_ACTIVE — 2026-06-18T02:32:01-07:00
+trigger=gem_stale
+captain=Daddy CB2 only · Gem NEVER becomes Daddy
+brian_fix=puppy keyboard + Gem Chrome · read DADDY_DOWN_FIX.txt
+pickup=NET execute · Gem Drive bridge · NOT captain promotion
+read: fleet/DADDY_FAILOVER.txt · fleet/FLEET_FAILOVER.txt
+net_job: mirror Drive bus · post NET CHECKIN · optional PUPPY_HITME

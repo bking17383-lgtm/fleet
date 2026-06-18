@@ -1,0 +1,15 @@
+SHORT URL — wake puppy
+Updated: 2026-06-16
+
+USE THIS (short):
+  http://100.115.92.26:8770/w
+
+Same keyboard:
+  http://127.0.0.1:8770/w
+
+Goal (when DNS fixed):
+  https://hitme.dev/w
+
+Long ugly tunnel — only if short fails. See fleet/HITME_LIVE_URL.txt
+
+Word: /w

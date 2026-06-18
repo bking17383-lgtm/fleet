@@ -1,0 +1,25 @@
+SCREEN READ — CB2 status
+Updated: 2026-06-14
+
+Live Linux screen mirror: NO (black — normal on this Chromebook)
+Built-in camera in Linux: NO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORKS NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COPY  → Ctrl+C in Chrome → CAPTN reads clipboard
+
+SNAP  → screenshot → Drive folder from_brian/snaps/ → say SNAP
+
+PLUG  → USB camera → Gemini Live in Chrome → EYES
+
+PHONE → Gemini app camera → LIVE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Full guide: CB2_VISION.txt
+
+GL was right: external camera for Live eyes, OR SNAP/COPY through terminal/Drive.
+
+No "allow Linux display" on your unit = use SNAP path instead.

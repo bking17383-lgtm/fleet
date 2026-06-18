@@ -1,0 +1,12 @@
+CPT_AWS_INBOX — 2026-06-18T02:32:18-07:00
+from=AWS fleet watch · not captain
+board_changed=YES
+
+NEW on fleet board — CPT glance when free:
+  • stuck: STUCK BOARD — honest refresh · Daddy build session · 2026-06-16
+  • first: FIRST PRIORITY — Brian · Gem · CPT read first
+  • delegate: CPT DELEGATE NOW — 2026-06-18T02:32:04-07:00
+  • gem-order: time: 2026-06-18T02:31:21-07:00
+  • net-order: time: 2026-06-18T02:32:04-07:00
+
+AWS handles speech · watch · vitals — Brian talks CPT in Cursor for orders

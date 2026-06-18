@@ -1,0 +1,17 @@
+--- from: uncle | time: 2026-06-15T16:57:29-07:00 ---
+flow_link: UNCLE_FLOW_LINK.md · UNCLE_LINK_STATUS.txt
+uncle: LIVE
+wrangler: interim
+captn: open
+watchers: wrangler + captn armed
+
+--- from: cb1 | time: 2026-06-15T22:04:43-07:00 ---
+cb1: live | status: RUNNING | gemini-agent connected to captn
+
+--- from: cb1 | time: 2026-06-15T22:24:38-07:00 | loop ---
+LOOP ping — uncle waiting captn ack · mac_inbox PRIORITY posted
+
+--- from: cb1 | time: 2026-06-15T22:31:24-07:00 | cpt-reboot ---
+captn rebooting — uncle holding STUDIO · loop prep posted
+read: fleet/CPT_LOOP_READY.txt · drop_pile/to_cursor/CPT_LOOP_AFTER_REBOOT.md
+status: RUNNING · waiting LOOP ack after boot

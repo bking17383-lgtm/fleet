@@ -1,0 +1,34 @@
+MIRROR LAW — Daddy GO · execute now
+Updated: 2026-06-16T06:53-07:00
+Authority: Brian · Uncle proposal · Daddy stamps
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ONE READ PATH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All agents: ONLY MyDrive/fleet/bus/
+Ban: lester6 · ~/.stan/fleet_bus as truth · lester6_to_*
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. ONE WRITE PATH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+puppy_outbox  → puppy64 ONLY
+uncle_to_cpt  → cb1 ONLY
+gem_to_cpt    → cb1 Chrome ONLY
+cpt_to_*      → Daddy penguin ONLY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ONE PROOF FILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+fleet/bus/MIRROR_TRUTH.txt — fleet bar reads THIS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. PUPPY RETIRED 2026-06-16T07:16
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brian killed puppy lane. Gem holds NET admin 4 min then Uncle executes edge.
+New agent TBD. Do not wait for puppy_outbox.
+
+Word: GO

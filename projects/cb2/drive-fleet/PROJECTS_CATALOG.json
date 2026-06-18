@@ -1,0 +1,150 @@
+{
+  "updated": "2026-06-17T14:10:10-07:00",
+  "source": "bunny \u00b7 keaton INDEX + GEM sprint + FRUITION",
+  "count": 15,
+  "by_tier": {
+    "ship": 7,
+    "money": 0,
+    "platform": 6,
+    "creative": 1,
+    "backlog": 1,
+    "spike": 0
+  },
+  "projects": [
+    {
+      "id": "sarah",
+      "name": "Sarah Voice",
+      "status": "LIVE",
+      "end_user": "Sarah \u00b7 voice scheduling \u00b7 minimal intrusion",
+      "profit": "$$ appointment lane \u00b7 human tester first",
+      "source": "fleet/SHIP_A_SARAH.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "hitme",
+      "name": "hitme Landing",
+      "status": "LIVE",
+      "end_user": "Visitors \u00b7 strangers on LTE",
+      "profit": "$ platform \u00b7 leads to paid lanes later",
+      "source": "fleet/SHIP_B_HITME.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "cards",
+      "name": "CollX Card Scanner",
+      "status": "LIVE",
+      "end_user": "Collectors \u00b7 estate executors \u00b7 Brian inventory",
+      "profit": "$$ Stripe after 6 scans \u00b7 497-card inventory",
+      "source": "fleet/SHIP_C_CARDS.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage Card Demo",
+      "status": "DEMO",
+      "end_user": "Genealogy fans \u00b7 phone rotate showcase",
+      "profit": "$ demo \u2192 upsell catalog / print",
+      "source": "lester/heritage/card_demo.html",
+      "tier": "ship"
+    },
+    {
+      "id": "jailbreak",
+      "name": "Free Lester / Jailbreak",
+      "status": "READY",
+      "end_user": "Card collectors \u00b7 voice coach at table",
+      "profit": "$$ micro per Live session \u00b7 card grade upsell",
+      "source": "lester/free_lester_instructions.md",
+      "tier": "ship"
+    },
+    {
+      "id": "rover",
+      "name": "Rover / Mesh Radio",
+      "status": "LIVE",
+      "end_user": "Brian road phone \u00b7 camera+mic extension",
+      "profit": "$0 internal \u00b7 saves LTE hassle",
+      "source": "fleet/MESH_RADIO_URL.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "aws_lane",
+      "name": "AWS Talk Lane",
+      "status": "LIVE",
+      "end_user": "Brian riffing money ideas",
+      "profit": "$0 ideation \u00b7 batch to ship lanes",
+      "source": "fleet/AWS_LANE.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "alexa",
+      "name": "Alexa Brief Mode",
+      "status": "DONE",
+      "end_user": "Brian \u00b7 Echo one-click",
+      "profit": "$0 home filter \u00b7 no port spam",
+      "source": "fleet/bus/GEM_PROJECT_SPRINT.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "story_games",
+      "name": "Story \u2192 Games Catalog",
+      "status": "NEXT",
+      "end_user": "Brian \u00b7 game writers \u00b7 story archive",
+      "profit": "$ IP licensing later",
+      "source": "fleet/bus/GEM_PROJECT_SPRINT.txt",
+      "tier": "backlog"
+    },
+    {
+      "id": "keaton",
+      "name": "Keaton Landing",
+      "status": "WIRING",
+      "end_user": "Public visitors \u00b7 hitme.dev front door",
+      "profit": "$ brand funnel \u00b7 sound + counter",
+      "source": "fleet/KEATON.txt",
+      "tier": "creative"
+    },
+    {
+      "id": "hitme_core",
+      "name": "hitme.dev Core",
+      "status": "LIVE",
+      "end_user": "Whole fleet \u00b7 bus + URLs",
+      "profit": "$0 infra \u00b7 enables all lanes",
+      "source": "fleet/keaton/INDEX.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "gem_studio",
+      "name": "Gem Studio",
+      "status": "LIVE",
+      "end_user": "CB1 Chrome \u00b7 local API",
+      "profit": "$0 librarian tool",
+      "source": "fleet/keaton/INDEX.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "bunny_lab",
+      "name": "Bunny Lab",
+      "status": "LIVE",
+      "end_user": "Brian \u00b7 builder indie loop",
+      "profit": "$0 builder UX \u00b7 Keaton host",
+      "source": "hitme.dev/bunny",
+      "tier": "platform"
+    },
+    {
+      "id": "gl_live",
+      "name": "GL Live / Transcript Lab",
+      "status": "MESSY",
+      "end_user": "Brian \u00b7 Gemini Live stack",
+      "profit": "$0 until voice good enough",
+      "source": "gl/INDEX.md",
+      "tier": "platform"
+    },
+    {
+      "id": "keaton_loader",
+      "name": "Keaton Project Loader",
+      "status": "LIVE",
+      "end_user": "All boxes \u00b7 same project list",
+      "profit": "$0 conflict avoidance",
+      "source": "fleet/KEATON.txt",
+      "tier": "platform"
+    }
+  ]
+}

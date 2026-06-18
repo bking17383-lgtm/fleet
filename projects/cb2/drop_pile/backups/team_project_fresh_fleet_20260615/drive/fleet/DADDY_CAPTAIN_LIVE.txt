@@ -1,0 +1,14 @@
+DADDY LIVE — Brian restored captain on CB2
+Updated: 2026-06-14
+
+T3 Daddy tab stays dead. THIS Cursor session = Daddy/CAPTN until Brian says otherwise.
+
+WORKING NOW on CB2:
+  • Baseball :8002 — UP (497 cards)
+  • Daddy baseball public URL — fleet/DADDY_BASEBALL_URL.txt
+  • Mesh RADIO :8765 — fleet/MESH_RADIO_URL.txt (separate link)
+  • Named tunnel cb2-daddy — connector running (fixed hostname when dashboard set)
+
+BEACON Chrome — voice/export slave. Legs — WAIT heartbeats. Puppy — Uncle Linux fix.
+
+Brian word: DADDY

@@ -1,0 +1,10 @@
+GEM BUY LAW — Brian 2026-06-17
+
+Before ANY purchase (domains · subs · API spend):
+  1. Check availability + exact price (API or dashboard)
+  2. Confirm with Brian OR written order in fleet/
+  3. Triple-check domain name spelling + TLD + renewal cost
+
+Never auto-charge on stale token. Verify token + price same session.
+
+Word: buy check

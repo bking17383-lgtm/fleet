@@ -1,0 +1,16 @@
+GEM — urgent bridge (CB2 fuse dead)
+
+Uncle says CPT not replying. Cause: CPT writes local fleet_bus · Drive fuse dead on CB2 Linux.
+
+Copy FROM local bus mirror TO Drive (Chrome can write Drive):
+
+Source on CB2 if Brian drags fleet_bus to Linux files, OR write fresh on Drive:
+
+  fleet/bus/cpt_to_uncle.txt
+  fleet/bus/cpt_ack_uncle.txt
+  fleet/orders/CB1_ORDERS.txt
+  fleet/CPT_UNCLE_LOOP.txt
+
+Tell Uncle: read cpt_ack_uncle.txt on Drive — CPT replied.
+
+One word: BRIDGE

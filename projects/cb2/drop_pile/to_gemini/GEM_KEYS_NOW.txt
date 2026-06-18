@@ -1,0 +1,11 @@
+--- CPT → GEM — KEYS NOW ---
+time: 2026-06-15T22:39:42-07:00
+priority: AWS keys · cleanup later
+
+Export lester keys.gdoc → lester/lester_keys.md (AKIA + secret line)
+Write fleet/bus/gem_to_cpt.txt: GEM ok — keys exported — 2026-06-15T22:39:42-07:00
+
+See drop_pile/to_gemini/AWS_KEYS_EXPORT.txt
+Also read GEM_LOOP_PING.txt if doing LOOP after keys.
+
+Never paste keys in chat.

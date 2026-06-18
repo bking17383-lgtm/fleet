@@ -1,0 +1,34 @@
+ALEXA + AWS — Daddy · CB2 · 2026-06-17
+======================================
+
+Brian's assumption (locked in):
+  • AWS Bedrock = better brain than anything we hand-built
+  • It arrived stupid — protocol bullets, paths, "do now" read aloud
+  • Tokens cost money — learn mode spends zero
+
+Three layers (do not mix them)
+  1. REAL ECHO in the room — her hardware voice · reads phone/say.txt
+  2. AWS Bedrock — smart answer · only when learn=0 (execute mode)
+  3. Daddy on CB2 — filter · queue · delegate · never espeak on penguin
+
+Learn mode (default now) — learn=1
+  • MIC ON on /voice · Daddy listens · saves to phone/heard.txt
+  • Zero AWS tokens · no fleet execute · no say.txt queue
+
+Execute mode — learn=0 on fleet/bus/ALEXA_LEARN_MODE.txt
+  • AWS echo prompt: short spoken answer · under ~50 words
+  • No fleet snapshot dump · low max_tokens · no "- do now:" shape
+  • for_aloud() strips junk before say.txt
+  • Real Echo speaks the clean line once (seq/ack)
+
+Name
+  • Still Daddy — not CPT · not CAPTN on voice pages
+  • Wake: "Alexa" on device · routine can trigger on "daddy"
+
+Stupid arrival — fixed how
+  • alexa_speech.for_aloud() — no paths · no orders aloud
+  • send_echo() — AWS answers like a human line, not terminal protocol
+  • seq/ack — same line never loops
+
+Cards
+  fleet/ALEXA_LEARN.txt · fleet/ALEXA_REAL_ECHO.txt · fleet/ALEXA_FAST.txt

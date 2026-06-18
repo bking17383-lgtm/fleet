@@ -1,0 +1,6 @@
+PACK ALL — Uncle awake
+time: 2026-06-15T18:19:49-07:00
+folder: drop_pile/from_cursor/pack_2026-06-15T1745/
+files: 15 (heartbeats · acks · inbox · link · orders · false ping log)
+
+Say "pack all files" when Uncle awake → fresh copy here.

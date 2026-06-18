@@ -1,0 +1,33 @@
+# CB1 devices board
+
+**Updated:** 2026-06-14T12:02:46-07:00  
+**Script:** `python3 ~/.stan/fleet_board.py`  
+**Full board:** `fleet/FLEET_AVAILABLE.txt`
+
+## This machine
+
+- hostname: penguin
+-   baseball :8002  DOWN
+-   jailbreak :8765  DOWN
+
+## Fleet compact
+
+`CB1✓ CB2~ puppy64✗ ROVER✓`
+
+**2 up · 2 partial · 2 down**
+
+## Computers
+
+- **CB1** — WORKING — WRANGLER + Uncle
+- **CB2** — PARTIAL — BEACON · captain OFF
+- **puppy64** — DOWN — Puppy + PLATE
+- **ROVER** — WORKING — cell / Spark
+
+## Agents
+
+- **Daddy Cursor T3** (CB2) — **DOWN** — T3 tab killed
+- **BEACON Lester6** (CB2 Chrome) — **WORKING** — BEACON ack today · paired yes
+- **Uncle Cursor** (CB1) — **WORKING** — cursor live · 2026-06-14T11:57
+- **WRANGLER Lester6** (CB1 Chrome) — **PARTIAL** — WRANGLER ack today · WRANGLER — ack 07:45 · pulse stale
+- **Puppy Cursor** (puppy64) — **DOWN** — pending · hostname penguin (want puppy64)
+- **PLATE Lester6** (puppy64 Chrome) — **PARTIAL** — PLATE ack today

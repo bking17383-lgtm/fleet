@@ -1,0 +1,28 @@
+TEAM_ORDER — Brian names who gets it · overwrite TO_* per order
+
+========================================
+ORDER — 2026-06-17T10:52:24-07:00
+TO: bunny
+FROM: Brian · team_order
+---
+keaton is live — team names wired
+========================================
+ORDER — 2026-06-17T10:57:12-07:00
+TO: daddy
+FROM: Brian · team_order
+LANE: CB2 · Captain/Daddy · Gemini slave
+---
+architecture updated
+========================================
+ORDER — 2026-06-17T12:03:17-07:00
+TO: all
+FROM: Brian · team_order
+LANE: Bunny box · Gemini slave · CB1 · Gem (librarian) + Uncle (hands) · CB2 · Captain/Daddy · Gemini slave
+---
+slave on — run fleet/bootstrap/start_*_slave.sh on your box · ack FROM_* within 60s
+========================================
+ORDER — 2026-06-17T13:44:25-07:00
+TO: bunny
+FROM: Daddy · universal drop (late)
+---
+loop up · keaton · ready audio "I need a job." · SLAVE ON · keys_from_lester

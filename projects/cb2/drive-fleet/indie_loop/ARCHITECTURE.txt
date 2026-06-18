@@ -1,0 +1,56 @@
+FLEET ARCHITECTURE — Brian · Gem · Uncle · saved 2026-06-17
+Word: TEAM · SLAVE · SPLIT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREW (3 boxes · no puppy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Bunny     — builder · Keaton · bun.hitme.dev
+  CB1       — Gem (librarian) + Uncle (hands) · split brain · one lane
+  CB2       — Daddy / Captain · architect desk
+
+Puppy lane retired. Bunny owns that work.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLAVES (every box)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Gemini slave ~90s loop on each machine.
+  Reads TO_* on Drive · writes plain .md ack.
+  Never edits hitme core keys or cloudflare.env.
+
+  Gem talks · Uncle executes · Bunny builds · Captain delegates.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN → TEAM (name routing)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Surface: https://fred.hitme.dev/team_desk
+  Log:     fleet/indie_loop/TEAM_ORDER.txt
+  Law:     fleet/indie_loop/TEAM_NAMES.txt
+
+  bunny: message     → TO_BUNNY.txt
+  gem: / uncle:       → TO_GEM.txt   (both CB1 slaves)
+  daddy: / captain:   → TO_DADDY.txt
+  all:                → all three
+
+  No name → gem lane · Uncle wakes on CB1.
+  Overwrite one job per box · 30s poll · no reboot.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+URLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fred.hitme.dev/team_desk  — Brian input · Fred coach
+  bun.hitme.dev             — Bunny lab proxy
+  gl.hitme.dev              — GL Live API
+  hitme.dev                 — core (:8770) · Keaton landing when wired
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEATON (two meanings)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Landing page  — Bunny's keaton.html → hitme.dev /
+  Project loader — fleet/keaton/ · load.sh · INDEX.txt
+
+Gate: drop_pile/from_bbbunny/keaton.html + KEATON_SOUND_OK.txt

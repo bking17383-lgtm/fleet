@@ -1,0 +1,92 @@
+AWS LANE — batch lady · not captain · on the bus so Brian forgets chat
+Updated: 2026-06-15
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE (same as GEM split)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AWS LLM = **batch lane** · story mine · probes · heavy text
+NOT live CPT · NOT fleet bus · NOT sockets
+
+Groq (mesh_radio) = **fast cheap coach voice** on phone radio
+NOT captain · fallback when Gemini vision key missing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALREADY ON RANCH (~/.stan)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  aws_sandbox_probe.py   — Bedrock test → fleet/bus/AWS_PROBE_REPORT.txt
+  setup_aws_sandbox.sh   — pip boto3 + run probe
+  aws_sandbox.env.example — fill locally · NEVER Drive/chat
+
+  mesh_radio.py          — Groq gsk_* from lester/lester_keys.md or GROQ_API_KEY
+  brian_os.py            — OLD queue (penguin/puppy) · parked · not AWS
+
+Old "stan" = this ~/.stan folder. AWS piece = sandbox scaffold above.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEYS (lester files · Brian fills nothing)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When Drive mounts, keys often live in:
+  lester/lester_keys.md  (AIza Gemini · gsk_ Groq · AWS AKIA…)
+
+Local only (chmod 600):
+  ~/.stan/aws_sandbox.env   — AWS_ACCESS_KEY_ID · SECRET · BEDROCK_MODEL_ID
+  ~/.stan/groq.env          — GROQ_API_KEY=gsk_… (optional · mesh reads lester too)
+
+Brian says: **AWS KEYS IN** → CPT runs keys_from_lester.sh (no paste in chat)
+
+BACK DOOR vs FRONT DOOR (Brian context)
+  Back door = fast · keys already exist (lester keys.gdoc · old project · convert_inbox photo)
+    → export/drag · slave pulls local · few clicks OK
+  Front door = AWS signup surveys · personal questions · kids/life story · admin hell
+    → avoid · Brian already paid that tax
+
+Brian can do a few clicks for keys. Problem was AWS onboarding weirdness — not reluctance to click.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENTRANCE (when keys local)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/setup_aws_sandbox.sh
+  → writes fleet/bus/AWS_PROBE_REPORT.txt
+
+Pass = SANDBOX_OK in report → unlock story-mine batch jobs on CB1 72GB or puppy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO NOT MAX CLOUD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One IAM sandbox user · nova-lite default · $25 budget guard in env
+See fleet/AWS_SANDBOX_IAM.json when Drive syncs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT NEEDS MORE DATA? 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Enough to architect. To **run** probe need ONE:
+  • AWS KEYS IN (pull from lester_keys), or
+  • Drive fuse back so lester_keys.md readable
+
+Do NOT paste keys in chat.
+
+Echo Dot / Alexa voice = different API (not Bedrock). Skip voice barriers for now.
+Bedrock = text talk + batch on this lane.
+
+When Brian brings keys:
+  bash ~/.stan/aws_ready.sh
+  OR: AWS KEYS IN → bash ~/.stan/aws_ready.sh
+
+Talk:
+  python3 ~/.stan/aws_lane.py talk "your riff here"
+  → drop_pile/from_aws/talk_*.md only
+
+Probe:
+  python3 ~/.stan/aws_lane.py probe
+  → fleet/bus/AWS_PROBE_REPORT.txt
+
+Status:
+  fleet/bus/AWS_STATUS.txt
+
+CPT builds lane when keys land. Brian fills nothing.

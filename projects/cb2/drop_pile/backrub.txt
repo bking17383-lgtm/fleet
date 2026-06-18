@@ -1,0 +1,28 @@
+backrub — Brian · 2026-06-18T02:30:46-07:00
+hitme.dev/backrub · hitme.dev/team
+
+SMALL WORDS: DADDY · BUNNY · UNCLE · CLERK
+
+--- copy BUNNY block ---
+ORDER — 2026-06-17T17:25:00-07:00
+TO: bunny
+---
+URGENT: write lickface proposal · plain .txt · auditor waiting email
+POST file (exact path):
+drop_pile/eatme/sealed/lickface.txt
+Shape (copy):
+LICKFACE — Bunny proposal — <time>
+host: <bunny hostname · native fuse>
+---
+<your architecture/build proposal for auditor>
+keep/cut · one revenue lane · native loop plan
+---
+DONE: say "Lickface done." when file on Drive
+Do NOT bridged-by-cb1 ack only — file must land on fuse.
+Daddy will email tpgoround@gmail.com the second lickface.txt exists.
+
+--- copy DADDY block ---
+CPT: 
+
+--- bunny loop once (if silent) ---
+nohup bash ~/GoogleDrive/MyDrive/lester/bbunny_loop.sh >>~/bbuny_loop.log 2>&1 &

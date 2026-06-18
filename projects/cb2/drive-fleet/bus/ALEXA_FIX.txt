@@ -1,0 +1,20 @@
+ALEXA FIX — live 2026-06-16
+============================
+
+She was reading her own orders aloud (do now / fleet/bus paths / tell captain).
+
+Fixed on penguin ~/.stan:
+  alexa_speech.py   — for_aloud() filter
+  aws_speech.py     — phone/say.txt gets ALOUD only
+  mesh_radio.py     — /api/reply + auto_say filtered
+  hitme_who_server  — /voice returns filtered reply
+
+Drive cards:
+  fleet/ALEXA_FAST.txt     — user + dev speed tricks (web scrape)
+  fleet/bus/AWS_SPEAK.txt        — full (silent meta OK)
+  fleet/bus/AWS_SPEAK_ALOUD.txt  — what Echo should read
+  phone/say.txt                  — same as ALOUD
+
+Test line written: "Connection failed. Ports 8002 and 8765 are down"
+
+Brian: enable Brief Mode on Echo once — see ALEXA_FAST.txt

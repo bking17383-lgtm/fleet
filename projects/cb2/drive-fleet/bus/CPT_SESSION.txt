@@ -1,0 +1,35 @@
+SESSION FRESH — Brian rebooted missing boxes
+time: 2026-06-16T02:27:00-07:00
+
+Old today's terminal noise — PARKED. CPT reads from here.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  CPT CB2: ✓ checked in · bg crew running
+  NET: rebooting — waiting NET CHECKIN (puppy may need 2–5 min wlan)
+  STUDIO: rebooting — waiting LOOP or UNCLE CHECKIN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT READ FIRST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/CPT_READY.txt
+  fleet/bus/FLEET_CHECKIN.txt
+  fleet/FLEET_ARCHITECTURE.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ON REBOOTED BOXES (one paste each)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NET (puppy):
+  bash ~/GoogleDrive/MyDrive/PUPPY_REBOOT_RECOVERY.sh
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_HITME.sh
+  echo "NET CHECKIN — puppy64 — $(hostname -I|awk '{print $1}') — $(date -Iseconds)" >> ~/GoogleDrive/MyDrive/fleet/bus/puppy_outbox.txt
+
+STUDIO (CB1):
+  bash ~/.stan/uncle_exec.sh
+  # Gem pane: LOOP
+
+Word: FRESH

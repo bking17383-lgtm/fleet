@@ -1,0 +1,65 @@
+FLEET ARCHITECTURE — Daddy background · delegate default
+Updated: 2026-06-16
+
+>>> NEW: fleet/FLEET_ARCHITECTURE_V2.txt · new puppy → fleet/NEW_PUPPY_BOOT.txt
+
+Brian → Daddy in background (CB2) → bus orders → NET + STUDIO + GEM execute
+
+No box calls another box. No shared live sockets across machines.
+Each box: local work → write outbox → sync Drive when fuse up.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY BACKGROUND (CB2 · always on)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/daddy_background.sh
+
+  • screen_watch — capture every 20s → /daddy on hitme
+  • cpt_autopilot — delegate-first · CPT_READY.txt
+  • fleet_self_check · brian_router · drive_watch · hitme
+
+Cursor sessions read bus · delegate · do not block Brian.
+
+Law: fleet/DADDY_BACKGROUND.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NETWORK (puppy = NET)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When puppy posts NET clean:
+  • mesh :8765 on puppy
+  • cloudflared / hitme.dev hostnames on puppy
+  • MESH_RADIO_URL.txt · tunnel URLs on bus
+
+Daddy delegates mesh/sarah/tunnel to NET when puppy on LAN.
+CB2 holds temp only when NET down.
+
+Brian never needs puppy to talk to Daddy. Puppy = edge execute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUDIO (CB1 · Gemini · Uncle)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+uncle_exec runs on CB1 only — never on penguin.
+Reads CB1_ORDERS.txt · writes uncle_to_cpt.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DELEGATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  python3 ~/.stan/daddy_delegate.py net|studio|gem|buddy <task>
+
+Default. NOW HERE = one-time execute on CB2.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF DADDY DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Brian → puppy + Gem (repair hands)
+  Gem NEVER becomes Daddy · fleet/DADDY_FAILOVER.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUCK VIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Always read: fleet/STUCK_BOARD.txt · fleet/bus/CPT_READY.txt

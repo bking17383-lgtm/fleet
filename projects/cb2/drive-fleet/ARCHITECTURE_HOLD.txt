@@ -1,0 +1,172 @@
+ARCHITECTURE HOLD — 2026-06-17 · Brian
+Status: HOLD server · proposals only · questions not assumptions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PIPELINE (down only · no skip)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    BRIAN
+                      │
+                      ▼
+              ┌───────────────┐
+              │  1. PROPOSE   │  what to keep · cut · rename
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  2. LOGIC     │  why · deps · failure modes
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  3. AUDIT     │  mirrors · lies · gaps · questions
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  4. CHOOSE    │  one leader agent
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  5. ACCOUNT   │  leader owns mirrors · drift · rollback
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  6. WIPE      │  all · OR · min 2 agents clean
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │  7. SHIP      │  audit PASS · acceptance green
+              └───────────────┘
+
+No deploy ↑ before audit ↓ passes.
+No wipe ↑ before pack ↓ + ANALYZE ↓ on Drive.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROPOSAL FORMAT (each item · copy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PROPOSAL — <id> — <time>
+       │
+       ├─ ↑ KEEP?     YES | NO | MERGE | ?
+       ├─ current     path · url · box · name today
+       ├─ proposed     new name · new home · new owner
+       ├─ logic ↓      why keep or kill
+       ├─ depends ↓    what breaks if cut
+       ├─ questions ↓  min 3 · no assumption without ?
+       │     Q1:
+       │     Q2:
+       │     Q3:
+       ├─ acceptance ↑ how we know green
+       └─ decomm ↓     how old thing dies safe
+
+  Drop: drop_pile/proposals/architecture/<id>.md
+  Index: drop_pile/proposals/ARCHITECTURE_REGISTRY.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLES (who · not same hat)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ALL AGENTS
+       │
+       ├─ ↑ write proposals + logic
+       └─ ↓ no ship · no wipe · no rename alone
+
+  AUDITOR (not leader)
+       │
+       ├─ ↑ reject assumptions
+       ├─ ↓ hunt mirrors · split brain · dead names
+       └─ post → fleet/bus/AUDIT_ARCHITECTURE.txt
+
+  LEADER (one · Brian picks)
+       │
+       ├─ ↑ mirror test before merge
+       ├─ ↑ rollback written before ship
+       ├─ ↑ daily truth table
+       └─ post → fleet/bus/ARCHITECTURE_LEADER.txt
+
+  BRIAN
+       │
+       ├─ ↑ pick leader · pick keep/kill
+       └─ ↓ hold leader accountable · not whole fleet
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MIRROR TEST (leader runs · every merge)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Drive fuse live?
+       ↓
+  mtime fresh on canonical file?
+       ↓
+  host= matches writer box?
+       ↓
+  NET_INBOX TOKEN pattern (not mirror lie)?
+       ↓
+  one tunnel · one NET · one writer per bus file?
+       ↓
+  ↑ PASS or ↓ STOP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WIPE (before production green)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  pack_before_wipe.sh
+       ↓
+  receipt on bus
+       ↓
+  agent A wipes
+       ↓
+  agent B verifies empty (different machine)
+       ↓
+  cold boot from ONE bootstrap
+       ↓
+  ↑ ship allowed
+
+  Scope: wipe ALL · OR · wipe min TWO agents
+  Law: fleet/PROJECT_LAW.txt ANALYZE before wipe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXTRA GATES (every proposal pass)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↑ CANONICAL    one truth · file · url · hostname · role
+  ↑ ROLLBACK     undo in ~5 min
+  ↑ OBSERVABLE   health · log · checkin word
+  ↓ SECRETS      keys map · not chat
+  ↓ COST         $/mo · credit expiry
+  ↑ BRIAN SURF   max 6 life bookmarks
+  ↔ NAMING       old→new map once · names may die
+  ↓ FUSE|SYNC    pick one · not both lying
+  ↓ TUNNEL       one connector · one NET
+  ↑ AUDIO        ready/done survive or explicit cut
+  ↓ DEAD WORDS   fleet/DEAD_WORDS.txt · archive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LIFE PAGES (draft ↑ keep · proposal may ↓ cut)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↑ /goal
+  ↑ /daddy
+  ↑ /bunny
+  ↑ /george
+  ↑ /listen
+  ↑ /terminal
+
+  ↓ everything else needs proposal row first
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPEN QUESTIONS (Brian · before ship)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ? Keep Daddy/Gem/Uncle/Puppy names · or roles only?
+  ? GCP VM only · or VM + edge box?
+  ? Who is auditor · Gem · Uncle · third?
+  ? Who is leader · Daddy until Brian says?
+  ? Wipe all four · or two now + two after green?
+  ? Drive fuse on server · or rclone sync only?
+  ? What is penguin after VM is NET?
+
+Word: HOLD · PROPOSAL · AUDIT · LEADER · ↑↓

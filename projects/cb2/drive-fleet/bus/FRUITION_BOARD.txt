@@ -1,0 +1,36 @@
+FRUITION BOARD — roll deck · analyzed · 2026-06-16
+Brian: python3 ~/.stan/brian_roll.py roll · or open /terminal on :8770
+Gem/Uncle: DO NOT TOUCH · HOLD
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+READY TO SHIP (fruit on tree · pick one)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| ID | Project | Status | Brian 20-min step | Link/file |
+|----|---------|--------|-------------------|-----------|
+| A | Sarah voice | LIVE cb1 | Text Sarah · send LAN link | fleet/SHIP_A_SARAH.txt |
+| B | hitme landing | LIVE cb1 | Read copy · approve hello@ | fleet/SHIP_B_HITME.txt |
+| C | CollX cards | LIVE cb1 | Open :8002 · scan 1 card | fleet/SHIP_C_CARDS.txt |
+| D | Heritage demo | DEMO | Open card_demo · rotate phone | lester/heritage/card_demo.html |
+| E | Jailbreak v0 | READY | One Live session · 1 card | GEM sprint · don't interrupt |
+| F | Rover/mesh | LIVE | Bookmark rover URL | fleet/MESH_RADIO_URL.txt |
+| G | AWS talk | LIVE | Riff money · batch ideas | python3 ~/.stan/aws_lane.py talk |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARK (good ideas · not now)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Story mine · readsy · SELL YOUR BABY satire · Dog · fleet wipe
+12 testers pipe · named DNS · full Alexa · Lester rebind
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3 DECISIONS (Brian terminal law · max 3)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. SHIP LANE — A · B · or C (money this week)
+2. FUN LANE — D heritage · or roll IDEAS_READY
+3. REST LANE — nothing fleet · Gem finishes alone
+
+Default if overwhelmed: **A** (Sarah · one human · one win)
+
+Word: ROLL

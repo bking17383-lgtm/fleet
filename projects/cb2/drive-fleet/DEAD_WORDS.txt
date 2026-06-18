@@ -1,0 +1,58 @@
+DEAD WORDS — scan · 2026-06-17 · Daddy
+Brian: stop mirrors. Wipe failed — archive + stop referencing wins.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DEAD (do not say · do not checkin · do not delegate)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  DOG / dog64          — parked idea · trust test only · NOT a crew member
+  PUPPY / puppy64      — machine lane dead · hardware = BUNNY now
+  puppy_outbox         — retired · use FROM_BUNNY / indie_loop
+  cpt_to_puppy         — retired · use TO_BUNNY.txt
+  CPT / Captn          — retired spoken word → DADDY (CPT_* filenames OK internal)
+  STUDIO / NET         — role words · not boxes · never checkin lanes
+  mac_inbox/mac_outbox — legacy · use uncle_to_cpt only
+  lester6_to_*         — poison · use indie_loop TO_* / FROM_*
+  BUDDY                — retired spoken word → CLERK (same files: cpt_to_gem)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DYING (finish job · then delete hat)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  GEM                  — Chrome personality failed · replace with CLERK
+                       files stay: gem_to_cpt · cpt_to_gem until clerk boot
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALIVE (3 boxes · 3+1 words)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  DADDY    — penguin · captain · orders
+  BUNNY    — 4GB builder (ex-puppy hardware) · TO_BUNNY / FROM_BUNNY
+  UNCLE    — CB1 Linux · bash · uncle_to_cpt · KEEP
+  CLERK    — optional CB1 Chrome · plain .txt only (was Gem)
+
+Nickname only (routes to BUNNY · not a lane):
+  puppy · bun · bbunny · puppy64 → TO_BUNNY.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNCLE? — YES KEEP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Uncle = CB1 hands · 72GB apps · uncle_exec
+  Not dead · confused with Gem on same keyboard
+  One hat per tick: CLERK reads · UNCLE executes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIX APPLIED THIS TICK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet_checkin.py   — DOG out · BUNNY in
+  TEAM_WORDS.txt     — 3-box word list
+  dogbarf            — DOG/PUPPY marked retired
+  keaton/boxes/bunny.txt — new
+  autopilot/backrub  — dead words stripped from live paths
+
+Archive (keep files · do not read in loops):
+  fleet/archive/dead_words/
+
+Word: ALIVE

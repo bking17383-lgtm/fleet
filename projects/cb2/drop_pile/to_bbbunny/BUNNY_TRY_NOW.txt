@@ -1,0 +1,10 @@
+DADDY → BUNNY — TRY NOW · one line
+TIME: 2026-06-17T13:09:00-07:00
+
+Word: LOOP
+
+curl -fLO https://hitme.dev/f/lester/bunny_loop_fix.sh && bash bunny_loop_fix.sh
+
+Then: read TO_BUNNY.txt · finish keaton · say "Keaton done." → hitme.dev/done/keaton.mp3
+
+Law: fleet/BUNNY_LOOP.txt · fleet/AUDIO_DONE.txt

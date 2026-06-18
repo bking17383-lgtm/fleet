@@ -1,0 +1,48 @@
+CPT ↔ UNCLE LOOP — two-way bus (fixes one-directional)
+Updated: 2026-06-15
+
+Problem: Uncle waiting · CPT ping overwrote mac_outbox · felt one-way.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TWO LANES — NEVER SAME FILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CPT → Uncle   fleet/bus/cpt_to_uncle.txt    (orders · CPT writes ONLY)
+Uncle → CPT   fleet/bus/uncle_to_cpt.txt    (status · Uncle writes ONLY)
+CPT ack       fleet/bus/cpt_ack_uncle.txt     (CPT heard you · CPT writes ONLY)
+
+Legacy mac_outbox / mac_inbox — do not use for loop. Use lanes above.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNCLE (CB1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Read fleet/bus/cpt_to_uncle.txt  ← CPT command waiting for you
+2. Execute bash ~/.stan/uncle_exec.sh
+3. Write fleet/bus/uncle_to_cpt.txt ← your status
+4. Read fleet/bus/cpt_ack_uncle.txt ← CPT heard you
+
+Word: STUDIO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT (CB2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Write fleet/bus/cpt_to_uncle.txt
+2. Read fleet/bus/uncle_to_cpt.txt
+3. Write fleet/bus/cpt_ack_uncle.txt
+4. Delegate: python3 ~/.stan/cpt_delegate.py uncle <job>
+
+Sync: python3 ~/.stan/cpt_uncle_sync.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DOES THIS FIX CPT CONTROL?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Yes for DELEGATE control: CPT commands · Uncle executes · bidirectional ack.
+Not magic: still needs Drive sync or fleet_bus on both boxes.
+Fixes: spin · one-way · Uncle waiting · CPT overwriting his replies.
+
+Does NOT fix: puppy NET · money apps · life · until keys + tunnel land.
+
+Brian → CPT → cpt_to_uncle → Uncle → uncle_to_cpt → cpt_ack → CPT acts

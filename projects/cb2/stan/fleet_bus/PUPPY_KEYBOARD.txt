@@ -1,0 +1,14 @@
+Daddy → Puppy path for Brian · 2026-06-16
+NO URLs · use Drive Recent
+
+Brian on puppy:
+  1. Open Google Drive (Files app or drive.google.com)
+  2. Recent → open ihateyou.txt
+  3. Copy STEP 1 one-liner → Linux terminal → Enter
+  4. Say "puppy pasted ihateyou" on CB2 when done
+
+Bundle also at:
+  lester/uploaded_files/PUPPY_GO.sh
+  lester/PUPPY_GO.sh
+
+Uncle pushed to puppy :8002 earlier — find script picks best path.

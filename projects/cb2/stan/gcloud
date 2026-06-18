@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec /home/bking17383/google-cloud-sdk/google-cloud-sdk/bin/gcloud "$@"

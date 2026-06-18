@@ -1,0 +1,82 @@
+DADDY BACKGROUND — new architecture
+Updated: 2026-06-16 · CB2 penguin
+
+Brian → Daddy in background · screen every 20s · delegate nearly everything
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+START (one line · CB2 Linux)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/daddy_background.sh
+
+Or word SLAVE (includes background crew).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT RUNS IN BACK (never block chat)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Process | Interval | Job |
+|---------|----------|-----|
+| screen_watch.py | 20s | Capture → ~/.stan/screen/latest.png · DADDY_SCREEN.txt |
+| cpt_autopilot.py | 25s | Delegate-first · CPT_READY.txt |
+| fleet_self_check.py | 25s | Roll call pulse · FLEET_SELF_CHECK.txt |
+| brian_router.py | 12s | Route Brian inbox |
+| drive_watch.sh | loop | Fuse sync local ↔ Drive |
+| hitme_who_server.py | always | /daddy · /goal · /screen |
+| fleet_repair_crew.py | loop | Self-heal what CPT may run locally |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN (Brian eyes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Local: ~/.stan/screen/latest.png
+  Bus: fleet/bus/DADDY_SCREEN.txt
+  Web: http://127.0.0.1:8770/daddy  (20s refresh)
+  Raw: http://127.0.0.1:8770/screen/latest.png
+
+Capture order: scrot → Drive snap → EYES frame
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DELEGATE DEFAULT (nearly everything)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Work | Who executes | Daddy does |
+|------|--------------|------------|
+| mesh · tunnel · public URLs | NET (puppy) | daddy_delegate.py net … |
+| STUDIO · uncle_exec | CB1 only | daddy_delegate.py studio … |
+| Drive catalog · keys export | GEM/Buddy | daddy_delegate.py gem … |
+| Captain · stuck · inbox | Daddy/CPT | yes |
+| hitme · screen · autopilot | CB2 background | yes (thin infra) |
+
+NEVER on penguin: uncle_exec · STUDIO key · fake UNCLE clean
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  DELEGATE — orders only (default)
+  NOW HERE — Daddy may execute on CB2 this once
+  HOLD — stop background posts
+  SCREEN — force one capture now
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CURSOR SESSION LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When Brian opens Cursor on CB2:
+  1. Read fleet/bus/CPT_READY.txt + CPT_DELEGATE_NOW.txt
+  2. Read fleet/bus/DADDY_SCREEN.txt if visual context needed
+  3. Default: python3 ~/.stan/daddy_delegate.py <box> <task>
+  4. Do NOT restart mesh/sarah on CB2 if NET is up on LAN
+
+See: drop_pile/to_cursor/DADDY_DELEGATE_ONLY.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF DADDY DIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Brian fixes on **puppy via Gem**.
+  Gem = repair hands on Drive · **NEVER becomes Daddy.**
+  Read: fleet/DADDY_FAILOVER.txt · drop_pile/to_gemini/DADDY_DOWN_FIX.txt
+
+Word: DADDY · PUPPY · UNCLE

@@ -1,0 +1,21 @@
+# Slave report — gaps only (Brian reads this)
+
+PROJECT: Text Sarah
+STATUS: stuck
+MISSING: Brian needs to write and paste the final text template into MyDrive/phone/SARAH_TEXT_READY.txt to trigger the SMS.
+---
+PROJECT: Pack and Wipe Puppy (NET)
+STATUS: stuck (ordered)
+MISSING: Puppy Linux server needs to execute `bash MyDrive/lester/pack_before_wipe.sh` to backup configurations and report PACKED to PACK_STATUS.txt.
+---
+PROJECT: Pack and Wipe Uncle (STUDIO)
+STATUS: stuck
+MISSING: CB1 needs to execute `bash MyDrive/lester/pack_before_wipe.sh` to backup configurations and report PACKED to PACK_STATUS.txt.
+---
+PROJECT: AWS Sandbox Integration
+STATUS: not started
+MISSING: Brian must create the `captn-sandbox` IAM User with Bedrock access, enable Amazon Nova Lite access in the Bedrock console, and save the access keys locally to `~/.stan/aws_sandbox.env` on CB2.
+---
+PROJECT: Slave Organize Gaps
+STATUS: done
+MISSING: None. Completed by Lester 6.

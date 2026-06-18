@@ -1,0 +1,15 @@
+hitme.dev STATUS — 2026-06-15T08:18:59-07:00
+hostname: penguin
+
+SERVICES (CB2)
+  who server :8770  UP
+  sarah      :8766  UP
+  mesh       :8765  DOWN
+
+TUNNEL: cb2-daddy (11431ecb-5cbd-40a5-b635-cec2aff9de03)
+  Add public hostnames in dashboard (see fleet/HITME_TUNNEL_HOSTNAMES.txt)
+
+DNS: Cloudflare NS active (pranab / tia)
+
+WHO data: fleet/WHO.json · fleet/WHO.md
+Regenerate: python3 lester/plate_who.py

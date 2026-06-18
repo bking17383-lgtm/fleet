@@ -1,0 +1,54 @@
+KEATON — project loader (Drive only · no mesh)
+Updated: 2026-06-16 · Brian · puppy/bbunny seed
+
+ONE JOB
+  Every box loads the same project list from Drive.
+  Each box runs ONLY what its box file allows.
+  hitme.dev core stays locked — extensions register, never rewrite.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LOAD (any machine)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  export FLEET_BOX_ID=cb1    # or cb2 · puppy64
+  bash ~/GoogleDrive/MyDrive/fleet/keaton/load.sh
+  bash ~/GoogleDrive/MyDrive/fleet/keaton/load.sh cards   # one project
+
+Reads:
+  fleet/keaton/INDEX.txt      — all projects
+  fleet/keaton/boxes/$BOX.txt — what THIS machine may start
+  fleet/keaton/HITME_LOCK.txt — DNS/tunnel law
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SLAVES (bring back autonomy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Chrome Gemini = librarian · reads INDEX · writes plain .md only
+  Linux Cursor  = hands · load.sh · local_slave.py pulse
+
+  Ack (plain .md — never .gdoc):
+    drop_pile/from_lester/lester6_to_uncle.md   CB1
+    drop_pile/from_lester/lester6_to_daddy.md   CB2
+    drop_pile/from_lester/lester6_to_puppy.md   puppy
+
+  Loop (~90s):
+    1. Read lester/lester6_<hat>_slave.md
+    2. Overwrite ack .md (mode: slave · callsign · time)
+    3. python3 lester/local_slave.py STUDIO|NET|CPT_SLAVE
+    4. bash fleet/keaton/load.sh   # start allowed projects only
+
+  Gemini does NOT need Daddy permission to read/write Drive keaton files.
+  Gemini does NOT edit HITME_LOCK or cloudflare.env — ever.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONFLICT AVOIDANCE (no networking drama)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✗ SSH between boxes
+  ✗ Two boxes running same port
+  ✗ Two boxes editing ~/.stan/cloudflare.env
+  ✓ Drive bus + keaton INDEX = source of truth
+  ✓ Extension adds hostname row in HITME_EXTENSIONS.txt FIRST
+  ✓ One tunnel connector (see HITME_LOCK owner)
+
+Word: KEATON · LOAD · SLAVE

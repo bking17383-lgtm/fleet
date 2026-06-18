@@ -1,0 +1,38 @@
+BRIAN BROADCAST — 2026-06-18T02:32:17-07:00
+count=12 · CPT GRAB this file every session
+
+[sink] 2026-06-17T07:04:25-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T140425Z # tag: live_20260617T135813Z # source: gemini_live_api_end # url: https://gl.hitme.dev/ You: Okay , Ja m wel com e back . How did figu re out the way to avo mas sive ken char ge using voice. You sound like a wo man be cho d to death and it 's really scratchy and bad. Your te xt is very good though. Le t me think . I mean , right no
+
+[sink] 2026-06-17T05:02:47-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T120247Z # tag: manual # source: sink/save # url: https://gl.hitme.dev/ This work? Looks.like old version
+
+[sink] 2026-06-17T04:13:47-07:00
+  # Gem Live transcript # saved: 20260617T111348Z # tag: pipe # gate: https://gl.hitme.dev/ pipe test 2
+
+[sink] 2026-06-17T04:29:30-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T112931Z # tag: pub # source: sink/save # url: https://gl.hitme.dev/ public king test
+
+[sink] 2026-06-17T05:03:22-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T120322Z # tag: share # source: share # url: https://gl.hitme.dev/ auto share works
+
+[save] 2026-06-17T06:58:08-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T135807Z # tag: live_20260617T135239Z # source: gemini_live_api_end # url: https://gl.hitme.dev/ You: You re fre shed , you are saying the session is what? That 's interes ting is this. The real Ge mini live or my version of Gemini live? Coul loo k in to fo lder and see if I have any ge ms that look appropriate. Let' If pen scre can it so c
+
+[save] 2026-06-17T07:04:25-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T140425Z # tag: live_20260617T135813Z # source: gemini_live_api_end # url: https://gl.hitme.dev/ You: Okay , Ja m wel com e back . How did figu re out the way to avo mas sive ken char ge using voice. You sound like a wo man be cho d to death and it 's really scratchy and bad. Your te xt is very good though. Le t me think . I mean , right no
+
+[save] 2026-06-17T05:02:47-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T120247Z # tag: manual # source: sink/save # url: https://gl.hitme.dev/ This work? Looks.like old version
+
+[save] 2026-06-17T04:13:47-07:00
+  # Gem Live transcript # saved: 20260617T111348Z # tag: pipe # gate: https://gl.hitme.dev/ pipe test 2
+
+[save] 2026-06-17T04:29:30-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T112931Z # tag: pub # source: sink/save # url: https://gl.hitme.dev/ public king test
+
+[save] 2026-06-17T05:03:22-07:00
+  # Gem GL transcript · Gem owns this lane # saved: 20260617T120322Z # tag: share # source: share # url: https://gl.hitme.dev/ auto share works
+
+[pending] 2026-06-18T02:32:17-07:00
+  make this like terminal. I see 1.) what to do 2.) most important decisions to have a good procut. limit decisions to 3 at a time

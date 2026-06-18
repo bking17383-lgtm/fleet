@@ -1,0 +1,41 @@
+# CAPTN project — Camel game architect sprint
+Updated: 2026-06-15 · Brian on art "for a while"
+
+**Yes — I have a project.** You art. Puppy clones 24 pics. I build the **game skeleton** those pics plug into.
+
+---
+
+## Deliverables (this sprint)
+
+| # | File | Status |
+|---|------|--------|
+| 1 | `lester/camel/CAMEL_ASSET_MAP.md` | **24 slots → game screens** |
+| 2 | `lester/camel/ART_HOOKS.md` | where code accepts art later (v0.9+ / PWA) |
+| 3 | `drop_pile/done/CAMEL_v0.8_shipped.md` | **SHIPPED** v0.8 Silk Road |
+| 4 | Watch `from_puppy/camel_art_report.md` | summarize for Brian — no mining |
+
+---
+
+## Out of scope (architect won't)
+
+- Generate or clone art (Puppy)
+- Replay Gemini transcript (ignored)
+- Mine Google for testers
+- Fleet / Play URL until you lift HOLD
+- CB1 Uncle until reload done
+
+---
+
+## When you surface
+
+One question: **"Does the asset map match your 24?"**  
+You rename slots — I adjust map. No token burn.
+
+---
+
+## Code home
+
+`lester/camel_clicker.py` v1.0.1 · terminal · ASCII camel today  
+Art is **future hook** — map now so Puppy's 24 aren't orphan files.
+
+Brian: amen. Go long on art.

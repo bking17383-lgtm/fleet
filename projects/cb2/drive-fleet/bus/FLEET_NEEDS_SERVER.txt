@@ -1,0 +1,16 @@
+FLEET NEEDS — 2026-06-18T02:32:07-07:00
+from: Daddy on penguin
+roll: 1/3
+
+NEEDS
+  • Puppy fresh check-in: PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+BLOCKERS
+  • :8002 UP (upload_server — used for push)
+  • :8765 DOWN · :8766 DOWN · :22 CLOSED
+  • Puppy: no SSH · wrong :8002 app · needs keyboard once
+  • hitme.dev public 530 — tunnel DNS/ingress or hitme_cf_provision.sh
+
+KEYBOARD (Brian once)
+  • bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+  • bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh

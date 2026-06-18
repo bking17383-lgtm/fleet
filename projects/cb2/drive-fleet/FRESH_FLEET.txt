@@ -1,0 +1,62 @@
+FRESH FLEET — 3 agents only
+Updated: 2026-06-15
+Status: WIPE PENDING — pack first, then clean install
+
+Brian talks to ONE contact: CPT (CAPTN on CB2).
+No Lester6 law. No slave ping-pong. Drive = memory.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE THREE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Agent   | Box      | Job |
+|---------|----------|-----|
+| **CPT** | CB2      | Captain. Brian's main contact. Delegate only. |
+| **NET** | puppy64  | Network in + out. Mesh, tunnels, URLs, LAN, Tailscale. Execute servers. |
+| **STUDIO** | CB1   | Design + marketing. Copy, layout, Sarah, hitme, proposals, game art briefs. |
+
+Future: add agents only when CPT always delegates and Brian needs another lane.
+Not before.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN → CPT (any terminal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One line anywhere Drive is mounted:
+
+  MyDrive/fleet/bus/BRIAN_INBOX.txt
+
+Examples:
+  CPT: radio terminal bigger
+  NET: mesh on puppy 24/7
+  STUDIO: camel splash copy
+
+CPT reads inbox. CPT writes orders to:
+  drop_pile/to_puppy/   (NET)
+  drop_pile/to_cursor/  (STUDIO)
+
+Brian does NOT troubleshoot intranet. NET owns that.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WE ARE WIPING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Retire: WRANGLER · BEACON · PLATE · Lester6 ack loops · old queue jobs
+Keep: useful code + configs in drop_pile/backups/pack_* before wipe
+
+CPT stays on CB2. NET and STUDIO boxes wipe after PACK ack.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HONEST NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CPT live on CB2 (this tab).
+NET command: NO — puppy not answering.
+STUDIO command: NO — CB1 not under CPT control.
+Old fleet docs: archived, do not follow unless CPT says so.
+
+When Brian returns:
+  http://127.0.0.1:8770/f/fleet/bus/PACK_STATUS.txt
+
+Or design desk (all fleet links clickable):
+  http://127.0.0.1:8770/desk

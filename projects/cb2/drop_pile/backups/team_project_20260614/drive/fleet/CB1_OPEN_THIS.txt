@@ -1,0 +1,13 @@
+CB1 — ONE WORD: UNCLE
+
+Open: WAKE_UNCLE_NOW.txt (root Drive)
+
+Terminal 2 — NOT Daddy (Daddy is T3 on CB2)
+
+Chrome (Lester6):  UNCLE
+Design counts:     DESK  (FLEET_AVAILABLE.txt)
+Live refresh:      bash ~/.stan/fleet_desk.sh
+
+Extra: EXPORT · CAMEL · IDEA → IDEAS.txt · GL → gl/INDEX.md
+
+Full handoff: NEW_TERMINAL_HANDOFF.md

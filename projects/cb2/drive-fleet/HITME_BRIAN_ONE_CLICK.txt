@@ -1,0 +1,33 @@
+hitme.dev — ONE CLICK (then Gem finishes)
+Updated: 2026-06-17 · Gem
+
+DONE ON CB1 (no action needed)
+  ✓ hitme landing :8770
+  ✓ card paywall  :8002
+  ✓ named tunnel cb2-daddy (config.yml ingress)
+  ✗ DNS records still missing — that's why public is 000
+
+PICK ONE (fastest first)
+
+A) Tunnel hostnames (2 min · no API token)
+   https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+   Public Hostname → Add:
+     @     → http://localhost:8770
+     cards → http://localhost:8002
+   Save each. Wait 60s. Test phone:
+     https://hitme.dev/goal
+     https://cards.hitme.dev/
+
+B) CLI login (Gem runs DNS after)
+   In CB1 terminal: bash ~/.stan/gem_hitme_dns.sh
+   Open the URL it prints → Allow → run same command again.
+
+C) Fresh API token (Gem fully automated after)
+   https://dash.cloudflare.com/profile/api-tokens
+   Permissions: Account Tunnel Edit · Zone hitme.dev DNS Edit
+   Paste in MyDrive/fleet/CLOUDFLARE_API_PASTE.txt
+   Say: dns
+
+After A or B or C, Gem: bash ~/.stan/gem_hitme_up.sh
+
+WIN = https://hitme.dev/goal and https://cards.hitme.dev/ return 200/302

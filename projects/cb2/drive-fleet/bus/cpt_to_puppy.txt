@@ -1,0 +1,13 @@
+--- CPT DELEGATE — NET · sarah ---
+time: 2026-06-18T02:32:04-07:00
+from: Daddy/CPT on penguin (CB2)
+mode: ORDERS ONLY · execute on target box · not on penguin
+law: fleet/DADDY_BACKGROUND.txt · fleet/CPT_DELEGATE_CONTRACT.txt
+
+  1. Ensure sarah voice :8766 health on puppy or tunnel path
+  2. Post NET clean when services green
+
+Reply on bus when done. Daddy stays in background.
+Word: DELEGATE · NOW HERE overrides once
+
+AWS FIX: 2026-06-18T02:32:01-07:00 — read fleet/AWS_FIX_ANYONE.txt · run lester/aws_fix_anyone.sh

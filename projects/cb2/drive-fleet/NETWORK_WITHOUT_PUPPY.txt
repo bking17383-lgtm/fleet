@@ -1,0 +1,46 @@
+NETWORK — we need it · Puppy not on critical path
+Updated: 2026-06-15 · whole-house outage · wind
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT HAPPENED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Whole house dark yesterday = utility / wind — not bad Chromebook outlet.
+Two outages in two weeks → UPS on **whatever stays plugged in 24/7**.
+
+Puppy is **hard to fix** when he falls over. Fleet law until further notice:
+**network must not depend on Puppy being healthy.**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TIER A — works today (no Puppy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Drive bus — mac_inbox · BRIAN_INBOX · repair crew on CB2
+• Sarah + who — CB2 :8766 :8770 · repair auto-restart
+• hitme.dev — tunnel + API token on CB2 (pending token)
+• Uncle — fleet_board honest counts · analyst · hw protocols
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TIER B — Puppy when easy (optional)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• mesh :8765 on 192.168.1.4
+• 24/7 tunnel host (move from CB2 when Puppy stable)
+• UPS ~$80–120 on Puppy **only if** he stays wired host
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLES (updated)
+
+| Box | Role |
+|-----|------|
+| CB2 | CAPTN desk · Sarah · hitme · repair crew |
+| CB1 Uncle | Network truth · fleet_board · hardware · analyst |
+| Puppy | Art + mesh **when up** — not gate for network |
+| Phones | ROVER / TESTER / Sarah |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTAGE LOG
+
+Brian: one line in BRIAN_INBOX → `OUTAGE wind whole house`
+
+Uncle/CAPTN append to fleet/bus/POWER_LOG.txt when seen.

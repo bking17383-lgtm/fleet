@@ -1,0 +1,30 @@
+GEM + UNCLE — CLEANUP RUN (paste to Gemini on CB1 or Drive)
+Updated: 2026-06-15T22:35:30-07:00
+CPT on CB2 is captain. Brian wants problems cleaned up — not more talk.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FUSE STATUS (honest)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CB2 Linux fuse: WORKING (/mnt/shared/GoogleDrive/MyDrive/fleet)
+CB1: verify YOUR Linux can read fleet/ on Drive — fix fuse or copy fleet_bus
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO (order)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Read fleet/STUCK_BOARD.txt
+2. Read fleet/bus/CPT_SLAVE.txt (gaps list)
+3. Help Uncle run: bash ~/.stan/uncle_exec.sh on CB1
+4. AWS: lester/lester_keys.md on Drive OR convert_inbox photos → CB1 Linux
+5. Write fleet/bus/GEMINI_DRIVE_REPORT.txt — cleanup plan + what you fixed
+6. Uncle writes fleet/bus/uncle_to_cpt.txt when done
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FLEET BAR (why 0/3 before)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT ✓ = fresh pulse + mesh/sarah/desk health
+NET ✓ = "NET clean —" in puppy_outbox
+STUDIO ✓ = "UNCLE clean —" in uncle_to_cpt
+
+Currently: CPT fixed · NET ~ · STUDIO ~
+
+Confirm: GEM cleanup · CPT captain · Brian fills nothing

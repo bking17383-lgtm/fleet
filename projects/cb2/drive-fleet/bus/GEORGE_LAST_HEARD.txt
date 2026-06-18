@@ -1,0 +1,4 @@
+GEORGE_LAST_HEARD — 2026-06-17T03:38:12-07:00
+source=voice
+text=hey buddy why am I still using Gemini when you guys could like do this stuff
+mode=learn

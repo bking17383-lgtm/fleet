@@ -1,0 +1,6 @@
+# bunny — builder (ex-puppy64 hardware · 4GB)
+may_start: keaton landing · bun lab · bbunny_loop
+may_edit: drop_pile/from_bbbunny/ · fleet/indie_loop/TO_BUNNY.txt
+hitme_role: bun.hitme.dev · fetch https://hitme.dev/f/...
+forbidden: full mesh+sarah+desk stack · captain · gem_to_cpt from bunny box
+note: PUPPY/NET lane retired on this metal — builder not edge

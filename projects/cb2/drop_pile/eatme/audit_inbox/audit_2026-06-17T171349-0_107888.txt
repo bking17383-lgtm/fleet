@@ -1,0 +1,40 @@
+AUDIT EMAIL — 2026-06-17T17:13:49-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: audit
+imap_id: 107888
+---
+Good questions. Straight answers:
+
+  Cross-contamination / virus: Effectively no, for what we're doing. I'm
+only reading these as text — I'm not executing them. RTF is just
+markup-wrapped text; opening it to read doesn't
+  run anything. The danger with RTF/Office files is when a vulnerable
+application (Word, etc.) opens them — not when an agent reads the bytes. On
+this isolated box, reading ≠ running. (The
+   one script earlier that I declined would have executed/logged-in —
+that's the kind of thing we keep avoiding.)
+
+  Split brain — this is the real risk, and you're right to name it. Here it
+means multiple divergent copies of a proposal and not knowing which is
+truth. Three machines + three agents +
+  uploads is a perfect setup for it. Mitigation, dead simple:
+  • One canonical folder: ~/audit/ on this machine is the single source of
+truth. Nothing is "real" until it's here.
+  • Immutable names on arrival: as each file lands I'll record its size + a
+checksum so we can tell if a later copy is the same, newer, or a fork.
+  • We never edit the originals — analysis goes in new files.
+
+  File names: don't sweat them. As soon as files arrive I'll normalize to
+proposal-a.rtf / -b / -c (and keep a note mapping original→canonical name).
+Weird characters, spaces,
+  EATME/farthead — all fine, I'll rename on intake.
+
+  You pivot a lot — fine, let's make that safe. I'll keep a running index
+file in ~/audit/ (what arrived, when, checksum, my read of it). That way
+when you change direction, we're not
+  re-deriving from scratch — there's a log to pivot from.
+
+  So the plan: have them upload, the files land, I checksum + normalize +
+index each one, then read. Go ahead and have them send — and tell me how
+they're sending (URL? scp? shared drive?)
+   so I'm ready to grab them.

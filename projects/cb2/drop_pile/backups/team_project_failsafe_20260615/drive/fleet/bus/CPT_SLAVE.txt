@@ -1,0 +1,18 @@
+CPT SLAVE — 2026-06-15T22:34:03-07:00
+
+VITAL
+  • NEED BRIAN: Text Sarah
+  • Brian inbox: 4 file(s) in ~/.stan/local_inbox
+  • STUCK board updated — read fleet/STUCK_BOARD.txt
+
+BOXES
+  • NET: status: ALIVE
+  • CPT: drive OK · backups=1 · mesh=DOWN · sarah=OK · desk=OK
+
+GAPS
+  • STUDIO: no clean post yet — wiping?
+  • NET: Pack + wipe
+  • STUDIO: Pack + wipe
+  • CPT restart: mesh
+
+Word: SLAVE (refresh) · CPT · NET · STUDIO

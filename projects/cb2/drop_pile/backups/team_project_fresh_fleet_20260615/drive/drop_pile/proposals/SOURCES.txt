@@ -1,0 +1,26 @@
+PROPOSAL SOURCES — valid fleet_id values
+Updated: 2026-06-14
+
+Use exactly one fleet_id per proposal file header.
+
+COMPUTERS (Cursor masters)
+  cb2       CAPTN / Daddy · hostname penguin
+  cb1       Uncle · WRANGLER lane
+  puppy64   Puppy · PLATE lane
+
+PHONES
+  phone-moto-lte      Moto Play · cellular · ROVER
+  phone-samsung-wifi  Samsung · wifi/dongle · TESTER
+
+LESTER6 SLAVES (Chrome — post as callsign if no Cursor)
+  beacon    CB2 Chrome · lester6_to_daddy.md
+  wrangler  CB1 Chrome · lester6_to_uncle.md
+  plate     puppy64 Chrome · lester6_to_puppy.md
+  rover     Moto · lester6_to_rover.md
+  tester    Samsung · lester6_to_tester.md
+
+HUMAN
+  brian     Brian from any device — no slave middleman
+
+Filename: PROPOSAL_<fleet_id>_<short-slug>.md
+Example:  PROPOSAL_puppy64_mesh-host.md

@@ -1,0 +1,18 @@
+TEAM WAKEUP — word = machine name
+Updated: 2026-06-16
+
+Say ONE word. Same as the machine. No STUDIO · no NET · no SLAVE.
+
+| Machine | Word | Where |
+|---------|------|-------|
+| CB2 | DADDY | Cursor |
+| puppy64 | PUPPY | Cursor on puppy |
+| CB1 | UNCLE | Same box · Gem loads · Cursor executes |
+
+UNCLE = Gem on CB1. One machine · one word. Not two team members.
+
+Web (big): http://127.0.0.1:8770/team
+
+Old names still work in scripts (STUDIO→UNCLE · NET→PUPPY · SLAVE→DADDY · GEM→UNCLE loader).
+
+Gem never becomes Daddy.

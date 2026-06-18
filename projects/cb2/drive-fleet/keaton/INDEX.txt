@@ -1,0 +1,9 @@
+# id | port | owner_box | hitme_host | start_cmd | notes
+cards      | 8002 | cb1      | cards      | bash lester/baseball_cards/start_baseball.sh | Stripe · CollX
+hitme      | 8770 | cb1      | @ who      | python3 ~/.stan/hitme_who_server.py          | CORE landing
+sarah      | 8766 | cb1      | sarah      | python3 ~/.stan/sarah_voice_sample.py        | extension
+mesh       | 8765 | cb1      | mesh       | (mesh_radio when ordered)                    | extension
+gem-studio | 8888 | cb1      | —          | python3 ~/gem-studio/server.py               | local only · no hitme
+studio     | —    | gem      | —          | Drive catalog only                           | Gemini lane · no ports
+
+Load: bash fleet/keaton/load.sh [project_id]

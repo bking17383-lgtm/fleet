@@ -1,0 +1,9 @@
+PINNED WHILE SARAH AWAY — watch loop every 2 min on penguin
+
+SEMINARY (keep open):
+  https://lectures-hide-following-printed.trycloudflare.com/seminary-app
+
+HILLBILLY / FAMILY:
+  https://lectures-hide-following-printed.trycloudflare.com/heartbeat
+
+Watch: bash ~/.stan/sarah_watch.sh

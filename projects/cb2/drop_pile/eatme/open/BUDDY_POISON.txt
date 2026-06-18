@@ -1,0 +1,81 @@
+BUDDY POISON — tree wonky — farthead addendum — 2026-06-17
+Brian: "buddy" is one of the issues · Gem/slave called that · file tree all wonky
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT HAPPENED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Gem (CB1 Chrome) got a second personality name: BUDDY
+  · sounded friendly · became a whole parallel lane
+  · BUDDY_INBOX ≠ cpt_to_gem · jobs sat for hours (GEM_NOT_ANSWERING_FIX)
+  · /goal dropdown: buddy · gem · clerk · same box · four doors
+  · checkin format: "BUDDY ok" vs "GEM ok" vs CLERK (never booted clean)
+
+  DEAD_WORDS says BUDDY → CLERK · but 50+ fleet refs still say buddy
+  Code (hitme_who_server.py) still routes buddy→BUDDY_INBOX
+
+  Result: agents play dumb · Brian posts BUDDY: · wrong file · mirror · stale
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WONKY TREE (today · simplify)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ALIVE inbox (should be ONE order per box):
+    fleet/indie_loop/TO_BUNNY.txt      → Bunny
+    fleet/bus/cpt_to_uncle.txt         → Uncle
+    fleet/bus/cpt_to_gem.txt           → Clerk (rename hat · same file ok)
+
+  POISON (archive · stop loops reading):
+    fleet/bus/BUDDY_INBOX.txt
+    fleet/bus/GEM_BUDDY_FORWARDED.txt
+    fleet/bus/GEM_DADDY_BUDDY.txt
+    fleet/CPT_BUDDY.txt
+    fleet/bus/cpt_ack_buddy.txt
+    fleet/bus/BUDDY_*.txt
+
+  TRIPLE GEM (same keyboard · one hat):
+    gem_to_cpt · cpt_to_gem · BUDDY_INBOX · /gem · buddy lane · "Gem pane"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TARGET TREE (after farthead cut)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/
+    bus/
+      cpt_to_uncle.txt
+      cpt_to_gem.txt          ← CLERK order file (filename ok legacy)
+      gem_to_cpt.txt          ← CLERK reply
+      uncle_to_cpt.txt
+      TO_BUNNY → indie_loop/
+    archive/dead_words/buddy/ ← move poison here · not deleted
+
+  Spoken/UI words only:
+    DADDY · BUNNY · UNCLE · CLERK
+  Never again: buddy · gem personality · puppy · dog · CPT
+
+  /goal lane picker:
+    auto · bunny · uncle · clerk · daddy
+    (drop buddy · drop gem · drop net as lane word)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FARTHEAD VOTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ↓ CUT   BUDDY as lane · BUDDY_INBOX · buddy checkin strings
+  ↔ MERGE clerk = cpt_to_gem only · one Chrome hat
+  ↑ KEEP  gem_to_cpt filename until clerk boot (internal ok)
+
+  Do NOT rename whole tree until:
+    · 3rd party auditor PASS
+    · hitme /goal code updated
+    · autopilot stops forwarding BUDDY_INBOX
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Q1. Clerk the word on /goal · or keep "gem" in UI only?
+  Q2. Archive buddy files · or delete after pack?
+  Q3. Brian still types BUDDY: by habit · auto-route to cpt_to_gem?
+
+Word: BUDDY POISON · CLERK · TREE · FARTHEAD

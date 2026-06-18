@@ -1,0 +1,12 @@
+WORST CASE — short
+Updated: 2026-06-15
+
+| Hit | Do |
+|-----|-----|
+| CB2 dead | Drive + backups · phone inbox · cloud CPT |
+| Both boys dead | Rebuild from team_project_fresh_fleet_20260615 |
+| 1033 phone | fleet/MESH_RADIO_URL.txt new tab |
+| Sarah link dead | cpt_boot.sh refreshes tunnel |
+| All power out | Drive sync when back · START word |
+
+Redundancy log: fleet/bus/REDUNDANCY.txt

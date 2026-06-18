@@ -1,0 +1,8 @@
+AWS_VITALS — 2026-06-17T17:59:13-07:00
+for_captn=YES
+probe=SANDBOX_OK
+last_brian=Two sentences vintage baseball lore about Ray Sadecki card worth $2. Poetic. No fleet.
+last_aws=Ray Sadecki's vintage card, a modest token of his time in the majors, now holds a value of $2, a small price for such a piece of baseball history.
+In the realm of vintage cards, Sadecki's name evokes memories of his contributions to the game, a modest price for a slice of baseball lore.
+cpt_reads=fleet/bus/AWS_VITALS.txt · CPT_SLAVE.txt
+law=overflow lane only · captain=Cursor CPT

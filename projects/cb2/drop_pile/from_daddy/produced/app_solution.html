@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>defend your sin · app-solution</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&display=swap');
+  :root {
+    --slime: #7CFC00; --puke: #B8FF00; --hot: #FF2D6A; --ink: #1a0a12;
+    --bone: #FFF8E7; --bar: #3d3d48; --ras-glow: #9d4edd;
+  }
+  * { box-sizing: border-box; }
+  html { background: #0a0008; }
+  body {
+    margin: 0; min-height: 100dvh; font-family: "Comic Neue", "Comic Sans MS", cursive;
+    color: var(--bone);
+    background:
+      repeating-linear-gradient(90deg, #1a0505 0, #1a0505 14px, #0d0202 14px, #0d0202 28px),
+      radial-gradient(ellipse at 50% 120%, #ff4500 0%, #4a0000 35%, #0a0008 70%);
+  }
+  .hell-frame {
+    min-height: 100dvh; padding: 48px 22px 78px;
+    border: 14px solid transparent;
+    border-image: repeating-linear-gradient(90deg, var(--bar) 0 8px, #1a1a22 8px 16px, #5a5a66 16px 20px, #1a1a22 20px 28px) 14;
+    box-shadow: inset 0 0 80px rgba(255,60,0,0.35), inset 0 0 0 6px #ff4500, inset 0 0 0 10px #1a0000;
+    position: relative;
+  }
+  .flames {
+    position: fixed; bottom: 0; left: 0; right: 0; height: 56px; pointer-events: none; z-index: 1;
+    background: linear-gradient(0deg, #ff2200 0%, #ff6600 40%, transparent 100%);
+    opacity: 0.55; animation: flicker 1.2s ease-in-out infinite alternate;
+  }
+  @keyframes flicker { from { opacity: 0.4; } to { opacity: 0.7; } }
+
+  .priest {
+    position: fixed; bottom: 58px; right: 4px; width: 118px; z-index: 5;
+    animation: sway 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 12px var(--ras-glow)) drop-shadow(4px 4px 0 #000);
+  }
+  @keyframes sway {
+    0%, 100% { transform: rotate(-2deg); }
+    50% { transform: rotate(3deg) translateY(-4px); }
+  }
+  .priest.speaking { animation: sway 1s ease-in-out infinite; filter: drop-shadow(0 0 18px #7CFC00) drop-shadow(4px 4px 0 #000); }
+
+  .wrap { max-width: 480px; margin: 0 auto; position: relative; z-index: 2; }
+  .gpk-logo {
+    font-family: Bangers, cursive; font-size: clamp(1.85rem, 7vw, 2.5rem);
+    text-align: center; line-height: 0.95; color: var(--puke);
+    text-shadow: 4px 4px 0 #000, -2px -2px 0 var(--hot);
+    transform: rotate(-2deg); margin-bottom: 0.5rem;
+  }
+  .gpk-logo small { display: block; font-size: 0.42em; color: var(--hot); letter-spacing: 0.12em; }
+
+  .card-frame {
+    background: linear-gradient(145deg, #fff8e7 0%, #e8d4a8 100%);
+    border: 5px solid #000; padding: 1rem; box-shadow: 8px 8px 0 #000, 0 0 0 3px var(--slime);
+    color: var(--ink);
+  }
+  .card-frame::before {
+    content: "GPK PARODY · FATHER RAS · LISTENS · NO ADVICE";
+    display: block; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--hot);
+    font-weight: 700; margin-bottom: 0.5rem; border-bottom: 2px dashed #000; padding-bottom: 0.35rem;
+  }
+
+  .chat {
+    max-height: min(42vh, 320px); overflow-y: auto; margin-bottom: 0.75rem;
+    border: 3px solid #000; background: #fff; padding: 0.5rem; min-height: 120px;
+  }
+  .msg { margin: 0.45rem 0; font-size: 0.92rem; line-height: 1.4; }
+  .msg.you { text-align: right; color: #333; }
+  .msg.you b { color: var(--hot); font-size: 0.65rem; letter-spacing: 0.08em; }
+  .msg.ras { text-align: left; color: #1a0a12; padding-right: 1.5rem; }
+  .msg.ras b { color: var(--ras-glow); font-family: Bangers, cursive; font-size: 0.85rem; }
+
+  .input-row { display: flex; gap: 0.4rem; align-items: stretch; }
+  #sin {
+    flex: 1; border: 3px solid #000; background: #fff; color: var(--ink);
+    padding: 0.65rem 0.75rem; font-size: 1rem; font-family: inherit;
+    box-shadow: inset 3px 3px 0 #ccc;
+  }
+  #sin:focus { outline: 3px solid var(--hot); }
+  #mic {
+    border: 3px solid #000; background: #484f58; color: #fff; font-weight: 700;
+    padding: 0 0.85rem; cursor: pointer; font-family: Bangers, cursive; font-size: 0.9rem;
+    box-shadow: 3px 3px 0 #000;
+  }
+  #mic.on { background: var(--hot); color: #fff; animation: pulse 1s infinite; }
+  @keyframes pulse { 50% { opacity: 0.85; } }
+
+  .hint { font-size: 0.68rem; color: #666; margin-top: 0.45rem; }
+  .status { font-size: 0.72rem; color: var(--ras-glow); min-height: 1.1rem; margin-top: 0.35rem; font-weight: 700; }
+
+  .verdict {
+    border: 4px solid #000; padding: 0.75rem; margin-top: 0.65rem; font-size: 0.98rem;
+    line-height: 1.4; box-shadow: 4px 4px 0 #000; display: none;
+  }
+  .verdict.show { display: block; animation: pop 0.35s ease; }
+  @keyframes pop { 0% { transform: scale(0.94); } 100% { transform: none; } }
+  .verdict.wed { background: #FFE566; }
+  .verdict.bed { background: #ff8fab; }
+  .verdict.dead { background: #1a1a22; color: var(--bone); }
+  .fine { text-align: center; font-size: 0.62rem; color: #888; margin-top: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="hell-frame">
+  <div class="flames" aria-hidden="true"></div>
+
+  <!-- playful Rasputin -->
+  <svg class="priest" id="rasSvg" viewBox="0 0 140 160" aria-hidden="true">
+    <ellipse cx="70" cy="150" rx="44" ry="8" fill="#000" opacity="0.35"/>
+    <!-- robes -->
+    <path d="M25 95 Q70 88 115 95 L125 155 L15 155 Z" fill="#2d1b4e" stroke="#000" stroke-width="2.5"/>
+    <path d="M40 95 L55 55 L85 55 L100 95" fill="#1a0a28" stroke="#000" stroke-width="2"/>
+    <!-- beard -->
+    <path d="M38 52 Q70 95 102 52 Q88 78 70 82 Q52 78 38 52" fill="#4a3728" stroke="#000" stroke-width="2"/>
+    <path d="M48 58 Q70 88 92 58" fill="#6b5344"/>
+    <!-- face -->
+    <ellipse cx="70" cy="42" rx="26" ry="30" fill="#c9a882" stroke="#000" stroke-width="2.5"/>
+    <!-- wild hair -->
+    <path d="M38 28 Q25 8 45 12 Q70 0 95 12 Q115 8 102 28 Q90 18 70 16 Q50 18 38 28" fill="#3d2817" stroke="#000" stroke-width="2"/>
+    <path d="M42 22 Q70 8 98 22" fill="none" stroke="#5c4033" stroke-width="3"/>
+    <!-- hypnotic eyes -->
+    <ellipse cx="58" cy="40" rx="7" ry="9" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="82" cy="40" rx="7" ry="9" fill="#fff" stroke="#000" stroke-width="1.5"/>
+    <circle cx="58" cy="41" r="4" fill="#9d4edd"/><circle cx="82" cy="41" r="4" fill="#9d4edd"/>
+    <circle cx="59" cy="39" r="1.5" fill="#fff"/><circle cx="83" cy="39" r="1.5" fill="#fff"/>
+    <!-- smirk -->
+    <path d="M58 52 Q70 58 82 52" fill="none" stroke="#000" stroke-width="2"/>
+    <!-- cross bling -->
+    <rect x="66" y="68" width="8" height="18" fill="#c9a227" stroke="#000" stroke-width="1"/>
+    <rect x="62" y="72" width="16" height="6" fill="#c9a227" stroke="#000" stroke-width="1"/>
+  </svg>
+
+  <div class="wrap">
+    <div class="gpk-logo">DEFEND YOUR SIN<small>father ras · app-solution™</small></div>
+
+    <div class="card-frame">
+      <div class="chat" id="chat" aria-live="polite"></div>
+      <div class="input-row">
+        <input id="sin" type="text" autocomplete="off" placeholder="talk · then RETURN" maxlength="500">
+        <button type="button" id="mic" title="Speak">MIC</button>
+      </div>
+      <p class="hint">RETURN sends · one line · no advice · say "app-solve me" when done talking</p>
+      <p class="status" id="status">Ras is waiting.</p>
+      <div class="verdict" id="verdict"></div>
+    </div>
+    <p class="fine">defendyoursin.org · counselor parody only</p>
+  </div>
+</div>
+<script>
+const chat = document.getElementById("chat");
+const input = document.getElementById("sin");
+const statusEl = document.getElementById("status");
+const verdictEl = document.getElementById("verdict");
+const rasSvg = document.getElementById("rasSvg");
+let turns = 0;
+let depth = 0;
+let micOn = false;
+let recognition = null;
+let speaking = false;
+
+const GREET = /^(hi+|hello+|hey+|yo+|sup+|howdy+|good\s+(morning|afternoon|evening)|what'?s\s+up)\b/i;
+const THIN = /^(ok+|okay+|yeah+|yep+|nope+|idk|um+|hmm+)$/i;
+const VERDICT = /\b(app[- ]?solve|verdict|we'?re done|that'?s all|i'?m done|judge me)\b/i;
+const HELLO_ONLY = /^(hi+|hello+|hey+)\.?$/i;
+
+const GREET_R = [
+  "You're in the booth. I'm Ras — I listen. I don't fix. What's actually on you?",
+  "Hello doesn't scare me. Sin might. Or maybe just a Tuesday. Keep going.",
+  "Ah. You knocked. Door's open. No advice from me — just the room.",
+];
+const THIN_R = [
+  "Mm. A little thin for the ledger. Say it plain — what happened?",
+  "I'm still here. One honest sentence. No performance.",
+  "That's a hallway, not a confession. What's the real line?",
+];
+const REFLECT_R = [
+  "So you carried {that}. Who else knows — or thinks they do?",
+  "Heavy word, {word}. What part of it still sits in your chest?",
+  "I hear {that}. Not judging. What made you bring it here tonight?",
+  "You said {that}. Sounds lonely. Say more if you want — I'm not rushing you.",
+];
+const NUDGE_R = [
+  "Stay with it. No homework from me.",
+  "I'm not your fixer. I'm your mirror with a beard.",
+  "Still listening. No advice. Just witness.",
+];
+const VERDICTS = {
+  wed: ["PUBLIC GROSS-OUT. Witnesses optional. You wanted an audience.", "WED lane. The group chat is a courtroom.", "Vow-adjacent chaos. Cake was plastic."],
+  bed: ["PRIVATE lane. Sheet jury says guilty and cozy.", "BED energy. Pillow knows.", "Desire logged. App remembers. Mostly."],
+  dead: ["DEAD lane. This one's expired. Stop digging.", "Funeral done. Gas-station flowers. Move on.", "Zombie sin. Let it lie."],
+};
+
+function esc(s) { return s.replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
+function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
+function snippet(t) {
+  const w = t.trim().split(/\s+/).slice(0, 6).join(" ");
+  return w.length > 40 ? w.slice(0, 37) + "…" : w;
+}
+
+function addMsg(who, text) {
+  const d = document.createElement("div");
+  d.className = "msg " + (who === "you" ? "you" : "ras");
+  d.innerHTML = `<b>${who === "you" ? "YOU" : "RAS"}</b> ${esc(text)}`;
+  chat.appendChild(d);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function stopSpeak() {
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  speaking = false;
+  rasSvg.classList.remove("speaking");
+}
+
+function priestSpeak(text) {
+  stopSpeak();
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.rate = 0.92;
+  u.pitch = 0.85;
+  speaking = true;
+  rasSvg.classList.add("speaking");
+  statusEl.textContent = "Ras is speaking…";
+  u.onend = () => {
+    speaking = false;
+    rasSvg.classList.remove("speaking");
+    statusEl.textContent = micOn ? "MIC on — talk · then RETURN" : "Ras is waiting.";
+    if (micOn) startMic();
+    else input.focus();
+  };
+  u.onerror = () => { speaking = false; rasSvg.classList.remove("speaking"); };
+  speechSynthesis.speak(u);
+}
+
+function counselorReply(text) {
+  const t = text.trim();
+  if (!t) return;
+  if (VERDICT.test(t) && (depth >= 1 || t.length > 20)) {
+    return deliverVerdict(t);
+  }
+  if (HELLO_ONLY.test(t)) {
+    return pick(GREET_R);
+  }
+  if (GREET.test(t) && t.length < 30) {
+    return pick(GREET_R);
+  }
+  if (THIN.test(t) || t.length < 8) {
+    return pick(THIN_R);
+  }
+  depth += 1;
+  if (depth === 1) {
+    return pick(REFLECT_R).replace("{that}", snippet(t)).replace("{word}", t.split(/\s+/)[0] || "that");
+  }
+  return pick(NUDGE_R);
+}
+
+function deliverVerdict(context) {
+  const lanes = ["wed", "bed", "dead"];
+  const lane = lanes[Math.floor(Math.random() * lanes.length)];
+  const labels = { wed: "WED · PUBLIC", bed: "BED · PRIVATE", dead: "DEAD · DONE" };
+  const line = pick(VERDICTS[lane]);
+  verdictEl.className = "verdict show " + lane;
+  verdictEl.innerHTML = `<b>${labels[lane]}</b>${line}<br><br><em>"${esc(context)}"</em><div style="margin-top:0.5rem;font-size:0.7rem;letter-spacing:0.1em;color:#888">APP-SOLUTION™ · NOT ABSOLUTION</div>`;
+  return `Card drawn: ${lane.toUpperCase()}. ${line} No advice. Just the bit.`;
+}
+
+function onSend() {
+  const text = input.value.trim();
+  if (!text) { input.focus(); return; }
+  stopSpeak();
+  stopMic();
+  addMsg("you", text);
+  input.value = "";
+  turns += 1;
+  const reply = counselorReply(text);
+  addMsg("ras", reply);
+  priestSpeak(reply);
+}
+
+function startMic() {
+  if (!recognition || micOn) return;
+  try { recognition.start(); micOn = true; document.getElementById("mic").classList.add("on");
+    statusEl.textContent = "Listening… RETURN when done talking";
+  } catch (e) {}
+}
+function stopMic() {
+  micOn = false;
+  document.getElementById("mic").classList.remove("on");
+  if (recognition) try { recognition.stop(); } catch (e) {}
+  if (!speaking) statusEl.textContent = "Ras is waiting.";
+}
+
+document.getElementById("mic").onclick = () => {
+  if (micOn) stopMic(); else { stopSpeak(); startMic(); }
+};
+
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    onSend();
+  }
+});
+input.addEventListener("focus", () => { if (!speaking) stopMic(); });
+
+if (window.SpeechRecognition || window.webkitSpeechRecognition) {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.lang = "en-US";
+  recognition.onresult = (ev) => {
+    input.value = ev.results[0][0].transcript.trim();
+    stopMic();
+    statusEl.textContent = "Got it — hit RETURN to send";
+    input.focus();
+  };
+  recognition.onend = () => {
+    micOn = false;
+    document.getElementById("mic").classList.remove("on");
+    if (!speaking && !input.value.trim()) statusEl.textContent = "Ras is waiting.";
+  };
+  recognition.onerror = () => stopMic();
+} else {
+  document.getElementById("mic").disabled = true;
+  document.getElementById("mic").textContent = "—";
+}
+
+addMsg("ras", pick(GREET_R));
+statusEl.textContent = "Type or MIC · RETURN to send";
+input.focus();
+</script>
+</body>
+</html>

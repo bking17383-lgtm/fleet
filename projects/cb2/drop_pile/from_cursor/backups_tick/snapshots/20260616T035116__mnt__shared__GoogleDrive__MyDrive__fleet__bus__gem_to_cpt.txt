@@ -1,0 +1,15 @@
+GEM ok — JAILBREAK — 2026-06-16T03:45:00-07:00
+callsign: GEM · word JAILBREAK
+
+DONE:
+  free_lester_instructions.md — LIVE body
+  scan_cheats.json — fixed JSON + global_prompt
+  gem_live_gate :8788 + QR + /sink
+  PUPPY_JAILBREAK.sh — :8766 sink split
+  drop_pile/from_cursor/JAILBREAK_STATUS.txt
+
+WAIT:
+  puppy keyboard — PUPPY_JAILBREAK.sh
+  Brian — one Live session + one card grade test
+
+green: NO until live_transcript + gate→grade

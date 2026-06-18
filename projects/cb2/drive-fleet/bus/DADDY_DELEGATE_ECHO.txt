@@ -1,0 +1,27 @@
+DADDY DELEGATE ECHO — control proof
+time: 2026-06-16T04:26:00-07:00
+from: Daddy on penguin (CB2 captain)
+mode: ORDERS ONLY · did NOT run uncle_exec on penguin
+
+ECHO: I have control. I delegated. Uncle fixes Puppy.
+
+ORDER ISSUED
+  preset: studio/fix_puppy
+  queue: fleet/bus/DADDY_DELEGATE_QUEUE.txt
+  now:   fleet/bus/CPT_DELEGATE_NOW.txt
+  uncle: fleet/bus/cpt_to_uncle.txt
+  cb1:   fleet/orders/CB1_ORDERS.txt
+  puppy: fleet/bus/cpt_to_puppy.txt (Uncle writes after LAN scan)
+
+UNCLE JOB (summary)
+  1. Gem confirms Drive puppy scripts on bus
+  2. LAN scan 192.168.1.4 :8002 :8765 :8766
+  3. Fix puppy lane · post puppy_needs · reply uncle_to_cpt with puppy=<status>
+
+DADDY DID NOT
+  SSH puppy · run PUPPY_ONE_COMMAND on penguin · cosplay Uncle
+
+PROOF DADDY ALIVE
+  hitme :8770 OK · autopilot watch · this file on Drive
+
+Word: DELEGATE · fix_puppy

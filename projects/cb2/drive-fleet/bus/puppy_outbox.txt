@@ -1,0 +1,5 @@
+PUPPY TEMP — Daddy holding NET — penguin — 100.115.92.26 — 2026-06-18T02:31:20-07:00
+puppy64: ABSENT (wiped or stale)
+daddy_ports: :8765=UP :8766=UP :8770=UP
+law: fleet/DADDY_OWNS_ALL.txt
+release: real PUPPY CHECKIN from puppy64 replaces this

@@ -1,0 +1,18 @@
+ORDERS — 3 computers · same Drive path on every box
+Updated: 2026-06-15
+
+Open MyDrive/fleet/orders/ on whichever machine you are at.
+
+One word per box: fleet/ONE_WORD.txt
+
+| Word | Box | Orders file |
+|------|-----|-------------|
+| CPT | CB2 | fleet/orders/CB2_ORDERS.txt |
+| NET | puppy64 | fleet/orders/PUPPY_ORDERS.txt |
+| STUDIO | CB1 | fleet/orders/CB1_ORDERS.txt |
+
+All machines: Brian → CPT one line → fleet/bus/BRIAN_INBOX.txt
+
+Slave keeps these files current. CPT writes orders. You read — no hunting.
+
+Desk: http://127.0.0.1:8770/f/fleet/orders/ORDERS_HERE.txt

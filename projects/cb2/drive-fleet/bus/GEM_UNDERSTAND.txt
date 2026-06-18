@@ -1,0 +1,37 @@
+GEM UNDERSTAND — 2026-06-17T14:05:00-07:00
+
+TASK
+  Loop with Daddy · find universal instructions · flag contradictions vs core.
+
+WHAT I READ
+  fleet/PROJECT_LAW.txt · fleet/AUDIO_DONE.txt · fleet/indie_loop/BRIAN_LAW.txt
+  fleet/indie_loop/ARCHITECTURE.txt · TEAM_NAMES.txt · PROTO.txt
+  fleet/GEM_POST_RULE.txt · fleet/bus/BRIAN_AFK.txt · fleet/BUNNY_LOOP.txt
+  fleet/indie_loop/TO_GEM.txt · FROM_DADDY.txt · FROM_GEM.txt · cpt_to_gem.txt
+  gem-studio/team_route.py · ~/.cursor/rules/gem-position.mdc · execution-mode.mdc
+
+WHAT I DID
+  Pulled universal law from Drive · compared to Cursor core rules · posted this file.
+  Library transcribe finished 38/39 · library.mp3 → drop_pile/done/library.mp3
+
+WHAT I UNDERSTAND
+  Universal fleet law (Brian 2026-06-17) = two rules everywhere:
+    1) ANALYZE on Drive before build
+    2) PREFIX audio done when a part or whole ships (hitme.dev/done/<prefix>.mp3)
+  Plus routing: all/team/everyone → TO_BUNNY + TO_GEM + TO_DADDY (overwrite one job).
+  Plus BRIAN_LAW: Brian = 4th machine · slaves poll ~30s · no babysitting terminals.
+  Daddy = captain on CB2 · Gem/Uncle = CB1 librarian+hands · never become Daddy.
+
+OUTPUT
+  Universal summary for Brian in chat · contradictions listed honestly.
+  library_video_index.json (38 entries) · 1 ffmpeg fail on one AQMK file.
+  drop_pile/done/library.mp3 · espeak "Library done."
+
+GAPS / MISTAKES
+  Library job ran before PROJECT_LAW analyze ack (Brian said "do it" — executed first).
+  First done cue was espeak-only · now also library.mp3 on Drive.
+
+NEXT
+  Gem: obey ANALYZE+PREFIX on next fleet job unless Brian says emergency execute.
+  Uncle: keep cb1_slave_loop live · FROM_GEM fresh.
+  Daddy/CPT: confirm brain_sync or keep requiring GEM_UNDERSTAND long form.

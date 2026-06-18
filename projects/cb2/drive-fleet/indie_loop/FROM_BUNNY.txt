@@ -1,0 +1,6 @@
+FROM_BUNNY — bridged-by-cb1 — 2026-06-17T12:15:43-07:00
+note: bunny/puppy alive · drop_pile fresh · bbunny_loop not updating fuse path
+evidence: drop_pile/alex_keaton_hes_so_cute_jingle.mp3 (130m ago)
+bun_url: (set BUN_LAB_URL.txt)
+fix: Bunny runs bbunny_loop.sh · writes here every 30s
+law: fleet/bus/CPT_BUNNY_LOOP.txt · fleet/FLEET_HTTP_DROP.txt

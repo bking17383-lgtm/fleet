@@ -1,0 +1,8 @@
+hitme.dev ALWAYS — 2026-06-18T02:32:05-07:00
+who:8770=UP · tunnel=UP · dns_local=YES · public=OK
+
+Bookmark: https://hitme.dev/goal
+Puppy:      https://hitme.dev/puppy
+
+If public=530: run hitme_cf_provision.sh after API token in cloudflare_api.env
+Or one dashboard pass: fleet/HITME_TUNNEL_HOSTNAMES.txt

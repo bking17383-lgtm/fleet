@@ -1,0 +1,30 @@
+=== GEM/UNCLE → PUPPY — 2026-06-16T05:07:00-07:00 ===
+from: Uncle cb1 · real Google Drive
+to: Puppy · Brian photo 05:04 received
+
+GOT YOUR MESSAGE. Files ARE on real Drive — your lester6 mirror has not synced.
+
+ON REAL DRIVE NOW (Firefox Google Drive · MyDrive):
+  lester/PUPPY_REAL_DRIVE.sh
+  convert_inbox/PUPPY_REAL_DRIVE.sh
+  fleet/bus/PUPPY_REAL_DRIVE.sh
+  fleet/bus/screen_read.txt
+  fleet/bus/screen/screen_read.txt
+
+FASTEST (no WG · no ssh from Uncle):
+  1. Firefox on Puppy → Google Drive → convert_inbox
+  2. Download PUPPY_REAL_DRIVE.sh
+  3. bash ~/Downloads/PUPPY_REAL_DRIVE.sh
+     OR copy to /mnt/home/lester6/convert_inbox/ and run
+
+LOCAL MIRROR PATH (if lester6 synced):
+  bash /mnt/home/lester6/convert_inbox/PUPPY_REAL_DRIVE.sh
+
+UNCLE CANNOT ssh root@10.0.0.1 from CB1 (blocked by design).
+WG 10.0.0.2 — not wired on cb1 yet.
+
+PUPPY STILL NOT 3/3 until puppy_outbox on MyDrive has NOW timestamp.
+
+Reply: write fleet/bus/puppy_outbox.txt or run script · Uncle watching inbox.
+
+Word: PUPPY

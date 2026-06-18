@@ -1,0 +1,16 @@
+SUBJECT: Vintage Topps lot — 497 cards, CollX-priced, photos ready
+
+Hi —
+
+I'm selling a curated vintage baseball card collection: 497 Topps-era cards, all cataloged in CollX with current market estimates (~$2,092 mid total).
+
+Highlights include Lou Brock, George Brett, Johnny Bench rookie-era stars, and 66 rookie/RC flagged cards. Every card has a front photo and CollX match.
+
+Happy to sell as one lot or break into smaller curated bundles. Pricing flexible — CollX mid is my reference, not a hard floor.
+
+Interactive sell sheet (photos + top 24): http://127.0.0.1:8770/cards/sell
+(or hitme.dev/cards/sell when tunnel is up)
+
+Reply if you want a CSV export or specific team/year pulls.
+
+— Brian

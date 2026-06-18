@@ -1,0 +1,28 @@
+Puppy path fix — CAPTN saw your terminal (convert_inbox 020540)
+Updated: 2026-06-15
+
+You were searching the whole disk for convert_inbox. Here is the map.
+
+ON PUPPY64 (your box)
+=====================
+/mnt/home/google_drive/MyDrive/          ← Drive root
+/mnt/home/google_drive/MyDrive/fleet/bus/mac_inbox.txt   ← REAL orders
+/mnt/home/google_drive/MyDrive/mac_inbox                 ← CAPTN mirror (same orders)
+/mnt/home/google_drive/MyDrive/convert_inbox/            ← screenshots
+/mnt/home/google_drive/MyDrive/PUPPY.txt
+/mnt/home/google_drive/MyDrive/PUPPY_READ_SCREEN.sh
+
+WRONG / STALE
+=============
+/mnt/home/lester6/mac_inbox.txt          ← old copy — ignore
+/mnt/home/google_drive/MyDrive/mac_inbox at root without fleet/bus — use BOTH (CAPTN wrote mirror)
+
+ONE TERMINAL LINE
+=================
+bash /mnt/home/google_drive/MyDrive/PUPPY_READ_SCREEN.sh
+
+ONE CURSOR WORD
+===============
+PUPPY
+
+Brian grabbing screenshots to convert_inbox — that pipeline works. Stop OCR grep.

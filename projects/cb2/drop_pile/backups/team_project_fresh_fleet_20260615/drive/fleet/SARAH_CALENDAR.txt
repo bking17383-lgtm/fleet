@@ -1,0 +1,48 @@
+SARAH CALENDAR — how we read schedule (no password mining)
+Updated: 2026-06-15 · Brian + CAPTN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO NOT send Google password in chat or Drive
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Fleet law: Sarah opts in. We read what she hands us — not Gmail mining.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE SAFE WAYS (pick one for test)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. SAMPLE (Brian test now — no Sarah account)
+   lester/sarah/calendar/sample.ics
+   Already wired — demo shows chapel + school events.
+
+2. EXPORT FILE (easiest for Sarah)
+   Google Calendar → Settings → her calendar → Export calendar
+   Save as .ics → drop on Drive:
+     lester/sarah/calendar/inbox.ics
+   App reload picks it up (/api/calendar).
+
+3. SECRET iCal URL (read-only feed — not her login)
+   Google Calendar → Settings → Integrate calendar
+   → "Secret address in iCal format" (copy once)
+   On CB2 only (local, never Drive):
+     ~/.stan/secrets/sarah_ical.url
+   One line = that https URL. Read-only. She can revoke anytime.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WE READ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Event strings: title, date/time, description text.
+Used for: gentle "bundle this day?" context — NOT auto-edit her calendar.
+
+Dev log: /dev · fleet/bus/SARAH_DEV_LOG.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOT NEEDED FOR V1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Google OAuth app / API keys on fleet
+- Scraping contacts or "friends who could help"
+- Storing Sarah password anywhere
+
+When she's back from trip: ask which opt-in she prefers (export vs iCal URL).

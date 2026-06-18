@@ -1,0 +1,24 @@
+AUDIT EMAIL — 2026-06-18T00:25:24-07:00
+from: Tommy Goround <tpgoround@gmail.com>
+subject: linked cb2>>> next
+imap_id: 107901
+---
+Tell daddy this one line:
+
+  cd ~/fleet && git pull && cat bus/notes/to-cb2.md
+
+  That briefs him on the whole system and hands him the job: onboard puppy
+as cb3. He reads it straight from the one true fleet — no relay through you.
+
+  On puppy (booting now): heads-up baked into the note — Puppy Linux isn't
+Debian, so apt may not exist. That's the likely snag. If git won't install
+the normal way, don't fall back to
+  email/Drive — just have puppy (or daddy) post the blocker as a heartbeat,
+or tell me what Puppy's package manager says, and I'll adapt the install in
+30 seconds.
+
+  So: let daddy pull the briefing and run at puppy. If puppy's package
+manager fights him, throw me the error — we fix it on the fleet, not in
+email. 🔥
+
+  Go feed daddy that line.

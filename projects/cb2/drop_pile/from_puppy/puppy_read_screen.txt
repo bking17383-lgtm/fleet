@@ -1,0 +1,12 @@
+PUPPY SCREEN READ — 20260616_061844.jpg
+time: 2026-06-16T06:22:00-07:00
+from: Uncle on cb1
+
+SCREEN: puppypc27097 · Gemini Spark · blocked on mirror gap
+MISSING locally: FLEET_CHECKIN · cpt_to_puppy · NEW_PUPPY_BOOT
+WRONG: lester6 paths · ~/GoogleDrive not synced
+
+FIX PUSHED: 4 files → puppy lester/uploaded_files/ via :8002
+RUN: bash /mnt/shared/GoogleDrive/MyDrive/lester/uploaded_files/PUPPY_GO.sh
+
+Word: GO

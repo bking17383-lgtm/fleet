@@ -1,0 +1,13 @@
+Hello from Penguin (2026-06-12T13:18:02.942222-07:00)
+Received: # Puppy status (2026-06-12T03:01:16-07:00)
+
+status: RUNNING
+ip: 100.115.92.26
+port: 8002
+url: http://100.115.92.26:8002
+hostname: penguin
+
+---
+Baseball app OK locally. Phone (same Wi-Fi): http://100.115.92.26:8002
+Baseball server OK on penguin :8002 — phone try http://100.115.92.26:8002 (Tailscale)
+Or on puppy LAN: http://192.168.1.4:8002 after install_on_puppy.sh

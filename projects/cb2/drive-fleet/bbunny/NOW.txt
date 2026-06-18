@@ -1,0 +1,6 @@
+MOVED → fleet/indie_loop/TO_BUNNY.txt
+
+Run loop once (writes FROM_BUNNY every 30s):
+  nohup bash ~/GoogleDrive/MyDrive/lester/bbunny_loop.sh >>~/bbuny_loop.log 2>&1 &
+
+Check: tail ~/GoogleDrive/MyDrive/fleet/indie_loop/FROM_BUNNY.txt

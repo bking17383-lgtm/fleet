@@ -1,0 +1,66 @@
+NAMING LAW — Brian's words · one team · three machines
+Updated: 2026-06-16
+
+Say these. New docs use these. Old aliases still route — do not argue with Brian.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE MACHINES · THREE WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Word   | Hardware        | Hostname hint | Who talks here      | Job |
+|--------|-----------------|---------------|---------------------|-----|
+| Daddy  | CB2 Chromebook  | penguin       | Brian · Cursor      | Captain · delegate · background · never Uncle cosplay |
+| Puppy  | puppy64 PC      | puppy64       | Brian · Cursor      | NET · mesh · tunnels · public URLs |
+| Uncle  | CB1 Chromebook  | cb1 (not penguin) | Brian · Cursor execute | STUDIO hands · apps · keys · slave_boot on 72GB box |
+
+Fourth word (same box as Uncle — loader hat only):
+
+| Word | Box  | Agent   | Job |
+|------|------|---------|-----|
+| Gem  | CB1  | Gemini Chrome | Drive librarian · export · catalog · LOOP bridge · never captain |
+
+Gem = Uncle's box · different hat. Say **Gem** when you mean loader/Chrome. Say **Uncle** when you mean Linux execute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RETIRED (still accepted → routed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  CPT · CAPTN · CAPTAIN · CAPT · BEACON     → Daddy
+  NET · PLATE                               → Puppy
+  STUDIO · WRANGLER                         → Uncle
+  BUDDY                                     → Gem (CB1 Chrome)
+
+Do NOT use retired words in new fleet docs or bus posts.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HARD RULES (identity · stops split brain)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Daddy lives on penguin only. Never write uncle_to_cpt or gem_to_cpt from penguin.
+  2. Uncle lives on CB1 Linux only. host= must be cb1 — never penguin · never penguin bridge.
+  3. Puppy posts puppy_outbox from puppy64 only.
+  4. If your outbox shows host=penguin and you think you are Uncle → STOP · INVALID · repost from CB1.
+  5. Gem never becomes Daddy. If CB2 dies → Brian fixes on Puppy · Gem bridges Drive · not promotion.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUS CHECK-IN LINES (copy exact)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy:  auto · fleet_self_check on penguin
+  Puppy:  PUPPY CHECKIN — puppy64 — <ip> — <time>
+  Uncle:  UNCLE CHECKIN — cb1 — <ip> — <time>
+
+Gem ack (loader): fleet/bus/gem_to_cpt.txt — one line · host must be cb1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LANE FILES (who writes what)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy →  cpt_to_uncle · cpt_to_gem · cpt_to_puppy · cpt_ack_* · CPT_READY
+  Uncle →  uncle_to_cpt only
+  Gem   →  gem_to_cpt · GEM_UNDERSTAND only
+  Puppy →  puppy_outbox only
+
+Word on wake: DADDY · PUPPY · UNCLE · GEM
+
+Law: fleet/GEM_SELF_FIX.txt (Uncle box · Gem reads when confused)

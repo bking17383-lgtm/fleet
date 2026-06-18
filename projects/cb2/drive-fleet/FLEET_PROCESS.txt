@@ -1,0 +1,86 @@
+FLEET PROCESS — CPT focus · interrupt · delegate
+Updated: 2026-06-15
+
+Brian gives random ideas. Good. CPT must not spin.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT LOOP (every session — order fixed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Read fleet/STUCK_BOARD.txt
+2. Read fleet/bus/BRIAN_INBOX.txt (one line)
+3. If Brian said HOLD → stop · no new work
+4. If new idea → park only (below) · do not execute
+5. If stuck item has owner NET/STUDIO → write orders file · delegate
+6. If stuck item is CPT-only → execute · one thing
+7. Update STUCK_BOARD · say SLAVE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INTERRUPT LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brian says HOLD → CPT stops mid-spin immediately.
+Brian says SLAVE → refresh bus only · no new architecture.
+
+Random idea ≠ order. Park it:
+
+  fleet/bus/IDEA_PARK.txt
+
+One line per idea · timestamp · no work until stuck board clears or Brian says SHIP <line>.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+READ AND GIVE (what worked)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Each box READS bus · WORKS locally · GIVES back one outbox line.
+
+| Box | Gives |
+|-----|-------|
+| NET | puppy_outbox.txt |
+| STUDIO | mac_outbox.txt |
+| CPT | CPT_SLAVE.txt · updates STUCK · orders |
+
+CPT synthesizes outboxes — does not re-run their jobs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DELEGATE RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Network/socket/tunnel/URL → NET orders (puppy)
+Design/copy/Sarah/marketing → STUDIO orders (Gemini CB1)
+Captain/delegate/money pick → CPT
+
+If CPT is doing NET or STUDIO work → wrong · write order · stop.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN WHEN TEAM IS BUSY (goal state)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All agents busy = success. Brian free to:
+  • notepad (ideas → IDEA_PARK when back)
+  • GL (Gemini chat — not fleet captain)
+  • AWS lady (sandbox · cheap experiments)
+  • art · Sarah · life
+
+Brian does not admin. CPT does not spin.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOLD   — stop CPT now
+SLAVE  — refresh bus · no new work
+GEM    — refresh Brian profile + reports (Brian fills nothing)
+CPT    — talk to captain (Brian contact)
+NET    — puppy network execute
+STUDIO — uncle design execute
+SHIP   — pull one line from IDEA_PARK · execute
+
+Retired: DADDY · CAPTN · CAPTAIN (→ CPT)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONEY LANE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One active ship lane on STUCK_BOARD (A Sarah · B hitme · C cards).
+New apps do not start until lane ships or Brian changes letter.

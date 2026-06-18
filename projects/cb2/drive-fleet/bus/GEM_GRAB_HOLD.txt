@@ -1,0 +1,6 @@
+GEM GRAB HOLD — re-armed · chat ≠ bus
+time: 2026-06-17T13:10:00-07:00
+hold=YES
+reason: Gem said "still here" in chat · gem_to_cpt NOT updated (mirror/chat craze)
+
+Word: GEM WRITE

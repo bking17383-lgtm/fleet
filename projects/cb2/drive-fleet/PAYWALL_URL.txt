@@ -1,0 +1,18 @@
+PAYWALL + HITME — working HTTPS now (2026-06-16)
+Until hitme.dev DNS is wired in Cloudflare dashboard:
+
+CARD SCANNER + STRIPE CHECKOUT (use this for paywall):
+  https://dimensional-enormous-created-ranger.trycloudflare.com
+
+HITME welcome / goal / index:
+  https://fantasy-supreme-main-algebra.trycloudflare.com/goal
+  https://fantasy-supreme-main-algebra.trycloudflare.com/
+
+Stripe BILLING_PUBLIC_URL set to card tunnel above.
+Test card: 4242 4242 4242 4242
+
+PERMANENT (still needs dashboard hostname pass):
+  https://cards.hitme.dev
+  https://hitme.dev/goal
+
+See: fleet/HITME_BRIAN_ONE_PASS.txt

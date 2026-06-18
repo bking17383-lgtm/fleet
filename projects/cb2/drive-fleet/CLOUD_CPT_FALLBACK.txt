@@ -1,0 +1,61 @@
+CLOUD CPT — when chromebooks die
+Updated: 2026-06-15
+Brian asked: CPT must work if power/CB2/CB1/puppy all fail.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRINCIPLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Drive stays the bus. CPT moves to cloud. Brian still has ONE contact.
+
+  Brian (phone / any browser)
+       ↓
+  Entrance (pick one — investigate AWS vs keep Cursor cloud)
+       ↓
+  Cloud CPT (delegate · approve · write Drive)
+       ↓
+  NET / STUDIO when boxes wake
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE TIERS (fail over in order)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+T1 LOCAL (now)
+  CB2 Cursor + Drive mounted
+  mesh :8765 interim · hitme :8770 desk
+
+T2 CLOUD AGENT (Cursor API — no chromebook)
+  Cursor Cloud Agents + API key (local ~/.stan/cursor_cloud.env)
+  Reads/writes via Drive sync OR Google Drive API (future)
+  Brian: phone → BRIAN_INBOX on Drive (already works from any device)
+
+T3 AWS ENTRANCE (investigate — not live)
+  API Gateway → Lambda → Bedrock (approved prompts only)
+  CPT logic: only forward what Brian/CPT marked in fleet/bus/CPT_APPROVED.txt
+  S3 staging bucket for approved exports — never whole Drive
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT "READY" MEANS BEFORE WE TRUST IT
+
+  □ Brian can post one line to inbox from phone — CPT answers within 15 min (human or agent)
+  □ Cloud CPT cannot read Drive until OAuth wired — until then: inbox only
+  □ AWS sandbox probe pass (fleet/bus/AWS_PROBE_REPORT.txt)
+  □ Kill switch: disable API key / IAM user in one click
+  □ Monthly spend cap alarm
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN DOES NOT
+
+  Troubleshoot intranet for cloud failover
+  Create AWS keys in chat — paste in local file only
+  Assume AWS sales pitch = CPT approval system (we build that)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEXT CPT ACTIONS
+
+  1) Brian creates sandbox IAM key → ~/.stan/aws_sandbox.env
+  2) Run aws_sandbox_probe.py
+  3) Parallel: Cursor cloud API key when Brian has one → cursor_cloud.env.example
+  4) CPT documents verdict in mac_outbox
+
+Sound good = investigate first, cloud failover second, no fleet lies.

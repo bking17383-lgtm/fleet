@@ -1,0 +1,618 @@
+{
+  "updated": "2026-06-17T14:10:10-07:00",
+  "source": "daddy archive scan",
+  "count": 67,
+  "by_tier": {
+    "ship": 7,
+    "money": 12,
+    "platform": 22,
+    "creative": 9,
+    "backlog": 11,
+    "spike": 6
+  },
+  "projects": [
+    {
+      "id": "sarah",
+      "name": "Sarah Voice",
+      "status": "LIVE",
+      "end_user": "Sarah \u00b7 voice scheduling \u00b7 minimal intrusion",
+      "profit": "$$ appointment lane \u00b7 human tester first",
+      "source": "fleet/SHIP_A_SARAH.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "hitme",
+      "name": "hitme Landing",
+      "status": "LIVE",
+      "end_user": "Visitors \u00b7 strangers on LTE",
+      "profit": "$ platform \u00b7 leads to paid lanes later",
+      "source": "fleet/SHIP_B_HITME.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "cards",
+      "name": "CollX Card Scanner",
+      "status": "LIVE",
+      "end_user": "Collectors \u00b7 estate executors \u00b7 Brian inventory",
+      "profit": "$$ Stripe after 6 scans \u00b7 497-card inventory",
+      "source": "fleet/SHIP_C_CARDS.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage Card Demo",
+      "status": "DEMO",
+      "end_user": "Genealogy fans \u00b7 phone rotate showcase",
+      "profit": "$ demo \u2192 upsell catalog / print",
+      "source": "lester/heritage/card_demo.html",
+      "tier": "ship"
+    },
+    {
+      "id": "jailbreak",
+      "name": "Free Lester / Jailbreak",
+      "status": "READY",
+      "end_user": "Card collectors \u00b7 voice coach at table",
+      "profit": "$$ micro per Live session \u00b7 card grade upsell",
+      "source": "lester/free_lester_instructions.md",
+      "tier": "ship"
+    },
+    {
+      "id": "rover",
+      "name": "Rover / Mesh Radio",
+      "status": "LIVE",
+      "end_user": "Brian road phone \u00b7 camera+mic extension",
+      "profit": "$0 internal \u00b7 saves LTE hassle",
+      "source": "fleet/MESH_RADIO_URL.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "aws_lane",
+      "name": "AWS Talk Lane",
+      "status": "LIVE",
+      "end_user": "Brian riffing money ideas",
+      "profit": "$0 ideation \u00b7 batch to ship lanes",
+      "source": "fleet/AWS_LANE.txt",
+      "tier": "ship"
+    },
+    {
+      "id": "alexa",
+      "name": "Alexa Brief Mode",
+      "status": "DONE",
+      "end_user": "Brian \u00b7 Echo one-click",
+      "profit": "$0 home filter \u00b7 no port spam",
+      "source": "fleet/bus/GEM_PROJECT_SPRINT.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "story_games",
+      "name": "Story \u2192 Games Catalog",
+      "status": "NEXT",
+      "end_user": "Brian \u00b7 game writers \u00b7 story archive",
+      "profit": "$ IP licensing later",
+      "source": "fleet/bus/GEM_PROJECT_SPRINT.txt",
+      "tier": "backlog"
+    },
+    {
+      "id": "keaton",
+      "name": "Keaton Landing",
+      "status": "WIRING",
+      "end_user": "Public visitors \u00b7 hitme.dev front door",
+      "profit": "$ brand funnel \u00b7 sound + counter",
+      "source": "fleet/KEATON.txt",
+      "tier": "creative"
+    },
+    {
+      "id": "hitme_core",
+      "name": "hitme.dev Core",
+      "status": "LIVE",
+      "end_user": "Whole fleet \u00b7 bus + URLs",
+      "profit": "$0 infra \u00b7 enables all lanes",
+      "source": "fleet/keaton/INDEX.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "gem_studio",
+      "name": "Gem Studio",
+      "status": "LIVE",
+      "end_user": "CB1 Chrome \u00b7 local API",
+      "profit": "$0 librarian tool",
+      "source": "fleet/keaton/INDEX.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "bunny_lab",
+      "name": "Bunny Lab",
+      "status": "LIVE",
+      "end_user": "Brian \u00b7 builder indie loop",
+      "profit": "$0 builder UX \u00b7 Keaton host",
+      "source": "hitme.dev/bunny",
+      "tier": "platform"
+    },
+    {
+      "id": "gl_live",
+      "name": "GL Live / Transcript Lab",
+      "status": "MESSY",
+      "end_user": "Brian \u00b7 Gemini Live stack",
+      "profit": "$0 until voice good enough",
+      "source": "gl/INDEX.md",
+      "tier": "platform"
+    },
+    {
+      "id": "keaton_loader",
+      "name": "Keaton Project Loader",
+      "status": "LIVE",
+      "end_user": "All boxes \u00b7 same project list",
+      "profit": "$0 conflict avoidance",
+      "source": "fleet/KEATON.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "sell_sheet",
+      "name": "497-Card Sell Sheet",
+      "status": "PRODUCE",
+      "end_user": "eBay buyers \u00b7 local flippers",
+      "profit": "$$ direct card sales \u00b7 bundles",
+      "source": "/cards/sell",
+      "tier": "money"
+    },
+    {
+      "id": "bundles",
+      "name": "Bundle Lots / CSV",
+      "status": "PRODUCE",
+      "end_user": "Bulk buyers \u00b7 estate liquidators",
+      "profit": "$$ lot pricing \u00b7 eBay export",
+      "source": "/bundles",
+      "tier": "money"
+    },
+    {
+      "id": "cockpit",
+      "name": "Garage Cockpit",
+      "status": "PRODUCE",
+      "end_user": "Brian \u00b7 ship RPM dashboard",
+      "profit": "$0 captain focus tool",
+      "source": "/cockpit",
+      "tier": "platform"
+    },
+    {
+      "id": "dossier",
+      "name": "Deduction Dossier",
+      "status": "PRODUCE",
+      "end_user": "Tax / hobby deduction narrative",
+      "profit": "$ saves accountant time",
+      "source": "/dossier",
+      "tier": "money"
+    },
+    {
+      "id": "brochure",
+      "name": "Top Card Brochure",
+      "status": "PRODUCE",
+      "end_user": "Show-off one grail card",
+      "profit": "$ marketing for single high sale",
+      "source": "/brochure",
+      "tier": "money"
+    },
+    {
+      "id": "911",
+      "name": "9\u00b71\u00b71 Daily Ship List",
+      "status": "PRODUCE",
+      "end_user": "Brian \u00b7 20-min ship discipline",
+      "profit": "$0 execution habit",
+      "source": "/911",
+      "tier": "platform"
+    },
+    {
+      "id": "encore",
+      "name": "Encore Meter",
+      "status": "PRODUCE",
+      "end_user": "Brian \u00b7 gamified follow-through",
+      "profit": "$0 retention",
+      "source": "/encore",
+      "tier": "platform"
+    },
+    {
+      "id": "studio_deck",
+      "name": "Studio Deck",
+      "status": "PRODUCE",
+      "end_user": "Internal \u00b7 pitch all lanes",
+      "profit": "$0 sales collateral",
+      "source": "/studio",
+      "tier": "platform"
+    },
+    {
+      "id": "setlist",
+      "name": "Top 10 Setlist",
+      "status": "PRODUCE",
+      "end_user": "Collectors browsing highlights",
+      "profit": "$ merch / list sales",
+      "source": "/setlist",
+      "tier": "money"
+    },
+    {
+      "id": "story_card",
+      "name": "Story Card",
+      "status": "PRODUCE",
+      "end_user": "Story + card crossover fans",
+      "profit": "$ narrative upsell on inventory",
+      "source": "/cards/story",
+      "tier": "creative"
+    },
+    {
+      "id": "camel",
+      "name": "Camel Game",
+      "status": "SHIPPED v0.8",
+      "end_user": "Casual gamers \u00b7 Silk Road theme",
+      "profit": "$ mobile game \u00b7 IAP later",
+      "source": "drop_pile/done/CAMEL_v0.8_shipped.md",
+      "tier": "creative"
+    },
+    {
+      "id": "parcels",
+      "name": "Five Parcels Game",
+      "status": "LIVE",
+      "end_user": "Redneck homestead players",
+      "profit": "$ ad / tip jar \u00b7 Morgan brand",
+      "source": "/parcels",
+      "tier": "creative"
+    },
+    {
+      "id": "dirt_strong",
+      "name": "Dirt Strong / Heartbeat",
+      "status": "LIVE",
+      "end_user": "Homestead \u00b7 patriot audience",
+      "profit": "$ merch \u00b7 media \u00b7 sponsors",
+      "source": "/dirt-strong",
+      "tier": "creative"
+    },
+    {
+      "id": "sell_baby",
+      "name": "Sell Your Baby",
+      "status": "CONCEPT",
+      "end_user": "Satire readers \u00b7 photo guilt parents",
+      "profit": "$ $3/upload joke \u00b7 Fall of Man Pageant",
+      "source": "drop_pile/proposals/SELL_YOUR_BABY_v0.md",
+      "tier": "creative"
+    },
+    {
+      "id": "slicer",
+      "name": "Video Slicer",
+      "status": "CONCEPT",
+      "end_user": "Strangers on LTE \u00b7 clip their video",
+      "profit": "$$ micro \u00b7 Play internal test",
+      "source": "concepts/CONCEPT_slicer_playstore.md",
+      "tier": "money"
+    },
+    {
+      "id": "puppy_video",
+      "name": "Puppy Video",
+      "status": "CONCEPT",
+      "end_user": "Brian video pipeline",
+      "profit": "$ TBD \u00b7 demand test",
+      "source": "concepts/CONCEPT_puppy_video.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "anti_movie",
+      "name": "Anti-Movie One Page",
+      "status": "CONCEPT",
+      "end_user": "Film skeptics \u00b7 one-pager pitch",
+      "profit": "$ publishing / patron",
+      "source": "concepts/ideas/CONCEPT_anti_movie_one_page.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "estate_tiers",
+      "name": "CollX Estate Tiers",
+      "status": "IDEA-A",
+      "end_user": "Executors with 3000-card estates",
+      "profit": "$$ grade \u00b7 consign \u00b7 dump routing fees",
+      "source": "concepts/ideas/IDEA_collx_estate_three_tiers.md",
+      "tier": "money"
+    },
+    {
+      "id": "psa_alt",
+      "name": "PSA Alternative Grading",
+      "status": "IDEA-B",
+      "end_user": "Raw card collectors \u00b7 transparency seekers",
+      "profit": "$$ $2 micro-cert \u00b7 beats PSA wait",
+      "source": "concepts/ideas/IDEA_psa_alternative.md",
+      "tier": "money"
+    },
+    {
+      "id": "gedcom",
+      "name": "GEDCOM Synthesis",
+      "status": "IDEA",
+      "end_user": "Genealogy hobbyists",
+      "profit": "$ subscription \u00b7 report packs",
+      "source": "concepts/ideas/IDEA_gedcom_synthesis.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "estate_drawer",
+      "name": "Estate Drawer Catalog",
+      "status": "IDEA",
+      "end_user": "Families cataloging physical drawers",
+      "profit": "$ estate SaaS \u00b7 executor assist",
+      "source": "concepts/ideas/IDEA_estate_drawer_catalog.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "pedigree",
+      "name": "Fabulous Pedigree Antidote",
+      "status": "IDEA",
+      "end_user": "Genealogy accuracy nerds",
+      "profit": "$ report sales",
+      "source": "concepts/ideas/IDEA_fabulous_pedigree_antidote.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "story_mine",
+      "name": "Story Mine",
+      "status": "PROPOSAL",
+      "end_user": "Brian \u00b7 game writers \u00b7 4\u20136M word archive",
+      "profit": "$ IP catalog \u2192 games \u00b7 licensing",
+      "source": "drop_pile/proposals/inbox/PROPOSAL_cb2_story_mine.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "sarah_appt",
+      "name": "Sarah Appointment Lane",
+      "status": "PROPOSAL",
+      "end_user": "Sarah \u00b7 seminary schedule",
+      "profit": "$ low-intrusion SaaS",
+      "source": "drop_pile/proposals/inbox/PROPOSAL_sarah_appointment_lane.md",
+      "tier": "money"
+    },
+    {
+      "id": "label_gun",
+      "name": "Handheld Label Gun",
+      "status": "PROPOSAL",
+      "end_user": "Brian \u00b7 asset tagging",
+      "profit": "$0 tool \u00b7 saves time",
+      "source": "drop_pile/proposals/inbox/PROPOSAL_brian_gun_styled_printer.md",
+      "tier": "backlog"
+    },
+    {
+      "id": "net_failover",
+      "name": "Dual-SIM Failover",
+      "status": "PROPOSAL",
+      "end_user": "Home server uptime",
+      "profit": "$0 ops \u00b7 avoids downtime",
+      "source": "drop_pile/proposals/PROPOSALS_MASTER_LIST.md",
+      "tier": "platform"
+    },
+    {
+      "id": "fred",
+      "name": "Fred Team Desk",
+      "status": "LIVE",
+      "end_user": "Brian phone \u00b7 one-word routing",
+      "profit": "$0 command surface",
+      "source": "fred.hitme.dev/team_desk",
+      "tier": "platform"
+    },
+    {
+      "id": "george",
+      "name": "George Echo Voice",
+      "status": "LIVE",
+      "end_user": "Brian room \u00b7 AWS Bedrock voice",
+      "profit": "$0 home assistant \u00b7 upgrades memory",
+      "source": "fleet/GEORGE.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "clerk",
+      "name": "Clerk / Gem Catalog",
+      "status": "DYING\u2192CLERK",
+      "end_user": "CB1 Drive librarian",
+      "profit": "$0 ops \u00b7 enables ship lanes",
+      "source": "fleet/bus/cpt_to_gem.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "checkin",
+      "name": "Fleet Checkin / TV",
+      "status": "LIVE",
+      "end_user": "Brian walking garage",
+      "profit": "$0 visibility",
+      "source": "hitme.dev/checkin",
+      "tier": "platform"
+    },
+    {
+      "id": "picture_inbox",
+      "name": "Picture Inbox",
+      "status": "LIVE",
+      "end_user": "Brian photo drops",
+      "profit": "$0 routing to Gem",
+      "source": "fleet/bus/PICTURE_INBOX.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "lester6",
+      "name": "Lester6 Slave Fleet",
+      "status": "ONGOING",
+      "end_user": "3 boxes \u00b7 Gemini + Cursor",
+      "profit": "$0 automation backbone",
+      "source": "lester/GOAL_ALL_LOCAL_LESTER_SLAVES.md",
+      "tier": "platform"
+    },
+    {
+      "id": "seminary",
+      "name": "Seminary Application",
+      "status": "LIVE",
+      "end_user": "Sarah seminary path",
+      "profit": "$0 family \u00b7 possible content",
+      "source": "/seminary",
+      "tier": "creative"
+    },
+    {
+      "id": "readsy",
+      "name": "Readsy Signup",
+      "status": "PARK",
+      "end_user": "Human once \u00b7 Playwright after",
+      "profit": "$ automation SaaS",
+      "source": "fleet/bus/IDEAS.txt",
+      "tier": "backlog"
+    },
+    {
+      "id": "mesh_qr",
+      "name": "Mesh Radio QR Fleet",
+      "status": "PARK",
+      "end_user": "Phone join mesh instantly",
+      "profit": "$0 fleet extension",
+      "source": "fleet/bus/IDEAS.txt",
+      "tier": "backlog"
+    },
+    {
+      "id": "reggae",
+      "name": "Reggae Master Design",
+      "status": "NEW",
+      "end_user": "Gem/Uncle \u00b7 new project UI law",
+      "profit": "$0 design system",
+      "source": "fleet/design/REGGAE_MASTER.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "insomniac",
+      "name": "Insomniac Power Fix",
+      "status": "OPEN",
+      "end_user": "CB1 stay awake plugged in",
+      "profit": "$0 reliability",
+      "source": "insomniac.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "stripe_cards",
+      "name": "Card Reader Stripe",
+      "status": "LIVE",
+      "end_user": "Scanner upsell after 6 free",
+      "profit": "$$ subscription \u00b7 test 4242",
+      "source": "lester/baseball_cards/STRIPE_SETUP.md",
+      "tier": "money"
+    },
+    {
+      "id": "fruition",
+      "name": "Fruition Roll Board",
+      "status": "LIVE",
+      "end_user": "Brian pick A/B/C ship lane",
+      "profit": "$0 decision support",
+      "source": "fleet/bus/FRUITION_BOARD.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "dog_trust",
+      "name": "Dog Trust Test",
+      "status": "PARKED",
+      "end_user": "Internal trust experiment",
+      "profit": "$0 \u00b7 not a crew member",
+      "source": "fleet/DEAD_WORDS.txt",
+      "tier": "backlog"
+    },
+    {
+      "id": "camel_spike_05",
+      "name": "Camel v0.5 Continue",
+      "status": "SPIKE",
+      "end_user": "Game design iteration",
+      "profit": "$0 R&D",
+      "source": "drop_pile/done/CAMEL_v0.5_continue.md",
+      "tier": "spike"
+    },
+    {
+      "id": "camel_spike_06",
+      "name": "Camel v0.6 Dynasty",
+      "status": "SPIKE",
+      "end_user": "Game design iteration",
+      "profit": "$0 R&D",
+      "source": "drop_pile/done/CAMEL_v0.6_dynasty.md",
+      "tier": "spike"
+    },
+    {
+      "id": "camel_spike_07",
+      "name": "Camel v0.7 Home vs Road",
+      "status": "SPIKE",
+      "end_user": "Game design iteration",
+      "profit": "$0 R&D",
+      "source": "drop_pile/done/CAMEL_v0.7_design_home_vs_road.md",
+      "tier": "spike"
+    },
+    {
+      "id": "spike_gen",
+      "name": "SPIKE 3000 Generations",
+      "status": "SPIKE",
+      "end_user": "Genealogy math research",
+      "profit": "$0 research",
+      "source": "drop_pile/done/SPIKE_3000_generations_math.md",
+      "tier": "spike"
+    },
+    {
+      "id": "spike_dai",
+      "name": "SPIKE Yellow Emperor Gap",
+      "status": "SPIKE",
+      "end_user": "Genealogy research",
+      "profit": "$0 research",
+      "source": "drop_pile/done/SPIKE_yellow_emperor_dai_gap.md",
+      "tier": "spike"
+    },
+    {
+      "id": "spike_fair",
+      "name": "SPIKE Intersections Fair",
+      "status": "SPIKE",
+      "end_user": "Genealogy connections",
+      "profit": "$0 research",
+      "source": "drop_pile/done/SPIKE_intersections_connections_fair.md",
+      "tier": "spike"
+    },
+    {
+      "id": "mick_index",
+      "name": "Mick Index",
+      "status": "PRODUCE",
+      "end_user": "Collector browse index",
+      "profit": "$ list sales aid",
+      "source": "/mick",
+      "tier": "money"
+    },
+    {
+      "id": "garage_radio",
+      "name": "Garage Radio",
+      "status": "PRODUCE",
+      "end_user": "Brian vibe \u00b7 card lore radio",
+      "profit": "$0 engagement",
+      "source": "brian_produce radio",
+      "tier": "creative"
+    },
+    {
+      "id": "fortune",
+      "name": "Garage Fortune",
+      "status": "PRODUCE",
+      "end_user": "Brian daily nudge",
+      "profit": "$0 morale",
+      "source": "brian_produce fortune",
+      "tier": "creative"
+    },
+    {
+      "id": "scan_pager",
+      "name": "Scan One-Pager",
+      "status": "PRODUCE",
+      "end_user": "New scanner onboarding",
+      "profit": "$ converts to Stripe",
+      "source": "brian_produce scan",
+      "tier": "money"
+    },
+    {
+      "id": "audio_done",
+      "name": "Audio Done Receipts",
+      "status": "LIVE",
+      "end_user": "Brian \u00b7 hear what finished",
+      "profit": "$0 ops joy \u00b7 mobile /done",
+      "source": "fleet/AUDIO_DONE.txt",
+      "tier": "platform"
+    },
+    {
+      "id": "team_order",
+      "name": "Team Order Log",
+      "status": "LIVE",
+      "end_user": "Brian one-line who gets job",
+      "profit": "$0 routing",
+      "source": "fleet/indie_loop/TEAM_ORDER.txt",
+      "tier": "platform"
+    }
+  ]
+}

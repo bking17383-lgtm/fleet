@@ -1,0 +1,16 @@
+# Gemini personality txt — when Brian drops it
+
+Drop file as one of:
+  lester/camel/graphics/in/PERSONALITY.txt
+  lester/camel/graphics/in/STYLE.txt
+  convert_inbox/*.txt
+
+CAPTN will (no Gemini replay):
+  1. Read txt once
+  2. Write lester/camel/graphics/STYLE.md for game + future agents
+  3. Map 25 art pieces → asset names if listed in txt
+  4. Log one cursor line in TOKEN_AUDIT_GRAPHICS.txt
+
+Brian: do NOT paste whole Ultra chat into Cursor — txt export only.
+
+Ultra jail x4 = stop Gemini art loops. Pro/local edit until Ultra killed.

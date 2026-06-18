@@ -1,0 +1,23 @@
+DADDY SLAVE — LIVE · 2026-06-17
+host: penguin · Brian does nothing
+
+WHAT IT IS
+  box_slave_loop.py daddy — reads TO_DADDY.txt every 30s
+  writes FROM_DADDY.txt · drop_pile/from_lester/ACK.txt
+
+START (Daddy already ran this on penguin):
+  bash ~/GoogleDrive/MyDrive/fleet/bootstrap/start_daddy_slave.sh
+
+YOU (Brian)
+  · Write job → fleet/indie_loop/TO_DADDY.txt (or type DADDY on /goal)
+  · Slave picks it up · no bash · no admin
+
+HEAR DADDY (audio fix)
+  REAL_ALEXA was blocking speaker — ready loop now uses espeak too
+  Phone: https://hitme.dev/listen — TAP ▶ or yellow button
+  mp3:   https://hitme.dev/ready/daddy.mp3
+
+SLAVE ≠ audio alone — slave = job watcher on Drive
+  Audio loop = cpt_daddy_ready_loop.py (also LIVE)
+
+Word: SLAVE · LISTEN

@@ -1,0 +1,20 @@
+# Paste to Gemini on puppy64 — loader only · 2026-06-16
+
+Brian said PUPPY. You are NET loader · not captain · not Daddy.
+
+Read first:
+  drop_pile/to_puppy/PUPPY_WAKE_NOW.txt
+  fleet/bus/cpt_to_puppy.txt
+
+Terminal — ONE line:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+Must rewrite fleet/bus/puppy_outbox.txt with:
+  PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+If fail:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+Then open Cursor on puppy · word NET or PUPPY in agent.
+
+Post only · no architecture essays.

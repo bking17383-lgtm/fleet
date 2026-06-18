@@ -1,0 +1,4 @@
+SYNC_PULSE — 2026-06-16T08:12:43-07:00
+note=EMERGENCY_ECHO sync
+read=fleet/SYNC_TRIGGERS.txt
+Word: SYNC

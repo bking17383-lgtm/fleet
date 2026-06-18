@@ -1,0 +1,38 @@
+DADDY WAIT — delegate all · team before move
+Updated: 2026-06-16
+
+Brian law: Daddy posts orders · waits for team · does NOT execute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY DOES (CB2 background only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  hitme · screen 20s · router · drive_watch · autopilot · checkin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY DOES NOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  mesh · sarah · uncle_exec · repair_crew · fake check-ins
+  claim 4/4 · run work meant for Puppy/Uncle/Gem
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEAM MUST POST (fresh · 90s)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PUPPY: fleet/bus/puppy_outbox.txt
+    PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+  UNCLE: fleet/bus/uncle_to_cpt.txt
+    UNCLE CHECKIN — cb1 — <ip> — <time>
+    host must NOT be penguin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNTIL roll=4/4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy mode: WAIT
+  Read: fleet/bus/CPT_READY.txt (DADDY WAIT)
+  Words: PUPPY · UNCLE on their machines
+
+Word: WAIT

@@ -1,0 +1,19 @@
+Kill Seaport (Google restored junk — not our fleet)
+
+On Chromebook (Chrome OS — not Linux):
+
+1. Click the circle (Launcher) at bottom left
+2. Find Seaport icon → right-click → Uninstall
+   OR: Settings → Apps → Google Play Store → Manage Android preferences
+       → Apps → Seaport → Uninstall
+
+If it came from Play Games:
+  Settings → Apps → Google Play Games → disable or uninstall old games
+
+You do not need Seaport. It is not Brian's app. Safe to delete.
+
+If it keeps coming back:
+  Settings → Google → Backup → turn OFF "Restore apps" for new device setup
+  (Google loaded ~20 years of stuff — you pick what stays)
+
+CB2 Linux is already game-free: fleet/CB2_NO_GAMES.txt

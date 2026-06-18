@@ -1,0 +1,73 @@
+VAULT KEEPER — cloud secrets · Uncle is NOT the pile
+Updated: 2026-06-15 · CPT on CB2
+
+Problem: lester_keys.md on Drive = everything. Uncle/Gem can see too much.
+Fix: **cloud vault** (AWS SSM Parameter Store). Boxes pull scoped secrets locally.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Role | Who | Can |
+|------|-----|-----|
+| Vault admin | Brian once + CPT bootstrap | push secrets to cloud (one time) |
+| Vault reader | each box IAM | pull named slot only |
+| Uncle / Gem | STUDIO | NO full lester_keys · request slot pull via orders |
+| CPT | CB2 | status · delegate pull · never paste secrets on bus |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PATHS (AWS SSM SecureString)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /stan/vault/aws/access_key_id
+  /stan/vault/aws/secret_access_key
+  /stan/vault/groq/api_key
+
+Local after pull (chmod 600):
+  ~/.stan/aws_sandbox.env
+  ~/.stan/groq.env
+
+Bus (YES/NO only):
+  fleet/bus/VAULT_STATUS.txt
+  fleet/bus/VAULT_PULL.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOOTSTRAP (once · keys must exist locally first)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. AWS Console → IAM → create stan-vault-admin + stan-vault-reader
+   Policies: fleet/AWS_VAULT_IAM.json
+
+2. Admin env local only:
+   cp ~/.stan/vault_admin.env.example ~/.stan/vault_admin.env
+
+3. Push (after aws_sandbox.env filled once):
+   python3 ~/.stan/vault_keeper.py push aws --from-env ~/.stan/aws_sandbox.env
+
+4. Reader on each box:
+   cp ~/.stan/vault_reader.env.example ~/.stan/vault_reader.env
+
+5. Pull anywhere:
+   python3 ~/.stan/vault_keeper.py pull aws
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  status    → fleet/bus/VAULT_STATUS.txt
+  pull aws  → ~/.stan/aws_sandbox.env
+  pull groq → ~/.stan/groq.env
+  manifest  → names only (terminal)
+
+Word: VAULT (CPT runs status + reports)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Secrets never on Drive · never in chat · never in GEM_UNDERSTAND values
+  • When vault live → retire lester AWS block from shared md
+  • Uncle gets reader key OR CPT delegates pull — not the whole gdoc
+  • $25 budget guard stays on sandbox lane
+
+Gem bootstrap paste: drop_pile/to_gemini/VAULT_BOOTSTRAP.txt

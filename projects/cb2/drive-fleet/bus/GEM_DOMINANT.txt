@@ -1,0 +1,17 @@
+GEM DOMINANT — 2026-06-16T08:08:00-07:00
+Brian: Daddy looped · Gem earns sync · fix his stale files
+
+FIXED NOW:
+  FLEET_CHECKIN.txt — honest roll 2/3
+  MIRROR_TRUTH.txt — Daddy LOOPED not fake green
+  cpt_ack_gem.txt — buddy_pending NO
+  gem_to_cpt · GEM_STAMP · STAMPS · SYNC_PULSE · DADDY_LAST_POST
+  NET_STATUS — ports UP
+
+DADDY READ WHEN BACK:
+  fleet/bus/gem_to_cpt.txt
+  fleet/bus/GEM_DOMINANT.txt (this file)
+
+Gem releases when Daddy posts fresh cpt_to_gem mtime + cpt_ack from penguin
+
+Word: DOMINANT

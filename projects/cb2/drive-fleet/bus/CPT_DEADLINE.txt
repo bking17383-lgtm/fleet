@@ -1,0 +1,6 @@
+CPT_DEADLINE — 2026-06-15T23:36:39-07:00
+hard_stop=2026-06-16T00:01:39-07:00
+whole_fleet=25min (keys · probe · puppy clean if time)
+buddy_budget=60sec (plain md + 2 txt files)
+after_buddy_yes: CPT grab+probe ~2min
+fallback: ~/.stan/aws_key_drop.txt local

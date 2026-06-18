@@ -1,0 +1,49 @@
+DO THIS NOW — fresh auditor roll — 2026-06-17
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART A — YOU (20 min · second Google account)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Fresh boot · login OTHER Google account (not fleet main if possible)
+
+  2. Main account (phone or other window): Google Drive → My Drive
+     → Share folder "fleet" → auditor email → Role: Viewer
+     → Also share "drop_pile" Viewer (or share whole My Drive once)
+
+  3. On fresh account: open drive.google.com · confirm you see fleet/FARTHEAD.txt
+
+  4. Install Cursor · new project · Open folder = shared Drive MyDrive
+     (must see fleet/ in file tree)
+
+  5. New chat · paste ALL of fleet/FRESH_CURSOR_BOOT.txt · send
+
+  6. Wait · auditor writes fleet/bus/FRESH_CURSOR_VERDICT.txt
+     (if no write access: paste verdict back to main account · you save file)
+
+  7. Tell Daddy on penguin: "verdict up" or paste verdict text
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART B — GEM / CLERK (hold the joke)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Gem wants a job · hah · law says:
+    · BUDDY dead · GEM dying → CLERK
+    · No new orders until auditor PASS + Brian picks lane
+
+  On CB1 if Gem tab open · paste once:
+
+    HOLD — auditor roll — 2026-06-17
+    Read fleet/FRESH_BOOT_ROLL.txt · no build · no buddy inbox
+    Post one line gem_to_cpt: CLERK ok — holding for fresh cursor — <time> · host: cb1
+
+  Bunny/Daddy "I need a job" loops: OK to say · do not ship infra until verdict
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART C — DADDY (penguin · after verdict)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  · Read FRESH_CURSOR_VERDICT cold
+  · Execute only what Brian + verdict authorize
+  · No self-audit · no gcloud until verdict allows
+
+Word: DO THIS · VERDICT · HOLD GEM BUILD

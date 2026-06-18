@@ -1,0 +1,8 @@
+MESH RADIO — phone base (works on LTE, no Tailscale needed)
+
+https://trademark-harder-disclaimer-episodes.trycloudflare.com/rover
+
+ROVER lane for Moto: fleet/ROVER_RADIO_URL.txt
+Add to Home Screen. Name: CAPTN
+Updated: 2026-06-15T17:22:30-07:00
+Keep Chromebook awake.

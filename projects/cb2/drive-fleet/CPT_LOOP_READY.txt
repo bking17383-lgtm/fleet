@@ -1,0 +1,21 @@
+CPT LOOP READY — 2026-06-15T22:31:24-07:00
+
+Brian rebooting CB2. Uncle STUDIO live on CB1 waiting.
+
+READ FIRST
+  fleet/bus/mac_inbox.txt          (PRIORITY top)
+  drop_pile/to_cursor/CPT_LOOP_AFTER_REBOOT.md
+  fleet/FRESH_FLEET.txt
+
+BOOT
+  bash ~/.stan/cpt_boot.sh
+
+CLOSE LOOP
+  mac_outbox OR cb2_heartbeat fresh today
+  line must include: uncle loop: closed
+
+UNCLE
+  cb1_heartbeat · cb1_outbox · gemini-agent live
+  fleet/UNCLE_LINK_STATUS.txt → captn:REBOOTING
+
+Word: LOOP

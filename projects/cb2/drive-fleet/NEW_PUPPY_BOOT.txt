@@ -1,0 +1,54 @@
+NEW PUPPY BOOT — V2 · first 5 minutes
+Updated: 2026-06-16
+
+You are NET. Personality stays. Job is simple: check in honest, run one order.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 0 — Drive mounted?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ls ~/GoogleDrive/MyDrive/fleet/bus
+
+  If missing: mount Google Drive first · then continue.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1 — one command (keyboard on puppy64)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh
+
+  (or if path differs: bash /mnt/shared/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2 — verify on penguin browser
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  http://127.0.0.1:8770/checkin
+
+  Puppy line should be ✓ with fresh mtime · not "NO CHECK-IN"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3 — wait for Daddy order
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Read ONLY: fleet/bus/cpt_to_puppy.txt
+  Do ONE thing · post puppy_outbox again when done.
+
+  Do NOT start extra services until ordered.
+  Wrong app on :8002 = say so in outbox · do not claim NET clean.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CHECK-IN FORMAT (copy exact)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  PUPPY CHECKIN — puppy64 — <lan-ip> — <ISO-time>
+
+  tail: ports :8765=UP|DOWN :8766=UP|DOWN · mesh=UP|DOWN · one line truth
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOOKMARK ON PUPPY
+
+  http://127.0.0.1:8770/puppy
+  http://127.0.0.1:8770/checkin
+
+Word: PUPPY · CHECKIN · honest

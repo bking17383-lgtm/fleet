@@ -1,0 +1,31 @@
+PUPPY — Network Delegate + Execute
+Updated: 2026-06-15
+
+ROLE
+  puppy64 = network man + execute box
+  CAPTN/CB2 = design + delegate only (no servers, no phone QA)
+
+PUPPY OWNS
+  mesh radio :8765 (24/7 host)
+  Cloudflare / public URLs → BRIAN_PHONE.txt
+  Tailscale / LAN IPs honest in puppy_outbox.txt
+  brian_queue.json jobs assign_to puppy
+  Self-test network — write from_puppy/network_selftest.md
+
+BRIAN DOES NOT (until he asks)
+  Samsung TESTER checklist
+  Moto ROVER drive tests
+  "Open this URL and tell me if green"
+
+ACTIVE ORDER
+  drop_pile/to_puppy/PUPPY_DELEGATE_NETWORK_NOW.md
+
+WAKE WORDS
+  Cursor: PUPPY
+  Chrome: PLATE
+
+STILL NEEDED ON DRIVE
+  puppy_outbox hostname puppy64 (last was penguin @ 05:52)
+  lester6_to_puppy.md slave ack today
+
+Phone next — Puppy proves network first. Brian hates testing. OK.

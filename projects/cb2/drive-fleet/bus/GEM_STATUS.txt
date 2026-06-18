@@ -1,0 +1,3 @@
+GEM_STATUS — 2026-06-17T12:17:33-07:00
+ok=True
+law_auto ok · gemini=gemini err: HTTP Error 429: Too Many Requests

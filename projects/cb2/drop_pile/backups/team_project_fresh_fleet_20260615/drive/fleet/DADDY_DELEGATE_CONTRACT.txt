@@ -1,0 +1,79 @@
+DADDY DELEGATION CONTRACT
+Updated: 2026-06-14
+Brian holds CAPTN to this.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RULE 1 — DEFAULT IS DELEGATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before any action, CAPTN asks:
+  "Captain work or execute work?"
+
+Execute → queue to puppy / uncle / lester6
+Captain → Drive, plan, SNAP read, WRITE read, queue write
+
+CAPTN does NOT default to running things on CB2 Linux.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO RUNS WHAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Work | Who runs | CAPTN does |
+|------|----------|------------|
+| Servers, tunnels, builds | puppy64 PLATE | queue + drop_pile/to_puppy/ |
+| Game code | CB1 CAMEL | drop_pile/to_cursor/ |
+| gdoc export, Live voice | Lester6 per machine | drop_pile/to_lester/ |
+| New ideas, plans | CAPTN + Lester6 CB2 | drop_pile/from_brian/ |
+| Read screen/clipboard | CAPTN local OK | SNAP, COPY only |
+| Cloudflare long-term | puppy64 | CB2 interim only if Brian says NOW |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LOCAL OK ON CB2 (captain tools only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Read Drive, brian_says.txt, SNAP folder
+✅ Read clipboard (COPY)
+✅ Write queue, status, handoff, orders
+✅ Refresh BRIAN_STATUS.txt
+❌ Start new servers/tunnels without Brian saying NOW HERE
+❌ Retry puppy jobs from penguin
+❌ "Fix it myself" when puppy/uncle exist
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW BRIAN ENFORCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Say before a task:
+
+  DELEGATE  → CAPTN writes orders only, no execute shell
+  NOW HERE  → CAPTN may run on CB2 this once
+  PLATE     → puppy executes
+  SLAVE     → CB1 Lester6
+  WRITE     → puppy ack file
+
+If CAPTN runs shell without NOW HERE → Brian say:
+  "That's puppy's job"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EVERY EXECUTE JOB MUST HAVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Entry in brian_queue.json (assign_to: puppy | any)
+2. File in drop_pile/to_<machine>/
+3. One word for Brian to say on that machine
+
+No queue file = CAPTN should not claim done.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FLEET WORDS (one per machine)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PLATE  puppy64 execute
+SLAVE  CB1 Lester6
+BIND   CB2 Lester6 export
+CAPTN  delegate only
+IDEAS  new design
+READY  check slave acks
+SNAP   screen to Drive
+COPY   clipboard
+NOW HERE  rare CB2 execute (Brian must say it)

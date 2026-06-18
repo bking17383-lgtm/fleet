@@ -1,0 +1,8 @@
+ONE WORD: BUNNY
+
+Job done? Brian types: LOOP
+
+ELSE — copy everything below this line:
+---
+JOB: 
+(paste on Bunny · overwrites TO_BUNNY.txt · loop updates FROM_BUNNY.txt)

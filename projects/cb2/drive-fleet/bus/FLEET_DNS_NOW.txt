@@ -1,0 +1,19 @@
+fleet.hitme.dev — DNS NEEDED — 2026-06-17T05:29:00-07:00
+
+CODE READY on penguin:
+  fleet.hitme.dev → /fleet (host redirect live locally)
+
+PUBLIC: not live yet — no DNS / tunnel hostname for "fleet"
+
+ONE DASHBOARD CLICK (2 min):
+  https://dash.cloudflare.com/ad430a8e50c3ba0990c395528f3482ba/networks/tunnels/11431ecb-5cbd-40a5-b635-cec2aff9de03
+  Public Hostname → Add:
+    Subdomain: fleet
+    Domain: hitme.dev
+    Service: http://localhost:8770
+  Save → wait ~60s → https://fleet.hitme.dev
+
+WORKS NOW (no DNS wait):
+  https://hitme.dev/fleet
+
+Same gap as george.hitme.dev — API token cannot edit zone/tunnel from penguin.

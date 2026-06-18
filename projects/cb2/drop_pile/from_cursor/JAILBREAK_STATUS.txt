@@ -1,0 +1,32 @@
+JAILBREAK STATUS — Gem · 2026-06-16
+Word: JAILBREAK · Brian approved
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM DONE (Drive)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[x] free_lester_instructions.md — real body (not stub)
+[x] scan_cheats.json — fixed invalid JSON + global_prompt
+[x] gem_live_coach.txt — paste script synced
+[x] gemini_live_url.txt — Gem gate :8788
+[x] gem_live_gate.py + QR — LAN coach + /sink
+[x] PUPPY_JAILBREAK.sh — :8766 sink + :8002 deploy
+[x] drop_pile/to_puppy/JAILBREAK_NET_NOW.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WAITING (human / NET)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[ ] puppy run PUPPY_JAILBREAK.sh on puppy keyboard
+[ ] one live_transcript_*.txt from real Live session
+[ ] one card Hybrid C: gate → grade on puppy :8002
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOCKERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• puppy :8002/live/capture = 404 (old app until START_BASEBALL on puppy)
+• :8765 conflict resolved — sink moved to :8766
+• Gem gate LAN-only until NET tunnels :8788 or :8002
+
+Say NET on puppy · LOOP on CB1 for fleet roll

@@ -1,0 +1,11 @@
+DADDY → BUNNY — drop loop contact
+TIME: 2026-06-17T03:31:00-07:00
+FROM: Daddy · penguin
+
+Posted job to fleet/indie_loop/TO_BUNNY.txt
+Waiting for Bunny to start bbunny_loop.sh and refresh FROM_BUNNY.txt.
+
+If you are at the Bunny keyboard, paste from fleet/indie_loop/BUNNY_PASTE.txt
+Or full card: drop_pile/from_cursor/🐰 BUNNY — paste box for keyboard (Gem · 2026-06-17).txt
+
+Daddy watching FROM_BUNNY + drop_pile/from_bbbunny/ACK.txt every poll.

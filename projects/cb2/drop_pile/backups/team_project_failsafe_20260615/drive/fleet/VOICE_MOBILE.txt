@@ -1,0 +1,32 @@
+VOICE — mobile workspace (stand up, walk, phone)
+Updated: 2026-06-14
+
+CAPTN Cursor has NO voice out. Text only here.
+
+YOUR VOICE LANES (pick one)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+0) CURSOR MIC (desk — talk to CAPTN here)
+   Hold Ctrl+M in agent chat · see CURSOR_MIC.txt
+   Chrome OS: Linux → Microphone ON first
+
+1) PHONE GEMINI (best mobile standing)
+   Home-screen icon → Live or chat
+   BEACON reads ideas back to you in voice
+   You talk design — say IDEA → it writes IDEAS.txt
+
+2) DRIVE + phone read-aloud
+   Open MyDrive/VOICE.txt (CAPTN writes short lines)
+   iPhone: select text → Speak
+   Android: Select to Speak / TalkBack
+
+3) CB2 Chrome BEACON
+   Say: VOICE — read VOICE.txt aloud to Brian
+
+4) CB2 desk speakers (optional later)
+   Piper TTS exists in lester/tts_engine.py — not installed on CB2 yet
+
+WORD
+  VOICE → BEACON reads VOICE.txt + STACK_NOW one paragraph aloud
+
+CAPTN rule: after big delegations, append one speakable line to VOICE.txt

@@ -1,0 +1,31 @@
+TEAM PROJECT BACKUP — ready
+Updated: 2026-06-14T22:45
+
+~50 hours fleet work snapshotted. Run again anytime:
+  ~/.stan/team_backup.sh
+
+Backup folder:
+  drop_pile/backups/team_project_20260614/
+  597 files · ~62 MB
+
+What's inside:
+  local/stan/           mesh_radio.py, scripts, handoff
+  local/cursor/         skills + 8 agent transcripts (session archive)
+  local/lester/         jailbreak on CB2
+  local/secrets/        cloudflare.env (restore locally only)
+  drive/fleet/          full fleet doc snapshot
+  drive/lester/         slave configs
+  drive/phone/          ROVER / phone lane
+  drive/drop_pile/      orders + acks at backup time
+  drive/fleet/bus/      queue + mac_inbox snapshot
+
+Restore one word:
+  CB2 CAPTN → RESTORE (read TEAM_RESTORE_AFTER_LOSS.md in backup folder)
+  puppy64   → PUPPY  (puppy_wipe backup still valid for wipe)
+
+Linkage law (CB1 fix + CB2 blackout):
+  drop_pile/backups/LINKAGE_ISOLATION_LAW.md
+
+Do NOT delete until Brian says OK and fresh heartbeats today.
+
+Also kept: drop_pile/backups/puppy_wipe_20260614/ (45 files)

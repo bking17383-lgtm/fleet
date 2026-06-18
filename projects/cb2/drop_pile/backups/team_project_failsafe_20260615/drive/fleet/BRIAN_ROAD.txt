@@ -1,0 +1,64 @@
+BRIAN — talk to the fleet from anywhere
+Updated: 2026-06-14
+Priority: Lester Jr (Gemini Live) + phone comms. CAMEL game parked.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHILE DRIVING / ON LTE / ANYWHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1) VOICE — open Gemini app on phone
+   Say to start:  LIVE
+
+   (Uses Lester Jr once export lands on Drive.
+    Until then: talk design, then say "save to brian_says")
+
+2) TEXT — Google Drive app on phone
+   Open:  brian_says.txt
+   Add one line at the top. Save.
+   CAPTN reads it within minutes on CB2.
+
+3) READ BACK — Google Drive app
+   Open:  BRIAN_STATUS.txt
+   Plain English fleet answer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIVE-LETTER WORDS (remember these)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LIVE   → you + Lester Jr on phone (Gemini app)
+WRITE  → edit brian_says.txt on Drive from phone
+CAPTN  → Daddy on CB2 (reads WRITE, delegates)
+PLATE  → puppy64 (servers — say when at home PC)
+CAMEL  → HOLD (game — Brian not thinking about it)
+
+Uncle CB1: use when Brian is ON that Chromebook only.
+Not for camel game. For Lester export / Chrome gdoc reads.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT HAS TO HAPPEN FIRST (blockers)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A) Lester 6 on CB2 Chrome exports Free Lester gdoc
+   → lester/free_lester_instructions.md
+   (Linux agents cannot read .gdoc)
+
+B) PLATE on puppy64 — jailbreak sink :8765 + public tunnel
+   (home Wi-Fi alone does not reach you on the road)
+
+C) Brian pastes exported instructions into Gemini app once
+   → then LIVE works worldwide
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOUR NEXT MOVE (pick one)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+At keyboard on CB2 Chrome (not Linux):
+  Tell Lester 6: export Free Lester to Drive
+
+On phone right now:
+  WRITE — add a line to brian_says.txt with what you need
+
+At home on puppy64:
+  PLATE
+
+CAPTN handles the rest. No bash. No copying between Cursors.

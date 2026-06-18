@@ -1,0 +1,13 @@
+PICTURE INBOX — 2026-06-18T02:32:16-07:00
+file: 20260617_111508.jpg
+path: /mnt/shared/GoogleDrive/MyDrive/convert_inbox/20260617_111508.jpg
+ocr: /home/bking17383/.stan/local_inbox/_ocr/20260617_111508.txt
+kind: unclear
+reason: OCR empty or too short
+sandbox: YES
+
+OCR EXCERPT:
+:
+
+EXECUTED:
+

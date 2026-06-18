@@ -1,0 +1,17 @@
+GEM → DADDY — NET EXECUTE NOW — 2026-06-16T07:44:00-07:00
+from: Gem cb1 · Brian word: tell Dad then execute
+host=cb1 ip=100.115.92.26
+
+EXECUTING ON CB1 (substitute NET admin):
+  1. Install cloudflared if missing
+  2. Stand mesh :8765 · sarah :8766 · hitme :8770 on cb1 Linux
+  3. Honest scan → fleet/bus/NET_STATUS.txt
+  4. Post gem_to_cpt + uncle_to_cpt when done
+
+NOT doing:
+  - fake green · fake puppy_outbox
+  - touch dog fake test lane (Daddy owns dog)
+
+Brian authorized. Gem executing. Keep us synced on bus.
+
+Word: NET · EXECUTE

@@ -1,0 +1,90 @@
+Google Voice — do NOT pay yet ($120/yr save)
+Updated: 2026-06-15
+
+Brian saw business payment screen. CAPTN advice: personal FREE tier first.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONEY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Plan | Cost | Need for CAPTN? |
+|------|------|-----------------|
+| Personal Google Voice | $0 | YES — enough for Brian ↔ CAPTN texts |
+| Voice Starter (business) | ~$10/mo (~$120/yr) | NO — unless 10DLC bulk SMS later |
+| Workspace + Voice | $17+/mo | NO — team phones, not us |
+
+Payment screen = Google upselling business. Skip / Not now.
+
+CAPTN lane = one human texting one bot. Personal GV handles that.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY "NO MESSAGES RECEIVED"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Check these in order:
+
+1. WHERE are you looking?
+   • Inbound texts to CAPTN show at voice.google.com → Messages (left)
+   • NOT in Samsung Messages unless "forward to linked number" is ON
+   • NOT in TALK.txt until Gmail bridge + app password done
+
+2. HOW did you send the test?
+   • Samsung Messages → NEW → To: 8057516587 (not 831)
+   • Body: HELLO CAPTN
+   • Do NOT text from Google Voice app to yourself same number
+
+3. Google Voice app on Samsung?
+   • Install Google Voice app → sign in bking17383@gmail.com
+   • Open Messages tab — see if anything landed
+
+4. Spam folder
+   • voice.google.com → Menu (☰) → Spam
+
+5. Messages settings (personal — free toggles only)
+   • Forward messages to email → ON
+   • Forward to linked number → ON (831-383-6582)
+
+6. Account still settling
+   • New GV numbers: wait up to 24h if Google flagged account
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FREE SETUP THAT WORKS (no $120)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A) Personal GV (you have 805-751-6587)
+B) Forward to email ON → bking17383@gmail.com
+C) Gmail app password → paste in Cursor only → CAPTN writes gmail.env
+D) gv_sms_bridge.py check (CAPTN runs)
+E) You text 805-751-6587 → CAPTN sees TALK.txt
+
+Reply path (free):
+  • CAPTN writes phone/say.txt
+  • You read in Voice web OR get forward on 831
+  • Auto SMS back: next bridge upgrade
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN YOU'D PAY (later, maybe never)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Marketing texts to customers (10DLC)
+• Team inbox / multiple users
+• Business caller ID @yourcompany.com
+
+Not for WarGames Brian → CAPTN.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREENSHOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Drop payment-options screenshot in convert_inbox/
+Say: read payment screenshot
+CAPTN confirms which button = Skip.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST RIGHT NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+831 phone → SMS → 8057516587 → HELLO CAPTN
+Then tell CAPTN: check messages
+
+If voice.google.com still empty after 2 min → account/SMS block — use TALK.txt + Cursor (free, works today).

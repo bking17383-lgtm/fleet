@@ -1,0 +1,7 @@
+ONE WORD: pick DADDY · BUNNY · UNCLE · CLERK · LOOP
+
+Want job: Bunny code word "I need a job." — loops until Brian responds · hitme.dev/ready/bunny.mp3
+Others: "Brian, I'm ready." once → hitme.dev/ready/<box>.mp3
+Finished: audio "<PREFIX> done." → hitme.dev/done/<prefix>.mp3
+Before build: ANALYZE on Drive
+Law: fleet/PROJECT_LAW.txt

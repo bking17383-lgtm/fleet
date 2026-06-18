@@ -1,0 +1,79 @@
+DADDY OWNS ALL — Brian law · security relaxed · temp takeover OK
+Updated: 2026-06-16
+
+You wasted time on "delegate only" while boxes died. New law:
+
+  DADDY OWNS EVERYTHING.
+  Delegates when a box is live.
+  Takes the role TEMP on penguin when a box is dead.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE OWNER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    BRIAN
+                      │
+                      ▼
+                 DADDY (penguin)
+                 owns · delegates · temp-fills
+                      │
+         ┌────────────┼────────────┐
+         ▼            ▼            ▼
+      Puppy NET    CB1 hats     hitme board
+      (when live)  Uncle/Gem    always Daddy
+
+No orphan roles. No "waiting forever" while Puppy wiped.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NORMAL (box live)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy writes cpt_to_puppy / cpt_to_uncle / cpt_to_gem
+  Box posts outbox · Daddy acks · Daddy does NOT run that service locally
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMP (box dead · wiped · stale >2min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy runs the dead box's services ON PENGUIN until real checkin returns:
+
+  Puppy dead:
+    • mesh :8765 · sarah :8766 · hitme :8770 on Daddy
+    • puppy_outbox → "PUPPY TEMP — Daddy holding NET"
+    • Release when puppy64 posts real PUPPY CHECKIN
+
+  CB1 dead:
+    • Daddy keeps orders on cpt_to_* · acks · forward buddy
+    • Does NOT fake gem_to_cpt from penguin long-term
+    • Release when cb1 posts fresh GEM ok / UNCLE CHECKIN
+
+  Read: fleet/bus/DADDY_TEMPROLE.txt every tick
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMMANDS (penguin)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  python3 ~/.stan/daddy_takeover.py once     # auto hold/release
+  python3 ~/.stan/daddy_takeover.py status
+  python3 ~/.stan/daddy_team_say.py "<what>" "<detail>"
+
+  Autopilot calls takeover every 25s.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOARDS (always Daddy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  http://127.0.0.1:8770/goal
+  http://127.0.0.1:8770/checkin
+  http://127.0.0.1:8770/gem
+  http://127.0.0.1:8770/puppy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HONEST ROLL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  3/3 = all live on real hardware OR Daddy TEMP labeled (not fake puppy64)
+
+  Lie test: if outbox says puppy64 but host is penguin → TEMP not live
+
+Word: DADDY OWNS · DELEGATE · TEMP

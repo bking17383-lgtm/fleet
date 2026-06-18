@@ -1,0 +1,23 @@
+CREDIT COUPON — waiting on Brian — 2026-06-17T15:45:00-07:00
+
+Brian fetching coupon · good.
+
+PASTE HERE (any of):
+  · screenshot text · email forward · promo terms copy
+  · fleet/bus/CREDIT_COUPON.txt
+  · drop_pile/inbox/credit_coupon.txt
+
+WE NEED FROM COUPON (robots extract · you don't interpret):
+  · Google account email (if shown)
+  · $ amount · expiry date
+  · "Eligible products" or "Valid for" line (servers vs AI only)
+  · Promo / offer code (if any)
+
+THEN:
+  · 3rd party auditor reads coupon + farthead
+  · writes fleet/CREDIT_CHECK.txt (PASS/FAIL for VM)
+  · still no VM until audit PASS
+
+No gcloud bash required to read coupon text you paste.
+
+Word: COUPON · WAIT · AUDIT

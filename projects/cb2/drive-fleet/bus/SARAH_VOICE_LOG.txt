@@ -1,0 +1,9 @@
+2026-06-15T05:19:09.686815-07:00 heard='doctor follow up'
+2026-06-15T05:19:09.740812-07:00 heard='doctor follow up'
+2026-06-15T05:21:18.714225-07:00 state=start
+2026-06-15T05:26:08.108396 start sarah_voice_sample v2 snap+qr
+2026-06-15T05:27:01.612752 start sarah_voice_sample v2 snap+qr
+2026-06-15T05:40:14.598058 start sarah_voice_sample v3 kid-face snap
+2026-06-15T05:46:46.201456 start sarah_voice_sample v4 devlog
+2026-06-15T05:51:52.320487 start sarah_voice_sample v5 calendar
+2026-06-15T18:49:34.767665 start sarah_voice_sample v5 calendar

@@ -1,0 +1,41 @@
+WAKE PUPPY — easy · delegation
+Updated: 2026-06-16
+
+Brian does ONE thing on puppy64. Daddy does everything else.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOU (penguin)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Say PUPPY here — or nothing. Order already on cpt_to_puppy.txt.
+  Watch: http://127.0.0.1:8770/checkin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PUPPY64 (keyboard once)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Mount Google Drive if needed:
+       ls ~/GoogleDrive/MyDrive/fleet/bus
+
+  2. One paste:
+       bash ~/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh
+
+  That's it. No ONE_COMMAND · no jailbreak · no extra services.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY (automatic)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Sees real PUPPY CHECKIN on Drive
+  • Drops TEMP NET on penguin (:8765 :8766)
+  • Posts next job on cpt_to_puppy.txt
+  • Roll goes 2/3 → 3/3 on checkin
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNCLE (CB1 · optional)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  LAN watch only — cannot wake puppy without keyboard.
+  Word UNCLE if you want scan posted to bus.
+
+Word: PUPPY · WAKE

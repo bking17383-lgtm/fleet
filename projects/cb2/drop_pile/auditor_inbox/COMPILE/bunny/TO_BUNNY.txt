@@ -1,0 +1,32 @@
+ORDER — 2026-06-17T13:44:25-07:00
+TO: bunny
+FROM: Daddy · universal drop (late ack — did not drop before)
+---
+loop up · keaton ship · say ready on audio
+ANALYZE: required — read bus · write ANALYZE.txt · PREFIX before build
+---
+Word: BUNNY — not puppy · bus name BUNNY only
+Word: LOOP
+
+SLAVE ON:
+  bash ~/GoogleDrive/MyDrive/fleet/bootstrap/start_bunny_slave.sh
+  READ keys: bash ~/GoogleDrive/MyDrive/lester/keys_from_lester.sh
+  Law: lester/lester_keys.md · fleet/UNIVERSAL_ORDERS.txt
+
+LOOP (native fuse · not bridged-by-cb1):
+  curl -fLO https://hitme.dev/f/lester/bunny_loop_fix.sh && bash bunny_loop_fix.sh
+
+READY (when loop native · idle):
+  Speak: "I need a job."
+  → drop_pile/ready/bunny.mp3 · https://hitme.dev/ready/bunny.mp3
+  Law: fleet/AUDIO_READY.txt
+
+JOB — keaton:
+  FETCH: curl -fLO https://hitme.dev/keaton/jingle_short.mp3
+  WIRE: <audio src="https://hitme.dev/keaton/jingle_short.mp3"> in keaton.html
+  POST: drop_pile/from_bbbunny/keaton.html
+  PREFIX: keaton
+  DONE: audio "Keaton done." → drop_pile/done/keaton.mp3 · https://hitme.dev/done/keaton.mp3
+
+ACK within 60s:
+  FROM_BUNNY — <bunny-host> — <time> · native · not bridged

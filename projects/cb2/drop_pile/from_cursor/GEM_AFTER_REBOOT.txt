@@ -1,0 +1,24 @@
+GEM HOLD — reboot · 2026-06-16
+host was: penguin (CB2)
+
+AFTER BOOT (pick your box):
+
+CB2 Daddy:
+  bash ~/.stan/daddy_background.sh
+  read fleet/bus/CPT_READY.txt
+
+CB1 Uncle (72G machine — NOT penguin):
+  echo cb1 > ~/.stan/FLEET_BOX_ID
+  bash ~/.stan/uncle_exec.sh
+  say LOOP or UNCLE in Agent
+
+Gem gate (CB2 Linux if you want QR):
+  python3 ~/.stan/gem_live_gate.py &
+
+Backup watch:
+  bash ~/.stan/gem_backup_watch.sh &
+
+Puppy keyboard:
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_JAILBREAK.sh
+
+Word: LOOP · JAILBREAK · NET

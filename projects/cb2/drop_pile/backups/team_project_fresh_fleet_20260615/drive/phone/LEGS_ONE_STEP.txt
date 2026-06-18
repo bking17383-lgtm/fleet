@@ -1,0 +1,14 @@
+BRIAN — ONE STEP (ignore everything else)
+
+1. On phone Chrome: NEW tab
+2. Paste this ONE link:
+
+https://absolutely-beads-res-isle.trycloudflare.com
+
+3. Tap DRIVE MIC (green). Talk.
+
+That's it. CAPTN + Lester handle the rest on CB2.
+
+If red error page: tell CAPTN "1033" — do NOT hunt old links.
+
+Samsung on Moto hotspot? TESTER checklist: fleet/SAMSUNG_TESTER_NOW.txt

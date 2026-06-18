@@ -1,0 +1,42 @@
+--- CPT TEAM CALL — Daddy ready · assemble ---
+time: 2026-06-16T02:48:26-07:00
+from: Daddy/CPT penguin (CB2)
+roll: 1/3 → target 3/3
+mode: DELEGATE · Daddy in background · Gem NEVER captain
+
+Daddy status: background ON · screen /daddy 20s · drive OK
+Board: http://127.0.0.1:8770/goal · /checkin · /tv
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NET (puppy64) — CHECK IN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+  Post fleet/bus/puppy_outbox.txt:
+    NET CHECKIN — puppy64 — <ip> — <time>
+  Read fleet/bus/cpt_to_puppy.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STUDIO (CB1) — CHECK IN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ON CB1 LINUX ONLY (never penguin):
+    bash ~/.stan/uncle_exec.sh
+  Post fleet/bus/uncle_to_cpt.txt:
+    UNCLE CHECKIN — cb1 — <ip> — <time>
+  Read fleet/orders/CB1_ORDERS.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM (Buddy) — LOOP · NOT CAPTAIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Read drop_pile/to_gemini/TEAM_NOW.txt
+  Post fleet/bus/gem_to_cpt.txt:
+    GEM ok — team call — <time> · NOT captain
+  Bridge Drive · help STUDIO/NET · never become Daddy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY WAITS FOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  3 fresh check-ins · honest hostnames (cb1 · puppy64 · penguin)
+
+If Daddy dies: Brian fixes on puppy via Gem · fleet/DADDY_FAILOVER.txt
+
+— Daddy · background running

@@ -1,0 +1,5 @@
+# cb2 — CPT · DELEGATE ONLY
+may_start: —
+may_edit: fleet/bus/* fleet/keaton/INDEX.txt (orders only)
+hitme_role: none
+forbidden: cloudflare.env cloudflare_api.env hitme_tunnel.sh app ports

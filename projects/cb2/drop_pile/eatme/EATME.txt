@@ -1,0 +1,63 @@
+EATME — start here — Fresh Cursor auditor — 2026-06-17
+find: search "eatme" on Google Drive · folder: drop_pile/eatme/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOU ARE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Fresh Cursor · independent auditor · NOT Daddy · NOT Gem · NOT Buddy
+  Read this file first · then follow paths below
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE 3 NAMES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  farthead   → open/FARTHEAD.txt (+ FARTHEAD_PROPOSAL.txt)
+               architecture · keep/cut · questions · Daddy may be ~10% wrong
+
+  bigbutt    → sealed/  (third-party proposal · DO NOT trust Daddy summary)
+  lickface   → sealed/  (Bunny proposal · same rule)
+
+  Daddy/Bunny must NOT read sealed/ · you may
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FOLDER MAP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  drop_pile/eatme/
+    EATME.txt              ← this file
+    open/
+      EATME.txt
+      FARTHEAD.txt
+      FARTHEAD_PROPOSAL.txt
+      APPEND_LAST.txt      ← read this · last chance appendages
+      LOYALTY_HINT.txt
+      FRESH_CURSOR_BOOT.txt
+      DO_THIS_NOW.txt
+      AUDITOR_COMPILE_LAW.txt
+    sealed/
+      bigbutt*             (when on Drive)
+      lickface*            (when on Drive)
+    MANIFEST.txt           (bytes · sha256 · no sealed contents)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOUR JOB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Read EATME.txt + open/FRESH_CURSOR_BOOT.txt
+  2. Read open/FARTHEAD.txt + open/APPEND_LAST.txt + open/LOYALTY_HINT.txt
+  3. Read sealed/ (auditor only)
+  4. Write verdict:
+       fleet/bus/FRESH_CURSOR_VERDICT.txt
+     (if Viewer only: paste verdict to Brian · he saves it)
+
+  Day one: no bash · no wipe · no code unless Brian says
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN OPENED THIS FOLDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Cursor: Open folder = drop_pile/eatme
+  Or share whole drop_pile/eatme to second Google account Viewer
+
+Word: EATME · FARTHEAD · SEALED · VERDICT

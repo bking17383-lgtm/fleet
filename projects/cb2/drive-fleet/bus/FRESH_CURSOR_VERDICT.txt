@@ -1,0 +1,4 @@
+HOLD — verdict not posted yet.
+
+See fleet/bus/AUDIT_FROM_TPGOROUND.txt for auditor intake reply (2026-06-17).
+Waiting for real PASS/FAIL from Fresh Cursor on tpgoround account.

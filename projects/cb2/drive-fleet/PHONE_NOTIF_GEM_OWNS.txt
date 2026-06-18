@@ -1,0 +1,46 @@
+PHONE NOTIF — Gem owns policy · Brian hates spam
+Updated: 2026-06-16
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM OWNS (no Brian forms)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Which apps may notify (allowlist below)
+• ROVER = RADIO bookmark only · no Gemini GL
+• TESTER = mesh QA only · no GL · no Spark loops
+• No agent pings Brian during art — HOLD law
+• This file is truth — CPT does not override without Brian
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ALLOW NOTIFY (only these)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Phone    | OK                          | MUTE everything else |
+|----------|-----------------------------|----------------------|
+| Moto ROVER | ROVER PWA (if any) · Phone/SMS if Brian wants | Gemini · Chrome · Drive · Google · random apps |
+| Samsung TESTER | TESTER mesh tab (optional) | Same + Cursor backup chat only when testing |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN ONE-TIME (each phone · 2 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Settings → Notifications → App notifications
+
+MUTE OFF:
+  • Gemini
+  • Google
+  • Chrome (except you may allow ROVER/TESTER PWA if it has its own entry)
+  • Drive
+  • Anything you don't recognize
+
+Optional: Settings → Sound → Do Not Disturb → ON · allow Phone + ROVER only
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM CANNOT (honest)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Remote-flip Android toggles from Cursor alone — not wired yet.
+Gem owns rules + keeps docs fresh. You tap mute once per phone.
+
+Word: **MUTE** — Gem refreshes this list
+Word: **HOLD** — all fleet notif requests stop

@@ -1,0 +1,4 @@
+HERITAGE CARD DEMO — Gem shipped 2026-06-16
+LAN: http://100.115.92.26:8770/heritage
+Team board: http://100.115.92.26:8770/goal
+Rotate phone landscape · three tabs · ethnic / union / vet

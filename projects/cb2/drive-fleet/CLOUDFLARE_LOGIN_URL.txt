@@ -1,0 +1,5 @@
+A browser window should have opened at the following URL:
+
+https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2FsSHD26ypdsrgxoo_vZW_VBMcOqBhVxWaKh6w-PmgJz0%3D
+
+If the browser failed to open, please visit the URL above directly in your browser.

@@ -1,0 +1,122 @@
+TEAM_DESK — 2026-06-17T07:31:18-07:00
+Brian: desk ask: show me the team and pop gem screen
+
+TEAM_DESK — 2026-06-17T07:34:12-07:00
+Brian: Team Desk opened — Gem on bunny board loop
+
+TEAM_DESK — 2026-06-17T07:34:38-07:00
+Brian: desk ask: this might be good or interesting.
+
+TEAM_DESK — 2026-06-17T07:34:52-07:00
+Brian: desk ask: let's try voice version. yo have voice somewhere?
+
+TEAM_DESK — 2026-06-17T07:35:27-07:00
+Brian: desk ask: voice is not responding yet.
+
+TEAM_DESK — 2026-06-17T07:36:15-07:00
+Brian: desk ask: this screen dynamically changed. I could no longer get into this typing cell without scrolling. can you open your screen reader to see what I experience
+
+TEAM_DESK — 2026-06-17T07:36:21-07:00
+Brian: Team Desk opened — Gem on bunny board loop
+
+TEAM_DESK — 2026-06-17T07:36:40-07:00
+Brian: desk ask: it says "tap a chip" what does that mean?
+
+TEAM_DESK — 2026-06-17T07:37:06-07:00
+Brian: desk ask: open bunny labs on the side. the right side. should be bun.hitme.dev
+
+TEAM_DESK — 2026-06-17T07:40:37-07:00
+Brian: Team Desk opened — Gem on bunny board loop
+
+TEAM_DESK — 2026-06-17T07:41:06-07:00
+Brian: desk ask: what is the prefix of this site? ___.hitme.dev  (any good ideas?)
+
+TEAM_DESK — 2026-06-17T07:42:16-07:00
+Brian: desk ask: health check
+
+TEAM_DESK — 2026-06-17T07:42:57-07:00
+Brian: desk ask: health
+
+TEAM_DESK — 2026-06-17T07:45:42-07:00
+Brian: Team Desk opened — Gem on bunny board loop
+
+TEAM_DESK — 2026-06-17T07:45:58-07:00
+Brian: desk ask: can you keep context if I refresh this page?
+
+TEAM_DESK — 2026-06-17T07:46:25-07:00
+Brian: desk ask: team roster not as good as bunny layout. (bunny labs)
+
+TEAM_DESK — 2026-06-17T07:46:57-07:00
+Brian: desk ask: I am stuck on team roster. the other buttons don't work now. iframe is not popping as it should
+
+TEAM_DESK — 2026-06-17T07:48:27-07:00
+Brian: Team Desk opened — Gem on bunny board loop
+
+TEAM_DESK — 2026-06-17T07:48:59-07:00
+Brian: desk ask: layouts are not good. bunny has great layout for cb and PC. this one ....not easy on the eyes
+
+TEAM_DESK — 2026-06-17T07:49:22-07:00
+Brian: desk ask: transcript lab might be very good. hmmm
+
+TEAM_DESK — 2026-06-17T07:53:05-07:00
+Brian: desk ask: fred wake test
+
+TEAM_DESK — 2026-06-17T07:58:21-07:00
+Brian: desk ask: you might be ahead in the "helper" by LLM race. $1
+
+TEAM_DESK — 2026-06-17T07:58:56-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T07:59:14-07:00
+Brian: desk ask: can I get audio input or output?
+
+TEAM_DESK — 2026-06-17T07:59:39-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T08:00:07-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T08:00:24-07:00
+Brian: desk ask: test: how is everyone? health check
+
+TEAM_DESK — 2026-06-17T08:54:47-07:00
+Brian: desk ask: this page needs url: Fred.hitme.dev
+
+TEAM_DESK — 2026-06-17T08:54:52-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T08:55:06-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T08:55:54-07:00
+Brian: desk ask: gem screen is 3 hours behind
+
+TEAM_DESK — 2026-06-17T09:03:50-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T09:03:57-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T09:42:15-07:00
+Brian: desk ask: send daddy a link to this page. or give me it's hitme url.
+
+TEAM_DESK — 2026-06-17T09:42:23-07:00
+Brian: desk ask: https://fred.hitme.dev/ doesn't work yet
+
+TEAM_DESK — 2026-06-17T09:43:08-07:00
+Brian: desk ask: does Fred have mobile version? can I get voice on mobile? what are the options
+
+TEAM_DESK — 2026-06-17T09:54:59-07:00
+Brian: Team Desk opened — Fred coach · wake CB1
+
+TEAM_DESK — 2026-06-17T10:11:52-07:00
+Brian: Fred wake — Brian on phone
+
+TEAM_DESK — 2026-06-17T10:52:24-07:00
+Brian → bunny: keaton is live — team names wired
+
+TEAM_DESK — 2026-06-17T10:57:12-07:00
+Brian → daddy: architecture updated
+
+TEAM_DESK — 2026-06-17T12:03:17-07:00
+Brian → all: slave on — run fleet/bootstrap/start_*_slave.sh on your box · ack FROM_* within 60s

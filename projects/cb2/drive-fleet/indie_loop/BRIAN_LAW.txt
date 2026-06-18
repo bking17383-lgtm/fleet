@@ -1,0 +1,46 @@
+BRIAN LAW — machines do the work · Brian is the 4th machine
+Saved: 2026-06-17 · Uncle on CB1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN (4th machine)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  One door: fred.hitme.dev/team_desk
+  One line:  daddy: status   ·  bunny: keaton live   ·  gem: fix gl
+  One board: fleet/bus/PARTS_BOARD.txt  ← whole team assembly
+
+  Brian does NOT:
+    open Cursor terminals for agents
+    kill stuck loops
+    copy files between boxes
+    click buttons on each machine
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE DUMB MACHINES (+ slaves)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BUNNY   — builder · TO_BUNNY.txt · FROM_BUNNY.txt
+  CB1     — Gem+Uncle · cb1_slave_loop.py · TO_GEM.txt
+  DADDY   — ideas + delegate · TO_DADDY.txt · IDEAS.txt
+
+  Every box: slave loop ~30s · read TO_* · execute · write ack
+  Gemini agent = coach only · slave = hands that actually run
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IDEAS MACHINE (= Daddy / Captain)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  In:   fleet/bus/IDEAS.txt        (any box can append)
+  Out:  fleet/bus/IDEAS_READY.txt  (Daddy analyzes · picks · delegates)
+  Brian types ideas to captain — Daddy rolls the deck · machines build
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ASSEMBLY (multi-machine builds)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/PARTS_BOARD.txt — one screen · all pieces
+  Each box drops: status · ports · last job · what it contributed
+  Whole project = Bunny piece + CB1 piece + Daddy piece
+  No human glue unless Brian chooses one line at team desk
+
+Word: FOURTH · SLAVE · PARTS · NO_CLICKS

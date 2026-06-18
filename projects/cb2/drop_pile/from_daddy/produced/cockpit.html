@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garage Cockpit</title><style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0b0b0d; color: #e8e8ea;
+    min-height: 100dvh; }
+  .silver { color: #a8a8ad; }
+  .red { color: #d5001c; }
+  a { color: #e8e8ea; text-decoration: none; border-bottom: 1px solid #444; }
+  a:hover { border-color: #d5001c; color: #fff; }
+
+  .wrap { max-width: 420px; margin: 0 auto; padding: 1.5rem 1rem 2rem; }
+  h1 { font-size: 0.75rem; letter-spacing: 0.35em; text-transform: uppercase; color: #666; margin-bottom: 0.25rem; }
+  .model { font-size: 1.75rem; font-weight: 300; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
+  .model span { font-weight: 600; }
+  .tach { position: relative; width: 280px; height: 280px; margin: 0 auto 1.5rem; }
+  .tach svg { width: 100%; height: 100%; }
+  .readouts { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .r { background: #141416; border: 1px solid #222; border-radius: 8px; padding: 0.85rem 1rem; }
+  .r label { display: block; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: #666; }
+  .r b { font-size: 1.35rem; font-weight: 400; font-variant-numeric: tabular-nums; }
+  .action { margin-top: 1.25rem; padding: 1rem 1.1rem; border-left: 3px solid #d5001c; background: #121214; }
+  .action b { display: block; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: #d5001c; margin-bottom: 0.35rem; }
+  .foot { margin-top: 1.5rem; font-size: 0.8rem; color: #555; text-align: center; }
+</style></head><body>
+<div class="wrap">
+  <h1>Garage · Cockpit</h1>
+  <p class="model">hitme<span>.dev</span> · same garage as the Porsche</p>
+  <div class="tach">
+    <svg viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="88" fill="none" stroke="#222" stroke-width="8"/>
+      <circle cx="100" cy="100" r="88" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="4 8"/>
+      <line x1="100" y1="100" x2="100" y2="32" stroke="#d5001c" stroke-width="3" stroke-linecap="round"
+        transform="rotate(60.1 100 100)"/>
+      <circle cx="100" cy="100" r="6" fill="#d5001c"/>
+      <text x="100" y="118" text-anchor="middle" fill="#888" font-size="11">6582</text>
+      <text x="100" y="132" text-anchor="middle" fill="#555" font-size="8">SHIP RPM</text>
+    </svg>
+  </div>
+  <div class="readouts">
+    <div class="r"><label>Collection mid</label><b>$2,092</b></div>
+    <div class="r"><label>Cards cataloged</label><b>497</b></div>
+    <div class="r"><label>Top asset</label><b>$144</b></div>
+    <div class="r"><label>Rookie flags</label><b>66</b></div>
+  </div>
+  <div class="action">
+    <b>Today's one move</b>
+    Send one human the sell sheet or Sarah link. Engine's warm — clutch out.
+  </div>
+  <p class="foot"><a href="/dossier">Deduction dossier</a> · <a href="/brochure">Top card brochure</a> · <a href="/studio">Studio</a></p>
+</div></body></html>

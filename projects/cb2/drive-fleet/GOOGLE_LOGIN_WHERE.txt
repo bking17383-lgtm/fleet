@@ -1,0 +1,54 @@
+GOOGLE LOGIN — WHERE TO BASH — 2026-06-17
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHERE (only one place works)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Machine:  PENGUIN = your CB2 Chromebook (hostname penguin)
+  NOT:      phone · Bunny box · CB1 · hitme.dev web pages
+
+  hitme.dev/terminal = read instructions · does NOT run bash
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW (pick one)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  A) Cursor on penguin (you are here talking to Daddy)
+       Menu → Terminal → New Terminal
+       Paste the two lines below · Enter
+
+  B) Chromebook Linux terminal
+       Launcher → Terminal  (or Ctrl+Alt+T on some setups)
+       Paste the two lines below · Enter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASTE (exact · two steps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Step 1 — login (browser opens · pick account with $300 credit):
+    bash ~/.stan/gcloud auth login
+
+  Step 2 — Daddy builds server (after login succeeds):
+    bash ~/.stan/gcp_net_standup.sh
+
+  Step 1 will ask you to click a link or sign in in browser.
+  Use the Google account that has the cloud credit.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF "command not found"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  You are on the wrong machine. Must be penguin Chromebook.
+
+  Or SDK missing — run once on penguin:
+    bash ~/.stan/gcp_install.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF "no such file"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Drive fuse dead — open Files → Google Drive → My Drive first
+  Or full path:
+    bash /home/bking17383/.stan/gcloud auth login
+
+Word: PENGUIN · TERMINAL · NOT PHONE

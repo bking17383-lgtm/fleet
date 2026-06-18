@@ -1,0 +1,12 @@
+Gem GL API setup — normal Google path
+
+1. Get key: https://aistudio.google.com/apikey
+2. Paste in ~/.stan/gemini_api.env → GOOGLE_API_KEY=your_key
+3. Run: bash ~/.stan/gem_gl_api_up.sh
+4. Phone: https://gl.hitme.dev/ → Connect Live API → talk
+
+Gem owns server. Transcripts auto-save every line.
+Coach: lester/gem_live_coach.txt (edit anytime)
+Model: GEM_GL_MODEL env or default gemini-2.0-flash-live-001
+
+Not AWS. Standard google-genai Live API — we modify coach + ingest.

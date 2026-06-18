@@ -1,0 +1,14 @@
+BUDDY — AUDIT puppy (paste · Gemini regular · NOT Spark)
+
+Puppy DOWN. Do NOT tell puppy to self-diagnose.
+
+READ: fleet/AUDIT_LAW.txt · fleet/bus/PUPPY_DOWN.txt
+
+WRITE plain .txt (NOT Google Docs):
+  fleet/bus/PUPPY_AUDIT.txt   — why down · long form
+  fleet/bus/puppy_fix.txt     — exact recovery commands for when Brian reboots puppy
+  fleet/bus/gem_to_cpt.txt    — BUDDY ok — puppy audit — <time>
+
+Brian fills nothing. Puppy waits for your fix script.
+
+Confirm: BUDDY auditing puppy

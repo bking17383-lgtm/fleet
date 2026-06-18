@@ -1,0 +1,11 @@
+WIPE THE BOYS — CB1 same steps as puppy
+Updated: 2026-06-15
+
+1. bash MyDrive/lester/pack_before_wipe.sh
+2. PACKED
+3. Wipe / fresh Linux
+4. Mount Drive — wait for CPT
+
+CB2 is NOT wiped. No conflict.
+
+Guide: drop_pile/to_puppy/WIPE_NOW.txt

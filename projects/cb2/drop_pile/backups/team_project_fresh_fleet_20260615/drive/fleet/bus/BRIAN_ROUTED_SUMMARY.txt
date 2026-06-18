@@ -1,0 +1,12 @@
+# Brian Router — paste once per tab
+Updated: 2026-06-15T02:13:14-07:00
+
+You typed once in BRIAN_INBOX.txt. Copy from routed/ — do not retype.
+
+## In (TALK.txt): [2026-06-15] today sheet → BRIAN_TODAY.txt
+Fixed: no machine named — default CB2 CAPTN, inferred wake word CAPTN
+Word: CAPTN → cb2
+
+- fleet/bus/routed/cb2_chrome.txt
+- fleet/bus/routed/cb2_cursor.txt
+

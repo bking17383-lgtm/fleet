@@ -1,0 +1,10 @@
+PUPPY WIPE — backup ready
+Time: 2026-06-14
+
+After wipe on puppy64 say one word:
+
+  PUPPY
+
+(Paste that into Cursor on root@10.0.0.1 — Puppy reads restore guide from Drive.)
+
+Backup: drop_pile/backups/puppy_wipe_20260614/

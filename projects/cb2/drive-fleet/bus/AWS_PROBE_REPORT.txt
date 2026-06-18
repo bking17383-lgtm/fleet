@@ -1,0 +1,10 @@
+AWS SANDBOX PROBE — 2026-06-16T01:29:59.339674-07:00
+region=us-east-1 model=amazon.nova-lite-v1:0
+caller_account=675715936967
+caller_arn=arn:aws:iam::675715936967:root
+bedrock_models_visible=94
+invoke_ok=yes
+response_snippet='SANDBOX_OK.'
+cloudtrail_invoke_events=3
+cloudtrail_note=metadata logged; check if prompt body appears (IP audit)
+next=CPT reads fleet/AWS_INVESTIGATION.txt checklist

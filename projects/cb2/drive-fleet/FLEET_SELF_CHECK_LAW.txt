@@ -1,0 +1,38 @@
+FLEET SELF-CHECK LAW — Brian order
+Updated: 2026-06-16T02:10:00-07:00
+
+Everyone self-check every **25 seconds** until the system is **green**.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GREEN (stop aggressive loop when ALL true)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • CPT desk :8770 UP · mesh :8765 · sarah :8766
+  • lester/lester_keys.md has AKIA line
+  • puppy_outbox clean post (NET alive)
+  • gem_to_cpt + GEM_UNDERSTAND plain .txt · fresh
+  • uncle_to_cpt if STUDIO in play
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO · WHAT · WHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Box | Every 25s | Post |
+|-----|-----------|------|
+| CPT (CB2) | fleet_self_check.py watch | fleet/bus/FLEET_SELF_CHECK.txt |
+| BUDDY (Gem pane) | read cpt_to_gem · do one step · bump gem_to_cpt | fleet/bus/gem_to_cpt.txt |
+| NET (puppy) | ping :8770 · recovery scripts if down | fleet/bus/puppy_outbox.txt |
+| STUDIO (Uncle) | uncle_exec once | fleet/bus/uncle_to_cpt.txt |
+| BRIAN | /goal one line if stuck | TALK.txt · BRIAN_INBOX |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WATCH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/FLEET_SELF_CHECK.txt  — live pulse
+  fleet/bus/SLAVE_PULSE.txt         — append only
+  /goal on team board               — human view
+
+No spin. Plain .txt. One honest line per tick if nothing else moved.
+
+Word: SELF-CHECK

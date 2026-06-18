@@ -1,0 +1,25 @@
+VIDEO SLICER — FINANCE TREE (Brian rule: FIXED, no blank checks)
+================================================================
+
+REVENUE
+  └── Paying customers (future)
+
+FIXED COSTS (allowed)
+  $0/mo  puppy PC + Cloudflare named tunnel + PWA
+  $25    Play Store developer (once — when customers warrant)
+  $6/mo  VPS (optional — when puppy uptime isn't enough)
+
+VARIABLE — CAPPED (not blank check)
+  Groq transcription — per audio minute
+  Server cap: SLICER_UPLOADS_PER_IP_DAY=10 (raise deliberately with revenue)
+
+NOT ON SLICER SPINE
+  Gemini cloud rent
+  Unlimited API autoscale
+
+SCALE RULE
+  New cost line → must be fixed $/month OR hard cap before customers see it.
+
+HOST NOW
+  penguin: dev (Brian)
+  puppy64: production $0 stack — drop_pile/to_puppy/MAKE_IT_SO.md

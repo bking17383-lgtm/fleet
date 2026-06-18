@@ -1,0 +1,52 @@
+# CAPTN on phone — Normal + Emergency
+Updated: 2026-06-15
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPEN ON MOTO (home screen)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+fleet/ROVER_RADIO_URL.txt  →  ends with **/rover**
+
+That opens **CAPTN home** — two buttons:
+
+| Mode | Path | Use |
+|------|------|-----|
+| **Normal Radio** | `/radio` | talk · snap · everyday |
+| **Emergency** | `/emergency` | outage · sick · help now |
+
+Add to Home Screen → name **CAPTN** (not ROVER — same URL)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NORMAL (half-duplex prefetch)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**HOLD TO TALK** — release to send · one direction at a time
+While CAPTN speaks: your words go to **prefetch** (channel stays open)
+Say **CAPTN** or ask a question to get a reply · filler stays queued
+Mode chip: **BRX** your turn · **CAPTX** listen · **PREFETCH** hold
+**Fleet bar** at top — e.g. `1/6 up · no delegate — fleet thin`
+
+SNAP — photo to CAPTN eyes
+HEAR AGAIN — reads reply aloud
+Type + SEND when quiet
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMERGENCY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One tap → logs to BRIAN_INBOX + phone/inbox
+NOT 911 — fleet lane only
+
+Buttons: OUTAGE · SICK/AFK · HELP NOW · PUPPY DOWN · CAN'T GET HOME
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF LINK DEAD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CB2 awake? mesh :8765 up?
+bash ~/.stan/start_mesh_radio_tunnel.sh
+Fresh URL in ROVER_RADIO_URL.txt — paste in **new** Chrome tab
+
+Backup: talk here in Cursor · fleet/bus/BRIAN_INBOX.txt
+
+Contact card: phone/CAPTN.vcf

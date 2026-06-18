@@ -1,0 +1,212 @@
+UNIVERSAL ORDERS — scan + analyze · 2026-06-17 · Daddy
+Brian: analyze before start · audio when done (part or whole) · one-word routing
+
+Universal law: fleet/PROJECT_LAW.txt · fleet/AUDIO_READY.txt · fleet/AUDIO_DONE.txt
+
+Sources scanned:
+  fleet/indie_loop/TEAM_ORDER.txt · TEAM_NAMES.txt · dogbarf/*
+  fleet/orders/* · fleet/bus/FLEET_CHECKIN.txt · DEAD_WORDS.txt
+  drop_pile/from_daddy/BUNNY_KEATON_SOUND.txt · TO_BUNNY.txt
+  Bunny finish: spoke "Brian, I'm done" — Brian loved it · make standard
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ONE WORD → WHO GETS IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  DADDY     → TO_DADDY.txt · penguin captain · delegate default
+  BUNNY     → TO_BUNNY.txt · builder · bun · bbunny (nicknames OK)
+  UNCLE     → uncle lane · CB1 Linux only · uncle_exec
+  CLERK     → cpt_to_gem.txt · CB1 Chrome · plain .txt only (was Gem)
+  ALL       → all three TO_* · team broadcast
+
+  Brian desk: fleet/dogbarf/BRIAN.txt
+  Log every order: fleet/indie_loop/TEAM_ORDER.txt (append block · do not erase)
+
+DEAD (route away · never new docs): DOG · PUPPY lane · CPT spoken · GEM personality · BUDDY
+Law: fleet/DEAD_WORDS.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. ORDER ENVELOPE (every job)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ORDER — <ISO-time>
+  TO: bunny | daddy | uncle | clerk | all
+  FROM: Brian | Daddy | team_order
+  LANE: (optional · who executes)
+  ---
+  <one line goal Brian can read on phone>
+  ANALYZE: required — read bus · write analyze ack · PREFIX before build
+  <steps · paths · curl lines · deliverables>
+  PREFIX: <easiest word>   ← spoken first on done clip (part or whole job)
+  DONE: audio "<PREFIX> done." → drop_pile/done/<prefix>.mp3 (see §4)
+
+Overwrite target TO_* file · one active job per lane.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. UNIVERSAL ACTION LINES (verbs)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  READY (want a job · audio)
+    BUNNY code word: "I need a job." — loop until Brian responds
+    Other boxes: "Brian, I'm ready." → drop_pile/ready/<box>.mp3 · hitme.dev/ready/<box>.mp3
+    Law: fleet/AUDIO_READY.txt
+
+  ANALYZE (required before build)
+    Read order + bus + related files · write analyze ack · set PREFIX
+    Law: fleet/PROJECT_LAW.txt · no apply/wipe until analyze on Drive
+
+  FETCH <url-or-path>
+    curl -fLO https://hitme.dev/f/<MyDrive-path>
+    Law: fleet/FLEET_HTTP_DROP.txt
+
+  READ <path>
+    Open on Drive · quote one line back in ack
+
+  WIRE <what> in <file>
+    HTML · config · route · env row
+
+  POST <path>
+    Write deliverable under drop_pile/from_<who>/ or fleet/bus/
+
+  RUN <command>
+    Local shell only · host must match box (Uncle=cb1 · Bunny=bunny · Daddy=penguin infra)
+
+  DELEGATE <lane> <task>
+    Daddy only · python3 ~/.stan/daddy_delegate.py ...
+
+  ACK <lane> within 60s
+    Refresh FROM_* or *_to_cpt · plain text · no .gdoc
+
+  WAIT
+    Captain holds until roll=3/3 · fleet/bus/CPT_READY.txt
+
+  STATUS
+    Read fleet/bus/FLEET_CHECKIN.txt · one glance answer
+
+  SLAVE ON
+    bash fleet/bootstrap/start_*_slave.sh on your box
+
+  GRAB / WRITE BUS
+    Clerk only · gem_to_cpt.txt must update · chat ≠ bus
+
+  SELF-CHECK
+    Word: SELF-CHECK · fleet/FLEET_SELF_CHECK_LAW.txt
+
+  SCREEN
+    Daddy eyes · fleet/bus/DADDY_SCREEN.txt · hitme.dev/daddy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. DONE — audio + mobile (Brian hears WHAT finished)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Full law: fleet/AUDIO_DONE.txt
+
+  Speak:  "<PREFIX> done."  or  "<PREFIX> done, Brian."
+  PREFIX = easiest word from job headline (keaton · layout · loop · mesh)
+           or box name if no job word (bunny · uncle · clerk · daddy)
+
+  Mobile (all boxes · same paths):
+    drop_pile/done/<prefix>.mp3
+    drop_pile/done/<prefix>.txt     ← one-line receipt + play URL
+    fleet/bus/DONE_FEED.txt         ← append row
+    Play:  https://hitme.dev/done/<prefix>.mp3
+    List:  https://hitme.dev/done   ← phone inbox
+
+  Lane ack (text still required):
+    BUNNY → FROM_BUNNY · done: <prefix> · audio=<url>
+    UNCLE → uncle_to_cpt · UNCLE ok — <prefix> — <time>
+    CLERK → gem_to_cpt + GEM_UNDERSTAND if heavy
+    DADDY → TEAM_ACTIVITY one line
+
+NEVER bare "I'm done" with no name. NEVER chat-only done.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. CHECK-IN LINES (copy exact)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  DADDY:  auto · fleet_self_check on penguin
+  BUNNY:  FROM_BUNNY — <host> — <time>
+  UNCLE:  UNCLE CHECKIN — cb1 — <ip> — <time>
+  CLERK:  CLERK ok — <job> — <time> · host: cb1
+
+Roll: fleet/bus/FLEET_CHECKIN.txt · 3 boxes · CB1 one hat OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. CANNED ORDERS (paste · fill blank)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── builder (Bunny) ──
+ORDER — <time>
+TO: bunny
+FROM: Brian
+---
+<goal one line>
+FETCH: curl -fLO https://hitme.dev/f/<path>
+DELIVER: drop_pile/from_bbbunny/<file>
+PREFIX: <word>
+DONE: audio "<PREFIX> done." → drop_pile/done/<prefix>.mp3
+
+── captain (Daddy) ──
+ORDER — <time>
+TO: daddy
+FROM: Brian
+---
+<goal>
+Delegate unless NOW HERE on penguin.
+
+── hands (Uncle) ──
+ORDER — <time>
+TO: uncle
+FROM: Daddy
+---
+<steps>
+Post uncle_to_cpt when done · host=cb1 only.
+
+── librarian (Clerk) ──
+ORDER — <time>
+TO: clerk
+FROM: Daddy
+---
+READ: <paths>
+WRITE: gem_to_cpt + GEM_UNDERSTAND
+
+── team broadcast ──
+ORDER — <time>
+TO: all
+FROM: Brian
+---
+<one line>
+Ack FROM_* within 60s.
+
+── status (any session) ──
+Word: STATUS
+→ read FLEET_CHECKIN · CPT_BUNNY_LOOP · CPT_READY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. REAL EXAMPLE (Keaton · worked)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ORDER — 2026-06-17T11:35:00-07:00
+TO: bunny
+FROM: Daddy
+---
+keaton is live — team names wired
+FETCH MP3: curl -fLO https://hitme.dev/keaton/jingle_short.mp3
+WIRE <audio src="https://hitme.dev/keaton/jingle_short.mp3"> in keaton.html
+DELIVER: drop_pile/from_bbbunny/keaton.html
+PREFIX: keaton
+DONE: keaton.mp3 · "Keaton done." · https://hitme.dev/done/keaton.mp3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. WHERE ORDERS LIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Active job:     fleet/indie_loop/TO_*.txt
+  History:        fleet/indie_loop/TEAM_ORDER.txt
+  Bunny loop:     fleet/bus/CPT_BUNNY_LOOP.txt
+  Uncle orders:   fleet/orders/CB1_ORDERS.txt · cpt_to_uncle.txt
+  Daddy orders:   fleet/orders/CB2_ORDERS.txt
+  One-word card:  fleet/dogbarf/<NAME>.txt
+  UI:             hitme.dev/bunny · fred.hitme.dev/team_desk
+
+Word: ORDER · DONE · TEAM

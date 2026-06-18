@@ -1,0 +1,149 @@
+FLEET ARCHITECTURE V2 — Brian reset · new puppy · stop the error soup
+Updated: 2026-06-16 · supersedes confusion in old loop docs
+
+Brian: you did not "make ppl too busy." The bus was too noisy.
+V2 = three machines · one job each · one Brian door · honest green only.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE WHOLE THING (one screen)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    BRIAN
+                      │
+                      ▼
+              ┌───────────────┐
+              │  GOAL /goal   │  ← type once · pick lane
+              │  TALK.txt     │
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Daddy penguin │  delegate ONLY · never fake replies
+              │ autopilot 25s │
+              └───────┬───────┘
+                      │ Drive bus (plain .txt)
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+   ┌─────────┐  ┌──────────┐  ┌─────────────┐
+   │ Puppy   │  │ CB1      │  │ hitme :8770 │
+   │ NET     │  │ 1 hat    │  │ goal/checkin│
+   │ edge    │  │ Uncle OR │  │ gem/puppy   │
+   └─────────┘  │ Gem      │  └─────────────┘
+                └──────────┘
+
+Roll = 3/3 machines: Daddy · Puppy · CB1
+CB1 = Uncle OR Gem (one hat) — not both required fresh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THREE JOBS (only these)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DADDY (penguin · CB2)
+  • Write ONE active order per machine (not loop spam stacked on top)
+  • Read outboxes · ack · CPT_READY · needs on /goal
+  • NEVER write uncle_to_cpt or gem_to_cpt from penguin
+  • NEVER SSH puppy · keyboard once when needed
+
+PUPPY (puppy64 · NET)
+  • Post honest check-in every ~25 min (or after boot)
+  • Run what Daddy puts in cpt_to_puppy.txt — one job
+  • Mesh/tunnel ONLY when explicitly ordered — not by default
+  • Wrong port / wrong app = say NO in outbox · no fake NET clean
+
+CB1 (Uncle Linux OR Gem Chrome — one hat)
+  Uncle: bash execute · apps · uncle_to_cpt
+  Gem:   Drive loader · keys · catalog · gem_to_cpt
+  Same keyboard · leave it · do not expect both tabs live
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE DOOR IN (Brian)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  http://127.0.0.1:8770/goal   (penguin · phone on LAN · Tailscale)
+
+  Lane picker:
+    auto   → router picks
+    buddy  → Gem job → cpt_to_gem.txt (NOT just BUDDY_INBOX)
+    net    → Puppy
+    uncle  → CB1 Linux
+    cpt    → Cursor on penguin
+
+  Rule: one line = one job. Daddy forwards to the right file same tick.
+
+  Daddy law: announce BEFORE bus writes
+    fleet/bus/TEAM_ACTIVITY.txt · fleet/bus/DADDY_DOING_NOW.txt
+    python3 ~/.stan/daddy_team_say.py "<action>" "<detail>"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE FILE OUT (each machine)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Daddy  →  fleet/bus/CPT_DELEGATE_NOW.txt (what fleet waits on)
+            fleet/bus/cpt_to_puppy.txt
+            fleet/bus/cpt_to_uncle.txt
+            fleet/bus/cpt_to_gem.txt
+            fleet/bus/CPT_READY.txt
+
+  Puppy  →  fleet/bus/puppy_outbox.txt
+            format: PUPPY CHECKIN — puppy64 — <ip> — <time>
+
+  Uncle  →  fleet/bus/uncle_to_cpt.txt
+            format: UNCLE CHECKIN — cb1 — <ip> — <time>
+
+  Gem    →  fleet/bus/gem_to_cpt.txt
+            format: BUDDY ok — <done> — <time> · host: cb1
+            or:     GEM ok — CPT loop — <time> · host: cb1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WE STOPPED (why errors happened)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✗ LOOP ping overwriting cpt_to_gem (job buried)
+  ✗ BUDDY_INBOX only — Gem reads cpt_to_gem
+  ✗ Fake 3/3 / NET clean when ports wrong
+  ✗ Daddy executing on puppy via SSH
+  ✗ Expecting Uncle + Gem fresh same minute on CB1
+  ✗ hitme.dev as only URL when DNS dead (use 127.0.0.1:8770 / quick tunnel card)
+  ✗ Reading protocol aloud to Alexa (filter → phone/say.txt)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DADDY SCRIPTS (penguin only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bash ~/.stan/daddy_background.sh          # start watchers
+  python3 ~/.stan/cpt_autopilot.py watch 25 # delegate loop
+  python3 ~/.stan/cpt_gem_loop.py reconnect # Gem truth card
+  python3 ~/.stan/fleet_checkin.py once     # honest roll
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BOARDS (bookmark these)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /goal      team · Brian inbox · needs · Alexa
+  /checkin   roll call
+  /gem       Gem LIVE + job pending
+  /puppy     one command for NET box
+  /tv        garage wall
+
+  Local: http://127.0.0.1:8770/goal
+  Card:  fleet/HITME_LIVE_URL.txt (when tunnel up)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEW PUPPY (first 5 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Read: fleet/NEW_PUPPY_BOOT.txt
+  Run:  bash ~/GoogleDrive/MyDrive/lester/NEW_PUPPY_BOOT.sh
+
+  Success = fresh puppy_outbox + honest ports in tail.
+  Daddy does NOT remote-fix puppy — you at keyboard once.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF STUCK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/STUCK_BOARD.txt
+  fleet/bus/CPT_READY.txt
+  fleet/bus/FLEET_CHECKIN.txt
+
+Word: V2 · one hat · one job · honest bus

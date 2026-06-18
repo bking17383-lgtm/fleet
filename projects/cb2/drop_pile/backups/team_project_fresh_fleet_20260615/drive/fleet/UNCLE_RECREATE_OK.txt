@@ -1,0 +1,29 @@
+Uncle recreate — CAPTN pre-read (Drive only)
+Updated: 2026-06-15
+
+Brian: "Can we just recreate Uncle if we clarify missing apps?"
+
+CAPTN answer from Drive (no CB1 disk access from here):
+
+ALREADY ON DRIVE — not unique to Uncle disk
+  Camel game source     lester/camel_clicker.py · StandardCamel.java
+  Camel history         drop_pile/done/CAMEL_v0.*
+  Uncle install script  lester/install_uncle_stan.sh
+  Fleet desk            lester/fleet_board.py
+  Slave law             lester/lester6_uncle_slave.md
+  CB1 Cursor API key    lester/lester_keys.md
+
+PROBABLY NOT IN TEAM BACKUP (was CB2 penguin snapshot)
+  CB1-only ~/.stan/
+  CB1-only ~/Applications/cursor/ game build dir
+  Chrome Lester6 session/local notes never exported
+
+PUPPY AUDIT
+  drop_pile/to_puppy/UNCLE_DISK_UNIQUE_AUDIT.md
+  Output: drop_pile/from_puppy/UNCLE_UNIQUE_REPORT.md
+
+LIKELY VERDICT
+  Recreate Uncle = YES for apps if Drive + lester_keys suffice.
+  Risk = anything Brian built on CB1 never saved to Drive.
+
+Brian: list any app names you remember — CAPTN adds to PUPPY.txt.

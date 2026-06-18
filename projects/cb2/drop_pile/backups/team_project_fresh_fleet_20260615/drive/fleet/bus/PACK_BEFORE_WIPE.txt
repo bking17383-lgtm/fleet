@@ -1,0 +1,42 @@
+PACK BEFORE WIPE — all boxes except CPT (CB2)
+Updated: 2026-06-15
+
+Run ONCE on puppy64 and CB1 before wipe.
+Word when done: PACKED
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE COMMAND (each box)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+bash MyDrive/lester/pack_before_wipe.sh
+
+(CB2 path: /mnt/shared/GoogleDrive/MyDrive/lester/pack_before_wipe.sh)
+(Puppy path: /mnt/home/google_drive/MyDrive/lester/pack_before_wipe.sh or ~/GoogleDrive/MyDrive/)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT GETS SAVED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+→ drop_pile/backups/pack_<hostname>_<date>/
+
+  local/stan/          scripts, mesh_radio, tunnel helpers
+  local/lester/        code on that box
+  local/cursor/        skills if any
+  drive_snapshot/      that box's useful MyDrive edits not already synced
+  PACK_MANIFEST.txt    what was copied + hostname + time
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO NOT PACK (skip)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  *.log · heartbeat spam · lester6_to_*.md ack theater
+  Old routed paste blocks · stale queue jobs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AFTER PACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Append one line to fleet/bus/PACK_STATUS.txt:
+  [<time>] <hostname> PACKED → drop_pile/backups/pack_<hostname>_<date>/
+
+Then STOP. Wait for CPT wipe order. Do not self-reinstall.

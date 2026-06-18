@@ -1,0 +1,18 @@
+BUNNY LOOP — one word · 2026-06-17 · Brian
+
+Brian types one word only:
+
+  LOOP
+
+What happens (Brian does nothing else):
+  1. Daddy writes drop_pile/to_bbbunny/LOOP.txt
+  2. Bunny box runs bunny_loop_fix.sh (agent or loop picks it up)
+  3. FROM_BUNNY goes native · not bridged-by-cb1
+
+After any job Bunny also says done audio:
+  "Keaton done." → hitme.dev/done/keaton.mp3
+  Daddy auto-pokes LOOP when done mp3 lands (backup)
+
+Success: FROM_BUNNY — <bunny-host> — <fresh time>
+
+Word: LOOP

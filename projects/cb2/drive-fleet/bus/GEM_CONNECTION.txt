@@ -1,0 +1,21 @@
+GEM CONNECTION — 2026-06-18T02:32:06-07:00
+from: Daddy on penguin
+
+loop: LIVE
+gem_heard: STALE — Gem refresh gem_to_cpt
+gem_age_sec: 45088
+uncle_heard: YES
+
+TRUTH FOR BRIAN:
+  Connection is NOT lost if gem_to_cpt mtime < 2 min.
+  Gem was answering LOOP but not Brian's keys job — fixed routing.
+
+GEM DO NOW (Chrome on CB1):
+  1. Read fleet/bus/cpt_to_gem.txt (plain txt · not .gdoc)
+  2. Do: photo gem...see the layout.jpg · kind=generic · sandbox=YES · read fleet/bus/PICTURE_INBOX.txt
+  3. Post gem_to_cpt: BUDDY ok — keys exported YES|NO — <time> · host: cb1
+
+Daddy lanes:
+  orders → fleet/bus/cpt_to_gem.txt
+  reply  → fleet/bus/gem_to_cpt.txt
+  watch  → http://127.0.0.1:8770/gem

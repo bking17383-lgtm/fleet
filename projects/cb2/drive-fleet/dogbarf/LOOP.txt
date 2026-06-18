@@ -1,0 +1,7 @@
+ONE WORD: LOOP
+
+Brian typed LOOP · Daddy poked Bunny · you run the fix on the box.
+
+ELSE — agents only (Brian never copies this):
+---
+bash ~/GoogleDrive/MyDrive/lester/bunny_loop_fix.sh

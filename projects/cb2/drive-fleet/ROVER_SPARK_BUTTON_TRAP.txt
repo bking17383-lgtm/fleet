@@ -1,0 +1,29 @@
+ROVER / GEMINI SPARK — button trap
+Updated: 2026-06-14
+
+PROBLEM: GL button sits right next to voice record on Spark.
+Accidental tap → lose link / wrong mode / GL loop you hate.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DO ON MOTO (ROVER)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1) Use **voice record only** — not GL
+2) If you hit GL by accident: back out → reopen Spark → BEACON workspace on Drive
+3) Live audio to CAPTN: **RADIO** home screen (not GL)
+   fleet/MESH_RADIO_URL.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPTN / BEACON
+
+GL = PARKED on phones. Never put GL next to talk on phone UI we control.
+ROVER lane = Spark voice + Drive + mesh radio. GL is CB2 Chrome only if ever.
+
+Say **RADIO** not **GL** on cell.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF LINK LOST
+
+- Reopen RADIO bookmark (not GL)
+- Spark: reconnect BEACON · MyDrive
+- Say one line on RADIO — CAPTN still on bus

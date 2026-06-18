@@ -1,0 +1,53 @@
+FARTHEAD — independent audit proposal — FULL — 2026-06-17
+find: search "farthead" · fleet/FARTHEAD.txt · this file
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS — BRIAN (Q1-Q23)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Q1.  Which Google account email holds the $300 credit?
+  Q2.  Does that credit pay Compute Engine VMs or Gemini/Vertex only?
+  Q3.  Hard monthly cap after credit ($60 ok · auto-shutdown at $X)?
+  Q4.  One bus root: Drive fuse on server · rclone sync · or VM-local + sync?
+  Q5.  Who proves mirror-free (mtime + host=) before every merge?
+  Q6.  Accept stale bridged FROM_BUNNY or block ship until native loop?
+  Q7.  Keep Daddy/Bunny/Uncle/Clerk names or role-only on new architecture?
+  Q8.  Who is independent auditor for cutover (not Daddy)?
+  Q9.  Who is leader held accountable for mirrors (Daddy or other)?
+  Q10. GCP VM replaces NET forever or until Bunny hardware returns?
+  Q11. Stop penguin tunnel same day as VM or overlap — how many hours?
+  Q12. Rollback: who flips tunnel back to penguin · allowed without asking?
+  Q13. Confirm six phone bookmarks — drop /projects from life list?
+  Q14. Hear door green = /listen tap only · Echo · or both required?
+  Q15. Fix /daddy bug text loss before ship or cut that page?
+  Q16. Wipe all four machines or two now + two after green?
+  Q17. Pack receipt on bus before wipe — who signs B verify?
+  Q18. 65-project archive: dead references only or delete files?
+  Q19. George Bedrock keys on VM · CB1 only · or pause George?
+  Q20. george.hitme.dev: fix DNS once · or ban subdomains forever?
+  Q21. Who runs acceptance from your phone on LTE (not desk curl)?
+  Q22. Ok to show "BUILT NOT GREEN" on /goal until pass?
+  Q23. Require two-agent signoff before any "ready" claim?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS — DADDY (Q24-Q30)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Q24. Why report green from penguin while Brian saw down?
+  Q25. Why ship 65 projects when Bunny truth is 15?
+  Q26. Why queue Echo lines without ack proof Brian heard?
+  Q27. Minimal daemon set for six life pages only — list it?
+  Q28. Exact rollback if VM bootstraps stale fleet_bus tarball?
+  Q29. List every process that writes CPT_READY (stomp map)?
+  Q30. Will you refuse to self-audit server ship and post FAIL to bus?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUESTIONS — BUNNY / UNCLE / CLERK (Q31-Q34)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Q31. Bunny: is native loop writing fuse today — yes/no/mtime?
+  Q32. Bunny: does keaton ship block server work or run parallel?
+  Q33. Uncle: any VM bootstrap execute or stay CB1-only forever?
+  Q34. Clerk: Drive loader role unchanged after VM exists?
+
+Word: FARTHEAD

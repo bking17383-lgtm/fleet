@@ -1,0 +1,1 @@
+PUPPY — read drop_pile/backups/puppy_wipe_20260614/PUPPY_RESTORE_AFTER_WIPE.md then execute.

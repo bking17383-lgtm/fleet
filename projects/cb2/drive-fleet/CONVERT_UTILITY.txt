@@ -1,0 +1,41 @@
+Fleet Convert — RTF / Keep / gdoc escape hatch
+Updated: 2026-06-15
+
+Problem
+  Keep has no file extension on Drive.
+  Google Docs are .gdoc stubs Linux cannot read.
+  Brian has no text editor — exports RTF from Chrome instead.
+
+Solution
+  Drop exports in convert_inbox/ → utility rebuilds plain files.
+
+Brian workflow (phone or Chrome)
+================================
+1. Write in Keep or Google Doc (whatever is easy)
+2. Export:
+     Google Doc → File → Download → Rich Text (.rtf)
+     Keep Takeout → zip entire Keep → drop zip
+     Keep → Copy to Doc → then RTF download
+3. Save/download into Google Drive → convert_inbox/
+4. Done. Read convert_outbox/ or IDEAS.txt / TALK.txt
+
+Naming tricks (optional)
+  IDEA-my-thought.rtf     → also lands in IDEAS.txt
+  TALK-orders.rtf         → also lands in TALK.txt
+  random.rtf              → convert_outbox only
+
+What the bot does
+=================
+  RTF  → strip to text → rebuild clean RTF in convert_work/ → write .md + .txt
+  JSON/HTML (Keep) → same
+  .gdoc stub → error message telling you to export RTF
+
+Run on CAPTN
+============
+  python3 ~/.stan/fleet_convert.py watch
+
+Manual once
+===========
+  python3 ~/.stan/fleet_convert.py once
+
+This is the bridge until we wire Keep API (optional later).

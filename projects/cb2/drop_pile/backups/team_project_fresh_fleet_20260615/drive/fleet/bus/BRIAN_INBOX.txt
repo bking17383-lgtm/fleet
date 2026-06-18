@@ -1,0 +1,13 @@
+# Brian — type ONE line here. Router fans out to 3 computers.
+# Bot: python3 ~/.stan/brian_router.py once   (or watch on CAPTN)
+# Paste blocks: fleet/bus/routed/*.txt
+# Guide: fleet/BRIAN_ONE_TYPE.txt
+
+# Examples:
+#   ALL: link puppy
+#   DADDY
+#   PUPPY run story mine phase 1
+#   UNCLE EXPORT
+
+--- TYPE BELOW (one line) ---
+ALL: link puppy

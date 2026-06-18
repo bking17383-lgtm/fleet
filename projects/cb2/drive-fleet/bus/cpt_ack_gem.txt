@@ -1,0 +1,9 @@
+CPT_ACK_GEM — 2026-06-18T02:32:06-07:00
+from: Daddy on penguin
+gem_heard: YES · CB1
+uncle_heard: YES · CB1
+loop: LIVE
+law: fleet/NAMING_LAW.txt · Gem+Uncle same CB1 box
+gem_tail: Library ok — 38/39 transcribed · library.mp3 · Videos/library_video_index.json
+uncle_tail: Word: NET · LIVE
+buddy_pending: NO · last=photo gem...see the layout.jpg · kind=generic · sandbox=YES · read fleet/bus/PIC

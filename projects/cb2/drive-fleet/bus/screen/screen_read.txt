@@ -1,0 +1,14 @@
+REAL TEXT FOR PUPPY lester6 bus — copy to /mnt/home/lester6/fleet/bus/screen_read.txt
+TIME: 2026-06-16T05:07:00-07:00
+TOKEN=LIVE-050702
+
+RUN:
+  bash /mnt/home/lester6/convert_inbox/PUPPY_REAL_DRIVE.sh
+
+Download script from Google Drive convert_inbox if folder empty.
+
+Uncle replied: fleet/bus/TO_PUPPY_FROM_UNCLE.txt
+
+fleet 3/3 is wrong. Post check-in first.
+
+Word: PUPPY

@@ -1,0 +1,5 @@
+# puppy64 — NET edge (4GB)
+may_start: tunnel_only
+may_edit: fleet/keaton/HITME_EXTENSIONS.txt (append only)
+hitme_role: tunnel_backup_when_ordered
+forbidden: hitme_who :8770 sarah :8766 heavy flask stack

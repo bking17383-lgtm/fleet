@@ -1,0 +1,50 @@
+GEM BUSY — get files without waiting on Gem
+Updated: 2026-06-15
+
+Brian will forget VAULT. Remember this instead.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE WORD → CPT (CB2 Cursor)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  GRAB
+
+Say: GRAB <what you need>
+Examples:
+  GRAB keys path
+  GRAB fleet bus
+  GRAB convert_inbox latest
+
+CPT reads Drive fuse directly · no Gem required for plain files.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT CPT CAN GRAB (Gem not needed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • fleet/** · drop_pile/** · convert_inbox/** on Drive (Linux fuse)
+  • fleet/bus/*.txt reports Gem already wrote
+  • run: python3 ~/.stan/gem_agent.py once (local profile refresh)
+  • run: python3 ~/.stan/vault_keeper.py status (vault YES/NO)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHEN YOU STILL NEED GEM (gdoc eyes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • lester keys.gdoc body → plain md export
+  • huge story gdocs (Linux sees 171-byte stubs only)
+
+Fallback if Gem busy:
+  Chrome Files → open the .gdoc → Download / copy → save as .md on Drive
+  Then say: GRAB lester_keys
+
+One click in Chrome · not a fetch marathon.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOT THIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Don't wait on gem_to_cpt if file is already on Drive — GRAB it
+  • Don't ask Uncle to hold the pile — VAULT later
+  • Word GEM = only when you want Gem's brain in Chrome
+
+Word: GRAB (CPT) · GEM (when he's free)

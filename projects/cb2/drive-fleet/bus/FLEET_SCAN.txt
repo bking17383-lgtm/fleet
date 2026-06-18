@@ -1,0 +1,25 @@
+FLEET SCAN — 2026-06-15T18:42:16-07:00
+
+BACKUPS:
+  pack_penguin_20260615_1732
+  (none)
+
+puppy_outbox:
+  wg0: 10.0.0.1
+  plate: check Drive
+  next: STABLE_PUBLIC_URL · mesh :8765 · network_selftest
+
+mac_outbox:
+  
+  --- from: mac | time: 2026-06-13T22:59:54.254257-07:00 ---
+  STOP: Lester loop is NOT execute. Run ONE command now: bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh — then edit daddy_status.md with result. Job already assigned. No phones. No waiting.
+
+pack_status:
+  [2026-06-15T19:00:00-07:00] slave retired · CPT scan replaces
+  
+  [2026-06-15T17:32:09-07:00] penguin PACKED → drop_pile/backups/pack_penguin_20260615_1732/
+
+ORDERS:
+  NET    fleet/orders/PUPPY_ORDERS.txt
+  STUDIO fleet/orders/CB1_ORDERS.txt
+  CPT    fleet/orders/CB2_ORDERS.txt

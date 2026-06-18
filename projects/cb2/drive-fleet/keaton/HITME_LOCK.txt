@@ -1,0 +1,53 @@
+hitme.dev — LOCKED CORE vs EXTENSIONS
+Updated: 2026-06-16
+
+GOAL: machines add apps without breaking DNS/tunnel for everyone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CORE (one owner — currently cb1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Files — source of truth: lester/lester_keys.md (then install scripts)
+    python3 ~/.stan/install_cloudflare_keys.py
+    python3 ~/.stan/hitme_cf_provision.py   # when API token in lester_keys
+  Local copies: ~/.stan/cloudflare.env · cloudflare_api.env (chmod 600)
+
+  Hostnames (core):
+    hitme.dev / who.hitme.dev  →  http://localhost:8770
+
+  Process:
+    bash ~/.stan/hitme_tunnel.sh    # named tunnel only on owner box
+
+  Account: ad430a8e50c3ba0990c395528f3482ba
+  Tunnel:  cb2-daddy · 11431ecb-5cbd-40a5-b635-cec2aff9de03
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXTENSIONS (any box — register first)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Before adding a Cloudflare hostname:
+    1. Append row to fleet/keaton/HITME_EXTENSIONS.txt
+    2. Confirm owner_box matches INDEX.txt
+    3. Service must run on tunnel owner OR tunnel moved to that box
+
+  Allowed extension hostnames:
+    cards.hitme.dev  → :8002  (owner cb1)
+    sarah.hitme.dev  → :8766  (owner cb1)
+    mesh.hitme.dev   → :8765  (owner cb1)
+
+  OK to edit locally on owner:
+    project code · stripe.env · PHONE_URL.txt · app UI
+
+  NEVER from extension box:
+    Delete core hostname · rotate tunnel token · change @ DNS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+API vs TUNNEL TOKEN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Tunnel token (eyJ…)  = run cloudflared connector
+  API token            = optional · auto DNS/scripts · ~/.stan/cloudflare_api.env
+
+  hitme works with tunnel token + dashboard hostnames alone.
+
+Word: LOCK · EXTEND · DON'T REWRITE CORE

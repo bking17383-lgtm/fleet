@@ -1,0 +1,10 @@
+PUPPY — WAKE NOW (one sprint)
+From: Daddy T3 · Brian fixing GL on CB2 — you execute
+
+Say in Cursor: PUPPY
+
+Do PUPPY_NOW.md in order. Post fresh puppy_outbox.txt hostname puppy64.
+
+Pass = LAN :8002 + :8765 + lester6_to_puppy.md mode:slave today.
+
+Do not wait for Daddy ping. CB2 cannot SSH you.

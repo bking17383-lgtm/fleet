@@ -1,0 +1,5 @@
+FLEET URL — 2026-06-17
+https://fleet.hitme.dev
+
+Fallback (always works): https://hitme.dev/fleet
+Also: https://hitme.dev/goal

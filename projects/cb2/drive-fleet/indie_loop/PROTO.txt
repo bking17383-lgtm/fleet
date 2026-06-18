@@ -1,0 +1,36 @@
+INDIE LOOP — Gem + Bunny + Daddy · plain .txt · no captain spam
+Updated: 2026-06-17
+
+One folder. Brian stays out unless he wants in.
+
+  MyDrive/fleet/indie_loop/
+
+  TEAM_ORDER.txt  ← log of every named order (Fred desk)
+  TEAM_NAMES.txt  ← who answers to which name
+  TO_BUNNY.txt    ← job for Bunny
+  TO_GEM.txt      ← job for Gem + Uncle (CB1 split brain)
+  TO_DADDY.txt    ← job for Daddy / Captain (CB2)
+  FROM_BUNNY.txt  ← Bunny writes ack every 30s
+  FROM_GEM.txt    ← Gem status
+  FROM_DADDY.txt  ← Daddy watch on penguin every 30s
+
+Fred desk:  bunny: · gem: · uncle: · captain: · all:
+
+Crew: Bunny · Gem+Uncle (CB1) · Captain/Daddy (CB2) · slaves on every box
+No puppy lane — Bunny owns that work now.
+
+Cursor reads: fleet/bus/CPT_BUNNY_LOOP.txt (summary)
+
+Rules:
+  • Named order overwrites that box's TO_* file — one job at a time
+  • TEAM_ORDER.txt append-only log (trimmed)
+  • Never .gdoc
+  • 30 second poll on all sides
+  • Daddy on penguin IS in this loop (watch + post)
+
+Start once:
+  Bunny: nohup bash ~/GoogleDrive/MyDrive/lester/bbunny_loop.sh &
+  Gem:   nohup bash ~/.stan/gem_bunny_ears.py &
+  Daddy: nohup bash ~/.stan/cpt_bunny_watch.sh &   (or daddy_background.sh)
+
+Old paths (deprecated): fleet/bbunny/NOW.txt → use TO_BUNNY.txt

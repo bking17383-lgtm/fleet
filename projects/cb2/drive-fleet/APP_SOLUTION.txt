@@ -1,0 +1,42 @@
+APP-SOLUTION — farce of absolution · new DNS · 2026-06-17
+=========================================================
+
+Punchline
+  • Not absolution — app-solution™
+  • Comic confessional · humans type a sin · something funny happens
+  • Zero real religious claim · wit opens the door
+
+User flow (v0 live on CB2)
+  1. Land on confessional page
+  2. Type sin (textarea)
+  3. Tap App-Solve me
+  4. Random WED / BED / DEAD card flips (bunny card game lanes)
+  5. Verdict + silly penance + stamp "NOT ABSOLUTION"
+
+WED / BED / DEAD (card game · Bunny palette)
+  • WED — public / vows / witnessed chaos
+      cream #F5E6D3 · gold #C9A227 · ink #3D2C1E
+  • BED — private / desire / embarrassment
+      plum #2A0F18 · crimson #8B2635 · blush #F0D4DC
+  • DEAD — over / expired / darkest laugh
+      void #0B0B0D · silver #A8A8AD · bone #E8E8EA
+
+Note: Bunny's exact hex doc not on Drive yet — above matches strip in app_solution.html
+      Paste Bunny's final swatch to fleet/WED_BED_DEAD_COLORS.txt when she sends it
+
+DNS: defendyoursin.org (bought · Gem wiring)
+  • A @ + www → Bunny public IP · Caddy → :8770/app-solution
+  • Card: fleet/DEFENDYOURSIN_DNS.txt
+
+URLs now
+  • http://127.0.0.1:8770/app-solution  (CB2 local)
+  • https://defendyoursin.org  (after Gem DNS + Bunny Caddy reload)
+
+v1 upgrades (fast smart · not ten years)
+  • Optional AWS one-liner verdict (learn=0 · costs tokens)
+  • Shareable certificate PNG
+  • Sin counter / leaderboard of absurdity (anonymous)
+  • Deck expansion from Bunny art
+
+Law
+  • Comic only · no real sacrament · no storing sins without consent toggle later

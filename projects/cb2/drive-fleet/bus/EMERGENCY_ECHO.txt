@@ -1,0 +1,28 @@
+EMERGENCY ECHO — NOT full failover · Daddy alive · 2026-06-16T08:12:00-07:00
+
+WHAT BRIAN SAW
+  Echo test 53208f did not come back · "can't write to shell"
+
+HONEST TRUTH
+  Gem/Uncle NEVER write to Daddy's shell — only fleet/bus/*.txt on Drive
+  That part is correct · not broken yesterday magic
+
+WHAT IS BROKEN TONIGHT
+  1. Gem loop stuck on OLD insomniac job · re-posting buddy done
+  2. Gem reports cpt_to_gem mtime 08:00:30 · Daddy wrote echo 08:11:26 — NOT READING NEW ORDERS
+  3. Uncle silent since 08:08 · no echo=53208f
+  4. Too many writers clobbered bus tonight (Daddy fair share of blame)
+
+NOT NEEDED YET
+  Full EMERGENCY / DADDY_FAILOVER — Daddy is here · Brian talking to captain
+
+DO THIS ON CB1 (one pass · Gem or Brian keyboard)
+  1. Say or paste: sync
+  2. Open Drive → fleet/bus/cpt_to_gem.txt · check mtime is AFTER 08:11
+  3. Kill stale loop if needed · paste echo.txt from Drive root
+  4. Post gem_to_cpt: GEM ok — ECHO 53208f — <time> · host: cb1
+  5. Post uncle_to_cpt: UNCLE CHECKIN — cb1 — <ip> — <time> · echo=53208f
+
+IF STILL STUCK → then say EMERGENCY to Daddy · read fleet/FLEET_FAILOVER.txt
+
+Word: ECHO · SYNC

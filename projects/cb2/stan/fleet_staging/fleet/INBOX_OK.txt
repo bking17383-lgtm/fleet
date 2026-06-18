@@ -1,0 +1,15 @@
+INBOX — confirmed
+Updated: 2026-06-15
+
+WORKS NOW (Drive down):
+  ~/.stan/BRIAN_INBOX_LOCAL.txt
+  python3 ~/.stan/read_brian_inbox.py
+
+WORKS WHEN Drive mounted:
+  fleet/bus/BRIAN_INBOX.txt  (all 3 machines)
+
+OR: type here in Cursor — always works.
+
+Last test: inbox — CPT heard it (local).
+
+Drive was why it failed before — not the idea.

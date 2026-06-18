@@ -1,0 +1,52 @@
+2026-06-17T08:54:47-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T08:54:53-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T08:55:07-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T08:55:17-07:00 STALE_REKICK wake_id=00cb6d37729dccc3
+2026-06-17T08:55:56-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T08:56:14-07:00 STALE_REKICK wake_id=d80f4e3e8301d690
+2026-06-17T09:03:49-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:03:53-07:00 DESK_PING Team Desk opened — Fred coach · wake CB1
+2026-06-17T09:03:57-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:03:59-07:00 DESK_PING Team Desk opened — Fred coach · wake CB1
+2026-06-17T09:04:01-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:04:02-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:04:59-07:00 STALE_REKICK wake_id=bcf0af33852a6b53
+2026-06-17T09:09:35-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:19:04-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:23:32-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:28:29-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:29:28-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:35:21-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:36:21-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T09:42:16-07:00 DESK_PING desk ask: send daddy a link to this page. or give me it's hitme url.
+2026-06-17T09:42:18-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:42:24-07:00 DESK_PING desk ask: https://fred.hitme.dev/ doesn't work yet
+2026-06-17T09:42:26-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:42:41-07:00 STALE_REKICK wake_id=5f8c1500d20327e4
+2026-06-17T09:43:11-07:00 DESK_PING desk ask: does Fred have mobile version? can I get voice on mobile? what are the options
+2026-06-17T09:43:19-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:43:47-07:00 STALE_REKICK wake_id=78326d97eac15efb
+2026-06-17T09:55:00-07:00 DESK_PING Team Desk opened — Fred coach · wake CB1
+2026-06-17T09:55:01-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T09:56:54-07:00 STALE_REKICK wake_id=30ee2f8b78bb8622
+2026-06-17T10:07:00-07:00 WAKE src=gem_instructions file=gem_instructions.txt
+2026-06-17T10:07:57-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T10:11:09-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T10:11:54-07:00 DESK_PING Fred wake — Brian on phone
+2026-06-17T10:11:56-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T10:12:14-07:00 STALE_REKICK wake_id=ee3fac2e9a2d230c
+2026-06-17T10:41:25-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T10:52:25-07:00 DESK_PING keaton is live — team names wired
+2026-06-17T10:52:30-07:00 WAKE src=team_order file=TEAM_ORDER.txt
+2026-06-17T10:52:30-07:00 WAKE src=desk_wake file=DESK_WAKE.txt
+2026-06-17T10:52:40-07:00 STALE_REKICK wake_id=46f9f3b70662b44a
+2026-06-17T10:57:13-07:00 DESK_PING architecture updated
+2026-06-17T10:57:19-07:00 WAKE src=team_order file=TEAM_ORDER.txt
+2026-06-17T10:58:37-07:00 STALE_REKICK wake_id=307b4a5148593ca1
+2026-06-17T11:06:03-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T11:36:47-07:00 WAKE src=cpt_to_uncle file=cpt_to_uncle.txt
+2026-06-17T12:03:18-07:00 DESK_PING slave on — run fleet/bootstrap/start_*_slave.sh on your box · ack FROM_* within 60s
+2026-06-17T12:03:20-07:00 WAKE src=team_order file=TEAM_ORDER.txt
+2026-06-17T12:04:37-07:00 STALE_REKICK wake_id=1a49a3d4d7eb33e7
+2026-06-17T13:10:31-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt
+2026-06-17T13:33:00-07:00 WAKE src=brian_post file=BRIAN_LAST_POST.txt

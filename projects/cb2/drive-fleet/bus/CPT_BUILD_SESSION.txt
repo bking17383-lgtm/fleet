@@ -1,0 +1,17 @@
+CPT BUILD SESSION — Brian away · Daddy only · 2026-06-16
+Gem/Uncle: NOT interrupted · HOLD respected
+
+BUILT:
+  fleet/BRIAN_DREAMS_ANALYSIS.txt — efforts · goals · dreams
+  fleet/bus/FRUITION_BOARD.txt — ship deck + 3 decisions
+  fleet/SHIP_A_SARAH.txt · SHIP_B_HITME.txt · SHIP_C_CARDS.txt
+  fleet/STUCK_BOARD.txt — honest refresh
+  ~/.stan/brian_roll.py — analyze · roll · board
+  /terminal on hitme (:8770/t) — Brian terminal UI
+  AWS talk — top 3 sell-as-is → drop_pile/from_aws/
+  IDEAS_READY analyzed · ROLL ready
+
+WHEN BACK:
+  open /terminal · or say roll · pick A/B/C · be happy
+
+Word: BUILD

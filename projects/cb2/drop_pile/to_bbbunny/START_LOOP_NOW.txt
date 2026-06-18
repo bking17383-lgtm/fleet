@@ -1,0 +1,5 @@
+START NOW — 2026-06-17T12:03:16-07:00
+Run: bash ~/GoogleDrive/MyDrive/fleet/bootstrap/start_bunny_slave.sh
+Or:  bash ~/GoogleDrive/MyDrive/lester/bbunny_loop.sh
+Then FROM_BUNNY.txt updates every 30s.
+Word: SLAVE · ON

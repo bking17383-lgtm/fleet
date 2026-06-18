@@ -1,0 +1,20 @@
+PASTE FILE LAW — one unique name per troubled box
+Updated: 2026-06-16
+
+Brian rule: never the same filename for different machines.
+
+Drive root (top of MyDrive) — paste into new Cursor agent:
+
+  dumbass.txt              → puppy64 only (PUPPY · wake/boot)
+  insomniac.txt            → CB1 Chrome Gem only (BUDDY · loader)
+  biceps.txt               → CB1 Linux Uncle only (UNCLE · execute)
+  you-are-about-to-die.txt → ESCALATION if they ignored the card above
+
+Next word if escalation ignored: DEAD
+
+Do NOT reuse dumbass for Gem or Uncle.
+Do NOT copy fleet/GEM_TYPE_THIS.txt to root — use insomniac.txt.
+
+Index: this file · fleet/NEW_AGENT_PASTE.txt (archive · not for paste)
+
+Word: unique names

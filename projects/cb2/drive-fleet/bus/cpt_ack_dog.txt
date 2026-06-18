@@ -1,0 +1,5 @@
+CPT — dog trust drill live · 2026-06-16T07:42-07:00
+fake net :18765 · background watch 45s
+board: fleet/bus/DOG_TRUST_BOARD.txt
+probe uploaded to dog box · waiting for native dog_outbox
+Word: BARK

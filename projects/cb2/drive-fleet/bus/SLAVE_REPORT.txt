@@ -1,0 +1,10 @@
+# Slave — one pass after wipes land
+
+UNKNOWN until boxes report:
+  puppy packed? y/n
+  uncle packed? y/n
+  hostname after reboot?
+
+Post answers here. Then CPT rebuilds gaps from drop_pile/backups/
+
+Do not bother Brian.

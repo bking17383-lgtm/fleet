@@ -1,0 +1,6 @@
+RADIO OFFICE — CB2 fleet debug (local or tunnel)
+
+Local:  http://127.0.0.1:8765/office
+Public: https://trademark-harder-disclaimer-episodes.trycloudflare.com/office
+
+Updated: 2026-06-15T17:22:30-07:00

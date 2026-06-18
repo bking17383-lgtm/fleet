@@ -1,0 +1,49 @@
+BEACON LAW — every box reports to CPT (one file)
+Updated: 2026-06-16T02:30:00-07:00
+
+Brian law: **all boxes use BEACON** before status refresh. Not NET CHECKIN alone. Not retired.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE LINE (exact format)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  BEACON — <ROLE> — <hostname> — <ip> — <time>
+
+ROLE = NET | STUDIO | CPT
+
+Writes: fleet/bus/BEACON_PULSE.txt (+ role outbox)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE COMMAND (every box · every boot · every 25s loop)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  python3 ~/.stan/beacon_pulse.py NET
+  python3 ~/.stan/beacon_pulse.py STUDIO
+  python3 ~/.stan/beacon_pulse.py CPT
+
+Or word: **BEACON** (auto-detects role from hostname)
+
+Drive copy: lester/beacon_pulse.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Box | Command | Old name OK |
+|-----|---------|-------------|
+| puppy64 | beacon_pulse.py NET | PLATE · BEACON |
+| CB1 | beacon_pulse.py STUDIO | UNCLE · WRANGLER |
+| CB2 | beacon_pulse.py CPT | BEACON · CPT_SLAVE |
+
+Gem Chrome: tell box to run command above OR say **BEACON** in terminal.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CPT READS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/BEACON_PULSE.txt  (primary truth · 90s fresh)
+  statusline · FLEET_CHECKIN · fleet_board
+
+Word: BEACON
+
+Law: fleet/HEARTBEAT_LAW.md (PULSE) + this file (bus line)

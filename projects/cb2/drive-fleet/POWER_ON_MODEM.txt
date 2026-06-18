@@ -1,0 +1,16 @@
+POWER ON — wait for modem
+Updated: 2026-06-14
+
+Main power returning.
+
+MODEM: needs ~300 seconds (5 min) after power-on before internet is real.
+Do not chase RADIO links or refresh tunnels until modem is up.
+
+After ~5 min:
+  • Say POWER to CAPTN
+  • Fresh tab from fleet/MESH_RADIO_URL.txt
+  • CB2 office: /office for fleet debug
+
+Until then: this Cursor chat if Samsung has any pipe; else wait.
+
+Brian word: POWER (when modem ready)

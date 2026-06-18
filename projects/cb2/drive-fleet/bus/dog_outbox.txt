@@ -1,0 +1,3 @@
+RETIRED — DOG dead · 2026-06-17
+Use FROM_BUNNY · fleet/indie_loop/
+Law: fleet/DEAD_WORDS.txt

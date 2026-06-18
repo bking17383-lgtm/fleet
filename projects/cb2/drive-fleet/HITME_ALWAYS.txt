@@ -1,0 +1,20 @@
+hitme.dev — always on · Daddy watches
+Updated: 2026-06-16
+
+Background: bash ~/.stan/hitme_always.sh (every autopilot tick)
+
+Keeps UP:
+  • hitme_who :8770
+  • cloudflared named tunnel (one copy)
+
+Public still 530 until DNS+ingress provisioned ONCE:
+
+  Option A — paste API token in ~/.stan/cloudflare_api.env then:
+    bash ~/.stan/hitme_cf_provision.sh
+
+  Option B — dashboard (no token):
+    fleet/HITME_TUNNEL_HOSTNAMES.txt
+
+Then https://hitme.dev/goal works everywhere.
+
+Puppy/Gem on GL — Daddy not blocking.

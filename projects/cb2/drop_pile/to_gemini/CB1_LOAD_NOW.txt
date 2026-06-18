@@ -1,0 +1,44 @@
+GEM — load CB1 into CPT loop (paste to Gemini on Uncle's machine)
+Updated: 2026-06-15
+
+Brian says: CB1 joins CPT loop. You are LOADER — not captain.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE LINE TO GEMINI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Load Cursor STUDIO on CB1. CPT on CB2 is captain. Run uncle_exec. Reply on Drive.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TERMINAL (CB1 Linux — paste for Brian)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+mkdir -p ~/.stan
+echo 93fec320 > ~/.stan/slave.key && chmod 600 ~/.stan/slave.key
+bash ~/.stan/uncle_exec.sh
+
+Then open Cursor on CB1 and say: STUDIO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+READ ON DRIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  fleet/bus/cpt_to_uncle.txt      ← CPT orders (read first)
+  fleet/orders/CB1_ORDERS.txt     ← execute these
+  fleet/CPT_UNCLE_LOOP.txt        ← two-way lanes
+  fleet/bus/cpt_ack_uncle.txt     ← CPT heard you
+
+WRITE when done:
+  fleet/bus/uncle_to_cpt.txt
+  Must include: UNCLE clean — cb1 — <ip> — <time>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Gemini = loader · paste steps · mount Drive
+Cursor STUDIO = the agent · executes CPT orders
+Never captain · never Lester · never paste AWS keys in chat
+
+Confirm one line:
+  GEM loading STUDIO · CPT is captain · uncle_exec next

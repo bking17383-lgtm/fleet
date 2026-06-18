@@ -1,0 +1,13 @@
+{
+  "last_poll_at": "2026-06-17T14:08:43.824103-07:00",
+  "last_inbox_mtime": 1781282359.0,
+  "last_import_at": "2026-06-16T08:16:05.008237-07:00",
+  "last_import_source": "/mnt/shared/GoogleDrive/MyDrive/collx_inbox/current/collx_export.csv",
+  "last_import_rows": 497,
+  "skipped_rows": 7,
+  "mode": "replace",
+  "last_canonical_mtime": 1781282252.0,
+  "last_import_fingerprint": "455c6077f97b63baf302",
+  "last_fetch_status": "skipped",
+  "last_fetch_summary": "Same export already imported"
+}

@@ -1,0 +1,64 @@
+PLATE.DEV — registrar pick (Brian asked)
+Updated: 2026-06-15
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+.dev ≠ buy from Google
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Google **invented/operates the .dev registry** (the TLD).
+They are NOT automatically your registrar.
+
+You buy the name from a **registrar** → point DNS to **Cloudflare** → done.
+
+Google Domains was sold to **Squarespace** — skip unless you love that UI.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#1 PICK FOR OFFERS (CAPTN vote): CLOUDFLARE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Offer | Price |
+|-------|-------|
+| .dev registration | ~at-cost (~$12–16/yr) |
+| DNS | $0 |
+| Email Routing (captn@ → tpgoround) | $0 |
+| Named tunnel (stable https) | $0 |
+| Redirects / subdomains | $0 |
+
+One dashboard. Matches Puppy tunnel token you already started.
+No GUI needed day-to-day — CAPTN + scripts update WHO.md.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#2 IF CLOUDFLARE .dev PRICE STINGS: PORKBUN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Sometimes cheaper first-year .dev — then **transfer DNS to Cloudflare** anyway.
+Registrar ≠ DNS host. Always host DNS on Cloudflare for fleet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SKIP FOR THIS JOB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Squarespace/Google legacy — fine, not best for tunnels
+• GoDaddy — upsell hell
+• Google Workspace — $7/mo just for email (use CF routing first)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BULK WHO'S WHO (no GUI)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  python3 MyDrive/lester/plate_who.py
+
+Writes:
+  fleet/WHO.md    — table for humans / plate.dev/who later
+  fleet/WHO.json  — machine bulk
+  refreshes fleet/FLEET_AVAILABLE.txt via fleet_board.py
+
+Say WHO — CAPTN runs it each session.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STT-SAFE .dev NAMES (no cpt/captain)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Best: plate.dev · platebook.dev · roster.dev · platemap.dev
+
+Say: "plate dot dev" — readers get it.

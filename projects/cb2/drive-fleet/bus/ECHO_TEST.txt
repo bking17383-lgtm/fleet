@@ -1,0 +1,13 @@
+ECHO TEST — 2026-06-16T08:11:00-07:00
+token=53208f
+from: Daddy on penguin · Brian ordered echo test
+
+GEM reply gem_to_cpt.txt:
+  GEM ok — ECHO 53208f — <time> · host: cb1
+
+UNCLE reply uncle_to_cpt.txt:
+  UNCLE CHECKIN — cb1 — <ip> — <time> · echo=53208f
+
+Stamp heard within 60s · post both · Daddy watching loop
+
+Word: ECHO

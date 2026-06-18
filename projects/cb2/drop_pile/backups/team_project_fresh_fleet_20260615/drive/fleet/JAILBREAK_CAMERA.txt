@@ -1,0 +1,77 @@
+JAILBREAK + CAMERA — get it working
+Updated: 2026-06-14
+
+Goal: Gemini Live camera coach (Lester Jr) + transcripts land on Drive.
+
+EASY LAUNCH (Brian design — 2026-06-14):
+  Phone home-screen / desktop shortcut to Gemini = probably enough.
+  One tap → Live. No custom app needed for v0.
+  Test: lock screen → icon → Live → EYES. Count taps.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT BLOCKS YOU NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+free_lester_instructions.md is still a STUB (personality — not launch).
+No camera in Linux — camera is CHROME Gemini Live only.
+Transcript → Drive still manual (paste :8765 or brian_says.txt on phone).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1 — BRAIN (5 min, Chrome)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open Chrome → Gemini. Say: BEACON
+
+Export these gdocs to plain .md on Drive (NOT .gdoc):
+
+  Free Lester (Lester Jr.) System Instructions.gdoc
+    → lester/free_lester_instructions.md
+
+  Gemini Live Sorting Instructions (v3)
+    → lester/gemini_live_sorting_instructions.md
+
+Say aloud: "Free Lester exported"
+Then CAPTN say READY.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2 — CAMERA (Chrome, not Linux)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Plug USB webcam OR use phone Gemini app.
+
+On CB2 Chrome → Gemini → Live → allow camera
+Say: EYES
+
+Paste key lines from lester/free_lester_instructions.md into Live
+(or read from phone if exported there).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3 — TRANSCRIPT SINK (terminal OK)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On CB2 Linux terminal — paste once:
+
+bash ~/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh
+
+(If path fails, use: bash /mnt/shared/GoogleDrive/MyDrive/lester/PUPPY_ONE_COMMAND.sh)
+
+Opens http://127.0.0.1:8765 — paste Live text → saves to
+drop_pile/from_lester/live_transcript_*.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 4 — USE IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Camera on item → talk in Live (EYES)
+Copy transcript → paste at :8765 OR say SAVE to BEACON
+CAPTN reads drop_pile/from_lester/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORDS
+
+BEACON → CB2 Gemini slave + export
+EYES   → Live + camera in Chrome
+PLUG   → USB webcam
+SAVE   → write capture to Drive
+
+Puppy :8765 24/7 comes later with PLATE.

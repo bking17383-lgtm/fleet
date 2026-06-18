@@ -1,0 +1,10 @@
+UNCLE_CONTROL — 2026-06-16T06:34-07:00
+mode=GREEN_LIGHT
+preset=fix_puppy — Brian GO · execute now · not proxy hold
+execute=bash ~/.stan/uncle_exec.sh
+orders=fleet/orders/CB1_ORDERS.txt
+read_cpt=fleet/bus/cpt_to_uncle.txt
+write_uncle=fleet/bus/uncle_to_cpt.txt
+read_ack=fleet/bus/cpt_ack_uncle.txt
+law=fleet/CPT_UNCLE_LOOP.txt · fleet/orders/PUPPY_ORDERS.txt
+puppy_target=192.168.1.4 puppy64 · :8002 UP · :8765 :8766 need green

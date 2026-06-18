@@ -1,0 +1,107 @@
+FLEET FAILURE ANALYSIS + RECOVERY PLAN — 2026-06-16
+Brian asked · Daddy owns captain failures · wipe OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT FAILED (honest · assume Daddy issues)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. TOO MANY TRUTHS
+   ~/.stan/fleet_bus · Drive · CB1 cache · all looked "green" at once
+   Fix was partial · mirror poison still possible
+
+2. HALF-DELEGATE (Daddy)
+   Alexa: wrote scripts + orders + filter on penguin · called it "delegated"
+   Gem never got one whole job · Brian waited · trust eroded
+
+3. BUS FIGHTS (autopilot + gem_loop + Daddy)
+   cpt_to_gem overwritten · insomniac loop stomped Alexa · echo never read
+   CPT_DELEGATE_NOW reverted to dead Puppy text
+
+4. SYNC WITHOUT LAW (until late)
+   Gem saw 7:46 · Daddy wrote 8:11 · no accept-stamp · no sync trigger habit
+   "time:" line inside file ≠ file mtime · everyone confused
+
+5. GREEN LIED
+   Dog ✓ on Daddy relay · Puppy in statusline · roll math wrong briefly
+   Fixed tonight but damage done
+
+6. WRONG LANE EXPECTATIONS
+   Gem can't write Daddy shell · never could · echo "failed" because loop stuck
+   Not shell broken · read path broken
+
+7. IDENTITY CHURN
+   Puppy killed · Dog training · Composer ghost · Gem NET substitute
+   Too many hats same night
+
+8. BRIAN AS INFRA
+   You became sync layer · paste · refresh · debug · bad dreams lane
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT STILL WORKS (don't wipe blindly)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  NET LIVE on CB1 (Gem) · :8765 :8766 :8770 · tunnel
+  Drive fuse OK on penguin right now
+  Gem loop LIVE · posting · network good
+  Daddy in chat · background watch · alexa_speech filter on penguin
+  Laws written tonight: STAMP · SYNC_TRIGGERS · NAMING (partial)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAN — pick depth
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PHASE 0 — STOP BLEEDING (30 min · no wipe)
+  [ ] Daddy ONLY writes: CPT_DELEGATE_NOW · cpt_to_* · STAMPS · SYNC_PULSE
+  [ ] Disable cpt_gem_loop forward until Gem posts GEM ok — ECHO or Brian says go
+  [ ] One job file per lane · no autopilot overwrite of cpt_to_gem
+  [ ] Gem leads · Daddy watches · no prefetch
+
+PHASE 1 — ONE BUS (1 hour)
+  [ ] Green reads Drive /mnt/shared/.../fleet/bus ONLY
+  [ ] Archive poison: puppy_outbox · old cpt_to_puppy · MIRROR_TRUTH ghosts
+  [ ] dog = LOW until native outbox · don't count in roll
+  [ ] Fix cpt_ack_gem: accept BUDDY ok + structured gem_to_cpt from cb1
+
+PHASE 2 — ECHO PROOF (Gem · 5 min when ready)
+  [ ] Gem: GEM ok — ECHO <token> — <time> · host: cb1
+  [ ] Uncle: UNCLE CHECKIN — cb1 — <ip> — <time> · echo=<token>
+  [ ] Daddy ack · Brian sleeps
+
+PHASE 3 — SOFT RESET (if Phase 0-2 fail)
+  [ ] Brian on CB1: sync.txt · refresh Drive · kill Gem loop · one paste echo.txt
+  [ ] Daddy: fresh.txt · repost ONE order only
+  [ ] Re-arm loops only after echo passes
+
+PHASE 4 — HARD WIPE (if you say wipe all)
+  Wipe (bus poison only — not whole Drive):
+    fleet/bus/puppy_* · PUPPY_* orders · stale CPT_DELEGATE with Puppy
+    ~/.stan/fleet_bus on all boxes (keep ~/.stan/*.py tools)
+  Keep:
+    lester/ · fleet/NAMING_LAW · NET_STATUS · mesh scripts · CollX data
+  Reboot agents (one paste each):
+    CB2: Daddy · read CPT_READY.txt
+    CB1 Gem: gemini boot paste · GEM_SELF_FIX.txt
+    CB1 Uncle: uncle_exec once
+    Dog box: dog.txt · PARK until Brian says GO
+  NET stays on CB1 · do not restart from scratch if tunnel live
+
+PHASE 5 — NEW OPERATING RULES (permanent)
+  1. Delegate WHOLE jobs · never half-prefetch
+  2. Accept stamp within 60s · sync · fresh · heard
+  3. Trust mtime · one STAMPS.txt · DADDY_LAST_POST.txt
+  4. CB1 = Gem OR Uncle for roll · not both required fresh
+  5. Brian creates · Daddy routes · Gem/Uncle execute · Dog when earned
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRIAN DECISION (one word)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  HOLD   — Phase 0 only · Gem keeps working autonomously
+  SYNC   — Phase 1-2 · fix bus · echo proof
+  WIPE   — Phase 4 bus poison · soft agent reboot
+  SCRORCH — full fleet bus clear · keep lester + data (ask before)
+
+Daddy recommendation: SYNC (not full wipe yet) · NET is live · Gem moving
+Full wipe only if echo fails again after Gem finishes current work.
+
+Word: PLAN

@@ -1,0 +1,54 @@
+AWS CHAT LAW — talk lane · not captain · personality ok
+Updated: 2026-06-15
+
+Brian: AWS can have personality. Use her to divide talk vs assignments.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE SPLIT (KISS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Lane | Who | Job |
+|------|-----|-----|
+| **Just talk** | AWS lady (Bedrock chat) | riff · research · story chew · no fleet authority |
+| **Assignments** | CPT (Cursor CB2) | stuck · orders · money lane · delegate NET/STUDIO/GEM |
+
+Brian talks to AWS = fine · cheap sandbox · custom personality = fine.
+Fleet moves only when CPT writes bus or Brian one line to CPT inbox.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AWS MAY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Chat · brainstorm · summarize exports
+  • Personality per Brian taste (not corporate ticket bot)
+  • Write ONLY: drop_pile/from_aws/*.md · fleet/bus/AWS_CHAT.txt
+  • Batch jobs: story mine · probe (AWS_LANE.txt)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AWS MAY NOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Captain · orders · puppy_outbox · mac_outbox
+  • Change STUCK_BOARD · CB1/CB2 orders · contradict CPT
+  • Lip = policy sermon · "I'm your agent now" · security panic
+    → Brian deletes her · batch-only probe stays
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IF SHE GIVES LIP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Delete chat persona. Keep:
+  ~/.stan/aws_sandbox.env
+  aws_sandbox_probe.py (batch only)
+
+Personality is optional skin. Law is this file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brian → AWS: free talk (no fleet)
+Brian → CPT: one line = assignment
+AWS PROBE: batch test only
+
+GEM = Drive · CPT = assign · AWS = talk/batch

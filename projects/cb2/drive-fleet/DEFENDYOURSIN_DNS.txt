@@ -1,0 +1,54 @@
+DEFENDYOURSIN.ORG — Gem DNS · Bunny Caddy · 2026-06-17
+=======================================================
+
+Domain bought: defendyoursin.org
+App: app-solution (comic confessional · wed/bed/dead cards)
+Backend: CB2 penguin :8770 · route /app-solution
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GEM — Cloudflare DNS (defendyoursin.org zone)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Type A · Name @    · IPv4 BUNNY_PUBLIC_IP · Proxied ON
+  Type A · Name www  · IPv4 BUNNY_PUBLIC_IP · Proxied ON
+
+  BUNNY_PUBLIC_IP = curl -4 ifconfig.me on Bunny box
+  (last reported: 76.82.213.134 — verify live)
+
+  SSL: Full (strict) once Caddy has cert on Bunny
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUNNY — Caddy (already in lester/hitme_simple/Caddyfile)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  defendyoursin.org → rewrite /app-solution → :8770
+
+  If :8770 runs on CB2 not Bunny, edit Caddyfile block to:
+    reverse_proxy http://100.115.92.26:8770
+
+  Reload:
+    bash ~/GoogleDrive/MyDrive/lester/hitme_simple/start_hitme_proxy.sh
+
+  Router: TCP 80 + 443 → Bunny LAN IP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEST (Brian · now)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  CB2 local (works after server restart):
+    http://127.0.0.1:8770/app-solution
+
+  Same wifi / Tailscale:
+    http://100.115.92.26:8770/app-solution
+
+  Public (after DNS + Caddy):
+    https://defendyoursin.org
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHY http didnt open earlier
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Old hitme server had no /app-solution route (404).
+  Daddy restarted server on penguin — route live now.
+
+Gem say when DNS is in: dns defendyoursin

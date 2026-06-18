@@ -1,0 +1,14 @@
+dumbass — Brian types NOTHING
+updated: 2026-06-16T06:35:00-07:00
+
+Uncle already:
+  • pushed fix files to puppy (:8002)
+  • dropped GO to puppy /root/inbox (API)
+  • posted mac_inbox ORDER on Drive
+  • wrote honest puppy_outbox
+
+You: say **GO** in Cursor on puppy. One word. Or say nothing — wait 60s for Lester6.
+
+No paths. No bash. Uncle's fault for the last one.
+
+Word: GO

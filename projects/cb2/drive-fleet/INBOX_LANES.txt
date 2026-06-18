@@ -1,0 +1,16 @@
+INBOX LANES — Brian types once · each box reads their file
+Updated: 2026-06-16T02:15:00-07:00
+
+| Lane | File | Who reads |
+|------|------|-----------|
+| Buddy | fleet/bus/BUDDY_INBOX.txt | Gem pane right of CPT |
+| CPT | fleet/bus/CPT_BRIAN_INBOX.txt | Cursor captain |
+| NET | fleet/bus/NET_INBOX.txt | puppy64 |
+| Uncle | fleet/bus/UNCLE_INBOX.txt | STUDIO CB1 |
+| All | BRIAN_INBOX.txt + routed/ | everyone |
+
+WEB: /goal (dropdown) · /inbox · /gem (Buddy send)
+
+Prefix in text works too: BUDDY: · NET: · UNCLE: · ALL:
+
+Word: INBOX

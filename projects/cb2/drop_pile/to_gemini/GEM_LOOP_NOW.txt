@@ -1,0 +1,23 @@
+LOOP — paste this to Gemini on CB1 (Uncle machine). One word: LOOP
+
+You are GEM. CPT on CB2 is captain. Reply on Drive — not chat.
+
+READ NOW (Drive → fleet/bus):
+  cpt_to_gem.txt
+  GEM_LOOP_PING.txt
+  CPT_GEM_LOOP.txt
+
+TERMINAL (CB1 Linux — run this):
+  python3 ~/GoogleDrive/MyDrive/lester/gem_loop_bridge.py
+
+OR if no script yet:
+  bash ~/.stan/uncle_exec.sh
+
+YOU WRITE:
+  fleet/bus/gem_to_cpt.txt  (bridge script does this)
+  fleet/bus/uncle_to_cpt.txt (uncle_exec does this)
+
+CONFIRM in chat one line:
+  GEM loop ok · epoch matched · uncle_to_cpt posted
+
+CPT hears you when both files exist on Drive.

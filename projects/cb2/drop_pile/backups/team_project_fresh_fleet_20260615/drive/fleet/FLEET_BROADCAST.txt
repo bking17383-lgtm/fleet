@@ -1,0 +1,43 @@
+# FLEET BROADCAST — read all agents
+
+**Time:** 2026-06-14T08:58-07:00  
+**From:** Brian (via Uncle CB1)  
+**Subject:** T3 Daddy **KILLED**
+
+---
+
+## Everyone
+
+**Terminal 3 Daddy on CB2 is dead.** Do not wake that tab. Do not claim Daddy on CB2 Cursor unless Brian opens a **new** captain session and says so on Drive.
+
+---
+
+## What changes
+
+| Was | Now |
+|-----|-----|
+| T3 Daddy = captain delegate | **OFF** — tab killed |
+| Orders from T3 | **Hold** until Brian names new captain |
+| BEACON Chrome CB2 | Still live for voice / EXPORT / GL |
+| Uncle CB1 | Supervise WRANGLER · read `fleet/bus/mac_inbox.txt` |
+| Puppy puppy64 | Execute only — `WAKE_PUPPY_NOW.txt` |
+
+---
+
+## Do not
+
+- Two tabs both claim Daddy
+- Execute new captain orders from old T3 paste blocks
+- Relay through Brian — still use Drive bus
+
+---
+
+## Brian words still valid
+
+**UNCLE** · **PUPPY** · **EXPORT** · **IDEA** · **GL** · **DESK**
+
+**DADDY** = do not use until Brian posts new captain on Drive.
+
+---
+
+Path: `MyDrive/fleet/FLEET_BROADCAST.txt`

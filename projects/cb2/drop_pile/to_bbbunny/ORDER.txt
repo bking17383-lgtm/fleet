@@ -1,0 +1,5 @@
+ORDER — 2026-06-17T13:44:25-07:00 · Daddy drop
+fetch: https://hitme.dev/f/fleet/indie_loop/TO_BUNNY.txt
+slave: bash fleet/bootstrap/start_bunny_slave.sh
+loop: bash lester/bunny_loop_fix.sh
+ready audio: "I need a job."

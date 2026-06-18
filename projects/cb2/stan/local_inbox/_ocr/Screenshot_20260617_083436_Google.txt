@@ -1,0 +1,41 @@
+8344-8 PRRm MA A 44%6
+
+= G x
+
+execution automatic:
+
+1. Enforce a Single-Thread Handshake: Open
+your agent routing configuration or system
+prompt file and insert this exact line:
+
+[ORCHESTRATION: Gem and Uncle must
+synchronize execution states on every
+turn. If Gem receives a file command,
+Uncle must immediately execute the
+corresponding background write without
+waiting for a separate trigger
+
+verification. ]
+
+2. Automate the State Kick: If the pipeline sits
+idle for more than 10 seconds without
+dropping a transaction log into your central
+hub, program a local script on your network
+workstation to automatically append a raw
+system-level execution override flag ( --
+force-execution --silent-fail ) to the
+model's input buffer. This triggers the
+higher-effort mode programmatically before
+you ever have to intervene.
+
+Are the task failures happening when Gem tries
+
+tn hand a fila madificatinn aver ta |Iincle ar ic
+
+Ask anything & ©& ni
+
+A Q © eo ¢&
+
+Home Search Images Notifications Activity
+
+lI O <

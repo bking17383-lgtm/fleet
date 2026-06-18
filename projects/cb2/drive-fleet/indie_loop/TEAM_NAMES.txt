@@ -1,0 +1,40 @@
+TEAM NAMES — say it · they get it
+Updated: 2026-06-17 · Brian · architecture truth
+
+CREW (3 boxes · no puppy)
+  Bunny   — builder · Keaton · bun.hitme.dev
+  Gem     — CB1 librarian (Chrome Gemini slave)
+  Uncle   — CB1 hands (Cursor) — same lane as Gem · split brain
+  Daddy   — CB2 · also Captain · architect desk
+
+SLAVES
+  Every box runs a Gemini slave (~90s loop).
+  Slave reads TO_* · writes plain .md ack · never touches hitme core keys.
+  Gem talks · Uncle executes · Bunny builds · Captain delegates.
+
+WHERE
+  Fred: https://fred.hitme.dev/team_desk
+  Log:  fleet/indie_loop/TEAM_ORDER.txt
+
+HOW
+  bunny: keaton is live
+  uncle: wire landing
+  gem: read the board
+  captain: status
+  all: pause cross-box jobs
+
+NAMES → FILE (overwrite · one job)
+  bunny / bun / bbunny / puppy / puppy64  → TO_BUNNY.txt
+  (puppy = nickname only · same files · NOT fleet/bus/puppy_outbox)
+  gem / uncle / cb1 / fred       → TO_GEM.txt   (split brain · both slaves)
+  daddy / captain / cpt / cb2    → TO_DADDY.txt
+  all / team / everyone          → all three files
+
+NO NAME → gem lane (Uncle wakes on CB1)
+
+POLL (30s · no reboot)
+  Bunny:   lester/bbunny_loop.sh      + Gemini slave
+  Gem:     ~/.stan/gem_bunny_ears.py  + Gemini slave
+  Captain: cpt_bunny_watch            + Gemini slave
+
+Word: TEAM · SLAVE · SPLIT

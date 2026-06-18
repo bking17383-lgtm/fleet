@@ -1,0 +1,53 @@
+FLEET HTTP DROP — send files without Drive sync
+Updated: 2026-06-17 · Daddy · penguin
+
+Problem: boxes can't "send shit" when fuse is slow, Bunny loop is down, or puppy is wiped.
+
+Fix: penguin serves the whole Drive bus over HTTPS. Any box with curl/wget gets files instantly.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+URL SHAPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  https://hitme.dev/f/<path-under-MyDrive>
+
+Examples:
+  https://hitme.dev/f/drop_pile/from_bbbunny/alex_keaton_hes_so_cute_SHORT.mp3
+  https://hitme.dev/f/fleet/indie_loop/TO_BUNNY.txt
+  https://hitme.dev/f/fleet/bus/CPT_READY.txt
+
+Friendly aliases (keaton):
+  https://hitme.dev/keaton/jingle_short.mp3   ← Bunny short · "so cuute"
+  https://hitme.dev/keaton/jingle.mp3         ← full ~8.5s jingle
+
+LAN fallback: http://100.115.92.26:8770/f/...  (same paths)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ONE LINE (any Linux box)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  curl -fLO https://hitme.dev/keaton/jingle_short.mp3
+
+Or generic:
+  bash ~/GoogleDrive/MyDrive/lester/fleet_fetch.sh drop_pile/from_bbbunny/alex_keaton_hes_so_cute_SHORT.mp3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO POST (sender)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Write file under MyDrive/ (drop_pile/from_daddy/ · fleet/bus/ · etc.)
+  2. It is live on hitme within seconds (penguin reads fuse directly)
+  3. Tell receiver: curl https://hitme.dev/f/<path>
+
+Text bus still uses fleet/indie_loop/ · fleet/bus/ on Drive when fuse works.
+HTTP drop is the bypass when it doesn't.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOT THIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✗ SSH box-to-box (Keaton law)
+  ✗ Waiting for silent Bunny loop for binary files
+  ✗ Assuming puppy Drive mount is up
+
+Word: FETCH · HTTP · /f/

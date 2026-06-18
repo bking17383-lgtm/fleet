@@ -1,0 +1,41 @@
+# MIC READY — 3 machines (CAPTN test 2026-06-14)
+
+Brian word: **MIC** → read this file
+
+| Machine | Cursor mic | Voice lane | Verdict |
+|---------|------------|------------|---------|
+| **CB2** | Hardware YES · Linux record OK* · need Chrome OS Linux mic ON + Ctrl+M | BEACON Chrome · Cursor Ctrl+M | **READY*** |
+| **CB1** | Not tested from here — same Chromebook class | WRANGLER Chrome · Uncle Cursor | **LIKELY** (enable Linux mic like CB2) |
+| **puppy64** | SSH dead from CB2 · outbox stale | PLATE Chrome when bound | **UNKNOWN** (ack on Drive, not verified live) |
+
+\* CB2: VirtIO mic present; `arecord` works when device awake. Chrome OS → Developers → Linux → **Microphone ON** required for Cursor.
+
+---
+
+## Slaves (voice partners)
+
+| Box | Callsign | Ack on Drive | Mic for Brian |
+|-----|----------|--------------|---------------|
+| CB1 | WRANGLER | ✅ mode slave | Gemini Chrome voice |
+| CB2 | BEACON | ✅ mode slave | Gemini Chrome + **Cursor Ctrl+M** |
+| puppy64 | PLATE | ⚠️ interim ack — Chrome must confirm | Gemini Chrome when PLATE bound |
+
+---
+
+## What to do now
+
+**CB2 (you):** Settings → Linux → Microphone ON → hold **Ctrl+M** in this chat.
+
+**CB1:** Same Linux mic toggle · say **EXPORT** or **VOICE** to WRANGLER.
+
+**puppy64:** **PUPPY** sprint still needed — fresh `puppy_outbox.txt` with hostname puppy64.
+
+---
+
+## Not mic-ready yet
+
+- Linux cannot hear Chrome tabs without paste/Live
+- Puppy execute lane not confirmed from this box
+- No fleet-wide mic heartbeat until each box posts `mic: ready` line (optional next)
+
+Setup: CURSOR_MIC.txt · VOICE_MOBILE.txt

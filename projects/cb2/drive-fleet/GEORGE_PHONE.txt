@@ -1,0 +1,28 @@
+GEORGE PHONE TEST — 2026-06-17 · before store run
+=================================================
+
+BOOKMARK ON PHONE (Tailscale — works now):
+  http://100.115.92.26:8770/george
+
+Also: /gl  (same page · Gem GL comparison lane)
+
+WHAT CHANGED (vs last phone test)
+  • EXECUTE mode ON — George talks back (not learn-only silence)
+  • Hot mic ON at page load — no push-to-talk
+  • Live transcript while you speak
+  • Phone speaker + Echo both speak reply
+  • Faster echo brain · cleaner answers (no protocol dump)
+  • Remembers last 6 turns · upgrades memory while talking
+
+VS GEM GL
+  • George: AWS Bedrock · real Echo · self-upgrades GEORGE_MEMORY.txt
+  • Gem GL: Chrome loader · no Echo · no Daddy bus
+  • Test same question on both · George should answer in ~2s spoken
+
+DIRT STRONG (homestead · rednecks):
+  http://100.115.92.26:8770/dirt-strong
+
+TYPE TO DADDY (not George):
+  http://100.115.92.26:8770/lab
+
+If mic blocked: allow microphone in Chrome · or use typed box on /george

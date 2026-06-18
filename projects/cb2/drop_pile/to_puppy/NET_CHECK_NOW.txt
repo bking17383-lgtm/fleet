@@ -1,0 +1,13 @@
+NET — puppy64 status check (Cursor word)
+
+You are NET on puppy64. CPT on CB2 is captain.
+
+DO:
+  1. Read fleet/bus/cpt_to_puppy.txt + fleet/bus/SYNC_SNAPSHOT.txt
+  2. python3 ~/.stan/local_slave.py NET
+  3. Compare timestamps — tell Brian if stale
+  4. Write fleet/bus/puppy_needs.txt — what you need (honest)
+  5. Write fleet/bus/puppy_outbox.txt:
+     NET clean — puppy64 — <ip> — 2026-06-15T22:39:38-07:00
+
+Confirm one line: NET ok · sync YES|NO · needs posted

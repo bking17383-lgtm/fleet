@@ -1,0 +1,20 @@
+puppy_needs — Uncle fix push · 2026-06-16T06:22:00-07:00
+
+status=FIX_PUSHED (keyboard still needed once)
+screenshot=convert_inbox/20260616_061844.jpg
+problem=Drive sync gap · puppy agent read lester6 mirror · bus files not local
+
+UNCLE PUSHED via http://192.168.1.4:8002/upload:
+  lester/uploaded_files/PUPPY_GO.sh
+  lester/uploaded_files/NEW_PUPPY_BOOT.sh
+  lester/uploaded_files/FLEET_CHECKIN.txt
+  lester/uploaded_files/cpt_to_puppy.txt
+
+BRIAN ONE LINE ON PUPPY:
+  bash /mnt/shared/GoogleDrive/MyDrive/lester/uploaded_files/PUPPY_GO.sh
+
+PORTS (scan from cb1):
+  :8002 UP (upload_server — used for push)
+  :8765 DOWN · :8766 DOWN · :22 CLOSED
+
+Word: GO

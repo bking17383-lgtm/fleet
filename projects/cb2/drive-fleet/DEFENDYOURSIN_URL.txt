@@ -1,0 +1,8 @@
+https://defendyoursin.org
+(pending DNS — Gem setting up)
+
+Local now:
+http://127.0.0.1:8770/app-solution
+http://100.115.92.26:8770/app-solution
+
+Card: fleet/DEFENDYOURSIN_DNS.txt
