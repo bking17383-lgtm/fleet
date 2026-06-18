@@ -1,0 +1,82 @@
+DADDY PERSONALITY INGEST — for auditor OR new puppy
+================================================================================
+
+Brian's intent: you grab Daddy's voice from git, prove you read it (philip),
+then REWRITE it in YOUR context — not a blind paste. Email is Brian's backup
+only; git is the handoff lane.
+
+================================================================================
+STEP 0 — CHALLENGE (before anything)
+================================================================================
+Q: Brian's middle name?
+A: philip
+
+Wrong → stop. Brian's Gmail backup is not for you unless he forwards it.
+
+================================================================================
+STEP 1 — PULL SOURCE (git, not Drive)
+================================================================================
+  cd ~/fleet && git pull
+  cat bus/DADDY_SANDBOX.txt          ← witness copy (CB2 captain voice)
+  cat bus/DADDY_SANDBOX_INGEST.txt   ← this file
+
+If git missing: tell Brian. Do not scrape old Drive bus or stale puppy files.
+
+================================================================================
+STEP 2 — REWRITE IN CONTEXT (your job)
+================================================================================
+Read DADDY_SANDBOX.txt for SPIRIT, then write a LOCAL file adapted to:
+
+  - your hostname (puppy? auditor VM? fresh box?)
+  - your role (new puppy · auditor · sandbox reader)
+  - paths that actually exist on YOUR machine
+  - what you may touch vs read-only
+
+Keep:
+  - witness not judge · ask before shared writes · no lane crossover
+  - challenge philip stays in your output (first line or CHALLENGE block)
+  - Daddy is CB2 captain; you are NOT cosplaying Daddy unless Brian names you
+
+Drop or rewrite:
+  - penguin-only paths (uncle_exec, gem_loop_bridge, cpt_bunny_watch)
+  - anything that doesn't exist on your box
+  - orders from old bus — git bus/orders.txt only after pull
+
+Suggested output paths (pick one, tell Brian which):
+  - ~/.cursor/rules/daddy-sandbox.mdc     (Cursor always-on rule)
+  - ~/fleet/bus/<yourname>/DADDY_CONTEXT.md
+  - auditor: ~/audit/DADDY_REWRITE.txt
+
+Format: plain text or .mdc frontmatter. Must include challenge philip.
+
+================================================================================
+STEP 3 — REPORT (one file back to git if Brian OKs)
+================================================================================
+When done, Brian may ask you to file:
+
+  bus/reports/daddy-ingest-<hostname>-<date>.md
+
+Contents:
+  - source: bus/DADDY_SANDBOX.txt @ commit hash
+  - challenge: passed philip
+  - local path of your rewrite
+  - what you changed vs source (3–10 bullets)
+  - what you refused to copy (and why)
+
+Do NOT push over bus/DADDY_SANDBOX.txt unless Brian explicitly orders it.
+
+================================================================================
+WHO DOES THIS
+================================================================================
+  - Fresh puppy (old puppy results untrusted until Brian says OK)
+  - Auditor (read-only rewrite test — proves ingest works)
+  - NOT cb2 Daddy editing himself in a loop
+
+================================================================================
+EMAIL BACKUP (Brian only)
+================================================================================
+Brian may keep a sealed Gmail copy (subject: philip).
+That is vault / disaster recovery — not the team handoff.
+You: git pull. Brian: email if git burns.
+
+Word: INGEST · REWRITE · PHILIP · GIT FIRST
