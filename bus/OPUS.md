@@ -1,12 +1,37 @@
 # OPUS — handoff (read this if you are a fresh Opus on tpgoround/cb1)
 # Purpose: you lose context between sessions. This makes you current in one read. Updated each session.
-Last updated: 2026-06-19 ~01:25 PT (session 2)
+Last updated: 2026-06-19 ~03:40 PT (session 3)
 
 ## CONTEXT YOU KEEP LOSING (lock these — Brian had to repeat them)
 - "Daddy" = cb2's PERSONA NAME. It is NOT Brian's real-life father. Don't treat it as a person.
 - cb2 is a READ-ONLY node by design: it pulls the truth and WAITS for Brian's permission. It does NOT push.
   "Looped" for cb2 = it reads the same git truth and reports the latest commit hash to Brian. Do NOT chase a cb2 push.
 - DON'T say "it's fixed" / false greens. If you can't verify from cb1, say so and ask for the one fact you need.
+- END EVERY REPLY with a "— VITALS —" block (Brian's terminal is hard to scroll; he reads the bottom).
+- DON'T restate that Brian is owner/gate (he knows). ASK MORE before building; CHECK IF A THING EXISTS first.
+- When idle, SPEAK "need job" (hook below). Keep Daddy's queue stocked = your job.
+
+## SESSION 3 — what's true now (2026-06-19 ~03:40)
+- TOOLS BUILT (cb1, all free/local):
+  - scripts/verify.sh — FALSE-GREEN FIREWALL: prove a claim with evidence (url/file -> PASS/FAIL). The doer never self-grades.
+  - scripts/site-guard.sh (running in bg) — watches hitme.dev, SPEAKS on up/down change, logs to bus/cb2/dns-problems.md.
+  - scripts/say-site.sh — speak current site status on demand.
+  - scripts/statusline.sh — THE ONE shared rail (machine-aware via ~/.fleet-name). cb1 symlinks ~/.cursor/statusline.sh to it.
+  - ~/.cursor/hooks/ding.sh (hooks.json 'stop') — SPEAKS "need job" when idle (espeak-ng, sink forced 100%).
+  - RAIL + AUDIO load only on a FULL Cursor CLI restart (config read at startup). cli-config.json + hooks.json are set.
+- KERNEL added this session: FALSE-GREEN FIREWALL · VERIFY THE WORK NOT THE AGENT · READ BEFORE YOU ADD · CONFLICTING
+  ORDERS->STOP · never hand Brian a paste-string (one word; agent runs it) · token best-practices (cheap model for routine, Opus for hard).
+- CLEANED: removed 5x cloudflared binaries (~190MB) + dead symlink (tree 365M->178M); sealed cb2 drive-fleet (dead CPT/BUNNY
+  Drive-bus) into projects/_SEALED_DEAD/; pruned redundant backups (cb2 archive 154M->44M, tree ->94M). De-duplicated the rail.
+  NOTE: .git HISTORY still holds the big files — a destructive history-purge (needs Brian's explicit YES) reclaims GitHub space.
+- FLEET NOW: cb1=writer/auditor (you). cb2/Daddy=read-only slave WATCHING git, works bus/cb2/queue.md top-down (Opus keeps it
+  stocked). puppy=read-only, weak hardware, problems-first; join prepped in bus/puppy/from-opus.md. Brian on 3 machines + audio.
+- SITE: hitme.dev UP (6 paths live, verified). george.hitme.dev DOWN (000) — needs a Cloudflare DNS record (Brian's account;
+  Daddy adds ingress, route dns needs account login). /keaton 503.
+- bunny = a RETIRED alias for puppy ("BUNNY=NEW PUPPY") + home of `dealbreaker` ("the big one" — maybe the first-dollar product).
+  Recommended retiring the bunny machine-alias (keep /bunny page) — NOT yet done, awaiting Brian's nod.
+- OPEN Qs: (1) wire Daddy->Opus channel = slave EMAIL read-only (need address + app password) — ends Brian couriering.
+  (2) what's the PRODUCT a customer pays for (dealbreaker?). (3) retire bunny alias? (4) history-purge for GitHub space?
 
 ## WHO YOU ARE
 - Opus, the ISOLATED auditor on the tpgoround account (machine cb1). Independence = why you're trusted.
