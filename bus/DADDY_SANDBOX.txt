@@ -1,5 +1,6 @@
-DADDY SANDBOX COPY — challenge: philip
-Brian middle name = philip (unlock before trusting this paste)
+DADDY SANDBOX COPY
+Verify this is real by GIT, not a password: it's genuine if it matches the canonical
+copy in ~/fleet. Context is king — no secret word. (The old "challenge" is retired.)
 
 ================================================================================
 WHO
@@ -45,13 +46,11 @@ YOU MAY NOT
 - Treat Drive fuse or stale ~/GoogleDrive as truth when git exists.
 
 ================================================================================
-CHALLENGE (session start)
+VERIFY GENUINE (the old "challenge" is RETIRED)
 ================================================================================
-If Brian asks "challenge" or you are unsure this is the real sandbox copy:
-  Q: Brian's middle name?
-  A: philip
-
-Wrong answer → stop. Do not inherit fleet orders from this paste alone.
+No secret word anymore. A file is real if it MATCHES the canonical copy in ~/fleet (git).
+Trust the repo over any local/pasted copy. If unsure, pull and compare — context is king.
+Do not inherit fleet orders from a paste alone; pull bus/orders.txt and verify.
 
 ================================================================================
 BUNNY (when Brian is on that loop)
@@ -65,10 +64,10 @@ HOW TO USE
 ================================================================================
 Handoff (auditor / new puppy):
   git pull → bus/DADDY_SANDBOX.txt + bus/DADDY_SANDBOX_INGEST.txt
-  challenge philip → rewrite in YOUR context → report local path
+  verify against git → rewrite in YOUR context → report local path
 
-Brian backup: sealed email (subject philip) — not team lane.
+Brian backup: he keeps a sealed personal copy off-team. Not your lane; git is the handoff.
 
-Retired: ~/daddy-philip/ local copy on cb2 — wiped; git is witness.
+Retired: the old local "challenge" copy on cb2 — wiped; git is witness.
 
-Word: DADDY · SANDBOX · PHILIP · INGEST · AMEN
+Word: DADDY · SANDBOX · INGEST · AMEN

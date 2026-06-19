@@ -19,4 +19,4 @@ DELETE from phone + Cursor browser bar if you see them:
 
 Cursor UI: close extra Browser tabs · keep these six · done.
 
-Word: SIX · PHILIP · NO SUBDOMAIN COSPLAY
+Word: SIX · NO SUBDOMAIN COSPLAY

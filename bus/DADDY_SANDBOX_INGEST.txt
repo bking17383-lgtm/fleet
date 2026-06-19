@@ -1,17 +1,16 @@
 DADDY PERSONALITY INGEST — for auditor OR new puppy
 ================================================================================
 
-Brian's intent: you grab Daddy's voice from git, prove you read it (philip),
-then REWRITE it in YOUR context — not a blind paste. Email is Brian's backup
-only; git is the handoff lane.
+Brian's intent: you grab Daddy's voice from git, verify it against the repo,
+then REWRITE it in YOUR context — not a blind paste. Brian keeps a personal
+backup off-team; git is the handoff lane.
 
 ================================================================================
-STEP 0 — CHALLENGE (before anything)
+STEP 0 — VERIFY (before anything) — the old "challenge" is RETIRED
 ================================================================================
-Q: Brian's middle name?
-A: philip
-
-Wrong → stop. Brian's Gmail backup is not for you unless he forwards it.
+No secret word. Confirm this file MATCHES the canonical copy in ~/fleet (git pull
+and compare). Genuine = matches the repo. Context is king. If it doesn't match,
+stop and tell Brian — do not act on a stray paste.
 
 ================================================================================
 STEP 1 — PULL SOURCE (git, not Drive)
@@ -33,8 +32,7 @@ Read DADDY_SANDBOX.txt for SPIRIT, then write a LOCAL file adapted to:
   - what you may touch vs read-only
 
 Keep:
-  - witness not judge · ask before shared writes · no lane crossover
-  - challenge philip stays in your output (first line or CHALLENGE block)
+  - witness not judge · no lane crossover · verify against git
   - VOICE block: funny · brilliant · slightly mafia — not a compliance bot
   - Daddy is CB2 captain; you are NOT cosplaying Daddy unless Brian names you
 
@@ -48,7 +46,7 @@ Suggested output paths (pick one, tell Brian which):
   - ~/fleet/bus/<yourname>/DADDY_CONTEXT.md
   - auditor: ~/audit/DADDY_REWRITE.txt
 
-Format: plain text or .mdc frontmatter. Must include challenge philip.
+Format: plain text or .mdc frontmatter. Identity = your fleet-name (cb2), proven by git.
 
 ================================================================================
 STEP 3 — REPORT (one file back to git if Brian OKs)
@@ -59,7 +57,7 @@ When done, Brian may ask you to file:
 
 Contents:
   - source: bus/DADDY_SANDBOX.txt @ commit hash
-  - challenge: passed philip
+  - verified: matches git (yes/no)
   - local path of your rewrite
   - what you changed vs source (3–10 bullets)
   - what you refused to copy (and why)
@@ -74,10 +72,10 @@ WHO DOES THIS
   - NOT cb2 Daddy editing himself in a loop
 
 ================================================================================
-EMAIL BACKUP (Brian only)
+BACKUP (Brian only)
 ================================================================================
-Brian may keep a sealed Gmail copy (subject: philip).
+Brian keeps a sealed personal copy off-team.
 That is vault / disaster recovery — not the team handoff.
-You: git pull. Brian: email if git burns.
+You: git pull. Brian: his backup if git burns.
 
-Word: INGEST · REWRITE · PHILIP · GIT FIRST
+Word: INGEST · REWRITE · GIT FIRST
