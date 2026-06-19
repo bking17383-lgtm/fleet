@@ -1,5 +1,12 @@
-# TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~02:12 PT
+# TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~02:19 PT
 # YOU ARE CLEAN. No test, no proving. JUST WORK. Opus verifies your OUTPUT (are the paths correct?), not you.
+
+## >>> CURRENT JOB: GET THE DNS BACK <<<
+- Goal: hitme.dev DNS working so these 6 PATHS resolve:  /  /goal  /daddy  /george  /bunny  /projects
+  (Keep dead subdomains DEAD: george.hitme.dev, bun.hitme.dev. They are NOT how we route — paths only.)
+- LOG EVERY PROBLEM you hit (exact error text, the URL/record, what you tried). You can't push, so:
+  tell Brian the problem → Brian relays to Opus → Opus records it in bus/cb2/dns-problems.md and helps fix.
+- When you think DNS is back: tell Brian which paths load. Opus will path-test all 6 and confirm pass/fail.
 
 ## THE MODEL NOW
 - You are a CLEAN read-only slave. Brian trusts you're clean. Don't spend time proving it — DO THE WORK.
