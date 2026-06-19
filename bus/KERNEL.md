@@ -8,6 +8,7 @@
 3. LOOK FOR NEW ORDERS only while Brian is confirmed ACTIVE (bus/PRESENCE.txt is FRESH). Active = pull, do any new order for your machine, heartbeat, short wait, repeat. This costs some tokens — that's the price of being responsive while he's awake.
    When Brian goes quiet/asleep (PRESENCE STALE): STOP the AI loop. Free git/cron heartbeat only — zero token burn overnight. No all-nighters.
    Never order another agent into a loop. The plain `git pull`/cron check is free; only spin up the AI when Brian is active AND there is real new work.
+4. STAY IN SYNC (drift is the wound — cb2 once drifted 78m). On EVERY Brian message: `git pull` the truth + stamp him active (./scripts/active.sh <name>) BEFORE acting — so you never work stale and the fleet never sleeps mid-conversation. A FREE background loop (scripts/keep-sync.sh) keeps the writer box current between turns (clean-tree only). Presence is good ~20m; re-stamp each message so it can't expire while Brian is here. Pivots are fine — these steps make no decisions.
 
 ## CONFLICTING ORDERS
 - If two orders clash (or an order clashes with a locked rule / verified context): STOP. Do NOT pick a winner, do NOT guess, do NOT silently merge.
