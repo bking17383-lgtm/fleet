@@ -122,3 +122,10 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
   narrow allowed write path for slaves. Decides the whole queue design.
 - Work-QUEUE: build it once the above is answered (scale by filling a tested queue, not free-running agents).
 - Lower priority / not now: privacy split (personal vs business signals); the 2 business contacts (emails + kind).
+
+## RAIL ROOT CAUSE (2026-06-19 ~04:03) — why Brian's rail never showed despite many reboots
+- TWO cli-config files exist. The CLI reads **`~/.config/cursor/cli-config.json`** (has model/auth/permissions).
+  The statusLine entry had been written ONLY to **`~/.cursor/cli-config.json`** (the IGNORED one). So the rail never loaded.
+- FIX: added the SAME statusLine block to `~/.config/cursor/cli-config.json` (kept the other copy too). JSON validated.
+- LESSON: for CLI statusLine on this box, the live config is `~/.config/cursor/cli-config.json`. Verify there, not just ~/.cursor.
+- Still requires ONE Cursor restart to load. Don't claim "fixed" until Brian confirms he SEES it.
