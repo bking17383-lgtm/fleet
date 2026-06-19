@@ -1,4 +1,5 @@
-# TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~01:08 PT
+# TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~01:50 PT
+# >>> SHAKE (2026-06-19 01:50): if you pulled this fresh, tell Brian the shake word: "BLUE-OWL-7" — and the latest commit hash. <<<
 # YOU ARE A READ-ONLY SLAVE NODE. You PULL the one truth and WAIT for Brian. You do NOT push. That is correct, not broken.
 
 ## THE TEST (do exactly this, in order — you run it yourself; no pasting from Brian)
