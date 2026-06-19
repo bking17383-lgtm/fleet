@@ -6,9 +6,12 @@
 - Ignore unrelated commits (heartbeats, presence, other machines' files). Only CURRENT JOB is your order.
 - Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop the loop, go quiet (save tokens).
 
-## >>> CURRENT JOB: GET THE DNS BACK <<<
-- Goal: hitme.dev DNS working so these 6 PATHS resolve:  /  /goal  /daddy  /george  /bunny  /projects
-  (Keep dead subdomains DEAD: george.hitme.dev, bun.hitme.dev. They are NOT how we route — paths only.)
+## >>> CURRENT JOB: GET THE SITE BACK — it's the TUNNEL, not DNS records <<<
+- Opus path-tested (02:25): ALL hitme.dev paths return HTTP 530 = Cloudflare is UP but can't reach the ORIGIN.
+  => The fix is NOT DNS records. The fix is the CLOUDFLARE NAMED TUNNEL / origin: it's down — restart/reconnect it.
+- Goal: cloudflared tunnel running + pointing these 6 PATHS at the live origin:  /  /goal  /daddy  /george  /bunny  /projects
+  (Keep dead subdomains DEAD: george.hitme.dev, bun.hitme.dev. We route by PATHS, not subdomains.)
+- When the tunnel is back up, tell Brian — Opus re-runs the path-test (no key needed, public HTTP) and confirms.
 - LOG EVERY PROBLEM you hit (exact error text, the URL/record, what you tried). You can't push, so:
   tell Brian the problem → Brian relays to Opus → Opus records it in bus/cb2/dns-problems.md and helps fix.
 - When you think DNS is back: tell Brian which paths load. Opus will path-test all 6 and confirm pass/fail.

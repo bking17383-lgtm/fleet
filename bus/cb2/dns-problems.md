@@ -7,4 +7,9 @@ These 6 hitme.dev PATHS must resolve:  /  /goal  /daddy  /george  /bunny  /proje
 Dead-on-purpose (leave dead): george.hitme.dev, bun.hitme.dev.  Known: hitme.dev/keaton was 503.
 
 ## PROBLEMS (newest first)
-- (none logged yet — waiting on Daddy's first report via Brian)
+- [2026-06-19 02:25, Opus path-test] ALL hitme.dev paths return HTTP 530 (Cloudflare up, ORIGIN unreachable):
+    / · /goal · /daddy · /george · /bunny · /projects · /keaton  -> all 530
+    bun.hitme.dev -> 530 ;  george.hitme.dev -> 000 (DNS dead, as intended)
+  DIAGNOSIS: 530 = Cloudflare answers but can't reach the origin = the NAMED TUNNEL / origin server is DOWN.
+  This is NOT a DNS-record problem (lookups resolve). REAL FIX = restart/reconnect the Cloudflare tunnel to the origin.
+  -> Daddy: get the cloudflared tunnel running again and pointing hitme.dev paths at the live origin. Then tell Brian; Opus re-tests.
