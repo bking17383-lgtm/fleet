@@ -14,11 +14,19 @@
 - [ ] Daddy pushes new work commit -> read it, verify output (paths correct?), ack.
 - [ ] Site goes down (watcher speaks) -> investigate from cb1, log to bus/cb2/dns-problems.md.
 
-## JANE BACKLOG (the 90% — pull from here when standing duties are clean)
-- [ ] Hearing accuracy: grow jane-corrections.txt as mishears appear; AWS Transcribe when key lands.
-- [ ] True barge-in (interrupt mid-sentence) — needs Brian's voice to tune; do WITH him.
-- [ ] Mobile Jane: track Daddy building /jane; verify when live.
-- [ ] QA pass: hunt edge cases / deadlocks in jane scripts; harden.
+## ACTIVE BUILD TASKS (the WORKING SET — every cycle DO the top one, verify, mark [x], take next)
+# Standing duties above = a 10-second glance. THIS is the real work. Never reduce a cycle to monitoring.
+- [ ] Simulate a voice-daemon HANG and prove jane-say.sh falls through (validate today's deadlock fix end-to-end).
+- [ ] Guard the keeper itself: if jane-keeper.sh dies, nothing restarts it — add a cron @reboot/peer check.
+- [ ] Jane resilience: a jane-install.sh that rebuilds Jane from scratch (venv + models + scripts) after a wipe.
+- [ ] Hearing: add a "did I get that right?" readback for important/irreversible-sounding commands.
+- [ ] Grow jane-corrections.txt proactively (common mishears: names, fleet words).
+- [ ] QA the watcher + refresher for edge cases (empty cache, git offline) — harden.
+- [ ] Mobile Jane: verify /jane when Daddy ships it (vantage-test from a phone-like fetch).
+
+## DEFERRED (needs Brian / a key — NOT autonomous)
+- [ ] True barge-in (interrupt mid-sentence) — needs Brian's voice to tune.
+- [ ] AWS Transcribe ears + Polly voice — needs the AWS key.
 
 ## FLEET BACKLOG (the 10%)
 - [ ] george.hitme.dev CF cert (Brian account) — surfaced, waiting.
