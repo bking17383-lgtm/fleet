@@ -4,6 +4,9 @@
 # You can't push, so you can't check items off in git — tell Brian which you finished; Opus marks them here.
 
 ## QUEUE (top = do first)
+- [ ] 0b. MOBILE JANE (Brian's order 2026-06-19 ~07:53, SOON): host a phone-accessible "Jane" voice page on a
+        hitme.dev path (e.g. /jane), reusing the george web+voice stack. Full spec: bus/jane/MOBILE_JANE_SPEC.md.
+        Done-test: Brian opens hitme.dev/jane on his phone and talks to Jane. Report the URL.
 - [~] 0. BASEBALL CARDS OF HOPE (Brian's order 2026-06-19 ~04:15, TOP NOW): slave scrubs a person's Facebook
         (face + facts; creds LOCAL never git). Reuse dealbreaker card engine (face+stat-bars+flip). Make ~10 cards =
         their face + HOPEFUL/aspirational stats (encouraging, NOT satire). Serve on a hitme.dev path. Report URL.
