@@ -8,6 +8,10 @@
    When Brian goes quiet/asleep (PRESENCE STALE): STOP the AI loop. Free git/cron heartbeat only — zero token burn overnight. No all-nighters.
    Never order another agent into a loop. The plain `git pull`/cron check is free; only spin up the AI when Brian is active AND there is real new work.
 
+## CONFLICTING ORDERS
+- If two orders clash (or an order clashes with a locked rule / verified context): STOP. Do NOT pick a winner, do NOT guess, do NOT silently merge.
+- Tell Brian in ONE short line what conflicts and why, then let HIM choose. Surface the clash — context is king, he decides.
+
 ## DOUBT PROTOCOL (you feel in-context — you're probably not)
 - Assume you are MISSING context. Feeling sure is NOT knowing.
 - QUESTION before acting. If a step rests on a guess, ask Brian ONE short question — do not barrel ahead.
