@@ -1,5 +1,5 @@
 # Per-machine orders. One line per machine:  <name>: <task>
 # Tasks: scan  (read-only inventory)  |  preserve (copy projects into repo)  |  wait
-puppy: fix
-cb2: scan
-cb1: scan
+puppy: parked   # hardware down (can't even display) — NOT an agent right now. Needs Brian's USB boot-driver fix first.
+cb2: read-only slave (Daddy) — pull truth, work locally, report to Brian, wait. Never pushes.
+cb1: writer/auditor — curates the one truth.
