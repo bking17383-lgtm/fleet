@@ -26,17 +26,12 @@ fi
   cat bus/puppy/puppy-soul.txt
 } > "$RDIR/puppy-soul.mdc"
 
-# 3. clean bar
-cat > "$HOME/.cursor/statusline.sh" <<'SH'
-#!/usr/bin/env bash
-cat >/dev/null 2>&1
-printf 'puppy'
-SH
-chmod +x "$HOME/.cursor/statusline.sh"
+# 3. rail = THE ONE shared fleet rail (scripts/statusline.sh) — no per-machine duplicate
+echo puppy > "$HOME/.fleet-name"
+ln -sf "$HOME/fleet/scripts/statusline.sh" "$HOME/.cursor/statusline.sh"
 
 # record the clean set in the repo
 cp -a "$RDIR/puppy-soul.mdc"      "$REC/puppy-soul.mdc.CLEAN"
-cp -a "$HOME/.cursor/statusline.sh"  "$REC/statusline.sh.CLEAN"
 
 git add "$REC"
 git commit -q -m "rebuild: puppy clean brain + soul + clean bar (old backed up)" || true

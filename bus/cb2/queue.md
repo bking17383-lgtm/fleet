@@ -15,6 +15,10 @@
 - [ ] 5. GHOST SWEEP: any OLD loops/processes running? (cpt / bunny / gemini / old wake-loops)
         check:  ps aux | grep -iE 'cpt|bunny|gemini|wake|loop' | grep -v grep
         Report findings to Brian. Don't kill anything you're unsure about — ask first.
+- [ ] 6. USE THE ONE SHARED RAIL (de-dup — don't keep your own copy):
+        echo cb2 > ~/.fleet-name
+        ln -sf ~/fleet/scripts/statusline.sh ~/.cursor/statusline.sh
+        (Now your rail = the same script as cb1/puppy. One rail, machine-aware.)
 
 ## DONE (Opus marks here as Brian relays completions)
 - (none yet)
