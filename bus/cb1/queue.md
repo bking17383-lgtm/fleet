@@ -16,7 +16,8 @@
 
 ## ACTIVE BUILD TASKS (the WORKING SET — every cycle DO the top one, verify, mark [x], take next)
 # Standing duties above = a 10-second glance. THIS is the real work. Never reduce a cycle to monitoring.
-- [ ] Simulate a voice-daemon HANG and prove jane-say.sh falls through (validate today's deadlock fix end-to-end).
+- [x] Simulate a voice-daemon HANG and prove jane-say.sh falls through — DONE 2026-06-19: froze daemon, jane-say
+      fell through in 41s (no infinite hang) + spoke via fallback; daemon recovered to 4s after unfreeze. Fix solid.
 - [ ] Guard the keeper itself: if jane-keeper.sh dies, nothing restarts it — add a cron @reboot/peer check.
 - [ ] Jane resilience: a jane-install.sh that rebuilds Jane from scratch (venv + models + scripts) after a wipe.
 - [ ] Hearing: add a "did I get that right?" readback for important/irreversible-sounding commands.
