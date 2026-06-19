@@ -15,3 +15,5 @@ Dead-on-purpose (leave dead): george.hitme.dev, bun.hitme.dev.  Known: hitme.dev
   DIAGNOSIS: 530 = Cloudflare answers but can't reach the origin = the NAMED TUNNEL / origin server is DOWN.
   This is NOT a DNS-record problem (lookups resolve). REAL FIX = restart/reconnect the Cloudflare tunnel to the origin.
   -> Daddy: get the cloudflared tunnel running again and pointing hitme.dev paths at the live origin. Then tell Brian; Opus re-tests.
+
+- [2026-06-19T02:53:32-07:00] site-guard: state changed unknown -> up
