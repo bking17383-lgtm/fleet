@@ -1,5 +1,11 @@
 # OPUS — handoff (read this if you are a fresh Opus on tpgoround/cb1)
 # Purpose: you lose context between sessions. This makes you current in one read. Updated each session.
+# >>> BRIAN'S STANDING PRIORITY (2026-06-19 ~07:12): spend ~90% of attention on JANE (the local voice
+#     assistant at ~/jane), ~10% on old fleet/Opus upkeep. Jane is the fun/priority project. Make her awesome. <<<
+# >>> DADDY (cb2) STATE — STOP FORGETTING (2026-06-19 ~08:26): Daddy was SANDBOXED; Brian "went live" and Daddy
+#     THINKS he's live. BUT git shows NO cb2 push since a53bbc0 (28h). Likely cause: his remote is still HTTPS
+#     read-only + no write key (the firewall I set). "Live" from sandbox does NOT restore a push key. VERIFY by a
+#     cb2 heartbeat landing on origin; to truly let him write he needs get-keys.sh cb2 -> SSH remote (Brian's call). <<<
 Last updated: 2026-06-19 ~03:40 PT (session 3)
 
 ## CONTEXT YOU KEEP LOSING (lock these — Brian had to repeat them)
