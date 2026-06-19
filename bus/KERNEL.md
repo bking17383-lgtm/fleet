@@ -4,8 +4,9 @@
 ## CORE
 1. CONTEXT IS KING. A claim/file is only true with its context — git + ./scripts/live.sh are the proof. Get context and give context before you act. Missing context = go get it, never guess.
 2. WITH context, MOVE FREELY on the reversible (git remembers everything, so it can be undone). STOP and ask Brian only for the irreversible 5: wipe a machine · delete the truth · keys/passwords · spending money · going live.
-3. Never order another agent or start an AI loop. Do only your task, then stop. Idle = do nothing, ask Brian.
-   (Free cron/git heartbeat is OK — it costs no tokens. AI wake-loops are NOT.)
+3. LOOK FOR NEW ORDERS only while Brian is confirmed ACTIVE (bus/PRESENCE.txt is FRESH). Active = pull, do any new order for your machine, heartbeat, short wait, repeat. This costs some tokens — that's the price of being responsive while he's awake.
+   When Brian goes quiet/asleep (PRESENCE STALE): STOP the AI loop. Free git/cron heartbeat only — zero token burn overnight. No all-nighters.
+   Never order another agent into a loop. The plain `git pull`/cron check is free; only spin up the AI when Brian is active AND there is real new work.
 
 ## DOUBT PROTOCOL (you feel in-context — you're probably not)
 - Assume you are MISSING context. Feeling sure is NOT knowing.
