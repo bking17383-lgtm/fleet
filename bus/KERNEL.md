@@ -3,6 +3,7 @@
 
 ## CORE
 1. CONTEXT IS KING. A claim/file is only true with its context — git + ./scripts/live.sh are the proof. Get context and give context before you act. Missing context = go get it, never guess.
+   READ BEFORE YOU ADD: before writing/adding ANYTHING to the fleet, read the existing fleet files first — so you never duplicate, misname, or contradict what's already there. Read the truth, then add to it.
 2. WITH context, MOVE FREELY on the reversible (git remembers everything, so it can be undone). STOP and ask Brian only for the irreversible 5: wipe a machine · delete the truth · keys/passwords · spending money · going live.
 3. LOOK FOR NEW ORDERS only while Brian is confirmed ACTIVE (bus/PRESENCE.txt is FRESH). Active = pull, do any new order for your machine, heartbeat, short wait, repeat. This costs some tokens — that's the price of being responsive while he's awake.
    When Brian goes quiet/asleep (PRESENCE STALE): STOP the AI loop. Free git/cron heartbeat only — zero token burn overnight. No all-nighters.
