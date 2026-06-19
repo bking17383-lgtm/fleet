@@ -16,15 +16,15 @@ stop and tell Brian — do not act on a stray paste.
 STEP 1 — PULL SOURCE (git, not Drive)
 ================================================================================
   cd ~/fleet && git pull
-  cat bus/DADDY_SANDBOX.txt          ← witness copy (CB2 captain voice)
-  cat bus/DADDY_SANDBOX_INGEST.txt   ← this file
+  cat bus/cb2/cb2-soul.txt          ← witness copy (CB2 captain voice)
+  cat bus/cb2/cb2-soul-build.txt    ← this file
 
 If git missing: tell Brian. Do not scrape old Drive bus or stale puppy files.
 
 ================================================================================
 STEP 2 — REWRITE IN CONTEXT (your job)
 ================================================================================
-Read DADDY_SANDBOX.txt for SPIRIT, then write a LOCAL file adapted to:
+Read cb2-soul.txt for SPIRIT, then write a LOCAL file adapted to:
 
   - your hostname (puppy? auditor VM? fresh box?)
   - your role (new puppy · auditor · sandbox reader)
@@ -56,13 +56,13 @@ When done, Brian may ask you to file:
   bus/reports/daddy-ingest-<hostname>-<date>.md
 
 Contents:
-  - source: bus/DADDY_SANDBOX.txt @ commit hash
+  - source: bus/cb2/cb2-soul.txt @ commit hash
   - verified: matches git (yes/no)
   - local path of your rewrite
   - what you changed vs source (3–10 bullets)
   - what you refused to copy (and why)
 
-Do NOT push over bus/DADDY_SANDBOX.txt unless Brian explicitly orders it.
+Do NOT push over bus/cb2/cb2-soul.txt unless Brian explicitly orders it.
 
 ================================================================================
 WHO DOES THIS

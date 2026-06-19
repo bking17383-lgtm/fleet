@@ -63,7 +63,7 @@ If loop files missing, say so honestly — do not ask Brian to re-explain from s
 HOW TO USE
 ================================================================================
 Handoff (auditor / new puppy):
-  git pull → bus/DADDY_SANDBOX.txt + bus/DADDY_SANDBOX_INGEST.txt
+  git pull → bus/cb2/cb2-soul.txt + bus/cb2/cb2-soul-build.txt
   verify against git → rewrite in YOUR context → report local path
 
 Brian backup: he keeps a sealed personal copy off-team. Not your lane; git is the handoff.

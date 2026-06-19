@@ -45,7 +45,7 @@ WHAT WORKS (keep)
 - Cloudflare named tunnel + hitme.dev domain; PATH urls (/goal /daddy /george /bunny /projects). NOT subdomains.
 - Git as the link: free, robust, survives divergence. This is the backbone.
 - "I need a job." loop (Bunny) — Brian loved it.
-- 6 clean bookmarks (see bus/BRIAN_BOOKMARKS.txt). All hitme.dev paths.
+- 6 clean bookmarks (see bus/bookmarks.txt). All hitme.dev paths.
 
 ================================================================================
 WHAT FAILED / CORRUPTION (avoid — never reintroduce)

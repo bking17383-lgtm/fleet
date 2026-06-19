@@ -46,8 +46,8 @@ heartbeat when told — ./scripts/heartbeat.sh cb2 "<doing>"
 
 ## Reports filed (this folder)
 
-- `bus/cb2/SCAN_INVENTORY.md` — project count POV · split-brain notes
-- `bus/cb2/ORDERS.md` — this file
+- `bus/cb2/scan.md` — project count POV · split-brain notes
+- `bus/cb2/orders.md` — this file
 
 Official machine reports:
 - `bus/reports/cb2-projects.md`

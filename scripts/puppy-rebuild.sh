@@ -23,8 +23,8 @@ fi
   printf 'description: Puppy — voice, paths, and rules (puppy64, GitHub single truth)\n'
   printf 'alwaysApply: true\n'
   printf -- '---\n\n'
-  cat bus/puppy/PUPPY_SANDBOX.txt
-} > "$RDIR/puppy-sandbox.mdc"
+  cat bus/puppy/puppy-soul.txt
+} > "$RDIR/puppy-soul.mdc"
 
 # 3. clean bar
 cat > "$HOME/.cursor/statusline.sh" <<'SH'
@@ -35,7 +35,7 @@ SH
 chmod +x "$HOME/.cursor/statusline.sh"
 
 # record the clean set in the repo
-cp -a "$RDIR/puppy-sandbox.mdc"      "$REC/puppy-sandbox.mdc.CLEAN"
+cp -a "$RDIR/puppy-soul.mdc"      "$REC/puppy-soul.mdc.CLEAN"
 cp -a "$HOME/.cursor/statusline.sh"  "$REC/statusline.sh.CLEAN"
 
 git add "$REC"

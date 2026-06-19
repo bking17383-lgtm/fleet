@@ -40,7 +40,7 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 - PRESENCE SYSTEM built: bus/PRESENCE.txt + scripts/active.sh (stamp "Brian awake") + scripts/watch.sh
   (presence-gated loop; plain bash = free; only acts while Brian active).
 - t3 RESURRECTION RISK fixed (Daddy's catch): dead t3/daddy BOOT files moved to projects/_SEALED_DEAD/ (DO NOT BOOT).
-- CHALLENGE WORD retired: scrubbed "philip" (Brian's middle name) out of DADDY_SANDBOX + INGEST + BRIAN_BOOKMARKS.
+- CHALLENGE WORD retired: scrubbed "philip" (Brian's middle name) out of cb2-soul + cb2-soul-build + bookmarks.
   Verification is now git-match, no secret word. (Brian keeps his own personal backup off-team.)
 - BOOT.md hardened with a COLD START block so a naked isolated agent bootstraps from zero (clone/keys).
 - GitHub rename "bking17383-lgtm" -> "bking17383" was TRIED before and BLOCKED by GitHub. Do NOT re-suggest.

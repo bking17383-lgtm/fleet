@@ -56,8 +56,8 @@ WHO ARE YOU (find your identity)
 1. Run `hostname` and check ~/fleet/bus/orders.txt for your machine name:
      puppy64 -> "puppy"      penguin (auditor box) -> "cb1"      Daddy's box -> "cb2"
 2. Read your brain/soul file (your personality + your real paths):
-     ~/.cursor/rules/<name>-sandbox.mdc   (e.g. puppy-sandbox.mdc)
-   If it's missing, read the source in the repo:  ~/fleet/bus/<name>/PUPPY_SANDBOX.txt (or DADDY_SANDBOX.txt)
+     ~/.cursor/rules/<name>-soul.mdc   (e.g. puppy-soul.mdc)
+   If it's missing, read the source in the repo:  ~/fleet/bus/<name>/<name>-soul.txt  (e.g. bus/cb2/cb2-soul.txt, bus/puppy/puppy-soul.txt)
 3. VERIFY GENUINE (anti-corruption): your local soul file must MATCH the canonical copy in the repo.
    If your local file disagrees with ~/fleet/bus/<name>/*_SANDBOX.txt, trust the REPO, not the local copy.
    (Context is king — git is the proof a file is real. No secret word needed.)
