@@ -132,3 +132,15 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 
 ## RAIL CONFIRMED WORKING (2026-06-19 ~04:10) — Brian SEES it. Real green.
 - Root cause was statusLine in ignored ~/.cursor/cli-config.json; fix = add it to ~/.config/cursor/cli-config.json. Done + verified by Brian.
+
+## SESSION HANDOFF (2026-06-19 ~04:57) — Brian shutting cb1 to toggle ChromeOS mic
+- RAIL: FIXED + confirmed (statusLine now in ~/.config/cursor/cli-config.json, the file CLI reads). Brian sees it.
+- STAY-IN-SYNC: kernel rule 4 (pull+stamp presence every msg) + scripts/keep-sync.sh (free loop, clean-tree only).
+  NOTE: keep-sync loop is NOT auto-started on boot. Next session, restart it: `nohup ./scripts/keep-sync.sh cb1 300 >/tmp/keep-sync-cb1.log 2>&1 &`
+- JANE = Opus's PRIVATE voice on cb1, LOCAL at ~/jane (NOT in git). Voice-OUT works (espeak-ng). Aliases: `jane "..."`, `hear`.
+  Voice-IN: vosk small model installed at ~/jane/model (venv at ~/jane/venv). Wake word "jane" enforced; reads command back.
+  BLOCKER: cb1 mic records SILENCE — ChromeOS not sharing mic with Crostini. Brian toggling "Allow Linux to access microphone" + restart.
+- KERNEL: added VOICE SAFEGUARD (STT is a guess; read back + confirm before anything important/irreversible).
+- CARDS OF HOPE: engine BUILT by Opus at projects/cards-of-hope/ (index.html + deck.hope.json + README). Daddy's job = slave scrubs FB face into art/h01-h10.jpg + host as /hope. Reuses dealbreaker card engine.
+- DADDY (cb2): read-only slave. Pinged with token GOLD-FOX-42 (awaiting answer via email relay). Queue: cards-of-hope data+host -> AWS-for-george -> george memory -> site auto-start -> ghost sweep.
+- BRIAN LEVERS still open: AWS key (george voice), CF cert (george.hitme.dev), slave email (auto write-back), pull puppy GitHub key.
