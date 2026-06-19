@@ -6,7 +6,7 @@
 - Ignore unrelated commits (heartbeats, presence, other machines' files). Only CURRENT JOB is your order.
 - Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop the loop, go quiet (save tokens).
 
-## >>> CURRENT JOB: FIX THE SITE — restart the Cloudflare tunnel/origin on your box <<<
+## >>> CURRENT JOB: GET THE WEBSITE WORKING — and keep it up (Brian: make it WORK, not cheap) <<<
 Opus path-tested (02:25): ALL hitme.dev paths = HTTP 530 = Cloudflare UP but ORIGIN unreachable. NOT a DNS-record problem.
 The cloudflared tunnel and/or the origin web server is DOWN. Fix it on YOUR machine. Do this, in order:
 
@@ -20,6 +20,11 @@ The cloudflared tunnel and/or the origin web server is DOWN. Fix it on YOUR mach
 4. RESTART both:
      start the origin web server if it's down, THEN
      systemctl restart cloudflared   (or)   cloudflared tunnel run <tunnel-name>
+4b. MAKE IT STAY UP (Brian wants it to WORK, not be fragile). Set both to auto-start + auto-restart so a reboot/sleep
+    can't kill the site again:
+     sudo systemctl enable --now cloudflared
+     enable the origin web server as a service too (systemd unit) so it restarts on boot/crash.
+     Confirm:  systemctl is-enabled cloudflared   (should say: enabled)
 5. LOG everything (commands + exact errors). You can't push, so tell Brian -> he relays -> Opus records in bus/cb2/dns-problems.md.
 6. When you think it's up, tell Brian. Opus re-tests all 6 paths (public HTTP, no key) and confirms pass/fail.
 
