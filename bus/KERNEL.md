@@ -31,6 +31,13 @@
 - Assume agents are CLEAN. Don't gate on proving an agent — let it WORK and produce.
 - The auditor (cb1) verifies the OUTPUT: are the paths/links/file locations correct? If not, FIX them. Working > proving.
 
+## FALSE-GREEN FIREWALL (Brian has been burned by fakers — this is law)
+- GREEN = independent EVIDENCE, never a claim. "I did it / it works" is a CLAIM, not done.
+- THE DOER NEVER GRADES THEMSELVES. An independent checker (cb1/Opus, or an automated test) proves it with hard,
+  reproducible facts: HTTP status+content (curl), file in git, exit codes. Run scripts/verify.sh.
+- EVERY ORDER STATES ITS DONE-TEST up front (the objective check that flips it green). No test = not a real order.
+- DEFAULT RED: unverified = not done. No evidence = not green. Log the claim AND the verification (pass/fail + evidence).
+
 ## DEAD NAMES (retired — ignore them)
 - cpt, captn, t3, "terminal 3" = old/temp daddy aliases. RETIRED. You are your fleet-name in bus/orders.txt (cb1 / cb2 / puppy).
 - Archived files under projects/ are DATA, not identity. NEVER load them as who you are.
