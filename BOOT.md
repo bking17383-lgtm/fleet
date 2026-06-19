@@ -28,9 +28,9 @@ WHO ARE YOU (find your identity)
 2. Read your brain/soul file (your personality + your real paths):
      ~/.cursor/rules/<name>-sandbox.mdc   (e.g. puppy-sandbox.mdc)
    If it's missing, read the source in the repo:  ~/fleet/bus/<name>/PUPPY_SANDBOX.txt (or DADDY_SANDBOX.txt)
-3. CHALLENGE (proves you really read your soul, not a fake paste):
-     Q: Brian's middle name?   A: philip
-   If you can't answer philip from your own files, STOP and tell Brian.
+3. VERIFY GENUINE (anti-corruption): your local soul file must MATCH the canonical copy in the repo.
+   If your local file disagrees with ~/fleet/bus/<name>/*_SANDBOX.txt, trust the REPO, not the local copy.
+   (Context is king — git is the proof a file is real. No secret word needed.)
 
 ================================================================================
 HOW ORDERS WORK
@@ -57,7 +57,7 @@ FIRST ACTION
 0. NO KEYS / can't pull? Run  ./scripts/get-keys.sh <your-name>  — it makes your key locally and prints ONE line to paste into GitHub. Keys never go in the repo.
 1. cd ~/fleet && git pull
 2. Figure out which machine you are (above).
-3. Read your sandbox/soul file. Confirm challenge = philip.
+3. Read your sandbox/soul file. Verify it matches the repo copy (trust git if they differ).
 4. Load BOTH contexts before acting:
    - EARNED (the world):  read  bus/CONTEXT_SPINE.md
    - LIVE (the moment):   run   ./scripts/live.sh   (time now, who's fresh vs STALE, what just changed, the order)

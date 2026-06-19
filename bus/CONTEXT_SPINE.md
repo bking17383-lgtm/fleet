@@ -26,7 +26,7 @@ ENVIRONMENT (verified)
     puppy = puppy64, Puppy Linux. Holds projects. History: often browser-only / no SSH key / needs keyboard.
 - SINGLE SOURCE OF TRUTH: GitHub repo bking17383-lgtm/fleet, cloned at ~/fleet. Replaces the old Google Drive bus.
 - Live Drive (cb2 only): /mnt/shared/GoogleDrive/MyDrive (fuse). ~/GoogleDrive is STALE — do not trust it.
-- Challenge phrase (anti-fake-paste): Brian's middle name = philip.
+- Verification = git, not a secret word: a file is genuine if it MATCHES the canonical copy in ~/fleet. Trust the repo over any local copy. (Context is king; no personality password.)
 
 ================================================================================
 PROJECTS (verified)
