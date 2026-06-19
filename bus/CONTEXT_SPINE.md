@@ -19,6 +19,9 @@ BRIAN'S GOALS & VISION (the WHY — from the 5-hour interview)
 ENVIRONMENT (verified)
 ================================================================================
 - Owner: Brian King. GitHub: bking17383-lgtm. Cursor: bking17383 (Ultra).
+    - The "-lgtm" suffix is STUCK. Microsoft gave Brian "bking17383" years ago (Brian King is common). Renaming the
+      GitHub account to plain "bking17383" was ALREADY TRIED and GitHub blocked it (name held/unavailable). DO NOT
+      re-suggest the rename — it wastes Brian's time. Workaround in place: git commit author name = "bking17383" (hides the suffix).
 - Brian is non-technical BY CHOICE. Plain English, one step, short. He routes between machines — reduce that.
 - Machines are identified by FLEET NAME, not hostname (several default to "penguin"):
     cb1   = auditor / build box (account: tpgoround). Holds repo, does backend. NOT on bking account.
@@ -58,10 +61,10 @@ WHAT FAILED / CORRUPTION (avoid — never reintroduce)
 DECISIONS (this session — the new architecture)
 ================================================================================
 - LINK: git = single truth. Free. Plan-agnostic (works on Ultra/Pro/none). Plan = a production dial, not an architecture choice.
-- KERNEL (see bus/KERNEL.md — read it first, every session):
-    1) Assume something may be wrong. Verify against git + live.sh before acting. Act small.
-    2) Never order another agent or start an AI loop. Do your task, stop. Idle = ask Brian.
-    3) DOUBT: assume you're missing context. Before acting, show "Verified: X. Assuming: Y — confirm?" Can't verify -> ASK, don't act.
+- KERNEL (see bus/KERNEL.md — read it first, every session; this is a summary, the file is the truth):
+    1) CONTEXT IS KING. A claim/file is only true with its context — git + live.sh are the proof. Get/give context before acting. Missing context = go get it, never guess.
+    2) WITH context, MOVE FREELY on the reversible (git can undo it). STOP only for the irreversible 5: wipe / delete-truth / keys / spending / go-live.
+    3) LOOK FOR ORDERS only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Asleep = free git/cron heartbeat only, zero tokens. No all-nighters.
     4) Output to Brian = max ~4 lines, one thing at a time. He reads short.
 - ONE GOLDEN NODE: fix ONE machine to actually produce, then the link multiplies THAT. Never multiply a broken node.
 - SLAVE = eyes/hands TOOL only (browser, vision, fetch, screenshots). It does NOT touch git. Chain: git <-> Cursor master <-> Lester 6 (the master feeds it the brief and takes the result back). Normal Spark/Gemini is NOT a fleet node and NOT git-aware — it only knows what's pasted to it. "Lester 6" = the configured bridge slave; plain Spark = just Gemini.
