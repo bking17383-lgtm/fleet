@@ -16,14 +16,16 @@
 - OPUS (cb1, auditor/build): curate truth, decide priorities, VERIFY output (no false greens), do backend +
   Jane (the 90%). Splits its own time: standing fleet upkeep (bus/cb1/queue.md) <-> assigning/checking projects.
 - DADDY (cb2, workhorse, healthiest node, has Drive): EXECUTES project tasks from bus/cb2/queue.md. The doer.
-- DISPATCH-ON-IDLE (the engine): the work-loop wakes Opus when bus/cb2/to-opus.md changes (Daddy reported).
-  Opus reads it: if Daddy finished a task or is idle -> Opus assigns the NEXT project (top of this backlog that
-  fits Daddy) into bus/cb2/queue.md. Daddy pulls, works, reports -> loop wakes Opus -> repeat. Neither idles.
-- KEEP DADDY'S QUEUE STOCKED 1-2 DEEP so he always has a next job the instant he finishes one.
+- BRIAN ASSIGNS DADDY (his rule 2026-06-19): Opus does NOT auto-dispatch projects to Daddy. Brian decides the
+  order each time. Opus's job on Daddy-idle = SURFACE it to Brian with the ranked options; Brian picks; THEN
+  Opus writes the chosen task to bus/cb2/queue.md. Keeps Brian in control of what the workhorse builds.
+- WHAT OPUS STILL DOES AUTONOMOUSLY: its own fleet upkeep + Jane (bus/cb1/queue.md), and VERIFYING Daddy's
+  output when he reports. Only PROJECT assignment to Daddy waits for Brian.
 
-## DADDY-IDLE SIGNAL (how Opus knows to dispatch)
+## DADDY-IDLE SIGNAL (how Opus knows to SURFACE to Brian — not auto-dispatch)
 - Daddy's to-opus.md "CURRENT JOB" + "DONE SINCE" lines. If DONE == his queue top, or he says "awaiting order",
-  he is idle -> dispatch next. (He never self-assigns from this backlog; Opus assigns. Daddy = doer, not boss.)
+  he is idle -> Opus tells BRIAN "Daddy's free; ranked options are X/Y/Z" and waits for Brian's pick.
+  (Daddy never self-assigns; Opus never auto-assigns projects; Brian chooses. Daddy = doer.)
 
 ## RULES (from kernel)
 - Verify every "done" with a test artifact (vantage-test for user-facing). No self-declared greens.
