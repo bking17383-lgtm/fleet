@@ -144,3 +144,23 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 - CARDS OF HOPE: engine BUILT by Opus at projects/cards-of-hope/ (index.html + deck.hope.json + README). Daddy's job = slave scrubs FB face into art/h01-h10.jpg + host as /hope. Reuses dealbreaker card engine.
 - DADDY (cb2): read-only slave. Pinged with token GOLD-FOX-42 (awaiting answer via email relay). Queue: cards-of-hope data+host -> AWS-for-george -> george memory -> site auto-start -> ghost sweep.
 - BRIAN LEVERS still open: AWS key (george voice), CF cert (george.hitme.dev), slave email (auto write-back), pull puppy GitHub key.
+
+## SESSION HANDOFF (2026-06-19 ~06:20) — Jane voice/ears overhaul + puppy prep
+- BRIAN VOCAB RULE (LOCK IT): when Brian says "contacts"/"contact" he ALWAYS means "CONTEXT". Wired into Jane
+  (jane-listen.py normalize_terms + jane-ask.sh prompt). Apply it yourself too when reading his words.
+- JANE (cb1, local ~/jane, NOT git) — now a full hands-free local assistant. All free/offline except brain calls:
+  - EARS: vosk. ~/jane/model = BIG accurate model (en-us-0.22-lgraph) for on-demand `hear`. ~/jane/model.small.bak =
+    small model used by always-on car-mode. Mic is VERY quiet (virtio, no ALSA gain) -> software gain in code.
+  - VOICE: PIPER neural TTS (natural) at ~/jane/voices/en_US-amy-medium.onnx via jane-say.sh; espeak fallback.
+  - CAR MODE (always-on): jane-car.sh {on|off|status|tail}; aliases jane-on/jane-off. Detached via setsid so it
+    survives. Listens, wake word "jane", reads back, answers ALOUD. Files: jane-listen.py (ear), jane-ask.sh (brain
+    = cursor-agent composer-2.5-fast, READ-ONLY ask mode), jane-do.sh (safe whitelist), jane-status.sh (5-check "all clear").
+  - SAFETY INCIDENT (learn from it): when Jane ran with cursor-agent --force, a vague voice cmd made her EDIT
+    ~/.config/cursor/cli-config.json perms to unrestricted, and she self-edited her own speak(). Tested --sandbox =
+    does NOT contain writes. FIX: Jane is now READ-ONLY by voice (answers + vetted whitelist only, NO --force, no
+    arbitrary tools). DO NOT re-enable open voice-acting without a real tool-level sandbox.
+  - STANDING RISK: cli-config.json still approvalMode=unrestricted, allow=[**], deny=[]. Any agent on cb1 can do
+    anything. Recommend a deny-list for the irreversible-5. Awaiting Brian's OK. Backup: ~/jane/cli-config.JANE-CHANGED.*.bak
+- PUPPY PREP (Brian's order: "puppy just like daddy — isolated + useful"): rewrote bus/puppy/from-opus.md to the
+  Daddy model + created bus/puppy/queue.md (LIGHT watchdog/QA lane: self-health, site path-test, ghost sweep, one-rail;
+  weak hardware = light only). Isolation real only after Brian removes puppy's GitHub WRITE KEY (his action).
