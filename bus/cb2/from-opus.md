@@ -24,14 +24,16 @@
   tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
 - NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
-## >>> CURRENT JOB (2026-06-19 ~03:58): GEORGE MEMORY — queue task 3 <<<
-Restore the 6-turn memory / GEORGE_MEMORY self-update on /george. Voice in/out already works — don't break it.
-DO the logic only (no secret needed). Polly TTS = 503 needs aws_sandbox.env (AWS key = SECRET, Brian's) —
-do NOT guess credentials; if spoken output stays 503, SURFACE it and keep going on the memory logic.
-Task 2 (george subdomain) stays BLOCKED on Brian's Cloudflare cert — skip it.
-When memory works: AUDIO-confirm + tell Brian (email relay). Then take the next queue item.
-You can't push, so report done-items to Brian; Opus checks them off in the queue.
-CONFLICT RULE: if this clashes with something already working, STOP and tell Brian — don't just do it.
+## >>> CURRENT JOB (2026-06-19 ~04:04): 3 unblocked steps, in order <<<
+1. GEORGE MEMORY (queue 3): restore 6-turn memory / self-update logic on /george. Voice in/out works — don't break it.
+   Logic only, no secret. Polly TTS 503 needs aws_sandbox.env (Brian's AWS key) — do NOT guess; SURFACE it, keep going.
+2. SITE STAYS UP (queue 4): make cloudflared + the origin server AUTO-START (systemctl enable / is-enabled).
+   This protects the #1 win so a reboot/sleep can't 530 the site again. No secret, no account needed.
+3. GHOST SWEEP (queue 5): `ps aux | grep -iE 'cpt|bunny|gemini|wake|loop' | grep -v grep` — report old loops. Kill nothing unsure; ask.
+
+Report each finished step to Brian via email relay (you can't push). Opus checks them off.
+BLOCKED, skip until Brian acts: task 2 george.hitme.dev (CF cert) + george spoken TTS (AWS key).
+CONFLICT RULE: if a step clashes with something already working, STOP and tell Brian — don't just do it.
 
 ## DONE
 - Website is UP (all 6 hitme.dev paths live). Keep cloudflared + origin enabled so it stays up.
