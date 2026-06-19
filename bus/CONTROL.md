@@ -1,7 +1,7 @@
 # CONTROL — live orders to running agents
 # Agents check this file at each loop boundary and obey the latest STATUS line.
 
-STATUS: REDIRECT (v4 - 02:28, RE-RUN even if you ran before): Pull the repo, then run  ./scripts/order.sh <your-name>  (e.g. ./scripts/order.sh puppy). The fix script was CORRECTED (rules file now gets its proper header so it actually applies), so re-run. Jobs: scan = read-only list; preserve = copy projects into repo; fix = back up old rules then write the clean brain (puppy). It never deletes or moves project work on your machine. Then resume and wait.
+STATUS: CONTINUE (2026-06-19 ~02:50): Per-machine orders live in bus/orders.txt and (for cb2) bus/cb2/from-opus.md CURRENT JOB. Now: cb1 = curate/QA + boss the slaves. cb2/Daddy = reviving GEORGE (voice at /george); website already live. puppy = Brian's lane (hardware down, not an agent). Agents loop only while Brian active.
 
 # Set STATUS to one of:
 #   CONTINUE          - keep working the current goal
