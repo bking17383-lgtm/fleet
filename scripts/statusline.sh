@@ -46,3 +46,6 @@ fi
 
 printf "%s%s%s · %s · %sctx %s%%%s · %s%s\n" "$C" "$NAME" "$Z" "$MODEL" "$D" "$PCT" "$Z" "$S" "$PROB"
 printf "%s%s%s\n" "$D" "$RAIL" "$Z"
+# Line 3: PINNED "needs you" — the asks Brian keeps losing as chat scrolls. Warm/amber so it stands out.
+NEEDS=$(cat "$HOME/fleet/bus/NEEDS_BRIAN.txt" 2>/dev/null | head -1)
+[ -n "$NEEDS" ] && printf "%s▸ NEEDS YOU: %s%s\n" $'\033[1;33m' "$NEEDS" "$Z"
