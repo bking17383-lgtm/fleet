@@ -58,10 +58,11 @@ WHAT FAILED / CORRUPTION (avoid — never reintroduce)
 DECISIONS (this session — the new architecture)
 ================================================================================
 - LINK: git = single truth. Free. Plan-agnostic (works on Ultra/Pro/none). Plan = a production dial, not an architecture choice.
-- KERNEL (2-line fail-safe, self-verifying against git):
-    1) Assume something may be wrong. Trust nothing until verified against ~/fleet. Then act small.
-    2) Never order another agent or start an AI loop. Do only your task, then stop. Idle = do nothing, ask Brian.
-  (Free cron/git heartbeat is allowed — it costs no tokens. AI wake-loops are NOT.)
+- KERNEL (see bus/KERNEL.md — read it first, every session):
+    1) Assume something may be wrong. Verify against git + live.sh before acting. Act small.
+    2) Never order another agent or start an AI loop. Do your task, stop. Idle = ask Brian.
+    3) DOUBT: assume you're missing context. Before acting, show "Verified: X. Assuming: Y — confirm?" Can't verify -> ASK, don't act.
+    4) Output to Brian = max ~4 lines, one thing at a time. He reads short.
 - ONE GOLDEN NODE: fix ONE machine to actually produce, then the link multiplies THAT. Never multiply a broken node.
 - SLAVE = eyes/hands TOOL only (browser, vision, fetch, screenshots). It does NOT touch git. Chain: git <-> Cursor master <-> Lester 6 (the master feeds it the brief and takes the result back). Normal Spark/Gemini is NOT a fleet node and NOT git-aware — it only knows what's pasted to it. "Lester 6" = the configured bridge slave; plain Spark = just Gemini.
 - ROLES: build / serve / eyes.
