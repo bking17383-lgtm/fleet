@@ -78,6 +78,13 @@ TOKENS / COST (verified)
 - Git (pull/push/commit/heartbeat) = FREE. No tokens.
 - Cursor tokens burn ONLY when an AI agent runs. Keep heartbeat/sync as dumb cron+git = $0.
 - GitHub storage: 3GB = free (repo limit 10GB; LFS free to 10GB). Put heavy media in Git LFS so repos stay light (bloat caused puppy lockups).
+- TOKEN BEST PRACTICES (lock these):
+    1. MATCH MODEL TO WORK. Opus = expensive — use it only for hard reasoning/decisions (the auditor). Routine/slaves = a CHEAP model (Composer/Sonnet). Running Opus for chores is the costliest mistake.
+    2. AI burns tokens only when it THINKS. Keep pull/heartbeat/presence/say-site as dumb bash+cron = $0.
+    3. Presence-gate loops: agents loop only while Brian ACTIVE (bus/PRESENCE.txt); silent when he sleeps.
+    4. Short replies, targeted reads (no re-reading projects/ archives), concise handoffs so re-context is cheap.
+    5. One focused writer (cb1) beats many free-running agents.
+    - Exact usage isn't in the repo — check cursor.com -> Settings -> Usage.
 
 ================================================================================
 HOW A FRESH AGENT USES THIS
