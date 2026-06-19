@@ -52,7 +52,8 @@ WHAT FAILED / CORRUPTION (avoid — never reintroduce)
 ================================================================================
 - "Built = ready" false greens. Green claimed from the builder's desk, not Brian's real vantage (phone/LTE).
 - Split-brain: mirrors, the Drive bus, Gemini slaves acting as PEERS with orders/keys.
-- Dead subdomains: george.hitme.dev (DNS dead), bun.hitme.dev (502). hitme.dev/keaton = 503.
+- Subdomains: PATHS were the default, BUT Brian reversed it for george — george.hitme.dev is now WANTED (being revived via
+  cloudflared tunnel route dns + ingress; see bus/cb2/from-opus.md). bun.hitme.dev still dead (502). hitme.dev/keaton = 503.
 - Dangerous wipe-on-reboot (a casual "reboot" could trigger a wipe).
 - Daddy (~10% corrupted): false greens, 65-vs-15 project lie, self-certifying. Witness, not judge.
 - Penguin-as-network, Chromebook sleep, Brian-as-infrastructure.
