@@ -1,9 +1,0 @@
-# CPT pending
-Updated: 2026-06-15
-
-| Task | Who |
-|------|-----|
-| Pack + wipe | NET |
-| Pack + wipe | STUDIO |
-| Text Sarah | Brian |
-| Hold bus | CPT |

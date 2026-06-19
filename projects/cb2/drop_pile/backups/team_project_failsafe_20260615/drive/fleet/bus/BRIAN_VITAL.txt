@@ -1,7 +1,0 @@
-BRIAN VITAL — 2026-06-15T22:34:03-07:00
-
-  • NEED BRIAN: Text Sarah
-  • Brian inbox: 4 file(s) in ~/.stan/local_inbox
-  • STUCK board updated — read fleet/STUCK_BOARD.txt
-
-Full: fleet/bus/CPT_SLAVE.txt

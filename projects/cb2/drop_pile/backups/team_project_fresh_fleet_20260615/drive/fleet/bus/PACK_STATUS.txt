@@ -1,5 +1,0 @@
-# Pack status — fresh fleet wipe prep
-# CPT updates when boxes report PACKED
-
-[2026-06-15T17:35:00-07:00] cb2 CPT — packing local now (CPT stays, not wiped)
-[2026-06-15T17:32:09-07:00] penguin PACKED → drop_pile/backups/pack_penguin_20260615_1732/

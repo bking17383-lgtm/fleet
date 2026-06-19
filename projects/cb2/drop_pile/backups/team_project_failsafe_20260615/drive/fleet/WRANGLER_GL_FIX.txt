@@ -1,7 +1,0 @@
-WRANGLER FIX — CB1 Chrome one word:
-
-  EXPORT
-
-Or open: drop_pile/to_lester/WRANGLER_GL_EXPORT_NOW.md
-
-Uncle: open gl/INDEX.md (GL docs live there)

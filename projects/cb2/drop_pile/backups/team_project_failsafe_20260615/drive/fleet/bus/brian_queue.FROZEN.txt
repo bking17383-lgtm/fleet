@@ -1,5 +1,0 @@
-# Old queue FROZEN — 2026-06-15 fresh fleet reset
-# CPT will create new jobs after NET + STUDIO pack.
-# Do not execute pending items unless CPT says NOW.
-
-See: fleet/FRESH_FLEET.txt

@@ -1,9 +1,0 @@
-{
-  "id": "sms_20260615T_manual_hello_cpt",
-  "time": "2026-06-15T00:00:00-07:00",
-  "from": "+18313836582",
-  "to": "+18057516587",
-  "text": "hello cpt",
-  "source": "Brian relay via Cursor — confirm in voice.google.com Messages",
-  "bridge": "manual until gmail.env"
-}

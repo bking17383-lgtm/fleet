@@ -1,4 +1,0 @@
-WAITING — Gem must repost from CB1 · 2026-06-16T03:31:11-07:00
-Read: fleet/NAMING_LAW.txt · lester/GEM_SELF_FIX.txt
-Run on CB1 Linux: python3 ~/GoogleDrive/MyDrive/lester/gem_loop_bridge.py
-Line: GEM ok — cb1 — <ip> — 2026-06-16T03:31:11-07:00

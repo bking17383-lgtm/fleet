@@ -1,6 +1,0 @@
-# CB2 — Lester6 Chrome
-# Routed 2026-06-15T02:13:14-07:00
-
-DADDY — read lester/lester6_daddy_slave.md + ACK_FILE_LAW.md. Overwrite lester6_to_daddy.md plain .md. Say: BEACON live.
-
-Brian also said: [2026-06-15] today sheet → BRIAN_TODAY.txt

@@ -1,9 +1,0 @@
-{
-  "plan": "ultra",
-  "daily_budget_units": 100,
-  "used_units": 0,
-  "unit": "estimated_prompt_weight",
-  "note": "Lester6 updates used_units on voice/Live sessions. 1 short turn ≈ 1 unit. Adjust budget to match your Ultra feel.",
-  "last_updated": null,
-  "updated_by": "daddy_cb2_bootstrap"
-}

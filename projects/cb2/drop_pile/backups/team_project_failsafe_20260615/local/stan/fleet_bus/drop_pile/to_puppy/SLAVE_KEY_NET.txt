@@ -1,2 +1,0 @@
-# Copy to puppy after wipe — one line only in slave.key
-5f54badb

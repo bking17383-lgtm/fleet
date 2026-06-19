@@ -1,7 +1,0 @@
-# STABLE PUBLIC URL — not set yet
-# Puppy posts fixed https URL here after named Cloudflare tunnel is live.
-# Play Store internal testing (12 testers) requires this URL — NOT trycloudflare.
-
-See: fleet/PLAY_STABLE_URL_FIX.txt
-
-PUBLIC_URL=

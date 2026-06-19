@@ -1,3 +1,0 @@
-# Gem-controlled Gemini Live gate · edit on Drive
-# Updated: 2026-06-16T03:34:55-07:00
-http://100.115.92.26:8788/gem/live

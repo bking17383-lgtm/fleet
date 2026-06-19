@@ -1,8 +1,0 @@
-hostname: penguin
-packed_at: 2026-06-15T17:32:09-07:00
-dest: /mnt/shared/GoogleDrive/MyDrive/drop_pile/backups/pack_penguin_20260615_1732
-user: bking17383
-drive: /mnt/shared/GoogleDrive/MyDrive
---- paths ---
-stan: /home/bking17383/.stan
-lester: /home/bking17383/lester

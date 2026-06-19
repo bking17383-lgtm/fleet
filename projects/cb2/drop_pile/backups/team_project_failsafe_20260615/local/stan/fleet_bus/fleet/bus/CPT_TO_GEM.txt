@@ -1,7 +1,0 @@
-# CPT → GEM slave (after mount)
-
-Paste to new agent: `drop_pile/to_gemini/GEM_SLAVE_KISS.txt`
-
-Brian says nothing else. GEM confirms one line. CPT reads `fleet/bus/GEM_STATUS.txt`.
-
-Word for Brian: **GEM**

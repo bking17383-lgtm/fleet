@@ -1,5 +1,0 @@
-# Brian inbox — works even when Drive drops
-# CPT reads THIS first, then Drive copy when mounted
-
---- TYPE BELOW (one line) ---
-inbox

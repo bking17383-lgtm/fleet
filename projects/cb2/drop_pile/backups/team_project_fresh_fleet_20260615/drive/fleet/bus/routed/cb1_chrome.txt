@@ -1,6 +1,0 @@
-# CB1 — Lester6 Chrome
-# Routed 2026-06-15T00:19:08-07:00
-
-UNCLE — mode slave. Refresh lester6_to_uncle.md on Drive. Read drop_pile/to_lester/ for orders.
-
-Brian also said: link puppy

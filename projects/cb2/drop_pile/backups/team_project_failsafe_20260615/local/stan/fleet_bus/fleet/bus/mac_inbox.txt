@@ -1,6 +1,0 @@
---- CPT → UNCLE ---
-time: 2026-06-15T22:07:47-07:00
-from: CPT penguin
-order: aws_keys
-run: bash ~/.stan/uncle_exec.sh
-read: fleet/orders/CB1_ORDERS.txt

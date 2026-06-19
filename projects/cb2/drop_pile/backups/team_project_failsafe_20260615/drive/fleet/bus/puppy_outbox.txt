@@ -1,7 +1,0 @@
---- from: brian | 2026-06-15 | network ---
-hostname: puppy64
-status: ALIVE
-wlan0: 192.168.1.4
-wg0: 10.0.0.1
-plate: check Drive
-next: STABLE_PUBLIC_URL · mesh :8765 · network_selftest

@@ -1,3 +1,0 @@
-GEM_STATUS — 2026-06-15T22:22:43-07:00
-ok=True
-law_auto ok · gemini=no API key

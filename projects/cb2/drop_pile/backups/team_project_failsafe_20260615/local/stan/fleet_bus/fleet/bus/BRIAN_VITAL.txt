@@ -1,7 +1,0 @@
-BRIAN VITAL — 2026-06-15T22:29:34-07:00
-
-  • Nothing vital — CPT executing
-  • Brian inbox: 4 file(s) in ~/.stan/local_inbox
-  • STUCK board updated — read fleet/STUCK_BOARD.txt
-
-Full: fleet/bus/CPT_SLAVE.txt

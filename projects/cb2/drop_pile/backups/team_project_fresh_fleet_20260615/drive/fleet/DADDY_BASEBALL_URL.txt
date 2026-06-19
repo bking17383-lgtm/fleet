@@ -1,7 +1,0 @@
-DADDY BASEBALL — cards app (LTE ok)
-
-https://autos-recruitment-laugh-arts.trycloudflare.com
-
-Local/Tailscale: http://100.115.92.26:8002
-Updated: 2026-06-14T14:19:26-07:00
-Named tunnel cb2-daddy also running when dashboard hostname is set.

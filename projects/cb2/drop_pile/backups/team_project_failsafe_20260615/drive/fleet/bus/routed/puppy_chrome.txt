@@ -1,6 +1,0 @@
-# puppy64 — Lester6 Chrome PLATE
-# Routed 2026-06-15 — network delegate
-
-PLATE — read lester/lester6_puppy_slave.md + ACK_FILE_LAW.md.
-Overwrite lester6_to_puppy.md mode:slave today. Say: PLATE ready.
-Network orders: drop_pile/to_puppy/PUPPY_DELEGATE_NETWORK_NOW.md

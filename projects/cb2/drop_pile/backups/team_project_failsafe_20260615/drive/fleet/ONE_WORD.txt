@@ -1,9 +1,0 @@
-| Word | Box | File |
-|------|-----|------|
-| SLAVE | CB2 | refresh fleet/bus/CPT_SLAVE.txt |
-| START | any | fleet/START.txt |
-| CPT | CB2 | fleet/orders/CB2_ORDERS.txt |
-| NET | puppy | fleet/orders/PUPPY_ORDERS.txt |
-| STUDIO | CB1 | fleet/orders/CB1_ORDERS.txt |
-
-VITAL: fleet/bus/BRIAN_VITAL.txt

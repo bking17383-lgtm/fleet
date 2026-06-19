@@ -1,3 +1,0 @@
-# Gem-controlled Gemini Live gate
-# Updated: 2026-06-16T03:34:11-07:00
-http://100.115.92.26:8788/gem/live

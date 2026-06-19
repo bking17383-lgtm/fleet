@@ -1,7 +1,0 @@
-BEACON FIX — one word on CB2 Chrome:
-
-  DADDY
-
-If still generic, paste BEACON_REBIND.md block from drop_pile/to_lester/
-
-Ack on Drive already fixed (plain .md). Ignore .gdoc stubs.

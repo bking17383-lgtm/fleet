@@ -1,8 +1,0 @@
-PHONE LINK (copy into Chrome on your phone):
-
-https://nano-infections-economies-root.trycloudflare.com
-
-Or scan baseball_qr_phone.png in this Drive folder.
-
-Do NOT use the QR page on the Chromebook (/qr) — it was broken before.
-This link is the correct one. Keep Chromebook awake while testing.

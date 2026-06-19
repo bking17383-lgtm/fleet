@@ -1,7 +1,0 @@
-
---- Brian Cloudflare setup ---
-Pick: Cloudflared connector (NOT Legacy)
-Paste token in CLOUDFLARE_PASTE.txt on Drive
-Say: TUNNEL here when pasted
-
-CAPTN will start named URL for :8002

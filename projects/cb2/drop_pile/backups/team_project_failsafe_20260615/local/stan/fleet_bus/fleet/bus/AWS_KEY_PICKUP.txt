@@ -1,6 +1,0 @@
-AWS_KEY_PICKUP — 2026-06-15T22:01:25-07:00
-status=WAIT
-no AKIA+secret in local scans
-drop=drag convert_inbox jpg OR lester_keys.md → Linux home
-paste=~/.stan/aws_key_drop.txt (one shot)
-gem=export lester keys.gdoc → lester/lester_keys.md on Drive
