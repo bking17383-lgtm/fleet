@@ -28,6 +28,11 @@ The ONLY thing you need to know: the single truth is the GitHub repo
 Do not invent another source of truth. No Drive, no pastes, no memory. If it isn't in this
 repo, it isn't real. Find this file on git, do these steps, and you are bootstrapped from zero — read AND write.
 
+READ-ONLY NODE (e.g. cb2/"Daddy")? Then you are SIMPLER and you are NOT broken:
+  - Just clone read-only over HTTPS and `git pull`. NO key, NO push, NO heartbeat needed.
+  - Prove you're synced WITHOUT pushing: run `git log -1 --pretty='%h %s'` and tell Brian that hash.
+    If it matches the repo's latest, you are looped. Then WAIT for Brian's permission. That is a COMPLETE, valid boot.
+
 ================================================================================
 WHO IS BRIAN
 ================================================================================
