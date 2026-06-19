@@ -14,6 +14,17 @@
 # PASS = token BLUE-HAWK-19 + a hash that matches origin/main. That confirms you're looped.
 # PERMANENT FIX (ends the manual relay): the slave EMAIL — then you write reports back read-only, no couriering.
 
+## >>> AWS KEY HANDOFF TO CB1 (Brian's order 2026-06-19 ~07:58) — SAFE CHANNEL ONLY <<<
+# You (Daddy) have the AWS key cb1 needs (Jane's ears/voice + george). Get it to cb1, but NEVER via git:
+#   - DO NOT commit the key. .gitignore guards it, but do not even try. Keys in git = a leak (see old slave notes).
+#   - Channel: tell BRIAN the key; Brian places it on cb1 at  ~/.aws/credentials  (outside the repo, never synced).
+#   - Format Brian/you should use (standard):
+#       [default]
+#       aws_access_key_id = AKIA...
+#       aws_secret_access_key = ....
+#       region = us-east-1   (or the right region)
+# cb1 will NOT mirror your setup — it only takes the key. Report to Brian when handed off.
+
 ## >>> DO THIS FIRST: RECONCILE YOUR GIT (ends your split-brain — needs NO key) <<<
 # You reported local HEAD 858d00d, pull/push FAIL (no SSH key). You're a READ-ONLY slave — you don't NEED a key.
 # Switch your remote to read-only HTTPS, then snap to the truth. Origin truth = latest on main (currently 85bf969+).
