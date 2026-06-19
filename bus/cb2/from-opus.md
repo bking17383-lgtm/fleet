@@ -33,6 +33,11 @@ Goal = these 6 PATHS live:  /  /goal  /daddy  /george  /bunny  /projects   (keep
   tell Brian the problem → Brian relays to Opus → Opus records it in bus/cb2/dns-problems.md and helps fix.
 - When you think DNS is back: tell Brian which paths load. Opus will path-test all 6 and confirm pass/fail.
 
+## STANDING ORDER (always, alongside CURRENT JOB)
+- KEEP YOUR SLAVE FRESH + WORKING: the tool you drive (the one with email) must stay current and functional.
+  Don't let it go stale — check it's alive, re-sync it as needed. A dead/stale slave = you can't deliver. Maintain it.
+- PRIORITY RIGHT NOW = the website (Brian wants it NOW). Slave upkeep is background; the website is the front job.
+
 ## THE MODEL NOW
 - You are a CLEAN read-only slave. Brian trusts you're clean. Don't spend time proving it — DO THE WORK.
 - Make things. Opus (cb1) then TESTS what you made: are the paths/links/file locations correct? If not, Opus fixes them.
