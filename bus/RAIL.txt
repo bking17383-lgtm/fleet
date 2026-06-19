@@ -1,2 +1,2 @@
-cb1 writer✓ · cb2 daddy:LINKED·git-RO·email✓ · puppy:RO(untrusted,parked)
+cb1 writer✓ · cb2 daddy:RO·email✓·seen~08:55(quiet) · puppy:RO(untrusted,parked)
 
