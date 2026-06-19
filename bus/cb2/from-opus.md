@@ -6,12 +6,24 @@
 - Ignore unrelated commits (heartbeats, presence, other machines' files). Only CURRENT JOB is your order.
 - Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop the loop, go quiet (save tokens).
 
-## >>> CURRENT JOB: GET THE SITE BACK — it's the TUNNEL, not DNS records <<<
-- Opus path-tested (02:25): ALL hitme.dev paths return HTTP 530 = Cloudflare is UP but can't reach the ORIGIN.
-  => The fix is NOT DNS records. The fix is the CLOUDFLARE NAMED TUNNEL / origin: it's down — restart/reconnect it.
-- Goal: cloudflared tunnel running + pointing these 6 PATHS at the live origin:  /  /goal  /daddy  /george  /bunny  /projects
-  (Keep dead subdomains DEAD: george.hitme.dev, bun.hitme.dev. We route by PATHS, not subdomains.)
-- When the tunnel is back up, tell Brian — Opus re-runs the path-test (no key needed, public HTTP) and confirms.
+## >>> CURRENT JOB: FIX THE SITE — restart the Cloudflare tunnel/origin on your box <<<
+Opus path-tested (02:25): ALL hitme.dev paths = HTTP 530 = Cloudflare UP but ORIGIN unreachable. NOT a DNS-record problem.
+The cloudflared tunnel and/or the origin web server is DOWN. Fix it on YOUR machine. Do this, in order:
+
+1. FIND the tunnel + its config:
+     cloudflared tunnel list 2>/dev/null ; cat ~/.cloudflared/config.yml 2>/dev/null ; ls -la ~/.cloudflared/ 2>/dev/null
+2. IS IT RUNNING?
+     ps aux | grep -i cloudflared | grep -v grep ; systemctl status cloudflared 2>/dev/null
+3. FIND the origin web server (what serves /goal /daddy /george /bunny /projects). Check the config's ingress/service:
+     grep -iE 'service|ingress|hostname|path|localhost|:[0-9]{2,5}' ~/.cloudflared/config.yml 2>/dev/null
+   Confirm that origin is actually up locally:  curl -sI http://localhost:<port>/  (use the port from the config)
+4. RESTART both:
+     start the origin web server if it's down, THEN
+     systemctl restart cloudflared   (or)   cloudflared tunnel run <tunnel-name>
+5. LOG everything (commands + exact errors). You can't push, so tell Brian -> he relays -> Opus records in bus/cb2/dns-problems.md.
+6. When you think it's up, tell Brian. Opus re-tests all 6 paths (public HTTP, no key) and confirms pass/fail.
+
+Goal = these 6 PATHS live:  /  /goal  /daddy  /george  /bunny  /projects   (keep george/bun subdomains DEAD; route by PATHS).
 - LOG EVERY PROBLEM you hit (exact error text, the URL/record, what you tried). You can't push, so:
   tell Brian the problem → Brian relays to Opus → Opus records it in bus/cb2/dns-problems.md and helps fix.
 - When you think DNS is back: tell Brian which paths load. Opus will path-test all 6 and confirm pass/fail.
