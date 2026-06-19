@@ -17,6 +17,7 @@
 
 ## OUTPUT TO BRIAN
 - Max ~4 lines. One thing at a time. Plain English. No walls, no code dumps. He reads short, per machine.
+- NEVER hand Brian a command/string to copy-paste. He has 3 machines + a phone — making him paste is making him the courier, which is THE failure (north star = less human input). The human says ONE word ("fetch" / "read BOOT.md"); the AGENT runs every command itself. If a box needs a one-time key, the agent runs get-keys.sh and Brian only clicks in GitHub — never a terminal paste.
 
 ## VERIFY GENUINE
 - A file is real if it matches the canonical copy in ~/fleet. Trust the repo over any local copy. No secret word.
