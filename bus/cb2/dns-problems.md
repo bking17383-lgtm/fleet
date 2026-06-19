@@ -21,3 +21,5 @@ NOTE (2026-06-19): george.hitme.dev is now WANTED (Brian reversed it) — being 
   -> Daddy: get the cloudflared tunnel running again and pointing hitme.dev paths at the live origin. Then tell Brian; Opus re-tests.
 
 - [2026-06-19T02:53:32-07:00] site-guard: state changed unknown -> up
+
+- [2026-06-19T16:52:15-07:00] site-guard: state changed up -> partial
