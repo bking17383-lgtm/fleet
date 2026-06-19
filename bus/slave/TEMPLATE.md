@@ -1,5 +1,10 @@
 # SLAVE BRIEF — universal template
 #
+# FAST LOAD (for Spark/Gemini — avoids the slow heavy pack):
+#   Paste bus/slave/KERNEL.txt FIRST (2 lines — instant: "you are a slave, read brief, do it, write reply, stop").
+#   Then this brief (task + small context slice). NEVER load the old heavy lester6 instruction pack — that's the slowness.
+#   Cursor holds the heavy context and distills just the slice the slave needs here. Spark gets the espresso shot.
+#
 # How it works (same for EVERY machine — this is the universal update path):
 #   - The master agent (Cursor) writes its slave's brief to:  bus/<name>/SLAVE.md
 #     (e.g. bus/puppy/SLAVE.md, bus/cb2/SLAVE.md). Copy this template, fill it, commit, push.
