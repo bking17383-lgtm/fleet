@@ -1,2 +1,2 @@
-cb1 writer✓ · cb2 daddy:queue · puppy:joining
+cb1 writer✓ · cb2 daddy:read-only · puppy:read-only(untrusted)
 
