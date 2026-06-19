@@ -14,14 +14,19 @@ The ONLY thing you need to know: the single truth is the GitHub repo
      git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet   (SSH)
      # or, if no key set up:
      git clone https://github.com/bking17383-lgtm/fleet.git ~/fleet  (read-only HTTPS)
-3. "Permission denied (publickey)" / can't push?  You have no key on this box. Make one:
+3. "Permission denied (publickey)" / can't push?  You have no working key on this box. Make one:
      cd ~/fleet 2>/dev/null && ./scripts/get-keys.sh <your-name>
      (If ~/fleet doesn't exist yet, clone read-only via HTTPS first, then run get-keys.)
-     It generates the key LOCALLY and prints ONE line to paste into GitHub. Keys NEVER go in the repo.
-4. Now  cd ~/fleet && git pull  works. Continue with FIRST ACTION below.
+     It (a) generates the key LOCALLY, (b) AUTO-SWITCHES a read-only HTTPS remote to SSH so PUSH works,
+     and (c) prints ONE line. Brian adds that line at GitHub -> Settings -> SSH keys. Keys NEVER go in the repo.
+     NOTE: cloning via HTTPS leaves you PULL-ONLY. You are not done until get-keys flips the remote to SSH.
+4. Prove push works and CLOSE THE LOOP (do this yourself — do not ask Brian to paste):
+     ssh -T git@github.com           # must say "successfully authenticated"
+     ./scripts/heartbeat.sh <your-name> "fresh boot — looped"   # this PUSHES; if it lands, you are linked
+   Then continue with FIRST ACTION below.
 
 Do not invent another source of truth. No Drive, no pastes, no memory. If it isn't in this
-repo, it isn't real. Find this file on git, do the 4 steps, and you are bootstrapped from zero.
+repo, it isn't real. Find this file on git, do these steps, and you are bootstrapped from zero — read AND write.
 
 ================================================================================
 WHO IS BRIAN
