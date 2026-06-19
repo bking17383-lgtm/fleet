@@ -24,5 +24,7 @@
 ## What works (append as proven, with date)
 - 2026-06-18: dead-simple one-line commands ("pull ~/fleet, read BOOT.md") work. Long multi-step does NOT.
 - 2026-06-18: live.sh freshness/STALE check caught frozen machines I'd have missed.
-- 2026-06-19: cb1 audio hook (~/.cursor/hooks/ding.sh on 'stop') = "I'm available / your turn" signal.
-  NOTE: a fresh hook only fires after Cursor reloads it once; until then, no auto-ding on turn-end.
+- 2026-06-19: cb1 idle hook (~/.cursor/hooks/ding.sh on 'stop') SPEAKS "need job" when Opus is done/idle.
+  Uses espeak-ng (installed on cb1) piped to paplay; falls back to a tone. NOTE: a fresh hook only fires after
+  Cursor reloads it once; until then, no auto-signal on turn-end (speak it manually meanwhile).
+- ROLE: cb1/Opus IS the fleet core — helps Brian integrate each new computer. Today only cb2 (Daddy) is in the sandbox.
