@@ -4,6 +4,18 @@
 Last built: 2026-06-18 by cb1 auditor
 
 ================================================================================
+BRIAN'S GOALS & VISION (the WHY — from the 5-hour interview)
+================================================================================
+- NORTH STAR: Stability. The machines execute Brian's will so he is FREE TO CREATE and walk away. "Set it and forget it."
+- THE DREAM: agents working 24/7, making money, so Brian has fun and builds his ideas. He'll spend money to make agents better IF it produces (results-gated).
+- ROLE: Brian is the visionary / creator / salesman. Machines do the tech. He is non-technical BY CHOICE.
+- KEEP THE PROJECTS: ~10 real (looked like 70). Carry the real work forward — nothing lost.
+- FIRST DOLLAR: finish the paywall (~95%) -> receive money -> then one revenue lane. Nothing earns yet.
+- THE PAIN TO KILL: admin / being the human courier between machines. Independence per machine worked; the couriering is the misery. End it.
+- HOW HE WORKS: pivots fast, marathon hours, uses ANY machine randomly (incl. phone / the road). Every machine must be interchangeable and current.
+- SACRED: creative work (stories, art) is private and untouchable — agents HOST it, never alter it. Revenue lanes stay separate from private inventions.
+
+================================================================================
 ENVIRONMENT (verified)
 ================================================================================
 - Owner: Brian King. GitHub: bking17383-lgtm. Cursor: bking17383 (Ultra).
