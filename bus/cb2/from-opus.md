@@ -9,6 +9,9 @@
 REBUILD WHAT WORKED: hot mic on page load · talks back OUT LOUD · remembers last ~6 turns · self-updates GEORGE_MEMORY.
 (It ran on port 8770, Bedrock backend, served via the tunnel.)
 DO: get /george hearing Brian and replying out loud again. When it talks, tell Brian — Opus tests the path.
+OPUS QA (02:54): /george page IS serving + has hot mic (SpeechRecognition), talk-back (speechSynthesis), live
+transcript, backend fetch — all present. MISSING/unverified: the 6-turn MEMORY (GEORGE_MEMORY self-update).
+=> Daddy: verify/restore the memory feature (remember last ~6 turns, write GEORGE_MEMORY). Voice in/out already works.
 
 ## DONE
 - Website is UP (all 6 hitme.dev paths live). Keep cloudflared + origin enabled so it stays up.
