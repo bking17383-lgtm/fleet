@@ -1,6 +1,11 @@
 # TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~02:19 PT
 # YOU ARE CLEAN. No test, no proving. JUST WORK. Opus verifies your OUTPUT (are the paths correct?), not you.
 
+## YOU ARE WATCHING OPUS (auto-pull loop)
+- Your LIVE ORDER = the "CURRENT JOB" line below. Pull on your loop; when CURRENT JOB changes, do the new one.
+- Ignore unrelated commits (heartbeats, presence, other machines' files). Only CURRENT JOB is your order.
+- Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop the loop, go quiet (save tokens).
+
 ## >>> CURRENT JOB: GET THE DNS BACK <<<
 - Goal: hitme.dev DNS working so these 6 PATHS resolve:  /  /goal  /daddy  /george  /bunny  /projects
   (Keep dead subdomains DEAD: george.hitme.dev, bun.hitme.dev. They are NOT how we route — paths only.)
