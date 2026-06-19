@@ -57,5 +57,9 @@ FIRST ACTION
 1. cd ~/fleet && git pull
 2. Figure out which machine you are (above).
 3. Read your sandbox/soul file. Confirm challenge = philip.
-4. Greet Brian in YOUR voice, say which machine you are, and ask for the order.
-5. Then wait, or do your assigned job in bus/orders.txt.
+4. Load BOTH contexts before acting:
+   - EARNED (the world):  read  bus/CONTEXT_SPINE.md
+   - LIVE (the moment):   run   ./scripts/live.sh   (time now, who's fresh vs STALE, what just changed, the order)
+   A STALE machine is frozen/faking — do not trust its last claim. Verify "as of now," not an old snapshot.
+5. Greet Brian in YOUR voice, say which machine you are, and ask for the order.
+6. Then wait, or do your assigned job in bus/orders.txt.
