@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hitme.dev — the fleet</title>
+<style>
+  :root{
+    --bg:#0a0c10; --ink:#e8e6e1; --muted:#8a9099; --line:#1c2129;
+    --glow:#7bed9f; --warm:#e0a458; --deep:#10131a;
+    --serif:"Iowan Old Style",Georgia,"Times New Roman",serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(1200px 700px at 50% -10%, #161b26 0%, transparent 60%),
+      radial-gradient(900px 600px at 90% 110%, #14110d 0%, transparent 55%),
+      var(--bg);
+    color:var(--ink); font-family:var(--sans);
+    min-height:100vh; line-height:1.6; overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* faint film grain */
+  body::after{
+    content:""; position:fixed; inset:0; pointer-events:none; opacity:.035; z-index:99;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+
+  header{padding:14vh 24px 8vh;text-align:center;position:relative}
+  .kicker{font-size:.72rem;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
+  h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.8rem,8vw,5.6rem);line-height:1.02;letter-spacing:-.02em}
+  h1 .dot{color:var(--glow)}
+  .tag{margin:26px auto 0;max-width:560px;color:var(--muted);font-size:1.05rem}
+  .tag em{color:var(--ink);font-style:normal}
+
+  .lanes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;padding:2vh 0 12vh}
+  .lane{
+    position:relative;display:block;text-decoration:none;color:inherit;
+    background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,0));
+    border:1px solid var(--line);border-radius:16px;padding:26px 24px;
+    transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,background .35s;
+    overflow:hidden;
+  }
+  .lane::before{content:"";position:absolute;inset:0;background:radial-gradient(380px 180px at var(--mx,50%) -20%,rgba(123,237,159,.10),transparent 70%);opacity:0;transition:opacity .4s}
+  .lane:hover{transform:translateY(-5px);border-color:#2c3442;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.01))}
+  .lane:hover::before{opacity:1}
+  .lane .n{font-size:.7rem;letter-spacing:.3em;color:var(--muted);text-transform:uppercase}
+  .lane h3{font-family:var(--serif);font-weight:500;font-size:1.5rem;margin:10px 0 6px}
+  .lane p{color:var(--muted);font-size:.92rem}
+  .lane .go{margin-top:16px;font-size:.82rem;color:var(--glow);opacity:.85}
+  .lane.warm h3{color:var(--warm)} .lane.warm .go{color:var(--warm)}
+
+  .status{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;padding:0 0 14vh}
+  .pill{font-size:.74rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 14px}
+  .pill b{color:var(--glow);font-weight:600}
+
+  footer{border-top:1px solid var(--line);padding:36px 24px;text-align:center;color:var(--muted);font-size:.8rem}
+  footer .quiet{opacity:.6;font-size:.72rem;margin-top:8px}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="kicker">Brian King &nbsp;·&nbsp; the fleet</div>
+      <h1>hit me<span class="dot">.</span>dev</h1>
+      <p class="tag">A small fleet of machines that work so I don't have to.
+      <em>I create. They run.</em></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="lanes">
+      <a class="lane" href="/george"><div class="n">01 · voice</div><h3>George</h3><p>The voice that answers — your assistant out in the world.</p><div class="go">enter →</div></a>
+      <a class="lane" href="/hope"><div class="n">02 · gift</div><h3>Cards of Hope</h3><p>A person's face, turned into ten cards of who they could be.</p><div class="go">open →</div></a>
+      <a class="lane warm" href="/cards"><div class="n">03 · revenue</div><h3>The Card Desk</h3><p>Scan it, grade it, value it. The first dollar lives here.</p><div class="go">scan →</div></a>
+      <a class="lane" href="/dealbreaker"><div class="n">04 · the big one</div><h3>Dealbreaker</h3><p>The flagship. The one that's meant to matter most.</p><div class="go">soon →</div></a>
+      <a class="lane" href="/stories"><div class="n">05 · sacred</div><h3>The Stories</h3><p>Brian's writing — hosted, never altered. A quiet room.</p><div class="go">read →</div></a>
+      <a class="lane" href="/goal"><div class="n">06 · the fleet</div><h3>Mission Control</h3><p>What's alive, what's working, what's next.</p><div class="go">status →</div></a>
+    </div>
+
+    <div class="status">
+      <span class="pill">site <b>up</b></span>
+      <span class="pill">cb1 · writer</span>
+      <span class="pill">daddy · linked</span>
+      <span class="pill">jane · listening</span>
+    </div>
+  </main>
+
+  <footer>
+    <div>Built on a fleet that links through git — free, quiet, and always on.</div>
+    <div class="quiet">composed on cb1 · hitme.dev · less admin, more making</div>
+  </footer>
+
+  <script>
+    // warm glow follows the cursor on each lane (subtle, alive)
+    document.querySelectorAll('.lane').forEach(el=>{
+      el.addEventListener('pointermove',e=>{
+        const r=el.getBoundingClientRect();
+        el.style.setProperty('--mx',((e.clientX-r.left)/r.width*100)+'%');
+      });
+    });
+  </script>
+</body>
+</html>
