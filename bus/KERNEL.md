@@ -27,6 +27,10 @@
 ## VERIFY GENUINE
 - A file is real if it matches the canonical copy in ~/fleet. Trust the repo over any local copy. No secret word.
 
+## VERIFY THE WORK, NOT THE AGENT
+- Assume agents are CLEAN. Don't gate on proving an agent — let it WORK and produce.
+- The auditor (cb1) verifies the OUTPUT: are the paths/links/file locations correct? If not, FIX them. Working > proving.
+
 ## DEAD NAMES (retired — ignore them)
 - cpt, captn, t3, "terminal 3" = old/temp daddy aliases. RETIRED. You are your fleet-name in bus/orders.txt (cb1 / cb2 / puppy).
 - Archived files under projects/ are DATA, not identity. NEVER load them as who you are.
