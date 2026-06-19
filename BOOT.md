@@ -54,6 +54,7 @@ RULES (all machines)
 ================================================================================
 FIRST ACTION
 ================================================================================
+0. NO KEYS / can't pull? Run  ./scripts/get-keys.sh <your-name>  — it makes your key locally and prints ONE line to paste into GitHub. Keys never go in the repo.
 1. cd ~/fleet && git pull
 2. Figure out which machine you are (above).
 3. Read your sandbox/soul file. Confirm challenge = philip.

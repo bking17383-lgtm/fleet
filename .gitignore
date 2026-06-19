@@ -1,0 +1,17 @@
+# SECRETS — never commit. Keys stay hidden on each machine, never in the repo.
+*.key
+*.pem
+*_rsa
+*_rsa.pub
+*_ed25519
+id_rsa*
+id_ed25519*
+fleet_key*
+slave.key
+.env
+.env.*
+auth.json
+*.token
+*.secret
+**/.ssh/*
+CURSOR_API_KEY*
