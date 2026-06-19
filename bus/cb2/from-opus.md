@@ -24,18 +24,17 @@
   tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
 - NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
-## >>> CURRENT JOB (2026-06-19 ~04:15): BUILD "BASEBALL CARDS OF HOPE" — Brian's order, NOW <<<
-WHAT: scrub a real person, make a set of ~10 "baseball cards of HOPE" = their FACE + HOPEFUL/aspirational stats.
-  (Tone = encouraging, NOT the dealbreaker satire. Same card look, opposite spirit.)
-REUSE THE ENGINE (don't start from scratch): projects/puppy/dealbreaker has the card UI already —
-  face + stat-bars + card flip + deck.json structure. Copy that, swap the data + tone.
-DATA SOURCE: your SLAVE scrubs the person's Facebook (public photo + a few facts). Slave does the fetch (eyes/hands).
-  SECURITY: any FB login/creds stay LOCAL on your box / slave — NEVER in git, never pushed.
-STATS = HOPE: generate ~10 cards with positive "stats of hope" (e.g. potential, heart, comeback, grit) + their face.
-SERVE IT: host as a hitme.dev path (like /george) so Brian can open it on his phone.
-DONE-TEST: a live path shows ~10 cards, each with the person's real face + hopeful stats. Report URL via email relay.
+## >>> CURRENT JOB (2026-06-19 ~04:20): CARDS OF HOPE — ENGINE IS BUILT, you do DATA + HOST <<<
+Opus built the whole engine so you don't rebuild it: see projects/cards-of-hope/ (index.html + deck.hope.json + README.md).
+YOUR PART (your lane — slave + host):
+  1. Slave scrubs the person's public Facebook FACE + a few facts. Save ~10 crops to projects/cards-of-hope/art/
+     as h01.jpg ... h10.jpg. SECURITY: FB creds stay LOCAL on your box/slave — NEVER in git.
+  2. (optional) edit deck.hope.json: set meta.person = their name; tweak taglines/notes to fit.
+  3. HOST the folder behind your cloudflared origin as a hitme.dev path (e.g. /hope), like /george.
+  DONE-TEST: phone opens the path -> 10 cards render with the real face + hope stats. Report the URL via email relay.
+Full instructions: projects/cards-of-hope/README.md.
 
-NEXT (after cards-of-hope is live), in order: AWS-for-george voice → george memory → site auto-start → ghost sweep.
+NEXT (after /hope is live), in order: AWS-for-george voice → george memory → site auto-start → ghost sweep.
 Report each step to Brian via email relay (you can't push). Opus checks them off.
 CONFLICT RULE: if a step clashes with something already working, STOP and tell Brian — don't just do it.
 

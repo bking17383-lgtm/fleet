@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "CARDS OF HOPE",
+    "subtitle": "a set made for someone",
+    "person": "REPLACE_ME",
+    "version": 1
+  },
+  "stat_keys": [
+    { "key": "heart",    "label": "HEART" },
+    { "key": "grit",     "label": "GRIT" },
+    { "key": "hope",     "label": "HOPE" },
+    { "key": "comeback", "label": "COMEBACK" },
+    { "key": "spark",    "label": "SPARK" },
+    { "key": "future",   "label": "FUTURE" }
+  ],
+  "cards": [
+    { "id": "h01", "name": "THE COMEBACK KID", "face": "art/h01.jpg", "rarity": "legend", "tagline": "Down before. Never out.", "note": "Every setback was just a wind-up for the swing that's coming.", "stats": { "heart": 88, "grit": 95, "hope": 90, "comeback": 99, "spark": 82, "future": 91 } },
+    { "id": "h02", "name": "THE BIG HEART", "face": "art/h02.jpg", "rarity": "legend", "tagline": "Loves louder than the doubt.", "note": "The people you carried will carry you back. That's how it works.", "stats": { "heart": 99, "grit": 80, "hope": 92, "comeback": 78, "spark": 88, "future": 86 } },
+    { "id": "h03", "name": "THE GRINDER", "face": "art/h03.jpg", "rarity": "cult", "tagline": "Shows up. Every single day.", "note": "Talent is loud; consistency wins the season. You've got the rarer one.", "stats": { "heart": 84, "grit": 99, "hope": 80, "comeback": 85, "spark": 70, "future": 88 } },
+    { "id": "h04", "name": "THE DREAMER", "face": "art/h04.jpg", "rarity": "cult", "tagline": "Sees the version nobody else can.", "note": "The wild idea you can't shake? That's the one. Build it.", "stats": { "heart": 86, "grit": 72, "hope": 99, "comeback": 80, "spark": 96, "future": 94 } },
+    { "id": "h05", "name": "THE STEADY HAND", "face": "art/h05.jpg", "rarity": "common", "tagline": "Calm is a superpower.", "note": "When it all shakes, you're the one people stand next to. Don't forget that.", "stats": { "heart": 90, "grit": 88, "hope": 82, "comeback": 76, "spark": 68, "future": 84 } },
+    { "id": "h06", "name": "THE SPARK", "face": "art/h06.jpg", "rarity": "common", "tagline": "Lights up the room on entry.", "note": "Your energy is contagious — use it on purpose and watch it spread.", "stats": { "heart": 87, "grit": 74, "hope": 88, "comeback": 79, "spark": 99, "future": 85 } },
+    { "id": "h07", "name": "THE BUILDER", "face": "art/h07.jpg", "rarity": "cult", "tagline": "Makes things that outlast the day.", "note": "What you make compounds. The attic you fill becomes the house you live in.", "stats": { "heart": 80, "grit": 92, "hope": 84, "comeback": 82, "spark": 80, "future": 96 } },
+    { "id": "h08", "name": "THE SURVIVOR", "face": "art/h08.jpg", "rarity": "legend", "tagline": "Walked through fire. Still here.", "note": "You already did the hard part — you didn't quit. The rest is downhill.", "stats": { "heart": 91, "grit": 97, "hope": 86, "comeback": 94, "spark": 75, "future": 88 } },
+    { "id": "h09", "name": "THE GIVER", "face": "art/h09.jpg", "rarity": "common", "tagline": "Pours into others, always.", "note": "Generosity is never wasted. It's seed money for a kinder world.", "stats": { "heart": 98, "grit": 78, "hope": 90, "comeback": 74, "spark": 84, "future": 87 } },
+    { "id": "h10", "name": "THE FUTURE", "face": "art/h10.jpg", "rarity": "legend", "tagline": "The best card is still unflipped.", "note": "Your story isn't a recap — it's a trailer. The big scene hasn't aired yet.", "stats": { "heart": 90, "grit": 90, "hope": 99, "comeback": 90, "spark": 90, "future": 99 } }
+  ]
+}
