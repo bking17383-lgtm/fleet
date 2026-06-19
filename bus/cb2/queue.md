@@ -9,7 +9,7 @@
 - [~] 2. GEORGE SUBDOMAIN — BLOCKED (awaiting Brian): adding ingress + `cloudflared tunnel route dns` for
         george.hitme.dev needs a Cloudflare ORIGIN CERT / account login. Correctly STOPPED per the task rule.
         -> Brian decision needed (his Cloudflare account). Until then /george PATH already works (200); use that.
-- [ ] 3. GEORGE MEMORY: restore the 6-turn memory / GEORGE_MEMORY self-update on /george (voice in/out already works).
+- [~] 3. GEORGE MEMORY (IN PROGRESS, assigned 2026-06-19 ~03:58): restore the 6-turn memory / GEORGE_MEMORY self-update on /george (voice in/out already works).
         NOTE (2026-06-19): Daddy reports Polly TTS = 503, needs aws_sandbox.env (AWS creds = a SECRET). Text/memory logic
         can be restored without it, but spoken output stays 503 until Brian provides the AWS key. Surface, don't guess.
 - [ ] 4. SITE STAYS UP: confirm cloudflared + the origin server are enabled as services (systemctl is-enabled). Report.

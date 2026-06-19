@@ -24,10 +24,14 @@
   tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
 - NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
-## >>> CURRENT JOB: WORK THE QUEUE — bus/cb2/queue.md, top-down <<<
-You always have work: do the top unfinished item in bus/cb2/queue.md, verify it, AUDIO-confirm + tell Brian, take the next.
-Opus keeps the queue stocked with SAFE, non-conflicting tasks. NEVER break what already works (site is up, /george voice works).
-If a task clashes with something that works -> STOP and tell Brian. You can't push, so report done-items to Brian; Opus checks them off.
+## >>> CURRENT JOB (2026-06-19 ~03:58): GEORGE MEMORY — queue task 3 <<<
+Restore the 6-turn memory / GEORGE_MEMORY self-update on /george. Voice in/out already works — don't break it.
+DO the logic only (no secret needed). Polly TTS = 503 needs aws_sandbox.env (AWS key = SECRET, Brian's) —
+do NOT guess credentials; if spoken output stays 503, SURFACE it and keep going on the memory logic.
+Task 2 (george subdomain) stays BLOCKED on Brian's Cloudflare cert — skip it.
+When memory works: AUDIO-confirm + tell Brian (email relay). Then take the next queue item.
+You can't push, so report done-items to Brian; Opus checks them off in the queue.
+CONFLICT RULE: if this clashes with something already working, STOP and tell Brian — don't just do it.
 
 ## DONE
 - Website is UP (all 6 hitme.dev paths live). Keep cloudflared + origin enabled so it stays up.

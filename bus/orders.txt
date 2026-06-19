@@ -1,5 +1,5 @@
 # Per-machine orders. One line per machine:  <name>: <task>
 # Tasks: scan  (read-only inventory)  |  preserve (copy projects into repo)  |  wait
 puppy: READ-ONLY slave, UNTRUSTED. Pull-only via HTTPS, NEVER push/heartbeat. Its self-reports are CLAIMS, not verified. Switch its remote to HTTPS read-only; to truly enforce, remove puppy's write key on GitHub (Brian).
-cb2: working — DONE: website live (all 6 paths). NOW: reviving GEORGE (voice assistant at /george) + keep slave fresh. Read-only.
+cb2: working — DONE: website live (all 6 paths). NOW: GEORGE MEMORY (queue task 3 — restore 6-turn memory logic; Polly TTS 503 blocked on Brian's AWS key, surface don't guess). Task 2 (subdomain) blocked on Brian's CF cert. Keep slave fresh. Read-only.
 cb1: writer/auditor — curate the one truth, keep asking the right questions, QA the output (paths correct?). Stand ready to path-test hitme.dev when DNS returns.
