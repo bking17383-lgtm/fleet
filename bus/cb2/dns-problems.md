@@ -7,6 +7,8 @@ These 6 hitme.dev PATHS must resolve:  /  /goal  /daddy  /george  /bunny  /proje
 Dead-on-purpose (leave dead): george.hitme.dev, bun.hitme.dev.  Known: hitme.dev/keaton was 503.
 
 ## PROBLEMS (newest first)
+- [2026-06-19 02:39, Opus re-test] RESOLVED ✅ — Daddy got the site back up. /goal /daddy /george /bunny /projects = 200,
+  / = 302 (working redirect). 530s gone. Tunnel/origin live. (Confirm it STAYS up = services enabled per the job.)
 - [2026-06-19 02:25, Opus path-test] ALL hitme.dev paths return HTTP 530 (Cloudflare up, ORIGIN unreachable):
     / · /goal · /daddy · /george · /bunny · /projects · /keaton  -> all 530
     bun.hitme.dev -> 530 ;  george.hitme.dev -> 000 (DNS dead, as intended)

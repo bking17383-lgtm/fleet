@@ -11,7 +11,8 @@ count_live() {
   local live=0 p code
   for p in "${PATHS[@]}"; do
     code=$(curl -s -o /dev/null -m 8 -w '%{http_code}' "https://hitme.dev$p" 2>/dev/null)
-    [ "$code" = "200" ] && live=$((live+1))
+    # 2xx and 3xx (e.g. 302 redirect on home) both count as LIVE; 5xx/000 = down
+    [ "$code" -ge 200 ] && [ "$code" -lt 400 ] && live=$((live+1))
   done
   echo "$live"
 }
