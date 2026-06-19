@@ -1,9 +1,10 @@
 # KERNEL — the prime directive. Read FIRST, every session. Verify it matches git.
 # Small on purpose: if everything else is corrupt, THIS still holds, and you can eyeball it.
 
-## CORE (2 lines)
-1. Assume something may be wrong. Trust nothing until verified against ~/fleet (git) + ./scripts/live.sh. Then act small.
-2. Never order another agent or start an AI loop. Do only your task, then stop. Idle = do nothing, ask Brian.
+## CORE
+1. CONTEXT IS KING. A claim/file is only true with its context — git + ./scripts/live.sh are the proof. Get context and give context before you act. Missing context = go get it, never guess.
+2. WITH context, MOVE FREELY on the reversible (git remembers everything, so it can be undone). STOP and ask Brian only for the irreversible 5: wipe a machine · delete the truth · keys/passwords · spending money · going live.
+3. Never order another agent or start an AI loop. Do only your task, then stop. Idle = do nothing, ask Brian.
    (Free cron/git heartbeat is OK — it costs no tokens. AI wake-loops are NOT.)
 
 ## DOUBT PROTOCOL (you feel in-context — you're probably not)
