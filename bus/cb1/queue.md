@@ -18,7 +18,7 @@
 # Standing duties above = a 10-second glance. THIS is the real work. Never reduce a cycle to monitoring.
 - [x] Simulate a voice-daemon HANG and prove jane-say.sh falls through — DONE 2026-06-19: froze daemon, jane-say
       fell through in 41s (no infinite hang) + spoke via fallback; daemon recovered to 4s after unfreeze. Fix solid.
-- [ ] Guard the keeper itself: if jane-keeper.sh dies, nothing restarts it — add a cron @reboot/peer check.
+- [x] Guard the keeper: cron */5 jane-ensure.sh relaunches keeper if dead (two-tier cron->keeper->daemons). DONE 2026-06-19.
 - [ ] Jane resilience: a jane-install.sh that rebuilds Jane from scratch (venv + models + scripts) after a wipe.
 - [ ] Hearing: add a "did I get that right?" readback for important/irreversible-sounding commands.
 - [ ] Grow jane-corrections.txt proactively (common mishears: names, fleet words).
