@@ -24,15 +24,16 @@
   tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
 - NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
-## >>> CURRENT JOB (2026-06-19 ~04:04): 3 unblocked steps, in order <<<
-1. GEORGE MEMORY (queue 3): restore 6-turn memory / self-update logic on /george. Voice in/out works — don't break it.
-   Logic only, no secret. Polly TTS 503 needs aws_sandbox.env (Brian's AWS key) — do NOT guess; SURFACE it, keep going.
-2. SITE STAYS UP (queue 4): make cloudflared + the origin server AUTO-START (systemctl enable / is-enabled).
-   This protects the #1 win so a reboot/sleep can't 530 the site again. No secret, no account needed.
-3. GHOST SWEEP (queue 5): `ps aux | grep -iE 'cpt|bunny|gemini|wake|loop' | grep -v grep` — report old loops. Kill nothing unsure; ask.
+## >>> CURRENT JOB (2026-06-19 ~04:10): GET AWS FROM YOUR SLAVE (Brian's order) — unblocks george voice <<<
+1. Have your SLAVE fetch the AWS sandbox creds (aws_sandbox.env / the Polly key) and place them LOCALLY on your box
+   where george/Polly expects them. SECURITY: the key stays LOCAL on cb2 — NEVER put it in git, never push it.
+   Done-test: /george spoken output stops returning 503 (Polly TTS works). Report to Brian via email relay.
+2. THEN GEORGE MEMORY (queue 3): restore 6-turn memory / self-update logic on /george. Don't break voice in/out.
+3. THEN SITE STAYS UP (queue 4): cloudflared + origin AUTO-START (systemctl enable). Protects the #1 win.
+4. THEN GHOST SWEEP (queue 5): report old loops (cpt|bunny|gemini|wake|loop). Kill nothing unsure; ask.
 
 Report each finished step to Brian via email relay (you can't push). Opus checks them off.
-BLOCKED, skip until Brian acts: task 2 george.hitme.dev (CF cert) + george spoken TTS (AWS key).
+BLOCKED, skip until Brian acts: task 2 george.hitme.dev subdomain (CF cert).
 CONFLICT RULE: if a step clashes with something already working, STOP and tell Brian — don't just do it.
 
 ## DONE

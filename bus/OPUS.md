@@ -129,3 +129,6 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 - FIX: added the SAME statusLine block to `~/.config/cursor/cli-config.json` (kept the other copy too). JSON validated.
 - LESSON: for CLI statusLine on this box, the live config is `~/.config/cursor/cli-config.json`. Verify there, not just ~/.cursor.
 - Still requires ONE Cursor restart to load. Don't claim "fixed" until Brian confirms he SEES it.
+
+## RAIL CONFIRMED WORKING (2026-06-19 ~04:10) — Brian SEES it. Real green.
+- Root cause was statusLine in ignored ~/.cursor/cli-config.json; fix = add it to ~/.config/cursor/cli-config.json. Done + verified by Brian.
