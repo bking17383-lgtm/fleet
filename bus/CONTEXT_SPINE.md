@@ -63,7 +63,7 @@ DECISIONS (this session — the new architecture)
     2) Never order another agent or start an AI loop. Do only your task, then stop. Idle = do nothing, ask Brian.
   (Free cron/git heartbeat is allowed — it costs no tokens. AI wake-loops are NOT.)
 - ONE GOLDEN NODE: fix ONE machine to actually produce, then the link multiplies THAT. Never multiply a broken node.
-- SLAVE = eyes/hands TOOL only (browser, vision, fetch, screenshots). No identity, no orders, no git key. Drops to an inbox; brains read it. Only the human commands it.
+- SLAVE = eyes/hands TOOL only (browser, vision, fetch, screenshots). It does NOT touch git. Chain: git <-> Cursor master <-> Lester 6 (the master feeds it the brief and takes the result back). Normal Spark/Gemini is NOT a fleet node and NOT git-aware — it only knows what's pasted to it. "Lester 6" = the configured bridge slave; plain Spark = just Gemini.
 - ROLES: build / serve / eyes.
 - TEST-DRIVEN: nothing is "done" without an independent test artifact in the repo (cross-test; vantage-test for user-facing). No self-declared greens.
 - CONTEXT SPINE (this file): rebuild earned context as verified facts, not a memory blob. New entries append ONLY with proof.

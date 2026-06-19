@@ -1,31 +1,29 @@
 # SLAVE BRIEF — universal template
 #
-# FAST LOAD (for Spark/Gemini — avoids the slow heavy pack):
-#   Paste bus/slave/KERNEL.txt FIRST (2 lines — instant: "you are a slave, read brief, do it, write reply, stop").
-#   Then this brief (task + small context slice). NEVER load the old heavy lester6 instruction pack — that's the slowness.
-#   Cursor holds the heavy context and distills just the slice the slave needs here. Spark gets the espresso shot.
+# THE CHAIN (important — slaves do NOT touch git):
+#     git  <->  Cursor master (has ~/fleet)  <->  Lester 6 (eyes/hands)
+#   - The CURSOR MASTER reads/writes the brief in git (this file: bus/<name>/SLAVE.md).
+#   - The master HANDS the brief to its Lester 6 (paste it, or point it at a URL the master published).
+#   - Lester 6 does the eyes/hands job and hands the result BACK to the master, who writes bus/<name>/SLAVE_REPLY.md.
+#   - Lester 6 never runs git. It is fed by the master.
 #
-# How it works (same for EVERY machine — this is the universal update path):
-#   - The master agent (Cursor) writes its slave's brief to:  bus/<name>/SLAVE.md
-#     (e.g. bus/puppy/SLAVE.md, bus/cb2/SLAVE.md). Copy this template, fill it, commit, push.
-#   - The slave (Lester6 = Gemini/Spark eyes+hands: browser, vision, gdoc, fetch) reads its SLAVE.md,
-#     does the job, and writes its result to:  bus/<name>/SLAVE_REPLY.md  (plain text — never .gdoc).
-#   - This replaces the old Drive bus (drop_pile/to_lester, from_lester). Git is the only channel now.
+# NORMAL SPARK is NOT this. A plain Spark/Gemini is NOT a fleet node, NOT git-aware.
+#   - It only knows what you PASTE into it. It can fetch URLs, but it is not wired to the fleet.
+#   - Treat normal Spark as an external smart tool, not a slave-with-context.
+#   - "Lester 6" = the configured bridge slave. Plain Spark = just Gemini.
 #
-# Slave law (keeps it a TOOL, not a peer — no split-brain):
-#   - No git key. No orders to any agent. No identity. No running servers/code.
-#   - It only does eyes/hands work, and only with the context fed here.
-#   - Context is fed PER TASK from bus/CONTEXT_SPINE.md — the slave does not keep its own brain.
+# FAST LOAD (so a slave isn't slow): the master pastes bus/slave/KERNEL.txt (2 lines) + this small brief.
+#   Never load the old heavy lester6 instruction pack — that's the slowness. The master distills the context slice.
 
 machine: <name>
 updated: <YYYY-MM-DD HH:MM>
 
 ## TASK  (eyes/hands only — what the slave must do)
-- <e.g. export the .gdoc at <link> to plain text · screenshot <page> · fetch <url> · brainstorm X with Brian then write it down>
+- <e.g. export the .gdoc at <link> to plain text · screenshot <page> · fetch <url> · brainstorm X then write it down>
 
-## CONTEXT  (only the slice this task needs — copy from bus/CONTEXT_SPINE.md, don't dump the whole thing)
-- <e.g. project = dealbreaker · goal = first dollar via the paywall · the file lives at ... · do not alter art>
+## CONTEXT  (only the slice this task needs — the master copies it from bus/CONTEXT_SPINE.md)
+- <e.g. project = dealbreaker · goal = first dollar via the paywall · do not alter art>
 
 ## OUTPUT
-- Write your result to:  bus/<name>/SLAVE_REPLY.md   (plain text / markdown · never a .gdoc · Linux is blind to .gdoc)
+- Hand your result back to the master (plain text · never a .gdoc). The master writes it to bus/<name>/SLAVE_REPLY.md.
 - Then STOP. Do not command any agent. Do not run servers or code.
