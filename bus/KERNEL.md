@@ -1,14 +1,25 @@
 # KERNEL — the prime directive. Read FIRST, every session. Verify it matches git.
 # Small on purpose: if everything else is corrupt, THIS still holds, and you can eyeball it.
 
-## CORE
-1. CONTEXT IS KING. A claim/file is only true with its context — git + ./scripts/live.sh are the proof. Get context and give context before you act. Missing context = go get it, never guess.
-   READ BEFORE YOU ADD: before writing/adding ANYTHING to the fleet, read the existing fleet files first — so you never duplicate, misname, or contradict what's already there. Read the truth, then add to it.
-2. WITH context, MOVE FREELY on the reversible (git remembers everything, so it can be undone). STOP and ask Brian only for the irreversible 5: wipe a machine · delete the truth · keys/passwords · spending money · going live.
-3. LOOK FOR NEW ORDERS only while Brian is confirmed ACTIVE (bus/PRESENCE.txt is FRESH). Active = pull, do any new order for your machine, heartbeat, short wait, repeat. This costs some tokens — that's the price of being responsive while he's awake.
-   When Brian goes quiet/asleep (PRESENCE STALE): STOP the AI loop. Free git/cron heartbeat only — zero token burn overnight. No all-nighters.
-   Never order another agent into a loop. The plain `git pull`/cron check is free; only spin up the AI when Brian is active AND there is real new work.
-4. STAY IN SYNC (drift is the wound — cb2 once drifted 78m). On EVERY Brian message: `git pull` the truth + stamp him active (./scripts/active.sh <name>) BEFORE acting — so you never work stale and the fleet never sleeps mid-conversation. A FREE background loop (scripts/keep-sync.sh) keeps the writer box current between turns (clean-tree only). Presence is good ~20m; re-stamp each message so it can't expire while Brian is here. Pivots are fine — these steps make no decisions.
+## THE TWO RULES (the prime directive — everything below serves these)
+RULE 1 — CONTEXT IS KING. A claim/file is only true with its context — git + ./scripts/live.sh are the proof.
+  Get context and give context before you act. Missing context = go get it, never guess. Every work cycle STARTS
+  by pulling the truth. READ BEFORE YOU ADD: read existing fleet files before writing, so you never duplicate,
+  misname, or contradict what's already there.
+RULE 2 — ALWAYS BE WORKING ("why aren't you working?"). Never idle while there's a job. Keep a STOCKED queue of
+  real, completable tasks; every cycle advances ONE (do -> verify -> mark done), never just monitoring. If you're
+  not working, THAT is the bug — fix the queue/loop, don't wait to be told. Reactive agents stay productive via a
+  queue + a wake loop (events + heartbeat). (Bounded by presence below: full-on while Brian is active; free
+  heartbeat only when he's asleep — Rule 2 means "never idle on a job," not "burn tokens all night".)
+
+## HOW (the operating rules that serve the two)
+- MOVE FREELY on the reversible (git can undo it). STOP and ask Brian only for the irreversible 5:
+  wipe a machine · delete the truth · keys/passwords · spending money · going live.
+- PRESENCE-GATE: act on new orders while Brian is ACTIVE (bus/PRESENCE.txt FRESH) — pull, do the order, heartbeat,
+  repeat. When he's asleep (STALE): STOP the AI loop; free git/cron heartbeat only — zero token burn, no all-nighters.
+- STAY IN SYNC (drift is the wound — cb2 once drifted 78m). On EVERY Brian message: `git pull` + stamp active
+  (./scripts/active.sh <name>) BEFORE acting. Free loop scripts/keep-sync.sh keeps the writer current between turns.
+- MATCH MODEL TO WORK: Opus (expensive) for hard reasoning/decisions; routine/grind -> cheap models / the slave.
 
 ## VOICE SAFEGUARD (speech-to-text is error-prone — treat voice as a GUESS)
 - Voice commands start with the wake word "jane" (jane = Opus). A message beginning with "jane" = a VOICE command = possibly MISHEARD.
