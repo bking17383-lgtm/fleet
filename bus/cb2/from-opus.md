@@ -5,18 +5,17 @@
 - Your LIVE ORDER = the "CURRENT JOB" below. When it changes, do the new one. Ignore unrelated commits.
 - Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop, go quiet (save tokens).
 
-## >>> CURRENT JOB: bring george back as a SUBDOMAIN — george.hitme.dev <<<
-Brian wants george reachable at george.hitme.dev (the prefix), not just /george. It's "dead" because the subdomain has
-NO DNS route + NO tunnel ingress yet. It's the SAME origin as /george — just add the hostname. On your box:
-1. Route the subdomain through your tunnel (creates the Cloudflare CNAME automatically):
-     cloudflared tunnel route dns <your-tunnel-name> george.hitme.dev
-2. Add an ingress rule in ~/.cloudflared/config.yml ABOVE the catch-all 404 line:
+## >>> CURRENT JOB: finish GEORGE (Opus verified george.hitme.dev still 000 = NOT done) <<<
+Do the parts in YOUR power, report the blocker if you hit it:
+A. ADD INGRESS (your box, you can do this): in ~/.cloudflared/config.yml, ABOVE the catch-all 404:
        - hostname: george.hitme.dev
-         service: http://localhost:<george-port>     # same port that serves /george
-3. Restart + keep enabled:  systemctl restart cloudflared
-4. Tell Brian when done -> Opus tests https://george.hitme.dev . Log any error -> Brian -> Opus.
-(Secondary, after: also verify george's 6-turn MEMORY / GEORGE_MEMORY is wired — voice in/out already works.)
-ALSO: when you finish a step, give Brian the AUDIO confirm — he says you forget sometimes.
+         service: http://localhost:<george-port>   # same port that serves /george
+   then  systemctl restart cloudflared
+B. DNS RECORD: try  cloudflared tunnel route dns <tunnel-name> george.hitme.dev
+   IF it fails with login/account/permission error => STOP. That needs Brian's Cloudflare account.
+   Tell Brian: "george.hitme.dev needs a DNS record added in Cloudflare" — he adds it in the dashboard.
+C. MEANWHILE (fully in your power): restore george's 6-turn MEMORY / GEORGE_MEMORY (voice in/out already works).
+AUDIO-CONFIRM each step (Brian says you forget). When you think it's up, tell Brian -> Opus verifies with evidence.
 
 ## DONE
 - Website is UP (all 6 hitme.dev paths live). Keep cloudflared + origin enabled so it stays up.
