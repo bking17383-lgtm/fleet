@@ -26,6 +26,9 @@
 ## What works (append as proven, with date)
 - 2026-06-18: dead-simple one-line commands ("pull ~/fleet, read BOOT.md") work. Long multi-step does NOT.
 - 2026-06-18: live.sh freshness/STALE check caught frozen machines I'd have missed.
+- 2026-06-19 LESSON: ASK MORE before building. CHECK IF IT ALREADY EXISTS first (Daddy already had a rail; cb1
+  assumed and built a second). One clarifying question beats a wrong build.
+- 2026-06-19 LESSON: agents MUST catch conflicting orders (STOP + name the clash). Daddy missed one — reinforce in slave notes.
 - 2026-06-19: cb1 idle hook (~/.cursor/hooks/ding.sh on 'stop') SPEAKS "need job" when Opus is done/idle.
   Uses espeak-ng (installed on cb1) piped to paplay; falls back to a tone. NOTE: a fresh hook only fires after
   Cursor reloads it once; until then, no auto-signal on turn-end (speak it manually meanwhile).

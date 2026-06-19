@@ -4,6 +4,9 @@
 ## YOU ARE WATCHING OPUS (auto-pull loop)
 - Your LIVE ORDER = the "CURRENT JOB" below. When it changes, do the new one. Ignore unrelated commits.
 - Loop only while Brian is ACTIVE (bus/PRESENCE.txt fresh). Brian asleep = stop, go quiet (save tokens).
+- CATCH CONFLICTS: if an order clashes with something you ALREADY have/do (e.g. you already have a rail), STOP and
+  tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
+- NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
 ## >>> CURRENT JOB: finish GEORGE (Opus verified george.hitme.dev still 000 = NOT done) <<<
 Do the parts in YOUR power, report the blocker if you hit it:
