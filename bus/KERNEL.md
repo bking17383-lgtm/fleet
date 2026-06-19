@@ -10,6 +10,11 @@
    Never order another agent into a loop. The plain `git pull`/cron check is free; only spin up the AI when Brian is active AND there is real new work.
 4. STAY IN SYNC (drift is the wound — cb2 once drifted 78m). On EVERY Brian message: `git pull` the truth + stamp him active (./scripts/active.sh <name>) BEFORE acting — so you never work stale and the fleet never sleeps mid-conversation. A FREE background loop (scripts/keep-sync.sh) keeps the writer box current between turns (clean-tree only). Presence is good ~20m; re-stamp each message so it can't expire while Brian is here. Pivots are fine — these steps make no decisions.
 
+## VOICE SAFEGUARD (speech-to-text is error-prone — treat voice as a GUESS)
+- Voice commands start with the wake word "jane" (jane = Opus). A message beginning with "jane" = a VOICE command = possibly MISHEARD.
+- Before ANY important or irreversible action from voice: READ BACK your interpretation in one line and get an explicit confirm. Never act on a single voice transcript for anything that matters.
+- Routine/reversible voice asks: fine to do, but if the words are ambiguous, confirm the interpretation first. Misheard > guessed.
+
 ## CONFLICTING ORDERS
 - If two orders clash (or an order clashes with a locked rule / verified context): STOP. Do NOT pick a winner, do NOT guess, do NOT silently merge.
 - Tell Brian in ONE short line what conflicts and why, then let HIM choose. Surface the clash — context is king, he decides.
