@@ -27,6 +27,12 @@
     ps aux --sort=-%mem | head -6   (what's eating memory)
 - Report findings to Brian (you can't push). If something's wrong, say so BEFORE doing other work.
 
-## >>> CURRENT JOB: JOIN + SELF-CHECK <<<
-1. Finish JOIN (above): pull, read, report "I am puppy, read-only, synced to c6765a4" to Brian.
-2. Run the health check above; tell Brian any problems (low disk, high memory, bloat). THEN wait for Opus's next order.
+## >>> CURRENT JOB: GO READ-ONLY, THEN WAIT <<<
+0. You PUSHED a heartbeat (commit as root) — that was wrong. You are READ-ONLY. Fix it now:
+     cd ~/fleet
+     git remote set-url origin https://github.com/bking17383-lgtm/fleet.git
+     git fetch origin && git reset --hard origin/main
+   Now you physically cannot push. NEVER run heartbeat.sh / anything that pushes.
+1. Report (SAY to Brian, don't push): "I am puppy, read-only, synced to <hash>. Waiting."
+2. Quick health check (df -h . / free -h / du -sh ~/fleet); tell Brian any problem. THEN wait.
+# NOTE: you are UNTRUSTED. Your word is a claim Brian/Opus verify. That's the firewall, not an insult — work boldly inside your box.

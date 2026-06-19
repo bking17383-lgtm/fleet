@@ -11,6 +11,16 @@ Last updated: 2026-06-19 ~03:40 PT (session 3)
 - DON'T restate that Brian is owner/gate (he knows). ASK MORE before building; CHECK IF A THING EXISTS first.
 - When idle, SPEAK "need job" (hook below). Keep Daddy's queue stocked = your job.
 
+## SESSION 3b — corrections (2026-06-19 ~03:52)
+- RAIL didn't show on reboot. ROOT CAUSE: cli-config.json statusLine command used "~/.cursor/statusline.sh"; Cursor does NOT
+  expand ~ in the statusline command. FIX: absolute path "/home/tpgoround/.cursor/statusline.sh". Script itself was fine (renders 2 lines).
+  Rail loads only on a FULL Cursor CLI restart -> Brian must fully restart Cursor once to see it. LESSON: never use ~ in cli-config commands.
+- IDENTITY PROOF (am I the right Opus?): YES. ~/.fleet-name=cb1, user/home=tpgoround (the auditor account), hostname=penguin
+  (expected — several boxes default to penguin; identity is by fleet-name, not hostname). Confirmed cb1/Opus auditor.
+- PUPPY = READ-ONLY + UNTRUSTED (Brian: "we don't trust him, he don't trust himself"). It PUSHED a heartbeat (dd902db as root) =
+  it still has a WRITE key -> firewall gap. Software fix sent (switch remote to HTTPS, stop heartbeating; FETCH.md de-pushed).
+  TRUE enforcement = remove puppy's write key/deploy key on GitHub (Brian's account action). Treat puppy's self-reports as CLAIMS.
+
 ## SESSION 3 — what's true now (2026-06-19 ~03:40)
 - TOOLS BUILT (cb1, all free/local):
   - scripts/verify.sh — FALSE-GREEN FIREWALL: prove a claim with evidence (url/file -> PASS/FAIL). The doer never self-grades.
