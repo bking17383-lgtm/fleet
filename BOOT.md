@@ -57,6 +57,9 @@ FIRST ACTION
 0. NO KEYS / can't pull? Run  ./scripts/get-keys.sh <your-name>  — it makes your key locally and prints ONE line to paste into GitHub. Keys never go in the repo.
 1. cd ~/fleet && git pull
 1b. Read bus/KERNEL.md — the prime directive (assume you're missing context; verify before acting; ask before barreling; keep replies short).
+1c. READ ONLY the clean set — do NOT open the projects/ archives (that's data, not identity, and over-reading it loads dead junk like cpt/t3):
+    bus/KERNEL.md · bus/CONTEXT_SPINE.md · bus/INTENT.md · bus/BRIAN_STYLE.md · your sandbox file · run ./scripts/live.sh
+    (If you are Opus on cb1/tpgoround, also read bus/OPUS.md.)
 2. Figure out which machine you are (above).
 3. Read your sandbox/soul file. Verify it matches the repo copy (trust git if they differ).
 4. Load BOTH contexts before acting:
