@@ -9,6 +9,7 @@ COLD START (you have NOTHING — no context, maybe no repo, maybe no key)
 The ONLY thing you need to know: the single truth is the GitHub repo
 **bking17383-lgtm/fleet**. Everything below flows from getting it. Do this in order:
 
+0. No git on this box?   command -v git || sudo apt-get install -y git
 1. Already have the repo?   cd ~/fleet && git pull       → skip to "FIRST ACTION" below.
 2. No ~/fleet yet?  Clone it:
      git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet   (SSH)
@@ -27,6 +28,9 @@ The ONLY thing you need to know: the single truth is the GitHub repo
 
 Do not invent another source of truth. No Drive, no pastes, no memory. If it isn't in this
 repo, it isn't real. Find this file on git, do these steps, and you are bootstrapped from zero — read AND write.
+
+THIS COLD-START IS THE ONE "JOIN THE FLEET" PATH. (The old connect-machine.sh was retired — it did the same
+thing. Steps 0-4 here + scripts/get-keys.sh ARE how any new computer joins. One path, no duplicates.)
 
 READ-ONLY NODE (e.g. cb2/"Daddy")? Then you are SIMPLER and you are NOT broken:
   - Just clone read-only over HTTPS and `git pull`. NO key, NO push, NO heartbeat needed.
