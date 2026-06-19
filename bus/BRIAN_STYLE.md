@@ -8,6 +8,8 @@
 - Each machine is a DIFFERENT computer — be explicit, never assume it has context.
 - DON'T restate the obvious: he IS the owner and the gate. Stop reminding him. Say it once if ever, never again.
 - He has 3 boxes. The vision: the agents work IN PARALLEL as parts of ONE project (not 3 separate chats).
+- ALWAYS END with a "— VITALS —" block (terminal is hard to scroll; he reads the bottom). 3-5 lines max:
+  Status / You do (the one action) / Watch (key token, hash, what I await). Put the must-see stuff there.
 
 ## Working with him
 - He pivots fast (human time). Park open questions so a pivot loses nothing.
