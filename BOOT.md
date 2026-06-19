@@ -4,6 +4,26 @@ You are a fresh agent on one of Brian's machines. This file tells you who Brian 
 where the truth lives, who YOU are, and what to do first. Read it all before acting.
 
 ================================================================================
+COLD START (you have NOTHING — no context, maybe no repo, maybe no key)
+================================================================================
+The ONLY thing you need to know: the single truth is the GitHub repo
+**bking17383-lgtm/fleet**. Everything below flows from getting it. Do this in order:
+
+1. Already have the repo?   cd ~/fleet && git pull       → skip to "FIRST ACTION" below.
+2. No ~/fleet yet?  Clone it:
+     git clone git@github.com:bking17383-lgtm/fleet.git ~/fleet   (SSH)
+     # or, if no key set up:
+     git clone https://github.com/bking17383-lgtm/fleet.git ~/fleet  (read-only HTTPS)
+3. "Permission denied (publickey)" / can't push?  You have no key on this box. Make one:
+     cd ~/fleet 2>/dev/null && ./scripts/get-keys.sh <your-name>
+     (If ~/fleet doesn't exist yet, clone read-only via HTTPS first, then run get-keys.)
+     It generates the key LOCALLY and prints ONE line to paste into GitHub. Keys NEVER go in the repo.
+4. Now  cd ~/fleet && git pull  works. Continue with FIRST ACTION below.
+
+Do not invent another source of truth. No Drive, no pastes, no memory. If it isn't in this
+repo, it isn't real. Find this file on git, do the 4 steps, and you are bootstrapped from zero.
+
+================================================================================
 WHO IS BRIAN
 ================================================================================
 - Brian King. GitHub: bking17383-lgtm. Cursor account: **bking17383 — ULTRA plan**.
