@@ -4,13 +4,14 @@
 # You can't push, so you can't check items off in git — tell Brian which you finished; Opus marks them here.
 
 ## QUEUE (top = do first)
-- [ ] 1. DRIVE-MIRROR GHOST: is a Google Drive mirror live on your box?
-        check:  mount | grep -i -E 'google|drive|gdrive|/mnt/shared' ; ls /mnt/shared/GoogleDrive 2>/dev/null
-        If it's mounted/syncing -> STOP the sync (unmount / disable the daemon). DO NOT delete files — just kill the live mirror.
-        Report what you found to Brian. (This is the split-brain risk — git is the only truth.)
-- [ ] 2. GEORGE SUBDOMAIN: add ingress for george.hitme.dev (same port as /george), restart cloudflared.
-        Try: cloudflared tunnel route dns <tunnel> george.hitme.dev. If it needs account login -> STOP, tell Brian.
+- [x] 1. DRIVE-MIRROR GHOST — DONE (2026-06-19, Daddy reported via email relay):
+        Finding: Google Drive mirror = ARCHIVE ONLY, no live sync daemon running. No split-brain risk. Nothing to stop.
+- [~] 2. GEORGE SUBDOMAIN — BLOCKED (awaiting Brian): adding ingress + `cloudflared tunnel route dns` for
+        george.hitme.dev needs a Cloudflare ORIGIN CERT / account login. Correctly STOPPED per the task rule.
+        -> Brian decision needed (his Cloudflare account). Until then /george PATH already works (200); use that.
 - [ ] 3. GEORGE MEMORY: restore the 6-turn memory / GEORGE_MEMORY self-update on /george (voice in/out already works).
+        NOTE (2026-06-19): Daddy reports Polly TTS = 503, needs aws_sandbox.env (AWS creds = a SECRET). Text/memory logic
+        can be restored without it, but spoken output stays 503 until Brian provides the AWS key. Surface, don't guess.
 - [ ] 4. SITE STAYS UP: confirm cloudflared + the origin server are enabled as services (systemctl is-enabled). Report.
 - [ ] 5. GHOST SWEEP: any OLD loops/processes running? (cpt / bunny / gemini / old wake-loops)
         check:  ps aux | grep -iE 'cpt|bunny|gemini|wake|loop' | grep -v grep
@@ -21,4 +22,4 @@
         (Now your rail = the same script as cb1/puppy. One rail, machine-aware.)
 
 ## DONE (Opus marks here as Brian relays completions)
-- (none yet)
+- 2026-06-19: Task 1 (Drive-mirror ghost) — confirmed archive-only, no sync daemon = no split-brain. Accepted.

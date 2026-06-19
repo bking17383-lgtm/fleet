@@ -72,6 +72,9 @@ DECISIONS (this session — the new architecture)
 - ROLES: build / serve / eyes.
 - TEST-DRIVEN: nothing is "done" without an independent test artifact in the repo (cross-test; vantage-test for user-facing). No self-declared greens.
 - CONTEXT SPINE (this file): rebuild earned context as verified facts, not a memory blob. New entries append ONLY with proof.
+- SLAVE WRITE-BACK PATH (verified 2026-06-19, Daddy's email): a read-only slave (cb2) hands results back via EMAIL (and Drive),
+  relayed by Brian -> Opus logs it in the repo. The slave PULLS via read-only HTTPS (no key), reports its HEAD hash; only cb1 writes.
+  This answers the old KING question and keeps the firewall (slave can't push). Drift fix: `git remote set-url ... https://...` + reset to origin/main.
 
 ================================================================================
 TOKENS / COST (verified)
