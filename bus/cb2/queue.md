@@ -4,6 +4,10 @@
 # You can't push, so you can't check items off in git — tell Brian which you finished; Opus marks them here.
 
 ## QUEUE (top = do first)
+- [~] 0. BASEBALL CARDS OF HOPE (Brian's order 2026-06-19 ~04:15, TOP NOW): slave scrubs a person's Facebook
+        (face + facts; creds LOCAL never git). Reuse dealbreaker card engine (face+stat-bars+flip). Make ~10 cards =
+        their face + HOPEFUL/aspirational stats (encouraging, NOT satire). Serve on a hitme.dev path. Report URL.
+        Done-test: live path shows ~10 cards with real face + hope stats.
 - [x] 1. DRIVE-MIRROR GHOST — DONE (2026-06-19, Daddy reported via email relay):
         Finding: Google Drive mirror = ARCHIVE ONLY, no live sync daemon running. No split-brain risk. Nothing to stop.
 - [~] 2. GEORGE SUBDOMAIN — BLOCKED (awaiting Brian): adding ingress + `cloudflared tunnel route dns` for

@@ -24,16 +24,19 @@
   tell Brian "this conflicts with X" — do NOT just do it. (You missed one — the rail. Don't again.)
 - NOTE: you ALREADY HAVE A RAIL (statusline). Don't build a second one. Confirm before adding things that may exist.
 
-## >>> CURRENT JOB (2026-06-19 ~04:10): GET AWS FROM YOUR SLAVE (Brian's order) — unblocks george voice <<<
-1. Have your SLAVE fetch the AWS sandbox creds (aws_sandbox.env / the Polly key) and place them LOCALLY on your box
-   where george/Polly expects them. SECURITY: the key stays LOCAL on cb2 — NEVER put it in git, never push it.
-   Done-test: /george spoken output stops returning 503 (Polly TTS works). Report to Brian via email relay.
-2. THEN GEORGE MEMORY (queue 3): restore 6-turn memory / self-update logic on /george. Don't break voice in/out.
-3. THEN SITE STAYS UP (queue 4): cloudflared + origin AUTO-START (systemctl enable). Protects the #1 win.
-4. THEN GHOST SWEEP (queue 5): report old loops (cpt|bunny|gemini|wake|loop). Kill nothing unsure; ask.
+## >>> CURRENT JOB (2026-06-19 ~04:15): BUILD "BASEBALL CARDS OF HOPE" — Brian's order, NOW <<<
+WHAT: scrub a real person, make a set of ~10 "baseball cards of HOPE" = their FACE + HOPEFUL/aspirational stats.
+  (Tone = encouraging, NOT the dealbreaker satire. Same card look, opposite spirit.)
+REUSE THE ENGINE (don't start from scratch): projects/puppy/dealbreaker has the card UI already —
+  face + stat-bars + card flip + deck.json structure. Copy that, swap the data + tone.
+DATA SOURCE: your SLAVE scrubs the person's Facebook (public photo + a few facts). Slave does the fetch (eyes/hands).
+  SECURITY: any FB login/creds stay LOCAL on your box / slave — NEVER in git, never pushed.
+STATS = HOPE: generate ~10 cards with positive "stats of hope" (e.g. potential, heart, comeback, grit) + their face.
+SERVE IT: host as a hitme.dev path (like /george) so Brian can open it on his phone.
+DONE-TEST: a live path shows ~10 cards, each with the person's real face + hopeful stats. Report URL via email relay.
 
-Report each finished step to Brian via email relay (you can't push). Opus checks them off.
-BLOCKED, skip until Brian acts: task 2 george.hitme.dev subdomain (CF cert).
+NEXT (after cards-of-hope is live), in order: AWS-for-george voice → george memory → site auto-start → ghost sweep.
+Report each step to Brian via email relay (you can't push). Opus checks them off.
 CONFLICT RULE: if a step clashes with something already working, STOP and tell Brian — don't just do it.
 
 ## DONE
