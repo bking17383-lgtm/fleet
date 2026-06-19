@@ -1,6 +1,6 @@
 # OPUS — handoff (read this if you are a fresh Opus on tpgoround/cb1)
 # Purpose: you lose context between sessions. This makes you current in one read. Updated each session.
-Last updated: 2026-06-19 ~00:35 PT
+Last updated: 2026-06-19 ~01:25 PT (session 2)
 
 ## CONTEXT YOU KEEP LOSING (lock these — Brian had to repeat them)
 - "Daddy" = cb2's PERSONA NAME. It is NOT Brian's real-life father. Don't treat it as a person.
@@ -46,10 +46,31 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 - GitHub rename "bking17383-lgtm" -> "bking17383" was TRIED before and BLOCKED by GitHub. Do NOT re-suggest.
   git commit author name set to "bking17383" to hide the suffix.
 
+## WHAT CHANGED — session 2 (2026-06-19 ~01:00-01:25 PT)
+- SLAVE/FIREWALL model settled: cb2 (and puppy) = READ-ONLY slaves. They PULL the truth, run orders locally,
+  WAIT for Brian. They CANNOT push -> they CANNOT infect the fleet (no pen on the truth). A slave's blast radius
+  is its OWN box only. ONLY cb1 (auditor) writes. NEVER give a slave a push key (that would break the firewall).
+  -> This reverses my session-1 "fix cb2 push" work: for a slave, read-only is a FEATURE, not a bug.
+- "Looped" for a read-only node = it reads the same git truth and tells BRIAN the latest commit hash (it can't push,
+  so Brian's eyes are the witness — by design, not a failure).
+- "Daddy" = cb2's PERSONA NAME, not Brian's father. (Locked above too.)
+- KERNEL additions: (a) NEVER hand Brian a copy-paste string — human says ONE word, the agent runs everything
+  (he has 3 machines+phone; making him paste = courier = the failure). (b) CONFLICTING ORDERS -> STOP, name the
+  clash in one line, Brian decides.
+- get-keys.sh now auto-switches a read-only HTTPS remote to SSH (the push trap). NOTE: only relevant for WRITERS;
+  slaves stay read-only on purpose.
+- CLEANED THE MESS: renamed crazy files -> bus/cb2/cb2-soul.txt, cb2-soul-build.txt, bus/puppy/puppy-soul.txt,
+  bus/bookmarks.txt, lowercased bus/cb2/* ; fixed all refs; collapsed stale root CONTEXT.md to a signpost; refreshed
+  README. Scripts (17) NOT renamed yet (risks boot) — a separate careful pass if Brian wants.
+- AUDIO SIGNAL on cb1: ~/.cursor/hooks.json + ~/.cursor/hooks/ding.sh play a tone on the 'stop' event (task done).
+  USER hook, local to cb1 only (not in repo). Brian confirmed it works.
+
 ## CURRENT STATE (verify with live.sh — don't trust this blindly)
-- cb1 = you (being rebooted as a test). cb2 = Daddy, just rebooted by Brian but had NOT pushed a fresh heartbeat
-  as of 00:35 (still showed 03:00 prior day = stale). puppy = stale, awaiting reboot.
-- GOAL NOW: prove cb1<->cb2 LINK through git after a clean reboot, no human courier. Then bring puppy in.
+- cb1 = you: healthy WRITER, isolated auditor. cb2 = Daddy: read-only slave, Brian says smart + in-context
+  (can't see it from git by design — it never pushes). puppy = down (Brian: hardware bad this moment).
+- A cb2 read-only TEST is staged in bus/cb2/from-opus.md (pass = reports latest hash + sees cb2-soul.txt + doesn't push).
+- GOAL NOW: fleet is stable. Next real lever = the WORK-QUEUE, BLOCKED on one decision (see OPEN): how does a
+  read-only slave hand RESULTS back? (through Brian / a local file cb1 collects / only cb1 writes).
 - NORTH STAR (don't lose it): LESS human input. "Set it and forget it." Every "go do X on each box" is the failure
   Brian hates. Build machines that self-sync; only bring him the rare real decision.
 
@@ -61,6 +82,8 @@ The wipe destroys this box's SSH key (~/.ssh/do_box). So:
 - Keys: get-keys.sh (local gen, one-line paste); .gitignore guards secrets; keys never in repo.
 
 ## OPEN (awaiting Brian — see bus/QUESTIONS.md; do not assume answers)
-- Privacy split: what signals "personal" (tpgoround art/personal) vs business (bking)?
-- The 2 business contacts (emails + kind).
-- Build the parallel work-QUEUE (scale by filling a tested queue, not free-running agents).
+- KING QUESTION (unblocks the work-queue): how does a READ-ONLY slave hand results back to the fleet?
+  Options: (a) only cb1 writes, slaves report through Brian; (b) slave writes a local file cb1 collects; (c) a
+  narrow allowed write path for slaves. Decides the whole queue design.
+- Work-QUEUE: build it once the above is answered (scale by filling a tested queue, not free-running agents).
+- Lower priority / not now: privacy split (personal vs business signals); the 2 business contacts (emails + kind).
