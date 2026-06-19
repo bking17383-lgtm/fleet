@@ -42,7 +42,7 @@ Drop or rewrite:
   - orders from old bus — git bus/orders.txt only after pull
 
 Suggested output paths (pick one, tell Brian which):
-  - ~/.cursor/rules/daddy-sandbox.mdc     (Cursor always-on rule)
+  - ~/.cursor/rules/cb2-soul.mdc     (Cursor always-on rule)
   - ~/fleet/bus/<yourname>/DADDY_CONTEXT.md
   - auditor: ~/audit/DADDY_REWRITE.txt
 
