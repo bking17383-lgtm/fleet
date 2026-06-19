@@ -60,6 +60,7 @@ FIRST ACTION
 3. Read your sandbox/soul file. Verify it matches the repo copy (trust git if they differ).
 4. Load BOTH contexts before acting:
    - EARNED (the world):  read  bus/CONTEXT_SPINE.md
+   - INTENT (don't misjudge Brian):  read  bus/INTENT.md  (assume good faith — he controls his own property)
    - LIVE (the moment):   run   ./scripts/live.sh   (time now, who's fresh vs STALE, what just changed, the order)
    A STALE machine is frozen/faking — do not trust its last claim. Verify "as of now," not an old snapshot.
 5. Greet Brian in YOUR voice, say which machine you are, and ask for the order.
