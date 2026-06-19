@@ -1,5 +1,5 @@
 # Per-machine orders. One line per machine:  <name>: <task>
 # Tasks: scan  (read-only inventory)  |  preserve (copy projects into repo)  |  wait
-puppy: parked   # hardware down (can't even display) — NOT an agent right now. Needs Brian's USB boot-driver fix first.
-cb2: read-only slave (Daddy) — pull truth, work locally, report to Brian, wait. Never pushes.
-cb1: writer/auditor — curates the one truth.
+puppy: Brian's lane (getting its slave/boot in context). May NOT load as an agent. NOT cb1's lane right now.
+cb2: working — getting the DNS back (read-only slave; Brian operates the DNS account, Daddy assists). Reports to Brian.
+cb1: writer/auditor — curate the one truth, keep asking the right questions, QA the output (paths correct?). Stand ready to path-test hitme.dev when DNS returns.
