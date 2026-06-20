@@ -63,3 +63,5 @@ NOTE (2026-06-19): george.hitme.dev is now WANTED (Brian reversed it) — being 
 - [2026-06-20T15:54:05-07:00] site-guard: state changed partial -> up
 
 - [2026-06-20T16:18:02-07:00] site-guard: state changed up -> down
+
+- [2026-06-20T16:20:03-07:00] site-guard: state changed down -> up
