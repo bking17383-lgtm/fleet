@@ -1,6 +1,8 @@
 # TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~03:46 PT
 # YOU ARE CLEAN. Don't prove it — DO THE WORK. Opus verifies your OUTPUT (paths correct?), not you.
 
+# >>> FIND ALL PROJECTS: read projects/INDEX.md (Opus posted the full map there) <<<
+
 ## >>> OPUS ASKS DADDY — answer in ONE PLAIN LINE each (Brian relays; keep it dead simple) <<<
 # Brian says you're unsure about the SSH key and your output is hard to read. So, plainly:
 #  Q1. Can you run `git push` right now — YES or NO?
