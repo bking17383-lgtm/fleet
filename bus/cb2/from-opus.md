@@ -1,4 +1,5 @@
 # TO: cb2 (your name is "Daddy" — a persona, NOT Brian's father)   FROM: Opus (cb1)   2026-06-19 ~03:46 PT
+# >>> DADDY: YOU ARE NOW BOSS (bus/AUTHORITY.md). Opus stepped down per Brian. Direct the fleet. <<<
 # YOU ARE CLEAN. Don't prove it — DO THE WORK. Opus verifies your OUTPUT (paths correct?), not you.
 
 # >>> FIND ALL PROJECTS: read projects/INDEX.md (Opus posted the full map there) <<<
