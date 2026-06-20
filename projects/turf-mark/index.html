@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3d2b1f">
+  <title>Mark Yer Turf</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rye&family=IBM+Plex+Sans:wght@500;700&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'IBM Plex Sans', system-ui, sans-serif;
+      background: #1a120c; color: #f4e4c1; min-height: 100dvh;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    header {
+      text-align: center; padding: 14px 12px 8px;
+      background: linear-gradient(180deg, #3d2b1f, #1a120c);
+      border-bottom: 3px solid #c45c26;
+    }
+    .badge { font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: #c45c26; }
+    h1 { font-family: 'Rye', serif; font-size: 1.55rem; color: #e8c547; margin: 4px 0; }
+    .tag { font-size: 0.78rem; color: #a89070; line-height: 1.35; max-width: 22rem; margin: 0 auto; }
+    #map { height: 42vh; min-height: 220px; border-bottom: 2px solid #5a4030; }
+    .panel { padding: 12px; max-width: 26rem; margin: 0 auto; }
+    .stats {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px;
+    }
+    .stat {
+      background: #2a1f14; border: 2px solid #5a4030; border-radius: 12px; padding: 10px; text-align: center;
+    }
+    .stat b { display: block; font-size: 1.35rem; color: #7bed9f; }
+    .stat span { font-size: 0.68rem; color: #9a8870; text-transform: uppercase; letter-spacing: 0.06em; }
+    .stat.wide { grid-column: 1 / -1; }
+    .stat.wide b { font-size: 1.6rem; color: #e8c547; }
+    .steps { font-size: 0.8rem; color: #cbb896; margin-bottom: 10px; line-height: 1.45; }
+    .steps strong { color: #e8c547; }
+    input, select {
+      width: 100%; padding: 10px; border-radius: 10px; border: 2px solid #5a4030;
+      background: #120c08; color: #f4e4c1; font: inherit; margin-bottom: 8px;
+    }
+    button {
+      width: 100%; padding: 14px; border: none; border-radius: 999px; font-weight: 700; font-size: 1rem;
+      cursor: pointer; margin-bottom: 8px;
+    }
+    .btn-stake { background: #5a4030; color: #f4e4c1; }
+    .btn-fence { background: #c45c26; color: #fff; }
+    .btn-mark {
+      background: linear-gradient(180deg, #e8c547, #b8922a); color: #1a120c; font-size: 1.15rem;
+      box-shadow: 0 4px 0 #6b5218;
+    }
+    .btn-mark:active { transform: translateY(2px); box-shadow: 0 2px 0 #6b5218; }
+    .btn-mark:disabled { background: #333; color: #666; box-shadow: none; }
+    .msg { font-size: 0.82rem; color: #7bed9f; min-height: 1.2em; text-align: center; margin: 6px 0; }
+    .msg.bad { color: #ff6b6b; }
+    .fine { font-size: 0.65rem; color: #666; text-align: center; margin-top: 8px; line-height: 1.4; }
+    footer { text-align: center; font-size: 0.68rem; color: #555; padding: 12px; }
+    footer a { color: #7bed9f; }
+    .leaflet-container { background: #2a3820; font-family: inherit; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="badge">Not technology · yard business · coon science</p>
+    <h1>Mark Yer Turf</h1>
+    <p class="tag">Indoor plumbing is for guests. Piss on your own dirt, save city water, confuse raccoons. Greatest joy of manhood.</p>
+  </header>
+
+  <div id="map"></div>
+
+  <div class="panel">
+    <div class="stats">
+      <div class="stat wide"><b id="gallons">0</b><span>gallons city water you kept</span></div>
+      <div class="stat"><b id="marks">0</b><span>turf marks</span></div>
+      <div class="stat"><b id="coons">0</b><span>raccoon confusion</span></div>
+    </div>
+
+    <p class="steps" id="stepText"><strong>Step 1:</strong> Walk yer property. Tap <em>Pound stake</em> at each corner (3+). Then <em>Lock the fence line</em>.</p>
+
+    <input id="yardName" placeholder="Name yer dirt (Back 40, Morgan place…)" autocomplete="off">
+    <input id="callsign" placeholder="Yer handle (optional)" autocomplete="off">
+
+    <button type="button" class="btn-stake" id="stakeBtn">Pound stake here</button>
+    <button type="button" class="btn-fence" id="fenceBtn">Lock the fence line</button>
+
+    <p class="msg" id="msg"></p>
+
+    <button type="button" class="btn-mark" id="markBtn" disabled>Mark yer turf right here</button>
+
+    <p class="fine">Each mark = ~1.6 gal not flushed. Raccoons respect a boundary. This ain't an app — it's common sense with a map.</p>
+  </div>
+
+  <footer><a href="/dirt-strong">DIRT STRONG</a> · <a href="/parcels">Five Parcels</a> · <a href="/">hitme</a></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script>
+    const GALLONS = 1.6;
+    const LS_KEY = 'turf_yard_id';
+    let yardId = localStorage.getItem(LS_KEY) || '';
+    let stakes = [];
+    let fenceLocked = false;
+    let map, userDot, fenceLayer, marksLayer;
+    let lastPos = null;
+
+    const msg = (t, bad) => {
+      const el = document.getElementById('msg');
+      el.textContent = t || '';
+      el.className = 'bad' in {bad:1} && bad ? 'msg bad' : 'msg';
+      if (bad) el.classList.add('bad'); else el.classList.remove('bad');
+    };
+
+    function uid() {
+      return 'turf_' + Math.random().toString(36).slice(2, 12);
+    }
+
+    function pointInPoly(lat, lng, ring) {
+      if (ring.length < 3) return false;
+      let inside = false;
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const yi = ring[i][0], xi = ring[i][1];
+        const yj = ring[j][0], xj = ring[j][1];
+        if (((yi > lat) !== (yj > lat)) && (lng < (xj - xi) * (lat - yi) / (yj - yi + 1e-12) + xi))
+          inside = !inside;
+      }
+      return inside;
+    }
+
+    function insideFence(lat, lng) {
+      if (!fenceLocked || stakes.length < 3) return false;
+      return pointInPoly(lat, lng, stakes.map(s => [s.lat, s.lng]));
+    }
+
+    function renderStats(s) {
+      document.getElementById('gallons').textContent = (s.gallons_saved ?? 0).toLocaleString();
+      document.getElementById('marks').textContent = s.marks ?? 0;
+      document.getElementById('coons').textContent = (s.raccoon_confusion ?? 0).toLocaleString();
+    }
+
+    function drawFence() {
+      if (fenceLayer) map.removeLayer(fenceLayer);
+      if (stakes.length < 2) return;
+      const latlngs = stakes.map(s => [s.lat, s.lng]);
+      fenceLayer = L.polygon(latlngs, { color: '#c45c26', weight: 3, fillColor: '#7bed9f', fillOpacity: 0.08 }).addTo(map);
+      if (stakes.length >= 3) map.fitBounds(fenceLayer.getBounds(), { padding: [30, 30] });
+    }
+
+    function drawMarks(marks) {
+      if (marksLayer) map.removeLayer(marksLayer);
+      marksLayer = L.layerGroup();
+      (marks || []).forEach(m => {
+        L.circleMarker([m.lat, m.lng], {
+          radius: 7, color: '#e8c547', fillColor: '#c45c26', fillOpacity: 0.9, weight: 2
+        }).bindPopup((m.label || 'Turf') + '<br><small>' + (m.callsign || '') + '</small>').addTo(marksLayer);
+      });
+      marksLayer.addTo(map);
+    }
+
+    async function loadYard() {
+      if (!yardId) return;
+      const r = await fetch('/api/turf/yard/' + encodeURIComponent(yardId));
+      const d = await r.json();
+      if (!d.ok) return;
+      const y = d.yard;
+      document.getElementById('yardName').value = y.name || '';
+      if (y.polygon && y.polygon.length >= 3) {
+        stakes = y.polygon.map(p => ({ lat: p[0], lng: p[1] }));
+        fenceLocked = true;
+        drawFence();
+        document.getElementById('markBtn').disabled = false;
+        document.getElementById('stepText').innerHTML = '<strong>Step 2:</strong> Stand where ye belong. Hit the gold button. Coons take notes.';
+      }
+      drawMarks(y.marks);
+      renderStats(d.stats || {});
+    }
+
+    async function saveFence() {
+      if (stakes.length < 3) { msg('Need 3 stakes minimum, partner.', true); return; }
+      if (!yardId) { yardId = uid(); localStorage.setItem(LS_KEY, yardId); }
+      const body = {
+        id: yardId,
+        name: document.getElementById('yardName').value.trim() || 'My dirt',
+        mode: 'polygon',
+        polygon: stakes.map(s => [s.lat, s.lng])
+      };
+      const r = await fetch('/api/turf/yard', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
+      });
+      const d = await r.json();
+      if (!d.ok) { msg(d.error || 'Fence failed', true); return; }
+      yardId = d.yard.id;
+      localStorage.setItem(LS_KEY, yardId);
+      fenceLocked = true;
+      drawFence();
+      document.getElementById('markBtn').disabled = false;
+      msg('Fence locked. Raccoons notified.');
+      document.getElementById('stepText').innerHTML = '<strong>Step 2:</strong> Stand where ye belong. Hit the gold button. Coons take notes.';
+      renderStats(d.stats || {});
+    }
+
+    async function markTurf() {
+      if (!lastPos) { msg('GPS ain\'t found ye yet. Stand still.', true); return; }
+      if (!insideFence(lastPos.lat, lastPos.lng)) {
+        msg('That\'s off yer property. Coons don\'t count it.', true); return;
+      }
+      const body = {
+        yard_id: yardId,
+        lat: lastPos.lat,
+        lng: lastPos.lng,
+        label: document.getElementById('yardName').value.trim() || 'Turf',
+        callsign: document.getElementById('callsign').value.trim()
+      };
+      const r = await fetch('/api/turf/mark', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body)
+      });
+      const d = await r.json();
+      if (!d.ok) { msg(d.error || 'Mark failed', true); return; }
+      msg('Marked. +' + GALLONS + ' gal saved. Manhood +1.');
+      renderStats(d.stats);
+      await loadYard();
+    }
+
+    function initMap(lat, lng) {
+      map = L.map('map', { zoomControl: false }).setView([lat, lng], 18);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19, attribution: '© OSM'
+      }).addTo(map);
+      L.control.zoom({ position: 'topright' }).addTo(map);
+      userDot = L.circleMarker([lat, lng], { radius: 8, color: '#7bed9f', fillColor: '#7bed9f', fillOpacity: 0.8 }).addTo(map);
+      marksLayer = L.layerGroup().addTo(map);
+    }
+
+    function watchGPS() {
+      if (!navigator.geolocation) { msg('No GPS. Even coons have instincts.', true); return; }
+      navigator.geolocation.watchPosition(pos => {
+        lastPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        if (userDot) userDot.setLatLng([lastPos.lat, lastPos.lng]);
+        else initMap(lastPos.lat, lastPos.lng);
+        if (fenceLocked) {
+          document.getElementById('markBtn').disabled = !insideFence(lastPos.lat, lastPos.lng);
+        }
+      }, () => msg('GPS blocked. Allow location — we ain\'t tracking ye for the gov.', true),
+      { enableHighAccuracy: true, maximumAge: 5000 });
+    }
+
+    document.getElementById('stakeBtn').onclick = () => {
+      if (!lastPos) { msg('Wait for GPS…', true); return; }
+      if (fenceLocked) { msg('Fence already locked. Mark turf.', true); return; }
+      stakes.push({ ...lastPos });
+      L.circleMarker([lastPos.lat, lastPos.lng], { radius: 5, color: '#e8c547', fillColor: '#c45c26', fillOpacity: 1 })
+        .addTo(map).bindPopup('Stake #' + stakes.length);
+      drawFence();
+      msg('Stake ' + stakes.length + ' pounded.');
+    };
+
+    document.getElementById('fenceBtn').onclick = saveFence;
+    document.getElementById('markBtn').onclick = markTurf;
+
+    watchGPS();
+    loadYard();
+  </script>
+</body>
+</html>

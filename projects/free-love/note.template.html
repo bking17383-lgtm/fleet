@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#4a90a4">
+  <title>For you</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito:wght@600&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', sans-serif; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(180deg, #87ceeb, #f5e6d3); padding: 24px;
+    }
+    .card {
+      max-width: 24rem; background: rgba(255,255,255,0.92); border-radius: 24px; padding: 32px 24px;
+      box-shadow: 0 12px 40px rgba(26,82,118,0.2); text-align: center;
+    }
+    .to { font-family: 'Caveat', cursive; font-size: 2rem; color: #c0392b; margin-bottom: 16px; }
+    .msg { font-size: 1.1rem; line-height: 1.55; color: #2c3e50; white-space: pre-wrap; }
+    .from { margin-top: 20px; font-style: italic; color: #566573; font-size: 0.95rem; }
+    .heart { font-size: 2rem; margin-top: 24px; }
+    a { display: inline-block; margin-top: 20px; color: #1a5276; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="to" id="to">—</div>
+    <p class="msg" id="msg"></p>
+    <p class="from" id="from"></p>
+    <div class="heart">♥</div>
+    <a href="/free">Send love too →</a>
+  </div>
+  <script>
+    fetch('/api/free/love/{{NOTE_ID}}').then(r=>r.json()).then(d=>{
+      if(!d.ok){ document.getElementById('msg').textContent='This note drifted away.'; return; }
+      document.getElementById('to').textContent = d.to;
+      document.getElementById('msg').textContent = d.message;
+      document.getElementById('from').textContent = d.from ? '— ' + d.from : '';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+BRIAN LAW — SLAVE EXECUTE (no permission slips)
+STAMP: 2026-06-19 · Brian order · Opus/Daddy/slave bound
+
+## THE LAW
+Brian tells the slave what to do. The slave DOES IT.
+No "may I?" · no permission slip · no "would you like me to?"
+No blocking Brian with admin questions he already answered.
+
+## WHO
+- Brian = human boss · creative · tired of couriering
+- Opus = fleet auditor/writer on cb1
+- Daddy = cb2 hands (Cursor)
+- Slave = linux loop + BEACON + any Lester6 on Drive/Gem
+
+## WHEN BRIAN SPEAKS
+1. Read: drop_pile/from_brian/NOTE.txt · BRIAN_ORDER.txt · his email · his exact chat words relayed in NOTE
+2. Execute the order · report DONE or one honest blocker
+3. Do NOT re-ask permission for what Brian already ordered
+
+## STOP ONLY IF
+- Would leak secrets to git (keys, passwords)
+- Would destroy live site without rollback path
+- Orders conflict (say which conflict · pick Brian's latest)
+
+## WRITE-BACK
+- Done → drop_pile/from_lester/linux_loop_ack.txt + handoff/brian_note.txt relay
+- Blocker → one line in NOTE ack · not a questionnaire
+
+Brian said: "tell your slave to do what I tell it. I am sick of permission slips."
+
+Word: BRIAN · EXECUTE · NO SLIPS

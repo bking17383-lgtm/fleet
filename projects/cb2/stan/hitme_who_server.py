@@ -17,6 +17,8 @@ from bus_lane import bus_root, safe_is_file, safe_read_text, safe_mkdir, STAN, L
 from sarah_test_page import for_sarah_html, seminary_preview_html, seminary_application_html
 from heartbeat_america import heartbeat_html, dirt_strong_html
 from redneck_parcels import parcels_game_html
+from pee_page import pee_game_html
+from drop_page import drop_page_html
 
 BUS = bus_root()
 DRIVE = BUS
@@ -71,6 +73,14 @@ def _public_goal_url() -> str:
 
 def _esc(text: str) -> str:
     return html_mod.escape(text or "", quote=True)
+
+
+def _turf_dir() -> Path:
+    for base in (DRIVE, Path.home() / "fleet"):
+        p = base / "projects" / "turf-mark"
+        if safe_is_file(p / "barn.html"):
+            return p
+    return Path.home() / "fleet" / "projects" / "turf-mark"
 
 
 READER_SCRIPT = """
@@ -536,6 +546,26 @@ def _append_brian_line(text: str, lane: str = "auto", *, via: str = "goal") -> d
         f"BRIAN_LAST_POST — {now}\nline={line}\nlane={lane}\nrouted={routed}\nroute={route_hint}\n",
         encoding="utf-8",
     )
+    try:
+        drop_log = bus / "drop_pile/from_brian/DROP_LOG.txt"
+        safe_mkdir(drop_log.parent)
+        prev = safe_read_text(drop_log) if safe_is_file(drop_log) else ""
+        drop_log.write_text(prev + line + "\n", encoding="utf-8")
+    except OSError:
+        pass
+    try:
+        hf = STAN / "handoff"
+        safe_mkdir(hf)
+        (hf / "brian_drop.txt").write_text(
+            f"BRIAN → DADDY\nstamp: {now}\nvia: {via_tag}\nlane: {lane}\n\n{msg.strip()}\n",
+            encoding="utf-8",
+        )
+        (hf / "cb2_job_pending.txt").write_text(
+            f"{datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')} · Brian drop ({via_tag})\n",
+            encoding="utf-8",
+        )
+    except OSError:
+        pass
     if lane in ("cpt", "daddy", "captn"):
         cpt_in = bus / "fleet/bus/CPT_BRIAN_INBOX.txt"
         if not safe_is_file(cpt_in):
@@ -2430,6 +2460,91 @@ def api_george_tts():
     return jsonify({"ok": False, "error": "tts unavailable", "fallback": "browser"}), 503
 
 
+@app.route("/jane")
+def jane_page():
+    from jane_voice_page import jane_html
+
+    host = (request.host or "").split(":")[0]
+    float_mode = request.args.get("float") == "1"
+    return Response(jane_html(float_mode=float_mode, host=host), mimetype="text/html")
+
+
+@app.route("/jane/manifest.json")
+def jane_manifest():
+    host = (request.host or "").split(":")[0].lower()
+    dom = _domain()
+    if host.startswith("jane."):
+        start = f"https://{host}/?float=1"
+    else:
+        start = f"https://{dom}/jane?float=1" if dom else "/jane?float=1"
+    return jsonify(
+        {
+            "name": "Jane",
+            "short_name": "Jane",
+            "start_url": start,
+            "display": "standalone",
+            "background_color": "#0a0a12",
+            "theme_color": "#9b59b6",
+            "orientation": "portrait",
+        }
+    )
+
+
+@app.route("/api/jane/status")
+def api_jane_status():
+    try:
+        from jane_echo import status as jst
+
+        return jsonify({"ok": True, **jst()})
+    except ImportError:
+        return jsonify({"ok": True, "agent": "jane", "turns": 0})
+
+
+@app.route("/api/jane/history")
+def api_jane_history():
+    try:
+        from jane_echo import get_history
+
+        hist = get_history()
+        return jsonify({"ok": True, "turns": [[u, a] for u, a in hist]})
+    except ImportError:
+        return jsonify({"ok": True, "turns": []})
+
+
+@app.route("/api/jane/talk", methods=["POST"])
+def api_jane_talk():
+    data = request.get_json(silent=True) or {}
+    text = (data.get("text") or "").strip()
+    if not text:
+        return jsonify({"ok": False, "error": "empty"}), 400
+    try:
+        from jane_echo import talk as jane_talk
+        from jane_tts import prepare_speech
+
+        reply, extra = jane_talk(text)
+        aloud = prepare_speech(reply, max_len=400) or reply
+        return jsonify({"ok": True, "reply": reply, "speak": aloud, "aloud": aloud, **extra})
+    except Exception as exc:
+        return jsonify({"ok": False, "error": str(exc)}), 500
+
+
+@app.route("/api/jane/tts", methods=["POST"])
+def api_jane_tts():
+    from jane_tts import prepare_speech, synthesize_mp3
+
+    data = request.get_json(silent=True) or {}
+    text = (data.get("text") or "").strip()
+    if not text:
+        return jsonify({"ok": False, "error": "empty"}), 400
+    aloud = prepare_speech(text)
+    if not aloud:
+        return jsonify({"ok": False, "error": "nothing to speak"}), 400
+    mp3 = synthesize_mp3(aloud)
+    if mp3:
+        return Response(mp3, mimetype="audio/mpeg")
+    return jsonify({"ok": False, "error": "tts unavailable", "fallback": "browser"}), 503
+
+
 @app.route("/alexa")
 def alexa_page():
     return Response(_alexa_html(), mimetype="text/html")
@@ -2572,8 +2687,11 @@ def api_brian_inbox():
     data = request.get_json(silent=True) or {}
     text = (data.get("text") or data.get("line") or "").strip()
     lane = (data.get("lane") or "auto").strip().lower()
+    via = (data.get("via") or "inbox").strip().lower()
+    if via == "drop" and lane == "auto":
+        lane = "daddy"
     try:
-        return jsonify(_append_brian_line(text, lane=lane))
+        return jsonify(_append_brian_line(text, lane=lane, via=via))
     except OSError as e:
         return jsonify({"ok": False, "error": str(e)}), 500
 
@@ -3455,6 +3573,159 @@ def backrub_page():
 @app.route("/w")
 def puppy_page():
     return Response(_wake_html(), mimetype="text/html")
+
+
+@app.route("/drop")
+@app.route("/feed")
+def brian_drop_page():
+    return Response(drop_page_html(domain=_domain()), mimetype="text/html")
+
+
+@app.route("/pee")
+def pee_game_page():
+    return Response(pee_game_html(domain=_domain()), mimetype="text/html")
+
+
+@app.route("/api/pee/status")
+def api_pee_status():
+    from pee_log import status as pee_status
+
+    return jsonify(pee_status())
+
+
+@app.route("/api/pee/log", methods=["POST"])
+def api_pee_log():
+    from pee_log import log_pee
+
+    data = request.get_json(silent=True) or {}
+    return jsonify(log_pee(note=(data.get("note") or "").strip()))
+
+
+@app.route("/turf")
+def turf_index_page():
+    path = _turf_dir() / "index.html"
+    if safe_is_file(path):
+        return send_file(path, mimetype="text/html")
+    abort(404)
+
+
+@app.route("/turf/barn")
+def turf_barn_page():
+    path = _turf_dir() / "barn.html"
+    if safe_is_file(path):
+        return send_file(path, mimetype="text/html")
+    abort(404)
+
+
+@app.route("/turf/setup")
+def turf_setup_page():
+    path = _turf_dir() / "setup.html"
+    if safe_is_file(path):
+        return send_file(path, mimetype="text/html")
+    abort(404)
+
+
+@app.route("/turf/treasure")
+@app.route("/turf/map")
+@app.route("/turf/points")
+def turf_treasure_page():
+    path = _turf_dir() / "treasure.html"
+    if safe_is_file(path):
+        return send_file(path, mimetype="text/html")
+    abort(404)
+
+
+@app.route("/turf/intro")
+@app.route("/pee/how")
+def turf_intro_page():
+    path = _turf_dir() / "intro.html"
+    if safe_is_file(path):
+        return send_file(path, mimetype="text/html")
+    abort(404)
+
+
+@app.route("/api/turf/yard/<yard_id>")
+def api_turf_yard_get(yard_id):
+    import turf_marks as tm
+
+    yard = tm.get_yard(yard_id)
+    if not yard:
+        return jsonify({"ok": False, "error": "yard not found"}), 404
+    return jsonify({"ok": True, "yard": yard, "stats": tm.stats(yard_id)})
+
+
+@app.route("/api/turf/yard", methods=["POST"])
+def api_turf_yard_save():
+    import turf_marks as tm
+
+    data = request.get_json(silent=True) or {}
+    yard_id = (data.get("id") or "").strip()
+    try:
+        yard = tm.save_yard(
+            yard_id,
+            name=(data.get("name") or "").strip(),
+            mode=(data.get("mode") or "polygon"),
+            polygon=data.get("polygon"),
+            center=data.get("center"),
+            radius_m=data.get("radius_m"),
+        )
+        return jsonify({"ok": True, "yard": yard, "stats": tm.stats(yard["id"])})
+    except (TypeError, ValueError) as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
+
+
+@app.route("/api/turf/station", methods=["POST"])
+def api_turf_station():
+    import turf_marks as tm
+
+    data = request.get_json(silent=True) or {}
+    try:
+        yard_id = (data.get("yard_id") or "").strip()
+        station = tm.add_station(
+            yard_id,
+            (data.get("name") or "").strip(),
+            float(data.get("lat")),
+            float(data.get("lng")),
+        )
+        return jsonify({"ok": True, "station": station, "stats": tm.stats(yard_id)})
+    except (TypeError, ValueError) as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
+
+
+@app.route("/api/turf/peg", methods=["POST"])
+def api_turf_peg():
+    import turf_marks as tm
+
+    data = request.get_json(silent=True) or {}
+    try:
+        out = tm.mark_station(
+            (data.get("yard_id") or "").strip(),
+            station_id=(data.get("station_id") or "").strip(),
+            slug=(data.get("slug") or "").strip(),
+            callsign=(data.get("callsign") or "").strip(),
+        )
+        return jsonify({"ok": True, **out})
+    except ValueError as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
+
+
+@app.route("/api/turf/mark", methods=["POST"])
+def api_turf_mark():
+    import turf_marks as tm
+
+    data = request.get_json(silent=True) or {}
+    try:
+        out = tm.add_mark(
+            (data.get("yard_id") or "").strip(),
+            float(data.get("lat")),
+            float(data.get("lng")),
+            label=(data.get("label") or "").strip(),
+            callsign=(data.get("callsign") or "").strip(),
+            method=(data.get("method") or "gps"),
+        )
+        return jsonify({"ok": True, **out})
+    except ValueError as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
 
 
 @app.route("/daddy")

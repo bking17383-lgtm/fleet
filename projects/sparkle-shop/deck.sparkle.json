@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "SPARKLE & RELATIVITY",
+    "subtitle": "wisdom cards · einstein heart · dolly sparkle",
+    "author_voice": "smart enough to bend light · warm enough to bend your day",
+    "price_usd": 7,
+    "sku": "SPARKLE-12"
+  },
+  "stat_keys": [
+    { "key": "brains", "label": "BRAINS" },
+    { "key": "heart", "label": "HEART" },
+    { "key": "sparkle", "label": "SPARKLE" },
+    { "key": "grit", "label": "GRIT" },
+    { "key": "joy", "label": "JOY" },
+    { "key": "future", "label": "FUTURE" }
+  ],
+  "cards": [
+    { "id": "s01", "name": "IMAGINATION WINS", "face": "art/s01.svg", "rarity": "legend", "tagline": "Knowledge is cute. Wonder is king.", "note": "If you can picture a better tomorrow, honey, you're already halfway there. The rest is show-up-and-shine.", "stats": { "brains": 99, "heart": 88, "sparkle": 92, "grit": 80, "joy": 90, "future": 97 } },
+    { "id": "s02", "name": "TIME IS RELATIVE", "face": "art/s02.svg", "rarity": "legend", "tagline": "Late? Early? Love on time.", "note": "The clock is a suggestion. Kindness is the real constant — c, sweetheart, c.", "stats": { "brains": 96, "heart": 94, "sparkle": 85, "grit": 78, "joy": 88, "future": 91 } },
+    { "id": "s03", "name": "E = mc²", "face": "art/s03.svg", "rarity": "cult", "tagline": "Energy · music · charm²", "note": "Put your whole self into one true thing. The universe notices. So does the tip jar.", "stats": { "brains": 98, "heart": 82, "sparkle": 90, "grit": 86, "joy": 95, "future": 93 } },
+    { "id": "s04", "name": "STARDUST & STEEL", "face": "art/s04.svg", "rarity": "cult", "tagline": "Born of stars. Built to last.", "note": "You're ancient magic in a modern body. Act like it — gently, then boldly.", "stats": { "brains": 90, "heart": 92, "sparkle": 88, "grit": 94, "joy": 84, "future": 96 } },
+    { "id": "s05", "name": "THE WIG THEORY", "face": "art/s05.svg", "rarity": "common", "tagline": "Confidence is wearable.", "note": "Some days you need physics. Some days you need volume. Both are valid science.", "stats": { "brains": 78, "heart": 90, "sparkle": 99, "grit": 85, "joy": 97, "future": 82 } },
+    { "id": "s06", "name": "COMPOUND KINDNESS", "face": "art/s06.svg", "rarity": "common", "tagline": "Small acts · big orbit.", "note": "Interest on love never stops accruing. Pay it forward till the room glows.", "stats": { "brains": 85, "heart": 99, "sparkle": 86, "grit": 80, "joy": 92, "future": 88 } },
+    { "id": "s07", "name": "BEND DON'T BREAK", "face": "art/s07.svg", "rarity": "cult", "tagline": "Space-time · spine · same trick", "note": "Gravity pulls. You lean. That's not losing — that's genius flexibility.", "stats": { "brains": 92, "heart": 88, "sparkle": 80, "grit": 97, "joy": 86, "future": 90 } },
+    { "id": "s08", "name": "DREAM OUT LOUD", "face": "art/s08.svg", "rarity": "legend", "tagline": "Whisper plans · sing results", "note": "The dream you hide stays small. The one you feed with work becomes a headline.", "stats": { "brains": 88, "heart": 91, "sparkle": 96, "grit": 89, "joy": 98, "future": 99 } },
+    { "id": "s09", "name": "SMART IS PRETTY", "face": "art/s09.svg", "rarity": "common", "tagline": "Never dim to fit.", "note": "Shine at full wattage. The right people will need sunglasses.", "stats": { "brains": 94, "heart": 87, "sparkle": 98, "grit": 83, "joy": 94, "future": 87 } },
+    { "id": "s10", "name": "THE NEXT VERSE", "face": "art/s10.svg", "rarity": "legend", "tagline": "Best hook unwritten.", "note": "Yesterday's you wrote the setup. Today's you drops the chorus. Play it.", "stats": { "brains": 86, "heart": 93, "sparkle": 91, "grit": 88, "joy": 96, "future": 99 } },
+    { "id": "s11", "name": "GRAVITY OF LAUGHTER", "face": "art/s11.svg", "rarity": "cult", "tagline": "Heavy problems · light touch", "note": "A laugh won't solve everything — but it lifts the ceiling so you can think.", "stats": { "brains": 82, "heart": 95, "sparkle": 94, "grit": 76, "joy": 99, "future": 85 } },
+    { "id": "s12", "name": "UNIVERSE APPROVED", "face": "art/s12.svg", "rarity": "legend", "tagline": "You belong here.", "note": "Billions of years led to you reading this. Don't waste the plot twist.", "stats": { "brains": 91, "heart": 97, "sparkle": 93, "grit": 90, "joy": 95, "future": 100 } }
+  ]
+}

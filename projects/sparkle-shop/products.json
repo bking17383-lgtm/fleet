@@ -1,0 +1,34 @@
+{
+  "shop": "Sparkle & Relativity · hitme.dev/shop",
+  "voice": "Einstein brains · Dolly heart · sellable today",
+  "checkout": "/checkout (wire Stripe last 5%)",
+  "products": [
+    {
+      "sku": "SPARKLE-12",
+      "name": "Sparkle & Relativity — 12 Wisdom Cards",
+      "price": 7,
+      "type": "digital",
+      "url": "/shop/play",
+      "pitch": "Flip cards. Get unstuck. Smart + kind + a little glitter.",
+      "includes": ["web deck", "printable PDF when checkout live"]
+    },
+    {
+      "sku": "HOPE-10",
+      "name": "Cards of Hope — Gift Set (custom face)",
+      "price": 19,
+      "type": "digital+personalized",
+      "url": "/hope",
+      "pitch": "Ten hope stats for someone you love. Face swap when photos land.",
+      "includes": ["hosted page", "share link", "custom name in deck"]
+    },
+    {
+      "sku": "WISDOM-PDF",
+      "name": "Wisdom Bomb — 12 quotes printable",
+      "price": 5,
+      "type": "digital",
+      "url": "/shop/wisdom.txt",
+      "pitch": "Wall art for fridge, locker, or group chat.",
+      "includes": ["plain text file · print at home"]
+    }
+  ]
+}

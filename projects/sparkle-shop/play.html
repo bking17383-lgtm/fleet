@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#533483">
+  <title>Sparkle & Relativity — Deck</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@600;800&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Nunito', sans-serif; background: #1a1a2e; color: #fff; min-height: 100vh; }
+    header { text-align: center; padding: 16px; }
+    h1 { font-family: 'Playfair Display', serif; color: #ffd60a; font-size: 1.5rem; }
+    .sub { font-size: 0.75rem; color: #ff9ecd; margin-top: 4px; }
+    .controls { display: flex; gap: 8px; justify-content: center; padding: 8px; flex-wrap: wrap; }
+    button { font-weight: 800; padding: 8px 14px; border: none; border-radius: 999px; cursor: pointer; background: #ffd60a; color: #1a1a2e; }
+    .hand { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; padding: 12px; }
+    .card { width: min(170px, 40vw); aspect-ratio: 2.5/3.5; background: #fff8ec; border: 3px solid #533483; border-radius: 10px; cursor: pointer; position: relative; transform: rotate(var(--rot,0deg)); }
+    .card-inner { height: 100%; display: flex; flex-direction: column; padding: 6px; }
+    .card-art { flex: 1; border-radius: 6px; overflow: hidden; position: relative; min-height: 80px; }
+    .card-photo { width: 100%; height: 100%; object-fit: cover; }
+    .name { font-family: 'Playfair Display', serif; font-size: 0.7rem; color: #533483; font-weight: 700; padding: 4px 0; }
+    .tagline { font-size: 0.55rem; color: #666; font-style: italic; }
+    .back-note { font-size: 0.65rem; color: #1a1a2e; padding: 8px; line-height: 1.35; }
+    .shop-link { display: block; text-align: center; padding: 16px; color: #ff9ecd; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✦ Sparkle &amp; Relativity</h1>
+    <p class="sub" id="sub">12 wisdom cards · tap to flip</p>
+  </header>
+  <div class="controls">
+    <button onclick="dealAll()">Deal all 12</button>
+    <button onclick="shuffleDeal()">Shuffle</button>
+  </div>
+  <div class="hand" id="hand"></div>
+  <a class="shop-link" href="/shop">← Back to shop · $7 full unlock at checkout</a>
+  <script>
+    let deck = [];
+    async function loadDeck() {
+      const r = await fetch('deck.sparkle.json?' + Date.now());
+      const d = await r.json();
+      deck = d.cards || [];
+      if (d.meta && d.meta.subtitle) document.getElementById('sub').textContent = d.meta.subtitle;
+    }
+    function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+    function shuffle(a){ a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+    function frontHtml(c){ return `<img class="card-photo" src="${esc(c.face)}" alt="">`; }
+    function renderCard(c,i){
+      const rot = (Math.random()*6-3).toFixed(1);
+      return `<div class="card" style="--rot:${rot}deg" onclick='flip(this,${JSON.stringify(c).replace(/'/g,"&#39;")})'>
+        <div class="card-inner"><div class="card-art">${frontHtml(c)}</div>
+        <div class="foot"><div class="name">${esc(c.name)}</div><div class="tagline">${esc(c.tagline)}</div></div></div></div>`;
+    }
+    function flip(el,c){
+      const art = el.querySelector('.card-art');
+      const foot = el.querySelector('.foot');
+      if(el.dataset.f){ el.dataset.f=''; art.innerHTML=frontHtml(c); foot.style.display=''; }
+      else { el.dataset.f='1'; art.innerHTML=`<div class="back-note">${esc(c.note)}</div>`; foot.style.display='none'; }
+    }
+    function dealAll(){ document.getElementById('hand').innerHTML = deck.map(renderCard).join(''); }
+    function shuffleDeal(){ document.getElementById('hand').innerHTML = shuffle(deck).map(renderCard).join(''); }
+    loadDeck().then(dealAll);
+  </script>
+</body>
+</html>

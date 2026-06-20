@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#4a90a4">
+  <title>Free — send love</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@600;800&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', system-ui, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(180deg, #87ceeb 0%, #e8f4f8 35%, #f5e6d3 70%, #d4a574 100%);
+      color: #2c3e50; padding: 0 0 48px;
+    }
+    .sky { text-align: center; padding: 28px 16px 12px; }
+    h1 { font-family: 'Caveat', cursive; font-size: clamp(2.8rem, 12vw, 4rem); color: #1a5276; font-weight: 700; }
+    .verse { font-style: italic; color: #5d6d7e; max-width: 22rem; margin: 8px auto 0; font-size: 0.95rem; line-height: 1.45; }
+    .panel {
+      max-width: 22rem; margin: 16px auto; background: rgba(255,255,255,0.85);
+      border-radius: 20px; padding: 20px; box-shadow: 0 8px 32px rgba(26,82,118,0.15);
+      backdrop-filter: blur(8px);
+    }
+    label { display: block; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #566573; margin: 12px 0 4px; }
+    input, textarea {
+      width: 100%; border: 2px solid #aed6f1; border-radius: 12px; padding: 12px; font-size: 1rem;
+      font-family: inherit; background: #fff;
+    }
+    textarea { min-height: 88px; resize: vertical; }
+    button.send {
+      width: 100%; margin-top: 16px; padding: 14px; border: none; border-radius: 999px;
+      background: linear-gradient(135deg, #1a5276, #2874a6); color: #fff; font-weight: 800; font-size: 1rem; cursor: pointer;
+    }
+    button.send:active { transform: scale(0.98); }
+    .result { margin-top: 14px; padding: 12px; background: #e8f8f5; border-radius: 12px; font-size: 0.88rem; display: none; }
+    .result.show { display: block; }
+    .result a { color: #1a5276; font-weight: 800; word-break: break-all; }
+    h2 { font-family: 'Caveat', cursive; font-size: 1.6rem; text-align: center; color: #1a5276; margin: 28px 0 8px; }
+    .prompts { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; padding: 0 12px 20px; max-width: 36rem; margin: 0 auto; }
+    .prompt {
+      flex: 1 1 140px; max-width: 170px; background: rgba(255,255,255,0.9); border: 2px solid #f5cba7;
+      border-radius: 16px; padding: 14px; cursor: pointer; text-align: center; font-size: 0.82rem; line-height: 1.35;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .prompt:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+    .prompt strong { display: block; font-family: 'Caveat', cursive; font-size: 1.15rem; color: #c0392b; margin-bottom: 4px; }
+    footer { text-align: center; font-size: 0.72rem; color: #7f8c8d; padding: 16px; }
+    footer a { color: #1a5276; }
+  </style>
+</head>
+<body>
+  <div class="sky">
+    <h1>free to love</h1>
+    <p class="verse">Wind in your hair · hand to hold · say it now — love doesn't cost a thing.</p>
+  </div>
+
+  <div class="panel">
+    <p style="font-size:0.88rem;color:#566573;margin-bottom:4px">Send someone a love note. They get a link. No account.</p>
+    <label for="to">To</label>
+    <input id="to" placeholder="Mom · Sarah · old friend" autocomplete="off">
+    <label for="msg">Your words</label>
+    <textarea id="msg" placeholder="I'm glad you're in my world."></textarea>
+    <label for="from">From (optional)</label>
+    <input id="from" placeholder="Someone who sees you" autocomplete="off">
+    <button type="button" class="send" id="sendBtn">Send love → get link</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <h2>free acts · pick one</h2>
+  <div class="prompts" id="prompts"></div>
+
+  <footer>
+    Inspired by wide open skies · <a href="/shop">shop</a> · <a href="/hope">hope</a> · <a href="/k">george</a>
+  </footer>
+
+  <script>
+    const ACTS = [
+      { t: 'Call', b: 'Not text. Voice. Two minutes.' },
+      { t: 'Forgive', b: 'Drop one old score today.' },
+      { t: 'Thank', b: 'Name one thing they did.' },
+      { t: 'Show up', b: 'Be there. Phone down.' },
+      { t: 'Listen', b: 'Ask · then hush.' },
+      { t: 'Surprise', b: 'Small gift · no reason.' },
+      { t: 'Pray', b: 'Hold them in light.' },
+      { t: 'Remember', b: 'Share a good memory.' },
+    ];
+    document.getElementById('prompts').innerHTML = ACTS.map(a =>
+      `<div class="prompt" data-msg="Because of you: ${a.b}"><strong>${a.t}</strong>${a.b}</div>`
+    ).join('');
+    document.querySelectorAll('.prompt').forEach(el => {
+      el.onclick = () => {
+        document.getElementById('msg').value = el.dataset.msg || '';
+        document.getElementById('msg').focus();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+    });
+    document.getElementById('sendBtn').onclick = async () => {
+      const to = document.getElementById('to').value.trim();
+      const message = document.getElementById('msg').value.trim();
+      const from = document.getElementById('from').value.trim();
+      if (!to || !message) { alert('To + your words — that\'s the whole magic.'); return; }
+      const btn = document.getElementById('sendBtn');
+      btn.disabled = true; btn.textContent = 'Sending…';
+      try {
+        const r = await fetch('/api/free/love', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ to, message, from })
+        });
+        const d = await r.json();
+        if (!d.ok) throw new Error(d.error || 'fail');
+        const el = document.getElementById('result');
+        el.className = 'result show';
+        el.innerHTML = 'Link for <strong>' + to.replace(/</g,'') + '</strong>:<br><a href="' + d.url + '">' + d.url + '</a><br><br>Copy · send · love multiplies.';
+        if (navigator.share) {
+          const s = document.createElement('button');
+          s.textContent = 'Share link';
+          s.className = 'send';
+          s.style.marginTop = '10px';
+          s.onclick = () => navigator.share({ title: 'For you', text: message.slice(0,100), url: d.url });
+          el.appendChild(s);
+        }
+      } catch (e) {
+        alert(String(e.message || e));
+      }
+      btn.disabled = false; btn.textContent = 'Send love → get link';
+    };
+  </script>
+</body>
+</html>

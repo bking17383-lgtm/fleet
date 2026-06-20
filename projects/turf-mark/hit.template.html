@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#3d2b1f">
+  <title>Peg hit</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rye&family=IBM+Plex+Sans:wght@800&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'IBM Plex Sans', sans-serif; background: #1a120c; color: #f4e4c1;
+      min-height: 100dvh; display: flex; align-items: center; justify-content: center; padding: 20px;
+    }
+    .card {
+      max-width: 20rem; text-align: center; background: #2a1f14; border: 3px solid #7bed9f;
+      border-radius: 20px; padding: 28px 20px;
+    }
+    h1 { font-family: 'Rye', serif; color: #e8c547; font-size: 1.4rem; margin-bottom: 12px; }
+    .gal { font-size: 2.5rem; font-weight: 800; color: #7bed9f; }
+    p { font-size: 0.85rem; color: #cbb896; margin-top: 10px; line-height: 1.4; }
+    a { color: #7bed9f; font-size: 0.8rem; display: inline-block; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="title">Peg</h1>
+    <div class="gal" id="gal">…</div>
+    <p id="sub">counting water saved</p>
+    <a href="/turf/barn">Barn board →</a>
+  </div>
+  <script>
+    const slug = location.pathname.split('/').pop();
+    const y = new URLSearchParams(location.search).get('y') || localStorage.getItem('turf_yard_id') || '';
+    (async () => {
+      if (!y || !slug) {
+        document.getElementById('sub').textContent = 'Bad link — use barn board.';
+        return;
+      }
+      const r = await fetch('/api/turf/peg', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ yard_id: y, slug: slug })
+      });
+      const d = await r.json();
+      if (!d.ok) {
+        document.getElementById('sub').textContent = d.error || 'fail';
+        document.getElementById('gal').textContent = '✗';
+        return;
+      }
+      document.getElementById('title').textContent = (d.mark && d.mark.label) || 'Marked';
+      document.getElementById('gal').textContent = '+' + (d.stats.gallons_saved || 0) + ' gal';
+      document.getElementById('sub').textContent = 'total kept from the city · coons notified';
+    })();
+  </script>
+</body>
+</html>
