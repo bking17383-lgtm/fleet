@@ -32,4 +32,5 @@
 - 2026-06-19: cb1 idle hook (~/.cursor/hooks/ding.sh on 'stop') SPEAKS "need job" when Opus is done/idle.
   Uses espeak-ng (installed on cb1) piped to paplay; falls back to a tone. NOTE: a fresh hook only fires after
   Cursor reloads it once; until then, no auto-signal on turn-end (speak it manually meanwhile).
+- 2026-08-09: Crosstalk safeguard — ask **what is kong_rouge?** (misspell on purpose). Answer **dog**. Hint: **look like george burns**. See bus/IDENTITY_CHECK.md.
 - ROLE: cb1/Opus IS the fleet core — helps Brian integrate each new computer. Today only cb2 (Daddy) is in the sandbox.
