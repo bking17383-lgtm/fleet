@@ -1,5 +1,5 @@
 # BRIAN PRESENCE — the gate for AI order-looking.
 # FRESH = last_active within ACTIVE_WINDOW_MIN. Otherwise machines drop to free heartbeat (zero tokens).
 ACTIVE_WINDOW_MIN: 20
-last_active: 2026-08-15T14:16:00+00:00
+last_active: 2026-08-15T14:17:11+00:00
 seen_by: jane1-cloud-bc-0350f3a2

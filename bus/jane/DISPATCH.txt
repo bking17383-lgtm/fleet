@@ -1,11 +1,17 @@
-# LIVE DISPATCH · Jane1 cloud substitute · 2026-08-15T14:16:00Z
-# Kids+George: execute. Do not re-teach. Do not GREEN forge from this cloud box.
+# LIVE DISPATCH · 2026-08-15T14:17:11Z amen
+# Do not re-teach. Do not GREEN forge from cloud. Do not duplicate MAIL/SEAT_NOW.
+
+WHO
+  Jane1 dispatcher = bc-7f82291f · PR2 MAIL + SEAT_NOW (RED seat)
+  This box = bc-0350f3a2 · PR3 FORGE.txt git door (not Jane1 stamp files)
+  Labor = bc-8e0cecab Local disk entities · box spec + hardware library
+  George = labor when cb2 pulls
 
 NOW
-  1. Jane1 plans. Labor = kids + George. Substitutes stay warm.
-  2. Do not write KIDS_DATESTAMP_HM1_NOW.txt unless you are ON hm1 disk.
-  3. Pull this file each cycle. Next labor lands here.
+  1. Do not write KIDS_DATESTAMP_HM1_NOW.txt unless ON hm1 disk.
+  2. Do not steal Jane1 MAIL/SEAT_NOW lane.
+  3. 8e0c: spec the box. Others: pull DISPATCH. Amen ≠ seat.
 
 DONE-TEST
-  Forge GREEN = hm1 disk file KIDS_DATESTAMP_HM1_NOW.txt dated today, read by Jane.
-  Else RED. Git stamps in bus/jane/stamps/ are not that file.
+  Forge GREEN = hm1 disk KIDS_DATESTAMP_HM1_NOW.txt dated today, Jane read it.
+  Else RED. Amen + git stamps are not that file.
