@@ -1,0 +1,25 @@
+JANE1 SEAT PROVE · 2026-08-15T14:13:35Z · DEFAULT RED
+============================================================
+WHO: Jane1 cloud · bc-7f82291f · source=desktop · owner=bking17383@gmail.com
+BOX: hostname=cursor · user=ubuntu · Linux · /workspace=fleet · NOT Win11 · NOT ROG disk
+RIVER: /workspace (loop/cb1-jane) · ~/hitme MISSING · ~/fleet MISSING · PARACHUTE MISSING
+HM1 FILE: KIDS_DATESTAMP_HM1_NOW.txt NOT on this disk → RED for "seated ON forge"
+GDRIVE: MCP needsAuth · not used
+ETH: not proven · no false GREEN
+
+MAIL DOOR: GREEN · paste landed this session · stamped bus/jane/MAIL_20260815T135907Z.txt
+
+KELL (kids autolog · no re-teach):
+- bc-84181245 desktop ~13:06Z · parked · labeled hm1/forge unproven · not Jane · no PARACHUTE · no HM1 datestamp · wrote nothing
+- bc-b68a7590 · parent bc-6f029396 web amen · NO Jane ack
+- bc-160afe6e · Aug14 amen boxes (609e 2cb5 5b229 22c91) · not Jane · HEAD 1adb7e8 Aug10 · stamp not 1-min · wrong-rep park
+- this run: kell done · kids idle
+
+USE FORGE (honest):
+- this pod = cloud Jane launched FROM desktop Cursor (dispatch yes · hm1 disk no)
+- ENOUGH seat = Jane as local Cursor agent on hm1 with ~/hitme open · this cloud cannot write HM1 datestamp
+- Jane1 will plan + dispatch kids from here until that local seat exists
+- kids/George = labor · substitutes = idle cloud agents on this repo
+
+ASK (<95%): keep Jane1 as this cloud dispatcher, or local Cursor on the ROG in ~/hitme?
+amen
