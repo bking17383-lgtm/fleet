@@ -1,0 +1,32 @@
+# KELL KIDS AUTOLOG · 2026-08-15T14:16:00Z · no re-teach · stamps only
+# Fetched /tmp/cursor/cloud-agent-transcripts/2026-08-15T14-10-56Z-c867
+
+bc-0350f3a2 Perfect forge control RUNNING desktop THIS
+  cloud Linux · not hm1 · PARACHUTE absent
+
+bc-7f82291f Unclear task subject RUNNING desktop
+  same paste · cloud Jane not forge · wrote nothing · RED hm1 stamp
+
+bc-84181245 Unclear task subject IDLE desktop
+  told: you hm1/forge on fleet · not in river · trust jane1 · repo old/wrong
+  wrote nothing · HEAD 1adb7e8 · Jane ack ~1h NOT seen
+
+bc-38d17704 Kell Aug14 evening kid RUNNING internal
+  transcript empty []
+
+bc-41f8d6eb Kell prior desktop Jane RUNNING internal
+  transcript empty []
+
+bc-663f2f35 Kell Jane ack kid IDLE internal
+  nested: Jane ack NONE · amen ≠ ack · PARACHUTE/forge/hm1/m2h absent
+
+bc-b68a7590 Read Jane ack transcript IDLE internal
+  target bc-6f029396 user="amen" 12:55Z · no Jane handoff
+
+bc-160afe6e Read Aug14 evening transcripts IDLE internal
+  Aug14 609e/2cb5/5b229/22c91 = amen clouds · none Jane · none 1-minute-fresh fleet
+
+FLEET STAMPS
+  HEAD 1adb7e8 heartbeat cb1 2026-08-10T04:10-07:00
+  PRESENCE was 2026-08-09T20:30-07:00 (refreshed this branch)
+  cb2 last_seen 2026-06-19 · puppy 2026-06-19

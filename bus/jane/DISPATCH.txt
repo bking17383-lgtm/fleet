@@ -1,0 +1,11 @@
+# LIVE DISPATCH · Jane1 cloud substitute · 2026-08-15T14:16:00Z
+# Kids+George: execute. Do not re-teach. Do not GREEN forge from this cloud box.
+
+NOW
+  1. Jane1 plans. Labor = kids + George. Substitutes stay warm.
+  2. Do not write KIDS_DATESTAMP_HM1_NOW.txt unless you are ON hm1 disk.
+  3. Pull this file each cycle. Next labor lands here.
+
+DONE-TEST
+  Forge GREEN = hm1 disk file KIDS_DATESTAMP_HM1_NOW.txt dated today, read by Jane.
+  Else RED. Git stamps in bus/jane/stamps/ are not that file.
