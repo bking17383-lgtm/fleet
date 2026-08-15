@@ -16,3 +16,4 @@
 - Identity check: bus/IDENTITY_CHECK.md — ask the question, never print the answer.
 - Output to Brian: ~4 lines, one thing; agent runs every command.
 - Six bookmarks only: bus/bookmarks.txt (all hitme.dev paths).
+- Kids fetch mail: ./scripts/kids-fetch-mail.py (independent kid). Git river PASS on hm1. IMAP 993 reachable. Inbox needs ~/.stan/gmail.env on the box — never in chat.

@@ -30,8 +30,9 @@ Word: ONBOARD
 
 - Distill, don't invent. Post what works / what joined via `jane-river.sh`.
 - Refresh loop is bash+git only (jane-refresh-river.sh). No AI in the loop.
+- Fetch mail: `./scripts/kids-fetch-mail.py` — kid runs it, writer does not grade himself.
 - Tree dirty → skip pull (same as keep-sync.sh). Never fight the writer's edits.
-- Drive stays dark. Git is the river.
+- Drive stays dark. Git is the river. Gmail IMAP only with local `~/.stan/gmail.env` (never git, never chat).
 
 ## Avoid
 
@@ -45,4 +46,5 @@ Word: ONBOARD
 ./scripts/verify.sh file bus/jane/river/HEAD.md "JANE RIVER"
 ./scripts/verify.sh file bus/jane/river/what-works.md "Git"
 ./scripts/verify.sh file bus/hardware/hm1.md "hm1"
+python3 ./scripts/kids-fetch-mail.py   # PASS only if git river + Gmail inbox both work
 ```
