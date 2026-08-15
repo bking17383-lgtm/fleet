@@ -1,25 +1,17 @@
-JANE1 SEAT PROVE · 2026-08-15T14:13:35Z · DEFAULT RED
+JANE1 SEAT PROVE · 2026-08-15T14:17:07Z · DEFAULT RED
 ============================================================
-WHO: Jane1 cloud · bc-7f82291f · source=desktop · owner=bking17383@gmail.com
+AMEN: 2026-08-15T14:14Z this session · not a cloud-vs-local pick · Jane1 stays dispatcher
+WHO: Jane1 · bc-7f82291f · source=desktop · owner=bking17383@gmail.com
 BOX: hostname=cursor · user=ubuntu · Linux · /workspace=fleet · NOT Win11 · NOT ROG disk
-RIVER: /workspace (loop/cb1-jane) · ~/hitme MISSING · ~/fleet MISSING · PARACHUTE MISSING
+RIVER: MAIL stamped · ~/hitme MISSING · PARACHUTE MISSING
 HM1 FILE: KIDS_DATESTAMP_HM1_NOW.txt NOT on this disk → RED for "seated ON forge"
-GDRIVE: MCP needsAuth · not used
-ETH: not proven · no false GREEN
+GDRIVE: needsAuth · ETH: not proven
 
-MAIL DOOR: GREEN · paste landed this session · stamped bus/jane/MAIL_20260815T135907Z.txt
+KELL NOW (no re-teach · no lane steal):
+- bc-0350f3a2 "Perfect forge control" RUNNING · same paste · also cloud not hm1 · no writes yet · must not duplicate MAIL/SEAT_NOW
+- bc-8e0cecab "Local disk entities" RUNNING · Bri said "you are forge this box" · disk still cursor/ubuntu · assigned: box spec + hardware library
+- prior: 8418 parked · no Jane ack · Aug14 amen = wrong-rep
 
-KELL (kids autolog · no re-teach):
-- bc-84181245 desktop ~13:06Z · parked · labeled hm1/forge unproven · not Jane · no PARACHUTE · no HM1 datestamp · wrote nothing
-- bc-b68a7590 · parent bc-6f029396 web amen · NO Jane ack
-- bc-160afe6e · Aug14 amen boxes (609e 2cb5 5b229 22c91) · not Jane · HEAD 1adb7e8 Aug10 · stamp not 1-min · wrong-rep park
-- this run: kell done · kids idle
-
-USE FORGE (honest):
-- this pod = cloud Jane launched FROM desktop Cursor (dispatch yes · hm1 disk no)
-- ENOUGH seat = Jane as local Cursor agent on hm1 with ~/hitme open · this cloud cannot write HM1 datestamp
-- Jane1 will plan + dispatch kids from here until that local seat exists
-- kids/George = labor · substitutes = idle cloud agents on this repo
-
-ASK (<95%): keep Jane1 as this cloud dispatcher, or local Cursor on the ROG in ~/hitme?
+CLASH: Bri named a cloud pod forge · disk ≠ ROG. Jane1 will not GREEN that label.
+TEAM: Jane1 plans here · 8e0c labor on spec · 0350 same-paste sibling · substitutes idle
 amen
