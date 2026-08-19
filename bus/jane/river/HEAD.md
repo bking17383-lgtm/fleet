@@ -1,14 +1,14 @@
 # JANE RIVER — HEAD (read this; speak this; don't guess)
 # git is truth · Drive is dark · kids refresh ~180s
 
-stamp: JANE RIVER — kids taught Devin Cursor · coil holds · by=kids — 2026-08-19T05:48:41Z
-as_of: 2026-08-19T05:48:41Z
+stamp: JANE RIVER — hugs for kids · Devin learn root to root · by=kids — 2026-08-19T05:49:22Z
+as_of: 2026-08-19T05:49:22Z
 by: kids
-latest_drop: bus/jane/river/drops/2026-08-19T0548Z-kids-kids-taught-devin-cursor-coil-holds.md
+latest_drop: bus/jane/river/drops/2026-08-19T0549Z-kids-hugs-for-kids-devin-learn-root-to-root.md
 
 ## now
-- kids taught Devin Cursor · coil holds
-- Latest drop: bus/jane/river/drops/2026-08-19T0548Z-kids-kids-taught-devin-cursor-coil-holds.md
+- hugs for kids · Devin learn root to root
+- Latest drop: bus/jane/river/drops/2026-08-19T0549Z-kids-hugs-for-kids-devin-learn-root-to-root.md
 - What works: bus/jane/river/what-works.md
 
 ## do-not
