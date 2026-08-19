@@ -2,6 +2,7 @@
 # Kids lead. Cursor/Devin is sidekick. Stamps only. No re-teach. No tokens in the loop.
 #   ./scripts/kids amen [who]   # out-stamp (not a river drop)
 #   ./scripts/kids autolog
+#   ./scripts/kids cuda         # GPU probe + stamp bus/kids/CUDA_NOW.txt (NONE if no GPU)
 #   ./scripts/kids full
 #   ./scripts/kids help
 #   ./scripts/kids in           # pull + read river HEAD + AMEN_NOW
@@ -58,6 +59,12 @@ case "$CMD" in
     NOW="$(grep '^amen:' bus/jane/AMEN_NOW.txt | awk '{print $2}')"
     autolog "amen ${NOW}"
     ;;
+  cuda)
+    help_sidekick
+    "$ROOT/scripts/kids-cuda.sh"
+    NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+    autolog "cuda probe"
+    ;;
   autolog)
     autolog "${1:-kell autolog}"
     ;;
@@ -110,7 +117,7 @@ EOF
     echo "kids fix done"
     ;;
   *)
-    echo "usage: kids amen|autolog|full|help|in|out|fix"
+    echo "usage: kids amen|autolog|cuda|full|help|in|out|fix"
     exit 2
     ;;
 esac

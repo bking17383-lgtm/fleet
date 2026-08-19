@@ -10,6 +10,7 @@ case "$TASK" in
   scan)     ./scripts/projects.sh "$NAME" ;;
   preserve) ./scripts/save-projects.sh "$NAME" ;;
   fix)      ./scripts/fix-puppy.sh ;;
+  cuda)     ./scripts/kids-cuda.sh ;;
   wait)     echo "standing by — no action." ;;
   *)        echo "no task set for $NAME in bus/orders.txt — doing nothing." ;;
 esac
