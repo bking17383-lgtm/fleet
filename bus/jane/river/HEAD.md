@@ -1,14 +1,14 @@
 # JANE RIVER — HEAD (read this; speak this; don't guess)
 # git is truth · Drive is dark · kids refresh ~180s
 
-stamp: JANE RIVER — brian at cb2. resting feet. keep building the dream. use kids · by=kids — 2026-08-19T05:39:25Z
-as_of: 2026-08-19T05:39:25Z
+stamp: JANE RIVER — cb2 wake file · why river 2 worked · terminal not GUI · by=kids — 2026-08-19T05:42:43Z
+as_of: 2026-08-19T05:42:43Z
 by: kids
-latest_drop: bus/jane/river/drops/2026-08-19T0539Z-kids-brian-at-cb2-resting-feet-keep-building-.md
+latest_drop: bus/jane/river/drops/2026-08-19T0542Z-kids-cb2-wake-file-why-river-2-worked-termina.md
 
 ## now
-- brian at cb2. resting feet. keep building the dream. use kids
-- Latest drop: bus/jane/river/drops/2026-08-19T0539Z-kids-brian-at-cb2-resting-feet-keep-building-.md
+- cb2 wake file · why river 2 worked · terminal not GUI
+- Latest drop: bus/jane/river/drops/2026-08-19T0542Z-kids-cb2-wake-file-why-river-2-worked-termina.md
 - What works: bus/jane/river/what-works.md
 
 ## do-not
