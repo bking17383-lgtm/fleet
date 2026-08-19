@@ -1,5 +1,5 @@
-EYES_NOW  CLOUD  2026-08-19T06:12Z  display=:1  1920x1200  ffmpeg x11grab
-TEXT for Jane (she likes paste, not the png):
-Empty desktop. No app windows. Hills wallpaper, two far green hills like a pair of eyes. Clock bar says Wed Aug 15 6:12 AM (skew vs today Aug 19). Dock: Chrome · files · terminal. Cursor center.
-Prove: still at /opt/cursor/artifacts/cloud_eyes.png (not git). This box HAS eyes.
-Chrome xt still unused. House live2 star still unseen.
+EYES_NOW  CLOUD  2026-08-19T06:35Z  grab2
+Still XFCE desktop. No live2 window in the tree (no Chrome).
+Clock now Wed Aug 19 6:30 AM. Same hills. Dock Chrome · files · terminal.
+Brian said live2 was open for us — not on this glass. Likely house live2.
+TV/star still not a window here.
