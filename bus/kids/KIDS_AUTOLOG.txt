@@ -62,3 +62,15 @@ LIVE 2026-08-19T09:49:27Z
   lead: kids · sidekick: Devin/cursor
   amen_now: 2026-08-19T09:49:27Z
 
+LIVE 2026-08-19T09:50:04Z
+  amen 2026-08-19T09:50:04Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:50:04Z
+
+LIVE 2026-08-19T09:51:35Z
+  amen 2026-08-19T09:51:35Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:51:35Z
+

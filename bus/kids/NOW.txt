@@ -1,7 +1,6 @@
-NOW 2026-08-19T09:49:27Z
-amen: 2026-08-19T09:49:27Z
-Brian: last teams stamped
-kids teams: bus/kids/TEAMS_NOW.txt
-last amen who=kids · last river kids 05:55:40Z · cb2 05:16 · forge 08-15
-heartbeat: cb2 Aug19 · forge Aug15 · cb1 Jun20 · puppy Jun19
-CUDA NONE here · river pure
+NOW 2026-08-19T09:51:35Z
+amen: 2026-08-19T09:51:35Z
+Brian: use kids · lgtm is old git · did you remake it
+GIT: I did not remake. origin = bking17383-lgtm/fleet (2026-06-18). New URL unknown.
+card: bus/kids/GIT_NOW.txt
+river still 05:55:40Z pure
