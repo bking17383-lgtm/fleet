@@ -95,3 +95,13 @@ HOW A FRESH AGENT USES THIS
 ================================================================================
 1. Boot kernel (2 lines). 2. Read this Spine. 3. Verify against ~/fleet. 4. Greet Brian, name your machine, wait.
 You now "know" the fleet — as proven facts, not inherited corruption.
+
+Jane river onboard: bus/jane/river/ONBOARD.md
+
+================================================================================
+2026-08-19 — cb2 cloud seat (this box)
+================================================================================
+- Brian seated THIS Cursor Cloud KVM worker as **cb2** (hostname cursor, user ubuntu, /workspace).
+- Card: bus/hardware/cb2.md. Onboard protocol: bus/jane/river/ONBOARD.md
+- This is NOT the June physical Daddy disk (no /mnt/shared/GoogleDrive, no ~/hitme, no PARACHUTE). That metal has no card from that session.
+- Kids restamp Jane river HEAD to 2026-08-19 (was STALE 2026-08-15).

@@ -1,0 +1,8 @@
+KIDS-MAIL TEST  as_of=2026-08-19T05:16:23Z  by=kids
+STATUS: PARTIAL
+git_river: PASS  JANE RIVER — cb2 cloud seat joined · kids restamp NOW · by=cb2 — 2026-08-19T05:16:19Z
+gmail_reach: PASS  imap.gmail.com:993 open
+gmail_inbox: FAIL-NO-CREDS  no ~/.stan/gmail.env and no GMAIL_* env (do not paste password in chat)
+subjects:
+  (none)
+secrets: never written

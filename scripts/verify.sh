@@ -5,6 +5,10 @@
 #   verify.sh file <relpath-in-fleet> [must-contain]
 #   verify.sh say  <url|file> <target> [contain]   same as above but ALSO speaks PASS/FAIL out loud
 export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}"
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
 say() { command -v espeak-ng >/dev/null 2>&1 && espeak-ng -a 200 -s 140 "$1" --stdout 2>/dev/null | paplay 2>/dev/null; }
 
 SPEAK=0
@@ -29,7 +33,7 @@ case "$KIND" in
                   || result FAIL "HTTP $code, ${bytes}B$miss"
     ;;
   file)
-    f="$HOME/fleet/$TARGET"
+    f="$ROOT/$TARGET"
     if [ -f "$f" ] && { [ -z "$WANT" ] || grep -qi "$WANT" "$f"; }; then
       result PASS "exists${WANT:+, contains '$WANT'}"
     else

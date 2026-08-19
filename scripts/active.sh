@@ -6,7 +6,11 @@
 set -e
 NAME="${1:-$(hostname)}"
 WIN="${2:-20}"   # active window in minutes
-cd "$HOME/fleet"
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT"
 git pull -q --no-edit 2>/dev/null || true
 printf '# BRIAN PRESENCE — the gate for AI order-looking.\n# FRESH = last_active within ACTIVE_WINDOW_MIN. Otherwise machines drop to free heartbeat (zero tokens).\nACTIVE_WINDOW_MIN: %s\nlast_active: %s\nseen_by: %s\n' \
   "$WIN" "$(date -Iseconds)" "$NAME" > bus/PRESENCE.txt
