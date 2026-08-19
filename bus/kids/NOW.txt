@@ -1,5 +1,5 @@
-NOW 2026-08-19T09:47:07Z
-CUDA probe ran: NEW CUDA NONE (no GPU)
-HOST memcpy this box 16.800 GB/s / 17203 MT/s — NOT CUDA
-old speak: 23072 memcpy not CUDA · river still 05:55:40Z pure
-GPU kid: ./scripts/kids cuda
+NOW 2026-08-19T09:47:55Z
+amen: 2026-08-19T09:47:55Z
+Brian: use kids not tokens
+CUDA: NONE here · HOST 17203 not CUDA · GPU kid ./scripts/kids cuda
+river HEAD still 05:55:40Z pure
