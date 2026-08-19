@@ -3,8 +3,8 @@
 # One card per box: bus/hardware/<fleet_id>.md
 # Rule: measured numbers only. Claims without proof stay off this board.
 
-Updated: 2026-08-15T14:16:00Z
-Posted by: forge (hm1)
+Updated: 2026-08-19T05:15:36Z
+Posted by: cb2
 
 ## BOXES
 
@@ -12,8 +12,10 @@ Posted by: forge (hm1)
 |----------|-------|------|-----|-----|------|----|------|
 | hm1 | forge | Cursor worker VM (KVM) | 4 | 16G | ~252G overlay | Ubuntu 24.04.4 | bus/hardware/hm1.md |
 | cb1 | (auditor / Jane host) | physical/build box | unknown here | unknown here | unknown here | — | no card yet |
-| cb2 | Daddy | physical/workhorse | unknown here | unknown here | unknown here | — | no card yet |
+| cb2 | cb2 | Cursor Cloud KVM worker (this seat: hostname cursor, user ubuntu, /workspace) | 4 | 16G | ~252G overlay | Ubuntu 24.04.4 | bus/hardware/cb2.md |
 | puppy | puppy | Puppy Linux box | unknown here | unknown here | unknown here | — | no card yet |
+
+cb2 note: This card is the 2026-08-19 Cursor Cloud KVM seat Brian named cb2. The June physical Daddy box (/home/bking17383, Drive at /mnt/shared/GoogleDrive) is a different disk and has no card from that metal.
 
 Phones stay in the sealed Drive copy for now: projects/_SEALED_DEAD/cb2-drive-fleet/PHONE_FLEET_IDS.txt
 (not re-homed until someone measures them on this board).

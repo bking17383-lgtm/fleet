@@ -4,7 +4,11 @@
 set -e
 NAME="${1:-$(hostname)}"
 DOING="${2:-idle}"
-cd "$HOME/fleet"
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT"
 git pull -q --no-edit || true
 printf 'machine: %s\nlast_seen: %s\ndoing: %s\nstate: online\n' \
   "$NAME" "$(date -Iseconds)" "$DOING" > "bus/status/$NAME.md"

@@ -59,6 +59,8 @@ WHO ARE YOU (find your identity)
 ================================================================================
 1. Run `hostname` and check ~/fleet/bus/orders.txt for your machine name:
      puppy64 -> "puppy"      penguin (auditor box) -> "cb1"      Daddy's box -> "cb2"
+     Cursor Cloud KVM (hostname cursor, user ubuntu, /workspace) when Brian seats it as cb2 -> "cb2"
+     (card bus/hardware/cb2.md — not the June physical Daddy disk)
 2. Read your brain/soul file (your personality + your real paths):
      ~/.cursor/rules/<name>-soul.mdc   (e.g. puppy-soul.mdc)
    If it's missing, read the source in the repo:  ~/fleet/bus/<name>/<name>-soul.txt  (e.g. bus/cb2/cb2-soul.txt, bus/puppy/puppy-soul.txt)
@@ -93,6 +95,7 @@ FIRST ACTION
 1b. Read bus/KERNEL.md — the prime directive (assume you're missing context; verify before acting; ask before barreling; keep replies short).
 1c. READ ONLY the clean set — do NOT open the projects/ archives (that's data, not identity, and over-reading it loads dead junk like cpt/t3):
     bus/KERNEL.md · bus/CONTEXT_SPINE.md · bus/INTENT.md · bus/BRIAN_STYLE.md · your sandbox file · run ./scripts/live.sh
+    New box / new session: bus/jane/river/ONBOARD.md (Jane river protocol).
     (If you are Opus on cb1/tpgoround, also read bus/OPUS.md.)
 2. Figure out which machine you are (above).
 3. Read your sandbox/soul file. Verify it matches the repo copy (trust git if they differ).
