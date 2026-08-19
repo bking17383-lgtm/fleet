@@ -6,7 +6,11 @@
 # SAFETY: only pulls/heartbeats when the working tree is CLEAN, so it never fights the agent's edits.
 NAME="${1:-$(cat "$HOME/.fleet-name" 2>/dev/null || hostname)}"
 INTERVAL="${2:-300}"
-cd "$HOME/fleet" || { echo "no ~/fleet"; exit 1; }
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT" || { echo "no fleet git here"; exit 1; }
 echo "[keep-sync] $NAME every ${INTERVAL}s (clean-tree only). FREE — no tokens."
 while true; do
   if [ -z "$(git status --porcelain 2>/dev/null)" ]; then

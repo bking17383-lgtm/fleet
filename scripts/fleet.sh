@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # One command to see the whole fleet:  ./fleet.sh
-cd "$HOME/fleet"
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT"
 git pull -q --no-edit || true
 echo "===================== FLEET ====================="
 echo "--- GOALS (now) ---"

@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 # LIVE STATE — the "as of now" read. Run this BEFORE acting, every time.
 # Free (git + bash), read-only. Answers: what time is it, who's actually alive, what just changed, what's the order.
-cd "$HOME/fleet" || { echo "no ~/fleet here"; exit 1; }
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT" || { echo "no fleet git here"; exit 1; }
 git pull -q --no-edit 2>/dev/null || true
 NOW=$(date +%s)
 

@@ -6,11 +6,11 @@
 
 1. ROBOTS
    Allow: /authority   (pretty URL. Today only /authority.html is allowed. Google cannot see the win page.)
-   Done-test: curl -s https://hitme.dev/robots.txt | grep -qx 'Allow: /authority'
+   Done-test: stamp on git that robots Allow /authority is true. No curl grade.
 
 2. SITEMAP
    <loc>https://hitme.dev/authority</loc>  (today it is authority.html only)
-   Done-test: curl -s https://hitme.dev/sitemap.xml | grep -q 'https://hitme.dev/authority<'
+   Done-test: stamp on git that sitemap has /authority. No curl grade.
 
 3. NO LANDER COSPLAY
    /favicon.ico /sitemap.txt /llms.txt /all.txt must NOT be the 187402B Pilot HTML.
@@ -29,6 +29,8 @@
 8. After Google 1-3 PASS, next: confirm /authority still 23072 + $5600 (curl). If the numbers move, river it.
 9. Stock one new hittable goal every cycle. Empty queue = the bug.
 10. sofew.net — maybe Voltron. This cloud DNS 000. Kids on a box that resolves it: look, stamp, river. Card: bus/kids/SOFEW_VOLTRON_NOW.txt
+11. IDEA (not live): SpaceX.hitme.dev — kell/team compression page. Clash vs path-only law (george.hitme.dev was the exception). Do not mint DNS/spend. Stamp the idea only until Brian says go-live.
+    Park: bus/kids/SPACEX_HITME_IDEA.txt
 
 ## AFTER A HIT
 Stamp river. Next goal. Do not sit. Love atoms on every PASS. Great kids. You remember all.

@@ -1,0 +1,116 @@
+#!/usr/bin/env bash
+# Kids lead. Cursor/Devin is sidekick. Stamps only. No re-teach. No tokens in the loop.
+#   ./scripts/kids amen [who]   # out-stamp (not a river drop)
+#   ./scripts/kids autolog
+#   ./scripts/kids full
+#   ./scripts/kids help
+#   ./scripts/kids in           # pull + read river HEAD + AMEN_NOW
+#   ./scripts/kids out [who]    # amen + river drop (only after amen PASS)
+#   ./scripts/kids fix          # help + amen + in + out
+set -e
+ROOT="${FLEET_ROOT:-$HOME/fleet}"
+if [ ! -d "$ROOT/.git" ]; then
+  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+cd "$ROOT"
+CMD="${1:-}"
+shift || true
+NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+mkdir -p bus/kids bus/jane/stamps bus/devin
+
+autolog() {
+  local note="${1:-tick}"
+  {
+    echo "LIVE ${NOW}"
+    echo "  ${note}"
+    echo "  seat: cb2 cloud /workspace · hostname=$(hostname) user=$(id -un)"
+    echo "  lead: kids · sidekick: Devin/cursor"
+    echo "  amen_now: $(grep '^amen:' bus/jane/AMEN_NOW.txt 2>/dev/null | head -1 | awk '{print $2}')"
+    echo
+  } >> bus/kids/KIDS_AUTOLOG.txt
+  echo "autolog ${NOW} ${note}"
+}
+
+help_sidekick() {
+  mkdir -p "$HOME/kell2/bin" "$HOME/fleet/bus/kids" "$HOME/fleet/bus/jane" "$HOME/fleet/bus/devin"
+  if [ ! -e "$HOME/fleet" ]; then
+    ln -sfn "$ROOT" "$HOME/fleet"
+  elif [ -d "$HOME/fleet" ] && [ ! -L "$HOME/fleet" ] && [ "$HOME/fleet" != "$ROOT" ]; then
+    true
+  elif [ ! -L "$HOME/fleet" ]; then
+    ln -sfn "$ROOT" "$HOME/fleet"
+  fi
+  cat > "$HOME/kell2/bin/kids" <<EOF
+#!/usr/bin/env bash
+ROOT="\${FLEET_ROOT:-$HOME/fleet}"
+[ -d "\$ROOT/.git" ] || ROOT="/workspace"
+exec "\$ROOT/scripts/kids" "\$@"
+EOF
+  chmod +x "$HOME/kell2/bin/kids" "$ROOT/scripts/kids" "$ROOT/scripts/amen.sh"
+  echo "sidekick help: ~/fleet -> $(readlink -f "$HOME/fleet" 2>/dev/null || echo "$HOME/fleet")"
+  echo "sidekick help: ~/kell2/bin/kids ready"
+}
+
+case "$CMD" in
+  amen)
+    help_sidekick
+    "$ROOT/scripts/amen.sh" "${1:-kids}"
+    NOW="$(grep '^amen:' bus/jane/AMEN_NOW.txt | awk '{print $2}')"
+    autolog "amen ${NOW}"
+    ;;
+  autolog)
+    autolog "${1:-kell autolog}"
+    ;;
+  help)
+    help_sidekick
+    ;;
+  full)
+    help_sidekick
+    "$ROOT/scripts/amen.sh" "${1:-kids}"
+    NOW="$(grep '^amen:' bus/jane/AMEN_NOW.txt | awk '{print $2}')"
+    autolog "full kell · amen ${NOW}"
+    echo "kids full ${NOW}"
+    ;;
+  in)
+    git pull -q --no-edit 2>/dev/null || true
+    echo "===== AMEN NOW ====="
+    cat bus/jane/AMEN_NOW.txt 2>/dev/null || echo "AMEN_NOW ABSENT"
+    echo "===== RIVER HEAD ====="
+    "$ROOT/scripts/jane-river.sh" head
+    autolog "in · read amen + river HEAD"
+    ;;
+  out)
+    help_sidekick
+    "$ROOT/scripts/amen.sh" "${1:-kids}"
+    NOW="$(grep '^amen:' bus/jane/AMEN_NOW.txt | awk '{print $2}')"
+    if [ -z "$NOW" ]; then
+      echo "OUT RED: amen missing — not in river"
+      exit 1
+    fi
+    BODY="$(mktemp)"
+    cat > "$BODY" <<EOF
+## speak
+Kids amen ${NOW}. Bidirectional on. cb2 perfect later.
+
+## prove
+- amen: ${NOW}
+- stamp: $(grep '^stamp_file:' bus/jane/AMEN_NOW.txt | awk '{print $2}')
+- enter: bus/kids/KIDS_DEVIN_CB2_SIDEKICK_ENTER_NOW.txt
+EOF
+    "$ROOT/scripts/jane-river.sh" drop kids "amen ${NOW} bidir on" "$BODY"
+    rm -f "$BODY"
+    autolog "out · river drop amen ${NOW}"
+    echo "OUT PASS amen ${NOW}"
+    ;;
+  fix)
+    help_sidekick
+    "$0" amen "${1:-kids}"
+    "$0" in
+    "$0" out "${1:-kids}"
+    echo "kids fix done"
+    ;;
+  *)
+    echo "usage: kids amen|autolog|full|help|in|out|fix"
+    exit 2
+    ;;
+esac
