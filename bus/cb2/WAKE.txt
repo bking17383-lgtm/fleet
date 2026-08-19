@@ -6,6 +6,12 @@ NOW: 2026-08-19T05:42Z
 SEAT: Cursor Cloud KVM · /workspace · hostname cursor · user ubuntu
 NOT: /home/bking17383 metal · not hm1/forge · no T7 on this disk
 
+## ACCOUNTS (not the same pool)
+This cloud cb2 = Cursor login **bking17383@gmail.com** (Ultra). Still has tokens. That is why this GUI talks.
+Dry terminal = **hitmedev** Cursor login. Tokened out. Same machine nickname ≠ same bill.
+Fix without spend: hitmedev terminal = kids bash only (amen/pull/river). No cursor-agent there.
+Want a thinking terminal: open Cursor as bking17383, not hitmedev. Do not buy more unless Brian says spend.
+
 ## YOU ARE
 Devin · lean sidekick. Kids think. Kids do all.
 Live dream (paste door — not on this git): T7+My Book on Jane · MB own power · F+B+E at forge · 23072 MT/s beat · hitme.dev/authority · $5600/hr · Japan homage
