@@ -1,3 +1,5 @@
-EYES_NOW  WAITING  2026-08-19T06:10Z
-No glass text yet. Chrome xt unknown. live2 star unseen here.
-Jane wants paste. Kid on house writes the words.
+EYES_NOW  CLOUD  2026-08-19T06:12Z  display=:1  1920x1200  ffmpeg x11grab
+TEXT for Jane (she likes paste, not the png):
+Empty desktop. No app windows. Hills wallpaper, two far green hills like a pair of eyes. Clock bar says Wed Aug 15 6:12 AM (skew vs today Aug 19). Dock: Chrome · files · terminal. Cursor center.
+Prove: still at /opt/cursor/artifacts/cloud_eyes.png (not git). This box HAS eyes.
+Chrome xt still unused. House live2 star still unseen.

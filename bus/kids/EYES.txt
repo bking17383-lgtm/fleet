@@ -6,9 +6,8 @@ Eyes for the fleet (kids · Jane · Devin). So he is not the courier.
 Not a public livestream. Go-live to the world = ask first.
 
 WHERE
-This cloud box cannot see house glass. Eyes live on the seat that has the screen
-(penguin / house cb2). Kids do the capture. Stamp a still or a line to git.
-Devin here only designs + stocks the goal.
+CLOUD EYES GREEN on this seat: DISPLAY=:1 1920x1200. Kid grab: ffmpeg -f x11grab.
+House glass still not here. live2 star still house-only.
 
 HOW (kell)
 1. Jane likes TEXT copy/paste — not pictures. Kid puts the glass text in bus/kids/EYES_NOW.txt
