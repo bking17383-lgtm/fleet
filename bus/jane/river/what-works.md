@@ -19,3 +19,4 @@
 - Kids fetch mail: ./scripts/kids-fetch-mail.py (independent kid). Git river PASS on hm1. IMAP 993 reachable. Inbox needs ~/.stan/gmail.env on the box — never in chat.
 - cb2 cloud seat card bus/hardware/cb2.md (Brian seated 2026-08-19)
 - Kids restamp NOW on Jane river
+- Kids fetch mail 2026-08-19 on cb2 cloud seat: git river PASS, imap 993 PASS, inbox FAIL-NO-CREDS (no ~/.stan/gmail.env — expected)
