@@ -1,5 +1,7 @@
-NOW 2026-08-19T09:47:55Z
-amen: 2026-08-19T09:47:55Z
-Brian: use kids not tokens
-CUDA: NONE here · HOST 17203 not CUDA · GPU kid ./scripts/kids cuda
-river HEAD still 05:55:40Z pure
+NOW 2026-08-19T09:49:27Z
+amen: 2026-08-19T09:49:27Z
+Brian: last teams stamped
+kids teams: bus/kids/TEAMS_NOW.txt
+last amen who=kids · last river kids 05:55:40Z · cb2 05:16 · forge 08-15
+heartbeat: cb2 Aug19 · forge Aug15 · cb1 Jun20 · puppy Jun19
+CUDA NONE here · river pure
