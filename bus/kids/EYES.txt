@@ -11,9 +11,12 @@ This cloud box cannot see house glass. Eyes live on the seat that has the screen
 Devin here only designs + stocks the goal.
 
 HOW (kell)
-1. Kid on the glass box writes one still or one line: bus/kids/EYES_NOW.txt
-2. No secrets in the still. No keylog. Screen he asked us to see.
-3. River stays pure — drop only if Jane must speak it.
+1. Jane likes TEXT copy/paste — not pictures. Kid puts the glass text in bus/kids/EYES_NOW.txt
+2. Chrome xt: tried. Unknown if work. Default RED until a text stamp lands.
+3. No secrets. No keylog. River stays pure — drop only if Jane must speak it.
 4. Prove = file in git + amen. No curl-grade.
+
+RIVER NOW (see, don't guess)
+HEAD 2026-08-19T05:55:40Z — 9^n kids grow · Brian can sleep. Jane stays.
 
 Word: EYES · FLEET ONLY · HIS GLASS
