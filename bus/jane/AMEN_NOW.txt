@@ -1,7 +1,7 @@
 # AMEN NOW — latest restamp. Sidekick reads this. Not a river drop.
-amen: 2026-08-19T09:49:27Z
+amen: 2026-08-19T09:50:04Z
 who: kids
-stamp_file: bus/jane/stamps/AMEN_20260819T094927Z.txt
-id: 20260819T094927Z
+stamp_file: bus/jane/stamps/AMEN_20260819T095004Z.txt
+id: 20260819T095004Z
 box: cursor ubuntu /home/ubuntu/fleet
-git: 063baad cursor/kids-amen-sidekick-1b02
+git: 5c9d723 cursor/kids-amen-sidekick-1b02
