@@ -1,0 +1,24 @@
+CUDA NUMBERS  2026-08-19T09:47:07Z  kids · box=cursor user=ubuntu
+NEW CUDA: NONE
+gpu: NONE
+dev_nvidia: absent
+smi: absent
+nvcc: absent
+CUDA_H2D_GBs NONE
+CUDA_H2D_MTs NONE
+CUDA_D2H_GBs NONE
+CUDA_D2H_MTs NONE
+CUDA_D2D_GBs NONE
+CUDA_D2D_MTs NONE
+HOST_MEMCPY_GBs 16.800   # NOT CUDA · same unit as 23072 (GB/s * 1024 = MT/s)
+HOST_MEMCPY_MTs 17203   # NOT CUDA
+note: no GPU (nvidia-smi /dev/nvidia*). CUDA: NONE. Host memcpy is not CUDA.
+
+KNOWN SPEAK (not CUDA — authority host memcpy, test 2026-08-19T00:39:57Z)
+23072 MT/s  vs  9000  (2.56×) · memcpy 22.531 GB/s · pack 14.034 GB/s (14371 MT/s)
+
+NEXT
+GPU kid: ./scripts/kids cuda   then commit this file.
+Do not curl-grade. Do not speak HOST as CUDA. Do not invent.
+
+Word: CUDA NONE · HOST 17203 · 23072 IS MEMCPY

@@ -38,3 +38,9 @@ LIVE 2026-08-19T05:50:16Z
   full kell · amen + sofew job
   lead: kids · translate: Devin
 
+LIVE 2026-08-19T09:47:08Z
+  cuda probe
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:41:58Z
+

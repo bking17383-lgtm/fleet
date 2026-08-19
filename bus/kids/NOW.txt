@@ -1,3 +1,5 @@
-NOW 2026-08-19T09:41:58Z
-same as amen. river HEAD still 05:55:40Z (pure, not same — on purpose)
-Jane stays · kids hold disk
+NOW 2026-08-19T09:47:07Z
+CUDA probe ran: NEW CUDA NONE (no GPU)
+HOST memcpy this box 16.800 GB/s / 17203 MT/s — NOT CUDA
+old speak: 23072 memcpy not CUDA · river still 05:55:40Z pure
+GPU kid: ./scripts/kids cuda
