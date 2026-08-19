@@ -1,0 +1,21 @@
+RESTART SAME CONTEXT  2026-08-19T09:50:04Z  kids · measured
+
+ASK
+Can this box be restarted in same context?
+
+YES
+- Same chat: https://cursor.com/agents/bc-ef7cb25a-10f2-4524-ac34-1cfa94781b02
+- Same git branch if pushed: cursor/kids-amen-sidekick-1b02
+- Kids/Jane memory = git stamps (amen, NOW, CUDA_NOW, TEAMS_NOW, river HEAD)
+
+NO
+- This exact VM disk. Cloud KVM is disposable. /tmp, unsaved, DISPLAY, pids die.
+- Saved environment: NONE (environment-info environment=null)
+- Environment build: NONE (just-in-time boot, not a snapshot)
+- GPU still absent on next cloud box
+
+DO
+Keep talking on that URL. Kids pull git. Do not count on this glass staying up.
+Do not invent a saved env. Snapshot/build only if Brian asks.
+
+Word: CHAT+GIT YES · DISK NO

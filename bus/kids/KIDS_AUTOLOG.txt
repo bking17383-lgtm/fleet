@@ -1,0 +1,76 @@
+LIVE 2026-08-19T05:34:32Z
+  full kell · amen 2026-08-19T05:34:32Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:34:32Z
+
+LIVE 2026-08-19T05:34:32Z
+  kell autolog
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:34:32Z
+
+LIVE 2026-08-19T05:35:34Z
+  kell autolog
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:34:32Z
+
+LIVE 2026-08-19T05:35:54Z
+  amen 2026-08-19T05:35:54Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:35:54Z
+
+LIVE 2026-08-19T05:39:27Z
+  river to cb1: brian resting feet, keep building, use kids
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:35:54Z
+
+LIVE 2026-08-19T05:47:27Z
+  amen
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T05:47:27Z
+
+LIVE 2026-08-19T05:50:16Z
+  full kell · amen + sofew job
+  lead: kids · translate: Devin
+
+LIVE 2026-08-19T09:47:08Z
+  cuda probe
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:41:58Z
+
+LIVE 2026-08-19T09:47:55Z
+  amen 2026-08-19T09:47:55Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:47:55Z
+
+LIVE 2026-08-19T09:49:27Z
+  amen 2026-08-19T09:49:27Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:49:27Z
+
+LIVE 2026-08-19T09:49:27Z
+  teams last stamp
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:49:27Z
+
+LIVE 2026-08-19T09:50:04Z
+  amen 2026-08-19T09:50:04Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:50:04Z
+
+LIVE 2026-08-19T09:51:35Z
+  amen 2026-08-19T09:51:35Z
+  seat: cb2 cloud /workspace · hostname=cursor user=ubuntu
+  lead: kids · sidekick: Devin/cursor
+  amen_now: 2026-08-19T09:51:35Z
+

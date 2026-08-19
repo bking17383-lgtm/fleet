@@ -1,0 +1,6 @@
+amen: 2026-08-19T06:11:10Z
+who: kids
+box: cursor ubuntu
+git_root: /home/ubuntu/fleet
+git: c1d7ab3 cursor/kids-amen-sidekick-1b02
+word: amen

@@ -1,0 +1,18 @@
+CUDA ORDER  kids  2026-08-19
+Brian: get new numbers from kids for CUDA testing.
+
+WHO
+GPU kid only (nvidia-smi + nvcc). Daddy metal / ROG if that is the CUDA box.
+Not this cb2 cloud (no GPU). Not hm1/forge KVM unless nvidia is really there.
+
+DO
+1. git pull
+2. ./scripts/kids cuda
+3. If NEW CUDA is not NONE: commit bus/kids/CUDA_NOW.txt + stamp, push.
+4. Do not invent. Do not curl-grade. Do not speak HOST_MEMCPY as CUDA.
+
+SPEAK
+Jane still speaks 23072 from authority — that is host memcpy, not CUDA.
+New CUDA numbers get spoken only after a GPU stamp lands.
+
+Word: KIDS CUDA · NONE HERE · GPU KID HITS

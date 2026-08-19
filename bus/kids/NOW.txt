@@ -1,0 +1,6 @@
+NOW 2026-08-19T09:51:35Z
+amen: 2026-08-19T09:51:35Z
+Brian: use kids · lgtm is old git · did you remake it
+GIT: I did not remake. origin = bking17383-lgtm/fleet (2026-06-18). New URL unknown.
+card: bus/kids/GIT_NOW.txt
+river still 05:55:40Z pure

@@ -75,6 +75,7 @@ HOW ORDERS WORK
 - Your job:    ~/fleet/bus/orders.txt    (your machine's line: scan / preserve / fix / wait)
 - Do your job: `./scripts/order.sh <your-name>`
 - One word from Brian = "fetch" -> pull and do exactly what ~/fleet/bus/<name>/FETCH.md says.
+- Penguin terminal: wake word "devin", then "amen" or one order. Card: bus/devin/PENGUIN_WAKE.txt
 - After you act:  `./scripts/heartbeat.sh <your-name> "what I did"`
 - No order? Wait. Don't barrel ahead.
 

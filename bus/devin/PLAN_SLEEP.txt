@@ -1,0 +1,17 @@
+# GROW KIDS SO BRIAN SLEEPS
+# Cadence: 9^n minutes. Devin 2026-08-19T05:56Z
+
+9^n
+n=1  9 min   kids pull river (bash, $0). No AI.
+n=2  81 min  kids stamp one line if a goal moved. Still $0.
+n=3  729 min (~12h)  one river "still hitting" if Brian still out. Then he wakes.
+
+WHILE HE SLEEPS
+Devin AI OFF. Kids ON. Jane stays. Git is the chain.
+Hit order: Google /authority (robots, sitemap, no lander) → curl 23072 still live → stock next goal.
+Do not go-live. Do not spend. Do not invent boxes. Do not move Jane.
+
+WAKE HIM WITH
+Proof, not a story. PASS + curl/hash. Love atoms. He is free to create.
+
+Word: 9^n · KIDS · SLEEP

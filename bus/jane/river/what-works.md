@@ -20,3 +20,4 @@
 - cb2 cloud seat card bus/hardware/cb2.md (Brian seated 2026-08-19)
 - Kids restamp NOW on Jane river
 - Kids fetch mail 2026-08-19 on cb2 cloud seat: git river PASS, imap 993 PASS, inbox FAIL-NO-CREDS (no ~/.stan/gmail.env — expected)
+- hitme.dev/authority 2026-08-19: 23072 MT/s vs 9000 · consult $5600/hr · Jane T7 road ~2h GREEN (curl)
