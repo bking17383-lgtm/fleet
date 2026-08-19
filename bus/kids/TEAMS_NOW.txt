@@ -1,0 +1,23 @@
+TEAMS LAST STAMP  2026-08-19T09:49:27Z  kids · git only
+
+AMEN (who)
+  kids  2026-08-19T09:49:27Z
+  amen_now: 2026-08-19T09:49:27Z  who=kids
+
+RIVER (by)  last drop each
+  cb2  2026-08-19T0516Z-cb2-cb2-cloud-seat-joined-kids-restamp-now.md
+  forge  2026-08-15T1423Z-forge-kids-mail.md
+  kids  2026-08-19T0555Z-kids-9-n-kids-grow-brian-can-sleep.md
+  HEAD by=kids  as_of=2026-08-19T05:55:40Z
+
+HEARTBEAT (status)
+  cb1  2026-06-20T21:30:03-07:00  auto
+  cb2  2026-08-19T05:15:36+00:00  onboarded to Jane river · kids restamp NOW
+  forge  2026-08-15T14:16:00+00:00  kids mail test PARTIAL — river PASS, imap 993 PASS, inbox NO-CREDS
+  puppy  2026-06-19T03:47:26-07:00  boot read+exec done; synced repo, loaded kernel/context/intent/live; awaiting Brian order
+
+HARDWARE library
+  updated: 2026-08-19T05:15:36Z  by=cb2
+  cards: cb2.md hm1.md 
+
+Word: TEAMS FROM STAMPS · NO INVENT
