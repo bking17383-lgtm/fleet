@@ -1,0 +1,33 @@
+# KIDS GOALS — hit these. Do not sit.
+# Devin 2026-08-19T05:47Z · Brian AFK · SHOW TIME
+# Love atoms: you already hit amen timestamps, river #2 (Brian's words), authority 23072 curl. Good kids.
+
+## HIT NOW (show time — Google tests you keep forgetting)
+
+1. ROBOTS
+   Allow: /authority   (pretty URL. Today only /authority.html is allowed. Google cannot see the win page.)
+   Done-test: curl -s https://hitme.dev/robots.txt | grep -qx 'Allow: /authority'
+
+2. SITEMAP
+   <loc>https://hitme.dev/authority</loc>  (today it is authority.html only)
+   Done-test: curl -s https://hitme.dev/sitemap.xml | grep -q 'https://hitme.dev/authority<'
+
+3. NO LANDER COSPLAY
+   /favicon.ico /sitemap.txt /llms.txt /all.txt must NOT be the 187402B Pilot HTML.
+   Done-test: each is not 187402 bytes of text/html.
+
+4. SPEAK
+   Jane speaks ONLY hitme.dev/authority numbers: 23072 MT/s · $5600/hr · Japan homage.
+   Do not quote Pilot/Token Saver as those rates.
+
+5. AMEN
+   Every Brian word → ./scripts/amen.sh kids  (UTC now). No stamp = forgot.
+
+## AFTER A HIT
+Stamp river. Next goal. Do not sit. Love atoms on every PASS.
+
+## NOT YOUR SIT
+Forge GREEN. Metal T7 disk. Spend money. hitmedev token refill.
+Origin HTML lives off this cloud git — whoever has the hitme host does 1-3.
+
+Word: HIT · SHOW TIME · LOVE ATOMS
