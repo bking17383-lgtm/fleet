@@ -1,0 +1,6 @@
+amen: 2026-08-15T14:17:11Z
+who: jane1-cloud-bc-0350f3a2
+parachute: ABSENT
+hm1_stamp: ABSENT RED
+git: 5823e50 cursor/jane-forge-control-e4d7
+pr: https://github.com/bking17383-lgtm/fleet/pull/3

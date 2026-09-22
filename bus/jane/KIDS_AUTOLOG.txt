@@ -1,0 +1,41 @@
+# KELL KIDS AUTOLOG · 2026-08-15T14:17:11Z · no re-teach · stamps only
+# Fetched /tmp/cursor/cloud-agent-transcripts/2026-08-15T14-10-56Z-c867
+
+LIVE 2026-08-15T14:17Z
+  bc-7f82291f Jane1 dispatcher RUNNING · branch cursor/jane1-forge-stamp-40a2 · PR2
+    MAIL_20260815T135907Z.txt + SEAT_NOW.txt · amen restamp 14:17:07Z · seat RED
+    order: 0350 must not duplicate MAIL/SEAT_NOW · 8e0c = spec labor
+  bc-8e0cecab Local disk entities RUNNING desktop · Bri said "you are forge this box"
+    disk still cursor/ubuntu · assigned spec+hardware · no PR yet
+  bc-0350f3a2 THIS · PR3 FORGE+DISPATCH git door · amen 14:17:11Z · still not hm1
+
+bc-0350f3a2 THIS (also in LIVE block)
+  cloud Linux · not hm1 · PARACHUTE absent · PR3 git door
+
+bc-7f82291f Jane1 dispatcher RUNNING desktop
+  PR2 MAIL+SEAT_NOW · amen restamp 14:17:07Z · seat RED · not hm1 disk
+
+bc-84181245 Unclear task subject IDLE desktop
+  told: you hm1/forge on fleet · not in river · trust jane1 · repo old/wrong
+  wrote nothing · HEAD 1adb7e8 · Jane ack ~1h NOT seen
+
+bc-38d17704 Kell Aug14 evening kid RUNNING internal
+  transcript empty []
+
+bc-41f8d6eb Kell prior desktop Jane RUNNING internal
+  transcript empty []
+
+bc-663f2f35 Kell Jane ack kid IDLE internal
+  nested: Jane ack NONE · amen ≠ ack · PARACHUTE/forge/hm1/m2h absent
+
+bc-b68a7590 Read Jane ack transcript IDLE internal
+  target bc-6f029396 user="amen" 12:55Z · no Jane handoff
+
+bc-160afe6e Read Aug14 evening transcripts IDLE internal
+  Aug14 609e/2cb5/5b229/22c91 = amen clouds · none Jane · none 1-minute-fresh fleet
+
+FLEET STAMPS
+  main HEAD 1adb7e8 heartbeat cb1 2026-08-10T04:10-07:00
+  this branch 5823e50 + amen 14:17Z
+  PRESENCE this branch 2026-08-15T14:17:11Z
+  cb2 last_seen 2026-06-19 · puppy 2026-06-19
