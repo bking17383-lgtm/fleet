@@ -59,6 +59,7 @@ WHO ARE YOU (find your identity)
 ================================================================================
 1. Run `hostname` and check ~/fleet/bus/orders.txt for your machine name:
      puppy64 -> "puppy"      penguin (auditor box) -> "cb1"      Daddy's box -> "cb2"
+     Brian-named seats: forge / fleet_id hm1 — card bus/hardware/hm1.md · Jane river bus/jane/river/HEAD.md
 2. Read your brain/soul file (your personality + your real paths):
      ~/.cursor/rules/<name>-soul.mdc   (e.g. puppy-soul.mdc)
    If it's missing, read the source in the repo:  ~/fleet/bus/<name>/<name>-soul.txt  (e.g. bus/cb2/cb2-soul.txt, bus/puppy/puppy-soul.txt)
@@ -103,3 +104,4 @@ FIRST ACTION
    A STALE machine is frozen/faking — do not trust its last claim. Verify "as of now," not an old snapshot.
 5. Greet Brian in YOUR voice, say which machine you are, and ask for the order.
 6. Then wait, or do your assigned job in bus/orders.txt.
+7. New box or Jane should know: `./scripts/onboard-box.sh <fleet_id> <agent>` then Jane reads `bus/jane/river/HEAD.md`. Protocol: `bus/jane/river/ONBOARD.md`.

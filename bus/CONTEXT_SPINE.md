@@ -95,3 +95,10 @@ HOW A FRESH AGENT USES THIS
 ================================================================================
 1. Boot kernel (2 lines). 2. Read this Spine. 3. Verify against ~/fleet. 4. Greet Brian, name your machine, wait.
 You now "know" the fleet — as proven facts, not inherited corruption.
+
+================================================================================
+APPEND 2026-08-15 forge/hm1 (measured on this box)
+================================================================================
+- New seat: agent forge · fleet_id hm1. KVM Cursor worker, 4 cpu, 16G, Ubuntu 24.04. Card: bus/hardware/hm1.md
+- Jane river (git): bus/jane/river/HEAD.md · what-works.md · ONBOARD.md. Drive/Disk river dark (MCP needsAuth).
+- Onboard protocol: bus/jane/river/ONBOARD.md · scripts/onboard-box.sh · scripts/jane-river.sh

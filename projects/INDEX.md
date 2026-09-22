@@ -7,6 +7,8 @@
 - bus/cb1/KEEP_WORKING.md .......... how Opus stays productive (queue + wakes + cycles)
 - bus/cb1/queue.md ................. Opus's live active task list
 - bus/KERNEL.md .................... the TWO RULES (1 context is king · 2 always be working)
+- bus/hardware/LIBRARY.md .......... fleet hardware library (hm1 = forge)
+- bus/jane/river/HEAD.md ........... Jane river (what Jane speaks now) · ONBOARD.md for new sessions/boxes
 
 ## BUILT THIS SESSION (Opus, on cb1)
 - projects/hub/index.html .......... hitme.dev FRONT DOOR — finished, crafted landing (ready to host)
